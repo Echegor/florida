@@ -1043,15 +1043,15 @@ def get_head():
               <option value="18">Slide 19 • Night 4: Orlando Theme Park Base (3★/4★ Resort)</option>
             </optgroup>
             <optgroup label="⚡ ACT IV: ORLANDO THEME PARK THRILLS (SLIDES 20–25)">
-              <option value="19">Slide 20 • Day 5: Universal Studios & Islands of Adventure</option>
+              <option value="19">Slide 20 • Day 5: The Universal Day (Islands & Studios)</option>
               <option value="20">Slide 21 • Day 5: Universal Ride Strategy & Butterbeer</option>
               <option value="21">Slide 22 • Night 5: Orlando Base Continuation & Pool Recovery</option>
-              <option value="22">Slide 23 • Day 6: Walt Disney World Expedition</option>
+              <option value="22">Slide 23 • Day 6: The Disney Day (Magic Kingdom)</option>
               <option value="23">Slide 24 • Day 6: Lightning Lane, Virtual Queue & Fireworks</option>
               <option value="24">Slide 25 • Night 6: Orlando Base Continuation</option>
             </optgroup>
             <optgroup label="🏆 ACT V: EXPEDITION FINALE & SCORECARD (SLIDES 26–30)">
-              <option value="25">Slide 26 • Day 7: Theme Park Flex & Disney Springs</option>
+              <option value="25">Slide 26 • Day 7: Park-Free Canals & Disney Springs</option>
               <option value="26">Slide 27 • Day 7: Southern Smokehouse Feast & Citrus Finale</option>
               <option value="27">Slide 28 • Day 8: MCO Departure Protocol & Flight to EWR</option>
               <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,520)</option>

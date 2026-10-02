@@ -441,9 +441,9 @@ def get_slides():
            ===================================================================== -->
       <section class="slide" data-slide="20">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 5 ITINERARY • WIZARDING WORLDS & COASTERS</div>
-          <h2 class="slide-title">Day 5: Universal Studios Florida & Islands of Adventure</h2>
-          <p class="slide-subtitle">Full-day 2-Park expedition featuring The Wizarding World of Harry Potter, Jurassic World VelociCoaster, and the Hogwarts Express.</p>
+          <div class="slide-eyebrow">DAY 5 ITINERARY • THE UNIVERSAL DAY (PARK DAY 1 OF 2)</div>
+          <h2 class="slide-title">Day 5: The Universal Day: Universal Studios & Islands of Adventure</h2>
+          <p class="slide-subtitle">Your single dedicated day at Universal: a high-efficiency 2-Park expedition featuring The Wizarding World of Harry Potter, Jurassic World VelociCoaster, and the Hogwarts Express.</p>
         </div>
 
         <div class="content-area">

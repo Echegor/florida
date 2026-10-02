@@ -32,13 +32,13 @@
 - [x] **Slide 17:** Day 4: Everglades National Park & Tamiami Trail (Shark Valley Tram & Sawgrass Slough)
 - [x] **Slide 18:** Day 4 Transit: Florida Turnpike Northbound Transit to Orlando
 - [x] **Slide 19:** Night 4 Lodging: Orlando Theme Park Base (Universal / Disney Area 3★/4★ Hotel)
-- [x] **Slide 20:** Day 5: Universal Studios Florida & Islands of Adventure (Wizarding World & Coasters)
-- [x] **Slide 21:** Day 5 Tactical Protocol: Express Pass Strategy, Single Rider & Park App Navigation
-- [x] **Slide 22:** Night 5 Lodging: Orlando Base Continuation
-- [x] **Slide 23:** Day 6: Walt Disney World Expedition (Magic Kingdom or EPCOT / Star Wars Galaxy's Edge)
-- [x] **Slide 24:** Day 6 Tactical Protocol: Lightning Lane / Genie+ Strategy & Rope Drop Timing
+- [x] **Slide 20:** Day 5: The Universal Day (1 Day at Universal Studios & Islands of Adventure)
+- [x] **Slide 21:** Day 5 Tactical Protocol: Express Pass Strategy, Single Rider & Butterbeer
+- [x] **Slide 22:** Night 5 Lodging: Orlando Base Continuation & Pool Recovery
+- [x] **Slide 23:** Day 6: The Disney Day (1 Day at Walt Disney World Magic Kingdom)
+- [x] **Slide 24:** Day 6 Tactical Protocol: Lightning Lane Strategy, Virtual Queue & Fireworks
 - [x] **Slide 25:** Night 6 Lodging: Orlando Base Continuation
-- [x] **Slide 26:** Day 7: Theme Park Flex & Disney Springs Promenade (Or Animal Kingdom / Volcano Bay)
+- [x] **Slide 26:** Day 7: Park-Free Recovery: Winter Park Scenic Canals & Disney Springs Promenade (Zero Park Tickets)
 - [x] **Slide 27:** Day 7 Farewell Dinner: Central Florida Southern Smokehouse & Citrus Finale
 - [x] **Slide 28:** Day 8: Orlando International (MCO) Departure Protocol & Flight Return to EWR
 - [x] **Slide 29:** Master Expedition Scorecard & Shared Financial Ledger (Total Budget Breakdown for 2)

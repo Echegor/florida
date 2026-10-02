@@ -94,9 +94,9 @@ def get_slides():
            ===================================================================== -->
       <section class="slide" data-slide="23">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 6 ITINERARY • THE MAGIC KINGDOM & GALAXY'S EDGE</div>
-          <h2 class="slide-title">Day 6: Walt Disney World (Magic Kingdom / Hollywood Studios)</h2>
-          <p class="slide-subtitle">A full day exploring Disney's iconic attractions: TRON Lightcycle / Run, Space Mountain, Star Wars: Rise of the Resistance, and Happily Ever After fireworks.</p>
+          <div class="slide-eyebrow">DAY 6 ITINERARY • THE DISNEY DAY (PARK DAY 2 OF 2)</div>
+          <h2 class="slide-title">Day 6: The Disney Day: Walt Disney World (Magic Kingdom)</h2>
+          <p class="slide-subtitle">Your single dedicated day at Disney: rope-dropping Tomorrowland, riding TRON Lightcycle / Run, Space Mountain, Dole Whip, and the Happily Ever After fireworks.</p>
         </div>
 
         <div class="content-area">
@@ -226,35 +226,32 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 26: DAY 7: THEME PARK FLEX & DISNEY SPRINGS PROMENADE
+           SLIDE 26: DAY 7: PARK-FREE RECOVERY & DISNEY SPRINGS PROMENADE
            ===================================================================== -->
       <section class="slide" data-slide="26">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 7 ITINERARY • FLEXIBILITY & RELAXATION</div>
-          <h2 class="slide-title">Day 7: Flexible Park Morning & Disney Springs Promenade</h2>
-          <p class="slide-subtitle">An unhurried final full day: optional morning visit to EPCOT World Showcase or sleeping in, followed by strolling the waterfront promenade of Disney Springs.</p>
+          <div class="slide-eyebrow">DAY 7 ITINERARY • PARK-FREE RECOVERY & CANAL CRUISE</div>
+          <h2 class="slide-title">Day 7: Park-Free Recovery: Winter Park Canals & Disney Springs</h2>
+          <p class="slide-subtitle">A 100% theme-park-free day dedicated to physical restoration: an open-air scenic boat tour through historic Winter Park's subtropical canals, resort pool lounging, and an unhurried afternoon strolling Disney Springs with zero park tickets.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">FLEXIBLE PACING</div>
-              <h3 class="card-heading">EPCOT World Showcase or Leisure Morning</h3>
+              <div class="card-label">RESTORATIVE EXPERIENCES</div>
+              <h3 class="card-heading">Scenic Waterways & Lakeside Promenade</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>Morning Flex Choice:</strong>
-                  <ul>
-                    <li><em>Option A:</em> Head to <strong>EPCOT</strong> to stroll around the 11 World Showcase pavilions, ride <em>Remy's Ratatouille Adventure</em>, and experience <em>Guardians of the Galaxy: Cosmic Rewind</em>.</li>
-                    <li><em>Option B:</em> Sleep in late, enjoy a slow breakfast, and spend a relaxing morning reading poolside in the warm Florida sunshine.</li>
-                  </ul>
-                </li>
-                <li><strong>02:00 PM – Disney Springs Promenade:</strong> Stroll along Lake Buena Vista, watch vintage amphicars drive into the lake, visit the world's largest Disney store, and pick up fresh warm half-pound cookies at <em>Gideon's Bakehouse</em>.</li>
+                <li><strong>10:00 AM – Winter Park Scenic Boat Tour:</strong> 1-hour open-air pontoon cruise navigating three natural freshwater lakes connected by narrow, 12,000-year-old canals draped in Spanish moss, majestic bald cypress, and historic estates ($36 total for 2).</li>
+                <li><strong>Midday – Heated Resort Pool Lounging:</strong> Zero morning alarms; relax sore calf muscles in the resort pool with an iced tropical smoothie or lemonade.</li>
+                <li><strong>02:30 PM – Disney Springs Waterfront:</strong> Stroll along Lake Buena Vista, watch vintage Amphicars drive into the lake, visit artisan boutiques, and pick up fresh warm cookies at <em>Gideon's Bakehouse</em>—all with zero admission cost.</li>
+                <li><strong>Physical Decompression:</strong> Your feet and joints get a complete break after 40,000+ steps logged over the past two days at Universal and Disney.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">FLEXIBLE PACING</span>
-                <span class="tag tag-teal">LAKE BUENA VISTA</span>
-                <span class="tag tag-terracotta">GIDEON'S BAKEHOUSE</span>
+                <span class="tag tag-gold">100% PARK-FREE</span>
+                <span class="tag tag-teal">WINTER PARK CANALS</span>
+                <span class="tag tag-terracotta">LAKE BUENA VISTA</span>
               </div>
             </div>
 
@@ -262,7 +259,7 @@ def get_slides():
               <img src="images/slide26_springs.jpg" alt="Disney Springs waterfront lake" loading="lazy">
               <div class="media-overlay">
                 <div class="media-title">Lake Buena Vista Waterfront</div>
-                <div class="media-caption">Gentle lake breezes, world-class artisanal bakeries, and scenic walking promenades.</div>
+                <div class="media-caption">Gentle lake breezes, world-class artisanal bakeries, and scenic walking promenades with zero park ticket costs.</div>
               </div>
             </div>
           </div>
@@ -423,14 +420,14 @@ def get_slides():
                     <td>$65</td>
                   </tr>
                   <tr>
-                    <td><strong>Parks & Snorkel Permits</strong></td>
-                    <td>John Pennekamp snorkel boat, Everglades Shark Valley tram, State Parks</td>
-                    <td>$170</td>
+                    <td><strong>Parks & Outdoor Excursions</strong></td>
+                    <td>John Pennekamp snorkel boat, Everglades Shark Valley tram, Winter Park canal boat ($36)</td>
+                    <td>$180</td>
                   </tr>
                   <tr>
-                    <td><strong>Theme Park Tickets</strong></td>
-                    <td>Universal 2-Park 1-Day Hopper + Disney 1-Day Pass (2 adults)</td>
-                    <td>$690</td>
+                    <td><strong>Theme Park Tickets (2 Days Total)</strong></td>
+                    <td>Strictly 2 Park Days: 1-Day Universal 2-Park Pass + 1-Day Disney World Pass (2 adults)</td>
+                    <td>$680</td>
                   </tr>
                   <tr>
                     <td><strong>Dining & Zero-Alcohol Beverages</strong></td>

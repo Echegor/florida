@@ -11,8 +11,8 @@ An interactive, high-resolution editorial presentation deck and tactical field g
 * **The Overseas Highway (US-1):** 113 miles across 42 bridges spanning the Florida Straits, snorkeling Key Largo coral reefs and Bahia Honda State Park.
 * **Key West Historic Peninsula:** Mallory Square sunset celebration, Fort Zachary Taylor, and authentic Conch cuisine.
 * **Everglades National Park:** Shark Valley tram and bike trek through the freshwater sawgrass marsh surrounded by wild alligators and wading birds.
-* **Universal Studios & Islands of Adventure:** The Wizarding World of Harry Potter, Jurassic World VelociCoaster, and Hagrid's Magical Creatures Motorbike Adventure.
-* **Walt Disney World:** Magic Kingdom, EPCOT World Showcase, and Star Wars: Galaxy's Edge at Disney's Hollywood Studios.
+* **Strict 2 Theme Park Days:** Exactly 1 dedicated day at Universal Studios & Islands of Adventure (Wizarding World & VelociCoaster), and 1 dedicated day at Walt Disney World (Magic Kingdom TRON & Space Mountain).
+* **Park-Free Decompression:** Day 7 is completely ticket-free: Winter Park historic canal boat tour and strolling Disney Springs before departing MCO.
 
 ## Core Rules & Constraints
 * **Unified Financials:** All figures calculated strictly as shared totals for two travelers combined.

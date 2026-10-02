@@ -22,9 +22,9 @@ def get_slides():
 
                 <ul class="highlight-list">
                   <li><strong>Zero Backtracking:</strong> Eliminates a grueling 390-mile, 7.5-hour highway drive from Key West back to Orlando.</li>
+                  <li><strong>Strict 2-Park Architecture:</strong> Exactly 1 dedicated day at Universal (Day 5) + 1 dedicated day at Disney (Day 6), followed by an unhurried, 100% theme-park-free recovery day exploring historic canals and Disney Springs.</li>
                   <li><strong>Strict Shared Accounting:</strong> All financials presented strictly as unified totals for two travelers combined ($3,520 total).</li>
                   <li><strong>Zero-Alcohol Gastronomy:</strong> Fresh Florida orange & grapefruit juice, authentic Cuban cafecitos, mamey batidos, and tart Key Lime mocktails.</li>
-                  <li><strong>Endurance Balancing:</strong> Low-stress island coastal days precede 20,000-step theme park marathons, with 4 nights in a single settled Orlando resort base.</li>
                 </ul>
               </div>
 
@@ -46,7 +46,7 @@ def get_slides():
               </div>
               <div class="stat-box">
                 <div class="stat-number terracotta">4 Distinct Worlds</div>
-                <div class="stat-caption">Reefs, Sawgrass Prairie, Wizarding World & Magic Kingdom</div>
+                <div class="stat-caption">Reefs, Sawgrass, 1 Universal Day & 1 Disney Day</div>
               </div>
               <div class="stat-box">
                 <div class="stat-number gold">$3,520 Shared Total</div>

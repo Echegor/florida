@@ -509,7 +509,7 @@ def get_footer_and_js():
         23: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 6: DISNEY' },
         24: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'LIGHTNING LANE' },
         25: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 6 REST' },
-        26: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 7: SPRINGS' },
+        26: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'DAY 7: CANALS' },
         27: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'SMOKEHOUSE' },
         28: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'DAY 8: MCO' },
         29: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'LEDGER ($3,520)' },
