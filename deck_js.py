@@ -243,27 +243,37 @@ def get_footer_and_js():
       const waypoints = [
         {
           id: 0,
-          label: "MILESTONE 01 • INBOUND GATEWAY",
-          title: "Miami International Airport & Cultural District",
+          label: "MILESTONE 01 • INBOUND & OUTBOUND HUB",
+          title: "Miami International Airport (MIA)",
           coords: "25.7959° N, 80.2870° W",
           metrics: "0 Miles Driven • Sea Level (6 ft)",
-          tag: "ARRIVAL",
+          tag: "AIRPORT HUB",
           tagClass: "tag-gold",
-          desc: "Touchdown at MIA. Consolidated Rental Car Center dispatch via MIA Mover monorail. Afternoon exploration of Wynwood contemporary street murals and Little Havana's vibrant Calle Ocho."
+          desc: "Touchdown at MIA on non-stop flight from EWR ($628 total for 2). Consolidated Rental Car Center dispatch via MIA Mover monorail (zero drop fee!). Departure hub on Friday afternoon."
         },
         {
           id: 1,
-          label: "MILESTONE 02 • THE UPPER KEYS",
-          title: "Key Largo & John Pennekamp Coral Reef",
-          coords: "25.1246° N, 80.4042° W",
-          metrics: "62 Miles from MIA • Mile Marker 102.5",
-          tag: "SNORKEL REEF",
+          label: "MILESTONE 02 • PARK 1 OF 3 (MAINLAND)",
+          title: "Biscayne National Park (Convoy Point)",
+          coords: "25.4641° N, 80.3326° W",
+          metrics: "38 Miles from MIA • Homestead Gateway",
+          tag: "SUBMERGED PARK",
           tagClass: "tag-teal",
-          desc: "First underwater park in the United States. 2.5-hour boat excursion snorkeling shallow living coral gardens at Grecian Rocks and Molasses Reef. Teeming with parrotfish, sea fans, and marine turtles."
+          desc: "America's largest marine national park (95% underwater). Wooden boardwalk overlooking Biscayne Bay, manatee nursery in marina basin, and departure dock for boat tours to Boca Chita Key."
         },
         {
           id: 2,
-          label: "MILESTONE 03 • THE MIDDLE KEYS",
+          label: "MILESTONE 03 • THE UPPER KEYS",
+          title: "Key Largo & John Pennekamp Coral Reef",
+          coords: "25.1246° N, 80.4042° W",
+          metrics: "62 Miles from MIA • Mile Marker 102.5",
+          tag: "CORAL REEF",
+          tagClass: "tag-teal",
+          desc: "First underwater park in the United States. Exploring saltwater mangrove creeks by kayak, viewing living coral specimens at the visitor center aquarium, and historic Spanish cannons at Canon Beach."
+        },
+        {
+          id: 3,
+          label: "MILESTONE 04 • THE MIDDLE KEYS",
           title: "Seven Mile Bridge & Bahia Honda State Park",
           coords: "24.6644° N, 81.2581° W",
           metrics: "128 Miles from MIA • Mile Marker 37",
@@ -272,54 +282,44 @@ def get_footer_and_js():
           desc: "Traversing Henry Flagler's iconic Seven Mile Bridge suspended above turquoise ocean waters. Hiking the historic Old Bahia Honda rail bridge overlook and swimming in pristine Calusa Beach lagoons."
         },
         {
-          id: 3,
-          label: "MILESTONE 04 • END OF THE ROAD",
-          title: "Key West Old Town & Mallory Square",
+          id: 4,
+          label: "MILESTONE 05 • END OF THE ROAD",
+          title: "Key West Old Town & Ferry Terminal",
           coords: "24.5551° N, 81.7800° W",
           metrics: "165 Miles from MIA • Mile Marker 0",
           tag: "SOUTHERNMOST",
           tagClass: "tag-terracotta",
-          desc: "The southernmost point of the continental US (90 miles to Cuba). Victorian Conch architecture, Ernest Hemingway's estate with 50+ six-toed cats, Fort Zachary Taylor, and sunset at Mallory Square."
-        },
-        {
-          id: 4,
-          label: "MILESTONE 05 • UNESCO WILDERNESS",
-          title: "Everglades National Park (Shark Valley)",
-          coords: "25.7467° N, 80.7656° W",
-          metrics: "140 Miles from Key West • Tamiami Trail",
-          tag: "SAWGRASS SAFARI",
-          tagClass: "tag-teal",
-          desc: "1.5-million-acre subtropical river of grass. 2-hour naturalist-guided open tram loop through sawgrass prairie, observing dozens of wild alligators, anhingas, and climbing the 65-foot observation tower."
+          desc: "Victorian Conch architecture, Ernest Hemingway's estate with 50+ six-toed cats, Fort Zachary Taylor, nightly sunset celebration at Mallory Square, and departure terminal for the Dry Tortugas ferry."
         },
         {
           id: 5,
-          label: "MILESTONE 06 • THEME PARK THRILLS",
-          title: "Universal Studios & Islands of Adventure",
-          coords: "28.4744° N, 81.4678° W",
-          metrics: "215 Miles from Shark Valley • Orlando Base",
-          tag: "WIZARDING WORLD",
-          tagClass: "tag-gold",
-          desc: "2-Park immersion: Jurassic World VelociCoaster (70 mph launch), Hagrid's Magical Creatures Motorbike Adventure, Diagon Alley, and riding the Hogwarts Express train between parks."
+          label: "MILESTONE 06 • PARK 2 OF 3 (OFFSHORE)",
+          title: "Dry Tortugas National Park (Fort Jefferson)",
+          coords: "24.6285° N, 82.8732° W",
+          metrics: "70 Miles Offshore • Open Gulf of Mexico",
+          tag: "BRICK CITADEL",
+          tagClass: "tag-teal",
+          desc: "Full-day open-ocean expedition aboard the high-speed Yankee Freedom III catamaran. America's largest 19th-century coastal brick fortress, walking the seawall moat, and world-class coral reef snorkeling."
         },
         {
           id: 6,
-          label: "MILESTONE 07 • THE MAGIC KINGDOM",
-          title: "Walt Disney World (Magic Kingdom & Studios)",
-          coords: "28.4177° N, 81.5812° W",
-          metrics: "12 Miles from Universal • Orlando Base",
-          tag: "DISNEY WORLD",
+          label: "MILESTONE 07 • PARK 3 OF 3 (NORTH)",
+          title: "Everglades National Park (Shark Valley)",
+          coords: "25.7467° N, 80.7656° W",
+          metrics: "Tamiami Trail (US-41) • Sawgrass Slough",
+          tag: "RIVER OF GRASS",
           tagClass: "tag-gold",
-          desc: "Rope-dropping Space Mountain, riding TRON Lightcycle / Run, sailing with Pirates of the Caribbean, tasting fresh pineapple Dole Whip, and the Happily Ever After fireworks over Cinderella Castle."
+          desc: "1.5-million-acre subtropical river of grass. 2-hour naturalist-guided open tram loop through sawgrass prairie, observing dozens of wild alligators, anhingas, and climbing the 65-foot observation tower."
         },
         {
           id: 7,
-          label: "MILESTONE 08 • OUTBOUND HUB",
-          title: "Orlando International Airport (MCO)",
-          coords: "28.4312° N, 81.3081° W",
-          metrics: "18 Miles from Disney • Departure Hub",
-          tag: "DEPARTURE",
-          tagClass: "tag-terracotta",
-          desc: "Effortless consolidated garage rental car drop-off (zero shuttles). Expedited TSA clearance via MCO Reserve, followed by a non-stop 2h 45m flight on United Airlines returning directly to Newark (EWR)."
+          label: "MILESTONE 08 • PARK 3 OF 3 (SOUTH)",
+          title: "Everglades National Park (Flamingo Marina)",
+          coords: "25.1415° N, 80.9254° W",
+          metrics: "38 Miles south of Park Gate • Florida Bay",
+          tag: "WILD CROCODILES",
+          tagClass: "tag-gold",
+          desc: "Anhinga Trail boardwalk over Taylor Slough, Gumbo Limbo hardwood hammock, and Flamingo Marina where wild American crocodiles and West Indian manatees swim right along the docks."
         }
       ];
 
@@ -335,7 +335,7 @@ def get_footer_and_js():
             n.setAttribute('r', '11');
             n.setAttribute('stroke-width', '3.5');
           } else {
-            n.setAttribute('r', (i === 0 || i === 3 || i === 7) ? '9' : '8');
+            n.setAttribute('r', (i === 0 || i === 4 || i === 5) ? '9' : '8');
             n.setAttribute('stroke-width', '2');
           }
         });
@@ -344,6 +344,9 @@ def get_footer_and_js():
         const card = document.getElementById('waypointDetailCard');
         const wp = waypoints[idx];
         if (!card || !wp) return;
+
+        // Slide target mapping
+        const slideTargetMap = [7, 7, 20, 11, 12, 13, 10, 22];
 
         card.innerHTML = `
           <div>
@@ -368,8 +371,8 @@ def get_footer_and_js():
           </div>
 
           <div style="margin-top: 1rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--sand-muted);">OPEN-JAW CORRIDOR</span>
-            <button class="nav-btn" style="padding: 4px 10px; font-size: 0.72rem;" onclick="goToSlide(${idx <= 3 ? idx + 7 : (idx === 4 ? 16 : (idx === 5 ? 19 : (idx === 6 ? 22 : 27)))})">JUMP TO ITINERARY →</button>
+            <span style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--sand-muted);">NATIONAL PARKS TRIFECTA</span>
+            <button class="nav-btn" style="padding: 4px 10px; font-size: 0.72rem;" onclick="goToSlide(${slideTargetMap[idx] || 0})">JUMP TO ITINERARY →</button>
           </div>
         `;
       };
@@ -383,15 +386,15 @@ def get_footer_and_js():
           title: "Mid-size SUV or Standard Sedan",
           tagText: "OPTIMAL AGILITY",
           tagClass: "tag-gold",
-          cost: "$385 total",
-          costSub: "8 Days + Intrastate Drop",
+          cost: "$310 total",
+          costSub: "7 Days (MIA-MIA, Zero Drop Fee)",
           mpg: "32 MPG Hwy",
-          mpgSub: "585 miles = ~$65 gas",
+          mpgSub: "420 miles = ~$45 gas",
           highlights: [
-            "<strong>Ideal Trunk Storage:</strong> Ample locked trunk space to keep two large suitcases completely hidden out of sight during beach and Everglades stops.",
+            "<strong>Ideal Trunk Storage:</strong> Ample locked trunk space to keep two large suitcases completely hidden out of sight during beach, Biscayne, and Everglades trail stops.",
             "<strong>Parking Agility:</strong> Narrow historic lanes and tight parking spaces in Key West Old Town are easily navigated without maneuvering stress.",
-            "<strong>Near-Zero Drop Fee:</strong> Intrastate drop fee between Miami (MIA) and Orlando (MCO) is under $25 with Alamo, Enterprise, or National.",
-            "<strong>High Highway Efficiency:</strong> 32 mpg average ensures only 2 full fuel fill-ups across the entire 585-mile journey."
+            "<strong>Zero Drop Fee:</strong> Picked up and dropped off at Miami International (MIA) Rental Car Center—100% free of one-way intrastate drop charges.",
+            "<strong>High Highway Efficiency:</strong> 32 mpg average ensures only 1 to 2 fuel fill-ups across the entire 420-mile expedition."
           ]
         },
         {
@@ -399,15 +402,15 @@ def get_footer_and_js():
           title: "Compact Electric Vehicle (Tesla Model 3 / Y)",
           tagText: "HIGH TECH CORRIDOR",
           tagClass: "tag-teal",
-          cost: "$410 total",
-          costSub: "8 Days + Drop Fee",
+          cost: "$340 total",
+          costSub: "7 Days (MIA-MIA)",
           mpg: "Supercharger",
-          mpgSub: "Abundant on Turnpike & US-1",
+          mpgSub: "Abundant on US-1 Corridor",
           highlights: [
-            "<strong>Robust Charging Infrastructure:</strong> Tesla Supercharger stations are located at Key Largo, Marathon, Florida City, and every Turnpike service plaza.",
-            "<strong>Smooth Instant Torque:</strong> Silent acceleration on highway on-ramps and air-conditioned cabin pre-cooling via app.",
-            "<strong>Charging Stop Time:</strong> Adds 20–25 minutes of dwell time every 200 miles; ensure hotel has overnight Level 2 destination chargers.",
-            "<strong>Verdict:</strong> Excellent modern road-trip choice if you enjoy EV technology."
+            "<strong>Robust Charging Infrastructure:</strong> Tesla Superchargers are situated at Florida City, Key Largo, Marathon, and Key West.",
+            "<strong>Smooth Instant Torque:</strong> Silent acceleration across the Overseas Highway bridges and cabin pre-cooling via app.",
+            "<strong>Charging Dwell Time:</strong> Adds 20–25 minutes of dwell time every 200 miles; ensure hotel has overnight Level 2 chargers.",
+            "<strong>Verdict:</strong> Excellent road-trip choice if you enjoy EV technology."
           ]
         },
         {
@@ -415,14 +418,14 @@ def get_footer_and_js():
           title: "Full-size SUV or Minivan",
           tagText: "UNNECESSARY COST",
           tagClass: "tag-terracotta",
-          cost: "$540 total",
-          costSub: "+40% higher rental rate",
+          cost: "$480 total",
+          costSub: "+55% higher rental rate",
           mpg: "18 MPG Hwy",
-          mpgSub: "Gas cost exceeds $120",
+          mpgSub: "Gas cost exceeds $85",
           highlights: [
             "<strong>Excessive for Two Travelers:</strong> 7-passenger space is wasted when traveling as a couple.",
-            "<strong>Key West Parking Penalty:</strong> Historic Old Town curbside spaces are notoriously small; larger SUVs struggle to find street parking.",
-            "<strong>Higher Fuel Expense:</strong> Low fuel economy adds $55+ in unnecessary gasoline expenses.",
+            "<strong>Key West Parking Penalty:</strong> Historic Old Town curbside spaces are notoriously small; large SUVs struggle to park.",
+            "<strong>Higher Fuel Expense:</strong> Low fuel economy adds $40+ in unnecessary gasoline expenses.",
             "<strong>Verdict:</strong> Avoid. Stick to a nimble mid-size vehicle."
           ]
         },
@@ -431,15 +434,15 @@ def get_footer_and_js():
           title: "Airport Shuttles & Ride-Share Only",
           tagText: "RIGID & PRICEY",
           tagClass: "tag-terracotta",
-          cost: "$720+ total",
+          cost: "$650+ total",
           costSub: "Multiple long-distance legs",
           mpg: "Zero Freedom",
-          mpgSub: "No Everglades stopover",
+          mpgSub: "No Everglades/Biscayne access",
           highlights: [
-            "<strong>Zero Everglades Access:</strong> Public shuttles do not stop at Shark Valley or Tamiami Trail in the Everglades.",
+            "<strong>Zero Everglades Access:</strong> Public shuttles do not stop at Shark Valley or Flamingo in Everglades National Park.",
+            "<strong>Zero Biscayne Access:</strong> Shuttles do not service Dante Fascell Visitor Center at Convoy Point.",
             "<strong>Rigid Keys Timetables:</strong> Keys shuttles run on fixed hours, eliminating spontaneous snorkeling or bridge photo stops.",
-            "<strong>Sky-High Ride-Share Rates:</strong> Long-haul Uber/Lyft between Miami and Orlando costs $250+ for a single one-way trip.",
-            "<strong>Verdict:</strong> Non-viable for a multi-ecosystem expedition."
+            "<strong>Verdict:</strong> Non-viable for a multi-park expedition."
           ]
         }
       ];
@@ -484,36 +487,36 @@ def get_footer_and_js():
       // SLIDE NAVIGATION DRAWER ENGINE
       // =====================================================================
       const slideMetaMap = {
-        1: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'COVER' },
-        2: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'CORRIDOR' },
-        3: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'CARTOGRAPHY' },
-        4: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'WEATHER' },
-        5: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'HIGHWAY' },
-        6: { cat: ['all', 'overview', 'glades'], primaryCat: 'glades', tag: 'WILDLIFE' },
-        7: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'PACKING' },
-        8: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 1: MIA' },
+        1: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'COVER' },
+        2: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'CORRIDOR' },
+        3: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'CARTOGRAPHY' },
+        4: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'WEATHER' },
+        5: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LOGISTICS' },
+        6: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'SAFETY' },
+        7: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'PACKING' },
+        8: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 1: BISCAYNE' },
         9: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 1 BASE' },
-        10: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'CUBAN FEAST' },
-        11: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 2: REEF' },
-        12: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'SEVEN MILE' },
-        13: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
-        14: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: KEY WEST' },
-        15: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'KEY LIME' },
-        16: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 3 BASE' },
-        17: { cat: ['all', 'glades'], primaryCat: 'glades', tag: 'DAY 4: GLADES' },
-        18: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'TURNPIKE' },
-        19: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'ORLANDO BASE' },
-        20: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 5: UNIVERSAL' },
-        21: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'COASTER TACTICS' },
-        22: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 5 REST' },
-        23: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 6: DISNEY' },
-        24: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'LIGHTNING LANE' },
-        25: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 6 REST' },
-        26: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'DAY 7: CANALS' },
-        27: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'SMOKEHOUSE' },
-        28: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'DAY 8: MCO' },
-        29: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'LEDGER ($3,520)' },
-        30: { cat: ['all', 'overview'], primaryCat: 'overview', tag: 'SOS DIRECTORY' }
+        10: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'CUBAN CRIOLLO' },
+        11: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 2: SHARK VALLEY' },
+        12: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 2: SEVEN MILE' },
+        13: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
+        14: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 3: DRY TORTUGAS' },
+        15: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 3: FORT JEFFERSON' },
+        16: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 3 BASE' },
+        17: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: HEMINGWAY' },
+        18: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: TARPONS' },
+        19: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 4 BASE' },
+        20: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 5: BOCA CHITA' },
+        21: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 5: PENNEKAMP' },
+        22: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 5 BASE' },
+        23: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 6: FLAMINGO' },
+        24: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'DAY 6: BIG CYPRESS' },
+        25: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 6 BASE' },
+        26: { cat: ['all', 'dining', 'strategy'], primaryCat: 'dining', tag: 'DAY 7: CALLE OCHO' },
+        27: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'DAY 7: VERSAILLES' },
+        28: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'DAY 7: DEPARTURE' },
+        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($3,465)' },
+        30: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'NPS DIRECTORY' }
       };
 
       const slideDirectoryData = slides.map((slideEl, index) => {

@@ -1,88 +1,42 @@
 def get_slides():
     return """
       <!-- =====================================================================
-           SLIDE 21: DAY 5 TACTICAL PROTOCOL: UNIVERSAL RIDE STRATEGY & BUTTERBEER
+           SLIDE 21: DAY 5 REEF & MANGROVE: JOHN PENNEKAMP CORAL REEF STATE PARK
            ===================================================================== -->
       <section class="slide" data-slide="21">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 5 TACTICS • PARK OPERATIONAL PROTOCOLS</div>
-          <h2 class="slide-title">Day 5: Universal Ride Strategy, Single Rider & Butterbeer</h2>
-          <p class="slide-subtitle">Tactical time management techniques to minimize queue wait times, maximize ride count, and enjoy iconic non-alcoholic park treats.</p>
-        </div>
-
-        <div class="content-area">
-          <div class="grid-2col">
-            <div class="glass-card gold-trim">
-              <div class="card-label">QUEUE TIME OPTIMIZATION</div>
-              <h3 class="card-heading">Single Rider Lines & Mobile Ordering</h3>
-
-              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>The Single Rider Advantage:</strong> VelociCoaster, Revenge of the Mummy, and Incredible Hulk offer free Single Rider lines. While you won't sit in the same coaster row, you wait in line together and slash 80-minute standby queues down to 18 minutes!</li>
-                <li><strong>Universal Mobile App:</strong> Set up mobile dining orders for lunch at <em>The Three Broomsticks</em> (Smoked Chicken Platter & Shepherd's Pie) to bypass 45-minute restaurant lines.</li>
-                <li><strong>Zero-Alcohol Icons:</strong> Cold & Frozen <strong>Butterbeer</strong> (non-alcoholic fizzy butterscotch cream soda with sweet foam cap) and tart spiced Pumpkin Juice.</li>
-                <li><strong>Free Ride Lockers:</strong> Mandatory free fingerprint lockers at VelociCoaster, Hulk, and Rip Ride Rockit—bring only your lanyard and park ticket onto the ride platform.</li>
-              </ul>
-
-              <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">TIME SAVED: 2.5 HOURS</span>
-                <span class="tag tag-terracotta">BUTTERBEER: 100% NON-ALC</span>
-              </div>
-            </div>
-
-            <div class="editorial-media">
-              <img src="images/slide21_coaster.jpg" alt="Roller coaster track and thrills" loading="lazy">
-              <div class="media-overlay">
-                <div class="media-title">World-Class Coaster Dynamics</div>
-                <div class="media-caption">Mastering queue triage to experience Florida's most intense high-thrill coaster elements.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 22: NIGHT 5 LODGING: ORLANDO BASE CONTINUATION & POOL RECOVERY
-           ===================================================================== -->
-      <section class="slide" data-slide="22">
-        <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 5 RETREAT • THEME PARK RECOVERY</div>
-          <h2 class="slide-title">Night 5: Evening Decompression & Hydrotherapy Recovery</h2>
-          <p class="slide-subtitle">After logging 22,000 steps across two theme parks, relaxing sore calf muscles in the heated resort pool and enjoying an early night of restorative rest.</p>
+          <div class="slide-eyebrow">DAY 5 REEF • THE UNDERWATER SANCTUARY</div>
+          <h2 class="slide-title">Day 5 Reef: John Pennekamp Coral Reef State Park</h2>
+          <p class="slide-subtitle">Exploring America's first underwater state park in Key Largo: protected mangrove creeks, glass-bottom reef viewing, and vibrant marine nursery ecosystems.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">PHYSICAL RESTORATION</div>
-              <h3 class="card-heading">Post-Theme Park Athletic Recovery</h3>
-              <p class="card-body" style="margin-bottom: 1.2rem;">
-                Walking 10+ miles on hard concrete in subtropical heat requires deliberate physical care before tackling Walt Disney World tomorrow:
+              <div class="card-label">KEY LARGO MARINE REALM</div>
+              <h3 class="card-heading">Mangrove Shallows & Living Coral Gardens</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Adjoining Biscayne National Park to the south, John Pennekamp encompasses 70 nautical square miles of Atlantic coral reef and dense mangrove estuaries:
               </p>
 
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
-                <div class="stat-box">
-                  <div class="card-label">DAILY STEP COUNT</div>
-                  <div class="stat-number teal">22,400</div>
-                  <div class="stat-caption">Steps logged across Universal & Islands</div>
-                </div>
-                <div class="stat-box">
-                  <div class="card-label">DISTANCE ON FOOT</div>
-                  <div class="stat-number gold">10.2 mi</div>
-                  <div class="stat-caption">Equivalent to a vigorous road march</div>
-                </div>
-              </div>
-
-              <ul class="highlight-list">
-                <li><strong>Hydrotherapy Soaking:</strong> 30 minutes in the resort heated lazy river or whirlpool hot tub stimulates circulation and flushes lactic acid.</li>
-                <li><strong>CityWalk Casual Dinner:</strong> Relaxed evening dinner at <em>Antojitos Authentic Mexican</em> (fresh tableside guacamole, warm tortillas, lime agua fresca) or <em>Toothsome Chocolate Emporium</em>.</li>
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>02:00 PM – Key Largo Arrival (MM 102.5):</strong> Enter John Pennekamp Coral Reef State Park ($9.00 vehicle entry).</li>
+                <li><strong>02:30 PM – Mangrove Kayak or Shallows Exploration:</strong> Paddle through winding saltwater mangrove tunnels where clear waters reveal juvenile lemon sharks, snook, and mangrove crabs clinging to prop roots ($38 total for 2).</li>
+                <li><strong>04:30 PM – Canon Beach & Visitor Center Aquarium:</strong> View the 30,000-gallon saltwater aquarium showcasing living moray eels, spiny lobsters, and living coral specimens. Walk Canon Beach to see 17th-century Spanish shipwreck cannons embedded in the sand.</li>
               </ul>
+
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">MANGROVE NURSERY</span>
+                <span class="tag tag-teal">FIRST UNDERSEA PARK</span>
+                <span class="tag tag-terracotta">MILE MARKER 102.5</span>
+              </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide22_citywalk.jpg" alt="Universal CityWalk by night" loading="lazy">
+              <img src="images/slide21_pennekamp.jpg" alt="Key Largo underwater coral reef and clear water" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Universal CityWalk at Dusk</div>
-                <div class="media-caption">Vibrant waterfront lights, casual artisan dining, and gentle evening breezes.</div>
+                <div class="media-title">The Protected Shallows of Key Largo</div>
+                <div class="media-caption">Vibrant coral formations and clear mangrove waterways protecting the juvenile life of the Florida Reef.</div>
               </div>
             </div>
           </div>
@@ -90,41 +44,93 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 23: DAY 6: WALT DISNEY WORLD EXPEDITION
+           SLIDE 22: NIGHT 5 LODGING: KEY LARGO / UPPER KEYS COASTAL BASE
+           ===================================================================== -->
+      <section class="slide" data-slide="22">
+        <div class="slide-header">
+          <div class="slide-eyebrow">NIGHT 5 RETREAT • UPPER KEYS WATERFRONT</div>
+          <h2 class="slide-title">Night 5: Relaxing Waterfront Inn in Key Largo</h2>
+          <p class="slide-subtitle">A restful coastal hotel featuring peaceful harbor views, outdoor swimming pool, comfortable en-suite bath, and walking distance to fresh seafood docks.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card gold-trim">
+              <div class="card-label">UPPER KEYS BASE</div>
+              <h3 class="card-heading">Marina Del Mar Resort or Bayside Inn Key Largo</h3>
+              <p class="card-body" style="margin-bottom: 1.2rem;">
+                Key Largo marks the northern gateway of the Keys, offering immediate access back to the mainland for tomorrow's deep Everglades southern expedition:
+              </p>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
+                <div class="stat-box">
+                  <div class="card-label">SHARED RATE</div>
+                  <div class="stat-number gold">$175 total</div>
+                  <div class="stat-caption">Combined total for 2 guests with tax</div>
+                </div>
+                <div class="stat-box">
+                  <div class="card-label">EVERGLADES ACCESS</div>
+                  <div class="stat-number teal">35 min</div>
+                  <div class="stat-caption">Direct drive to Royal Palm Gate</div>
+                </div>
+              </div>
+
+              <ul class="highlight-list">
+                <li><strong>Harbor Side Atmosphere:</strong> Enjoy a peaceful evening watching charter boats return to the marina under purple dusk skies.</li>
+                <li><strong>En-Suite Comfort:</strong> Premium king bed, quiet air conditioning, en-suite bathroom, and private balcony overlooking the water.</li>
+                <li><strong>Fresh Dockside Dinner:</strong> Savor grilled blackened grouper, conch fritters, and chilled Key lime mocktails at the open-air marina restaurant ($58 total for 2).</li>
+              </ul>
+            </div>
+
+            <div class="editorial-media">
+              <img src="images/slide16_upperkeys.jpg" alt="Key Largo marina at dusk" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">Peaceful Marina Evenings</div>
+                <div class="media-caption">Unwinding alongside the quiet boat slips and mangrove channels of Key Largo.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 23: DAY 6: EVERGLADES NATIONAL PARK (ANHINGA TRAIL & FLAMINGO)
            ===================================================================== -->
       <section class="slide" data-slide="23">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 6 ITINERARY • THE DISNEY DAY (PARK DAY 2 OF 2)</div>
-          <h2 class="slide-title">Day 6: The Disney Day: Walt Disney World (Magic Kingdom)</h2>
-          <p class="slide-subtitle">Your single dedicated day at Disney: rope-dropping Tomorrowland, riding TRON Lightcycle / Run, Space Mountain, Dole Whip, and the Happily Ever After fireworks.</p>
+          <div class="slide-eyebrow">DAY 6 ITINERARY • THURSDAY, OCTOBER 29, 2026</div>
+          <h2 class="slide-title">Day 6: Everglades Southern District: Anhinga Trail & Flamingo</h2>
+          <p class="slide-subtitle">Venture deep down the 38-mile Main Park Road through Royal Palm, the Taylor Slough Anhinga boardwalk, and out to Flamingo Marina on Florida Bay.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
-            <div class="glass-card gold-trim">
-              <div class="card-label">EXPEDITION ARCHITECTURE</div>
-              <h3 class="card-heading">Magic Kingdom Iconic Classics & Future Coasters</h3>
+            <div class="glass-card teal-trim">
+              <div class="card-label">EVERGLADES DEEP WILDERNESS</div>
+              <h3 class="card-heading">Royal Palm & Florida Bay Coastline</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Unlike Shark Valley's open tram, the southern district allows intimate on-foot exploration across freshwater sloughs and coastal mangrove estuaries:
+              </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>07:00 AM – TRON Virtual Queue:</strong> Secure Group boarding for <em>TRON Lightcycle / Run</em> on the My Disney Experience app from your hotel room.</li>
-                <li><strong>08:30 AM – Rope Drop Tomorrowland:</strong> Arrive at park opening; walk straight to <em>Space Mountain</em> and <em>Big Thunder Mountain Railroad</em> with minimal queues.</li>
-                <li><strong>Midday Classics:</strong> Sail through the Caribbean with Captain Jack Sparrow and experience the 999 happy haunts of the <em>Haunted Mansion</em>.</li>
-                <li><strong>Alternative Option – Star Wars: Galaxy's Edge:</strong> Park Hop to Hollywood Studios to pilot the <em>Millennium Falcon</em> and experience the groundbreaking trackless ride system of <em>Rise of the Resistance</em>.</li>
-                <li><strong>09:00 PM – Happily Ever After Fireworks:</strong> Iconic projection mapping onto Cinderella Castle synchronized to classic Disney orchestral anthems and pyrotechnics.</li>
+                <li><strong>08:00 AM – Ernest F. Coe Visitor Center:</strong> Enter the main park entrance in Homestead. Collect your Everglades cancellation stamp and orientation maps.</li>
+                <li><strong>08:45 AM – Royal Palm: Anhinga Trail:</strong> Stroll the iconic 0.8-mile elevated wooden boardwalk winding directly over Taylor Slough. Stand inches above wild American alligators, purple gallinules stepping across lily pads, and nesting anhingas.</li>
+                <li><strong>10:00 AM – Gumbo Limbo Trail:</strong> Walk through a dense subtropical hardwood hammock shaded by red-barked gumbo limbo trees ("tourist trees") and royal palms.</li>
+                <li><strong>12:00 PM – Flamingo Marina & Florida Bay:</strong> Drive 38 miles through pine rocklands and dwarf cypress forests to the edge of the continent. Watch wild American crocodiles and West Indian manatees swimming right beside the marina docks.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">TRON LIGHTCYCLE</span>
-                <span class="tag tag-teal">ROPE DROP ADVANTAGE</span>
-                <span class="tag tag-terracotta">NIGHT FIREWORKS</span>
+                <span class="tag tag-gold">ANHINGA BOARDWALK</span>
+                <span class="tag tag-teal">AMERICAN CROCODILES</span>
+                <span class="tag tag-terracotta">FLORIDA BAY EDGE</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide23_disney.jpg" alt="Disney Cinderella Castle and fireworks" loading="lazy">
+              <img src="images/slide23_anhinga.jpg" alt="Everglades Anhinga trail wetlands and wildlife" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Cinderella Castle Fireworks</div>
-                <div class="media-caption">A breathtaking nighttime spectacular illuminating the Magic Kingdom skies.</div>
+                <div class="media-title">Intimate Wetland Boardwalks</div>
+                <div class="media-caption">Observing native wildlife up close along the tranquil freshwater sloughs of Royal Palm.</div>
               </div>
             </div>
           </div>
@@ -132,44 +138,40 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 24: DAY 6 TACTICAL PROTOCOL: DISNEY LIGHTNING LANE STRATEGY
+           SLIDE 24: DAY 6 NATURE & CULTURE: BIG CYPRESS & CORAL GABLES
            ===================================================================== -->
       <section class="slide" data-slide="24">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 6 TACTICS • DISNEY SYSTEM MASTERY</div>
-          <h2 class="slide-title">Day 6: Lightning Lane Multi Pass Tactics & Dole Whip</h2>
-          <p class="slide-subtitle">Mastering Disney's booking tiers, the essential afternoon midday break protocol, and non-alcoholic culinary staples.</p>
+          <div class="slide-eyebrow">DAY 6 TRANSIT • CYPRESS SWAMP TO CITY BEAUTIFUL</div>
+          <h2 class="slide-title">Day 6: Big Cypress National Preserve & Coral Gables Banyan Trails</h2>
+          <p class="slide-subtitle">Visiting the ancient dwarf cypress swamps of Big Cypress, followed by a scenic transit into the Mediterranean canopies of historic Coral Gables.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
-            <div class="glass-card terracotta-trim">
-              <div class="card-label">TACTICAL PARK MANAGEMENT</div>
-              <h3 class="card-heading">Lightning Lane Strategy & Heat Avoidance</h3>
+            <div class="glass-card gold-trim">
+              <div class="card-label">LANDSCAPE CONTRASTS</div>
+              <h3 class="card-heading">Dwarf Cypress to Mediterranean Revival</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>Multi Pass Booking Strategy:</strong> Pre-select your Tier 1 headliner (Space Mountain or Peter Pan) and two Tier 2 attractions. Immediately book your next attraction the moment you tap into a ride queue.</li>
-                <li><strong>The 1:30 PM Monorail Retreat:</strong> Midday heat and crowds peak from 1:30 to 4:30 PM. Board the monorail back to the resort, rest during the heat of the day, and return re-energized for cooler evening hours.</li>
-                <li><strong>Iconic Zero-Alcohol Delights:</strong>
-                  <ul>
-                    <li><strong>Dole Whip Float:</strong> Creamy pineapple soft-serve floating in 100% fresh chilled pineapple juice at Aloha Isle.</li>
-                    <li><strong>LeFou's Brew:</strong> Frozen granny smith apple juice with a hint of toasted marshmallow, topped with passion fruit foam at Gaston's Tavern.</li>
-                  </ul>
-                </li>
+                <li><strong>02:30 PM – Big Cypress Oasis Boardwalk:</strong> Cruise west along the Tamiami Trail to the Oasis Visitor Center boardwalk in Big Cypress National Preserve. Spot 20+ giant alligators resting shoulder-to-shoulder in the deep roadside canal.</li>
+                <li><strong>04:30 PM – Drive into Coral Gables:</strong> Enter George Merrick's 1920s master-planned "City Beautiful." Drive along Coral Way beneath cathedral-like canopies of 100-year-old banyan trees.</li>
+                <li><strong>05:30 PM – Historic Biltmore Hotel Grounds:</strong> Stroll the manicured grounds of the iconic 1926 Biltmore Hotel, admiring its 300-foot Giralda replica tower and colonnaded courtyards.</li>
+                <li><strong>07:00 PM – Miracle Mile Dinner:</strong> Walk down pedestrian-friendly Miracle Mile for authentic Latin American cuisine and fresh fruit smoothies ($52 total for 2).</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">TIER 1 PRE-BOOK</span>
-                <span class="tag tag-teal">MIDDAY BREAK: 1:30 PM</span>
-                <span class="tag tag-terracotta">DOLE WHIP FLOAT</span>
+                <span class="tag tag-gold">BIG CYPRESS PRESERVE</span>
+                <span class="tag tag-teal">BANYAN TREE CANOPY</span>
+                <span class="tag tag-terracotta">CORAL GABLES 1926</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide24_galaxy.jpg" alt="Star Wars Galaxy Edge and space" loading="lazy">
+              <img src="images/slide24_bigcypress.jpg" alt="Big Cypress swamp with cypress trees" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Star Wars: Galaxy's Edge</div>
-                <div class="media-caption">Towering spires of Black Spire Outpost on Batuu, bringing legendary cinema to life.</div>
+                <div class="media-title">Primeval Cypress Ecosystems</div>
+                <div class="media-caption">From ancient cypress domes draped in Spanish moss to the grand Mediterranean avenues of Coral Gables.</div>
               </div>
             </div>
           </div>
@@ -177,48 +179,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 25: NIGHT 6 LODGING: ORLANDO BASE CONTINUATION
+           SLIDE 25: NIGHT 6 LODGING: MIAMI / CORAL GABLES BOUTIQUE BASE
            ===================================================================== -->
       <section class="slide" data-slide="25">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 6 RETREAT • RESTORATIVE REST</div>
-          <h2 class="slide-title">Night 6: Third Night at Orlando Theme Park Base</h2>
-          <p class="slide-subtitle">Effortless transit back to your settled hotel room, unwinding after a magical Disney fireworks finale with zero luggage repackaging required.</p>
+          <div class="slide-eyebrow">NIGHT 6 RETREAT • ELEGANT FINALE</div>
+          <h2 class="slide-title">Night 6: Boutique Elegance in Historic Coral Gables</h2>
+          <p class="slide-subtitle">A stylish, upscale boutique hotel located 15 minutes from Miami International Airport, offering quiet luxury, deep mattresses, and effortless departure logistics.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">BASE CAMP LOGISTICS</div>
-              <h3 class="card-heading">Seamless Base Continuity</h3>
+              <div class="card-label">AIRPORT PROXIMITY SANCTUARY</div>
+              <h3 class="card-heading">Hotel Colonnade Coral Gables or Aloft Coral Gables</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Because you booked 4 consecutive nights at the same resort partner hotel, returning after the 09:30 PM Disney fireworks is smooth and stress-free:
+                Positioning your final night in Coral Gables provides a quiet, refined atmosphere while placing you just 5 miles south of MIA airport:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
-                  <div class="card-label">ROOM TRANSIT</div>
-                  <div class="stat-number teal">0 Moves</div>
-                  <div class="stat-caption">Luggage remains settled for 4 full nights</div>
+                  <div class="card-label">SHARED RATE</div>
+                  <div class="stat-number gold">$190 total</div>
+                  <div class="stat-caption">Combined total for 2 guests with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">REST QUOTA</div>
-                  <div class="stat-number gold">8.5 Hrs</div>
-                  <div class="stat-caption">Solid restful sleep before flexible final day</div>
+                  <div class="card-label">MIA AIRPORT PROXIMITY</div>
+                  <div class="stat-number teal">14 min</div>
+                  <div class="stat-caption">Direct drive to Consolidated Car Return</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>No Repacking Overhead:</strong> Suitcases remain open; toiletries stay in place; zero packing fatigue.</li>
-                <li><strong>Effortless Evening Transit:</strong> Board the resort shuttle from Magic Kingdom Ticket & Transportation Center (TTC) straight to your hotel door.</li>
+                <li><strong>Quiet Luxury & Rest:</strong> High-thread-count linens, soundproofed guest rooms, marble bathrooms, and restorative hot showers after 6 days of wilderness adventures.</li>
+                <li><strong>Walkable Neighborhood:</strong> Step directly onto Miracle Mile for morning espresso, artisan bakeries, and evening walks without driving.</li>
+                <li><strong>Stress-Free Departure Morning:</strong> Eliminates morning highway traffic stress on your flight day.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide25_lounge.jpg" alt="Hotel relaxation and lounge" loading="lazy">
+              <img src="images/slide25_coralgables.jpg" alt="Coral Gables architectural arches and courtyard" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Peaceful Nighttime Decompression</div>
-                <div class="media-caption">A quiet resort sanctuary to recharge after logging 40,000+ steps across Central Florida's premier theme parks.</div>
+                <div class="media-title">Mediterranean Revival Charm</div>
+                <div class="media-caption">Relaxing in the timeless architectural elegance of Coral Gables before tomorrow's flight home.</div>
               </div>
             </div>
           </div>
@@ -226,108 +229,107 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 26: DAY 7: PARK-FREE RECOVERY & DISNEY SPRINGS PROMENADE
+           SLIDE 26: DAY 7: CALLE OCHO CULTURAL MORNING & LITTLE HAVANA
            ===================================================================== -->
       <section class="slide" data-slide="26">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 7 ITINERARY • PARK-FREE RECOVERY & CANAL CRUISE</div>
-          <h2 class="slide-title">Day 7: Park-Free Recovery: Winter Park Canals & Disney Springs</h2>
-          <p class="slide-subtitle">A 100% theme-park-free day dedicated to physical restoration: an open-air scenic boat tour through historic Winter Park's subtropical canals, resort pool lounging, and an unhurried afternoon strolling Disney Springs with zero park tickets.</p>
+          <div class="slide-eyebrow">DAY 7 ITINERARY • FRIDAY, OCTOBER 30, 2026</div>
+          <h2 class="slide-title">Day 7: Calle Ocho Cultural Morning & Little Havana Espresso</h2>
+          <p class="slide-subtitle">A sensory morning immersion in Little Havana: watching masters play at Domino Park, browsing hand-rolled cigar shops, and sipping authentic Cuban cafecito.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card teal-trim">
+              <div class="card-label">CULTURAL IMMERSION</div>
+              <h3 class="card-heading">Calle Ocho (SW 8th Street) Highlights</h3>
+
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>09:00 AM – Máximo Gómez Park (Domino Park):</strong> Stand along the perimeter railing at SW 8th St & 15th Ave. Listen to the rhythmic clatter of heavy domino tiles and passionate political debate among neighborhood elders who have gathered here daily for 50+ years.</li>
+                <li><strong>10:00 AM – Traditional Ventanita Coffee Window:</strong> Order a freshly pulled <em>cafecito</em> with frothy espumita and a warm <em>pastelito de guayaba y queso</em> (sweet guava and cream cheese pastry) from a walk-up street window ($8 total for 2).</li>
+                <li><strong>11:00 AM – Cigar Rollers & Art Galleries:</strong> Watch master torcedores hand-roll long-filler Cuban-seed tobacco at El Titan de Bronze, and explore vibrant street murals depicting Cuban history.</li>
+              </ul>
+
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">DOMINO PARK</span>
+                <span class="tag tag-teal">VENTANITA CAFECITO</span>
+                <span class="tag tag-terracotta">CALLE OCHO TRADITION</span>
+              </div>
+            </div>
+
+            <div class="editorial-media">
+              <img src="images/slide26_littlehavana.jpg" alt="Little Havana vibrant street art and culture" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">The Vibrant Pulse of Calle Ocho</div>
+                <div class="media-caption">The historic cultural heart of Miami's Cuban community, alive with music, coffee, and tradition.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 27: DAY 7 FAREWELL FEAST: HISTORIC VERSAILLES CUBAN BANQUET
+           ===================================================================== -->
+      <section class="slide" data-slide="27">
+        <div class="slide-header">
+          <div class="slide-eyebrow">DAY 7 FAREWELL FEAST • CULINARY MONUMENT</div>
+          <h2 class="slide-title">Day 7: Celebratory Farewell Banquet at Versailles (Zero Alcohol)</h2>
+          <p class="slide-subtitle">A grand celebratory lunch at the world's most famous Cuban restaurant, Versailles: mirrored French chandeliers, mojo-marinated lechón, and tropical fruit batidos.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">RESTORATIVE EXPERIENCES</div>
-              <h3 class="card-heading">Scenic Waterways & Lakeside Promenade</h3>
-
-              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>10:00 AM – Winter Park Scenic Boat Tour:</strong> 1-hour open-air pontoon cruise navigating three natural freshwater lakes connected by narrow, 12,000-year-old canals draped in Spanish moss, majestic bald cypress, and historic estates ($36 total for 2).</li>
-                <li><strong>Midday – Heated Resort Pool Lounging:</strong> Zero morning alarms; relax sore calf muscles in the resort pool with an iced tropical smoothie or lemonade.</li>
-                <li><strong>02:30 PM – Disney Springs Waterfront:</strong> Stroll along Lake Buena Vista, watch vintage Amphicars drive into the lake, visit artisan boutiques, and pick up fresh warm cookies at <em>Gideon's Bakehouse</em>—all with zero admission cost.</li>
-                <li><strong>Physical Decompression:</strong> Your feet and joints get a complete break after 40,000+ steps logged over the past two days at Universal and Disney.</li>
-              </ul>
-
-              <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">100% PARK-FREE</span>
-                <span class="tag tag-teal">WINTER PARK CANALS</span>
-                <span class="tag tag-terracotta">LAKE BUENA VISTA</span>
-              </div>
-            </div>
-
-            <div class="editorial-media">
-              <img src="images/slide26_springs.jpg" alt="Disney Springs waterfront lake" loading="lazy">
-              <div class="media-overlay">
-                <div class="media-title">Lake Buena Vista Waterfront</div>
-                <div class="media-caption">Gentle lake breezes, world-class artisanal bakeries, and scenic walking promenades with zero park ticket costs.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 27: DAY 7 FAREWELL DINNER: CENTRAL FLORIDA SOUTHERN SMOKEHOUSE
-           ===================================================================== -->
-      <section class="slide" data-slide="27">
-        <div class="slide-header">
-          <div class="slide-eyebrow">DAY 7 CULINARY • SOUTHERN SMOKEHOUSE FEAST</div>
-          <h2 class="slide-title">Day 7: Grand Farewell Smokehouse Feast (Zero Alcohol)</h2>
-          <p class="slide-subtitle">Celebration dinner at The Polite Pig or 4 Rivers Smokehouse: slow-smoked prime brisket, crispy burnt ends, and artisanal Florida citrus teas.</p>
-        </div>
-
-        <div class="content-area">
-          <div class="grid-2col">
-            <div class="glass-card terracotta-trim">
-              <div class="card-label">FEAST DOSSIER</div>
-              <h3 class="card-heading">The Polite Pig • Disney Springs</h3>
+              <div class="card-label">CELEBRATORY BANQUET</div>
+              <h3 class="card-heading">Versailles Restaurant • The World's Most Famous Cuban Kitchen</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Celebrate the final evening of the expedition with an authentic Central Florida wood-fired BBQ feast:
+                Founded in 1971 on Calle Ocho, Versailles is the cultural and culinary town square of Miami. Enjoy a lavish, zero-alcohol concluding banquet:
               </p>
 
               <table class="table-editorial" style="margin-bottom: 1rem;">
                 <thead>
                   <tr>
-                    <th>Featured Dish</th>
-                    <th>Pitmaster Notes</th>
+                    <th>Specialty Dish</th>
+                    <th>Culinary Architecture</th>
                     <th>Shared Cost</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Hop-Salt Soft Pretzel</strong></td>
-                    <td>Warm jumbo pretzel with beer-less cheddar fondue</td>
+                    <td><strong>Lechón Asado Especial</strong></td>
+                    <td>Slow-roasted pork shoulder marinated for 24 hours in sour orange, garlic & cumin mojo criollo</td>
+                    <td>$24 total</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Vaca Frita Con Cebollas</strong></td>
+                    <td>Crisped shredded flank steak pan-seared with fresh lime juice, garlic, and caramelized onions</td>
+                    <td>$26 total</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Moros, Yuca con Mojo & Tostones</strong></td>
+                    <td>Black beans and rice, boiled cassava root with garlic oil, and crispy twice-fried green plantains</td>
+                    <td>Included</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Batido de Guanábana & Mango</strong></td>
+                    <td>Chilled tropical milkshakes blended with fresh soursop and sweet Florida mango (100% non-alcoholic)</td>
                     <td>$12 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>The Butcher Board</strong></td>
-                    <td>14-hr smoked USDA Prime brisket, pulled pork, smoked sausage, mac & cheese, slaw & cornbread</td>
-                    <td>$58 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Sweet Southern Teas</strong></td>
-                    <td>Artisan Florida Peach Iced Sweet Tea & Orange Blossom Lemonade</td>
-                    <td>$12 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Key Lime Pie Slice</strong></td>
-                    <td>Graham cracker crust with sweet citrus whipped cream</td>
-                    <td>$10 total</td>
                   </tr>
                 </tbody>
               </table>
 
               <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: 8px;">
-                <span class="tag tag-terracotta">100% ZERO ALCOHOL</span>
-                <span style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--gold-primary);">Total Shared Feast: ~$92</span>
+                <span class="tag tag-gold">ICONIC CULINARY INSTITUTION</span>
+                <span style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--gold-primary);">Total Shared Lunch: ~$65</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide27_smokehouse.jpg" alt="Smoked barbecue and brisket" loading="lazy">
+              <img src="images/slide27_versailles.jpg" alt="Classic restaurant banquet dining" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Hickory-Smoked Craft Barbecue</div>
-                <div class="media-caption">Slow-smoked prime brisket, Southern mac & cheese, and fresh Florida citrus iced teas.</div>
+                <div class="media-title">The World's Most Famous Cuban Restaurant</div>
+                <div class="media-caption">A grand culinary celebration under the mirrored chandeliers of Versailles on Calle Ocho.</div>
               </div>
             </div>
           </div>
@@ -335,40 +337,40 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 28: DAY 8: ORLANDO INTERNATIONAL (MCO) DEPARTURE PROTOCOL
+           SLIDE 28: DAY 7 DEPARTURE: MIA CONSOLIDATED CAR RETURN & FLIGHT TO EWR
            ===================================================================== -->
       <section class="slide" data-slide="28">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 8 TRANSIT • OUTBOUND FLIGHT DIRECTIVE</div>
-          <h2 class="slide-title">Day 8: MCO Departure Protocol & Non-Stop Flight to EWR</h2>
-          <p class="slide-subtitle">Effortless rental car return at Orlando International Airport, expedited TSA clearance, and a smooth non-stop flight back to Newark.</p>
+          <div class="slide-eyebrow">DAY 7 DEPARTURE • HOMEBOUND PROTOCOL</div>
+          <h2 class="slide-title">Day 7: Consolidated Car Return & Non-Stop Flight to EWR</h2>
+          <p class="slide-subtitle">Seamless vehicle return at Miami International Rental Car Center, automated MIA Mover transfer to terminals, and non-stop flight back to Newark.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">DEPARTURE FLOW</div>
-              <h3 class="card-heading">Orlando International Airport (MCO) Logistics</h3>
+              <div class="card-label">DEPARTURE TIMETABLE</div>
+              <h3 class="card-heading">Zero-Friction Airport Logistics</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>09:30 AM – Hotel Check-Out:</strong> Enjoy a final hot breakfast at the hotel, pack suitcases into the car trunk, and drive 20 minutes east on FL-528 to MCO.</li>
-                <li><strong>10:15 AM – Consolidated Rental Car Return:</strong> Drive directly into the MCO Terminal B/C rental garage. Scan-and-go vehicle return takes 3 minutes; walk straight into the terminal with zero shuttle bus delays!</li>
-                <li><strong>11:00 AM – TSA Security Clearance:</strong> Clear security via TSA PreCheck or use the free <strong>MCO Reserve</strong> lane (book your arrival slot 72 hours in advance to skip lines).</li>
-                <li><strong>12:45 PM – United Airlines MCO ➔ EWR:</strong> Board non-stop flight to Newark Liberty (2h 45m flight time). Touchdown at EWR by 03:30 PM. Welcome home!</li>
+                <li><strong>02:00 PM – Rental Car Return:</strong> Drive 14 minutes north from Versailles along Le Jeune Road directly into the MIA Consolidated Rental Car Center. Instant digital vehicle return barcode scan (zero drop fee!).</li>
+                <li><strong>02:30 PM – MIA Mover Monorail:</strong> Board the sleek automated people mover connecting the RCC directly to the main terminal in 3 minutes (zero buses or shuttles).</li>
+                <li><strong>03:00 PM – TSA Security Clearance:</strong> Clear Concourse D / E TSA checkpoints in under 20 minutes.</li>
+                <li><strong>05:15 PM – Non-Stop Flight (MIA ➔ EWR):</strong> Board your non-stop United / American flight home to Newark Liberty International, concluding the 7-day National Parks Trifecta.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">MCO TRANSIT: 20 MINS</span>
-                <span class="tag tag-teal">CAR RETURN: ZERO SHUTTLE</span>
-                <span class="tag tag-terracotta">FLIGHT: 2H 45M</span>
+                <span class="tag tag-gold">MIA CONSOLIDATED HUB</span>
+                <span class="tag tag-teal">NON-STOP FLIGHT: 2H 50M</span>
+                <span class="tag tag-terracotta">ARRIVE EWR: 08:05 PM</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide28_mco.jpg" alt="Airplane and Orlando airport" loading="lazy">
+              <img src="images/slide28_miami_airport.jpg" alt="Commercial jet departing over turquoise Miami coast" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Orlando International (MCO)</div>
-                <div class="media-caption">Seamless terminal design, instant garage rental return, and direct non-stop service back to Newark.</div>
+                <div class="media-title">Homeward Bound from the Subtropics</div>
+                <div class="media-caption">Soaring over the Atlantic barrier reefs and turquoise waterways of South Florida on your return to Newark.</div>
               </div>
             </div>
           </div>
@@ -380,95 +382,101 @@ def get_slides():
            ===================================================================== -->
       <section class="slide" data-slide="29">
         <div class="slide-header">
-          <div class="slide-eyebrow">EXPEDITION METRICS & UNIFIED BUDGET</div>
-          <h2 class="slide-title">Master Expedition Scorecard & Shared Financial Ledger</h2>
-          <p class="slide-subtitle">Complete operational metrics and an exhaustive, realistic shared budget breakdown for both travelers combined (zero per-person division).</p>
+          <div class="slide-eyebrow">MASTER EXPEDITION SCORECARD & SHARED FINANCIAL LEDGER</div>
+          <h2 class="slide-title">The Master Ledger: $3,465 Total Combined for 2 Travelers</h2>
+          <p class="slide-subtitle">Strict unified financial ledger presenting every expenditure as a combined total for two passengers across flights, lodging, ferry, car rental, and park excursions.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col-wide-left">
             <div class="glass-card gold-trim">
-              <div class="card-label">UNIFIED FINANCIAL LEDGER (2 TRAVELERS COMBINED)</div>
-              
+              <div class="card-label">UNIFIED EXPENDITURE BREAKDOWN</div>
+              <h3 class="card-heading">Complete 7-Day / 6-Night Cost Ledger</h3>
+
               <table class="table-editorial" style="margin-bottom: 0.8rem;">
                 <thead>
                   <tr>
-                    <th>Budget Category</th>
-                    <th>Scope & Specification</th>
+                    <th>Category</th>
+                    <th>Tactical Specification</th>
                     <th>Shared Cost</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Flights (EWR-MIA / MCO-EWR)</strong></td>
-                    <td>Non-stop on United / JetBlue (2 adult tickets + bags)</td>
-                    <td>$460</td>
+                    <td><strong>Flights (2 Pax)</strong></td>
+                    <td>Non-stop EWR ➔ MIA ➔ EWR booked for 2 passengers combined</td>
+                    <td><strong>$628</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Lodging (7 Nights Ensuite)</strong></td>
-                    <td>Miami (1N), Key West (1N), Mid-Keys (1N), Orlando 3★/4★ Resort (4N)</td>
-                    <td>$1,110</td>
+                    <td><strong>Rental Vehicle + SunPass</strong></td>
+                    <td>7-Day mid-size sedan/SUV (MIA-MIA, zero drop fees) + cashless toll pass</td>
+                    <td><strong>$310</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Ground Logistics & Rental Car</strong></td>
-                    <td>8 Days Mid-size SUV + Intrastate Drop + SunPass Tolls</td>
-                    <td>$385</td>
+                    <td><strong>Expedition Fuel</strong></td>
+                    <td>~420 total road miles @ 32 mpg average ($3.45/gal regular)</td>
+                    <td><strong>$45</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Gasoline / Fuel</strong></td>
-                    <td>~585 total road miles @ 32 mpg average</td>
-                    <td>$65</td>
+                    <td><strong>En-Suite Lodging (6 Nights)</strong></td>
+                    <td>Homestead (1N $145), Key West (2N $390), Islamorada (1N $180), Key Largo (1N $175), Coral Gables (1N $190)</td>
+                    <td><strong>$1,080</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Parks & Outdoor Excursions</strong></td>
-                    <td>John Pennekamp snorkel boat, Everglades Shark Valley tram, Winter Park canal boat ($36)</td>
-                    <td>$180</td>
+                    <td><strong>Dry Tortugas Catamaran Ferry</strong></td>
+                    <td><em>Yankee Freedom III</em> roundtrip ferry for 2 (includes hot breakfast, buffet lunch, snorkel gear & NPS access)</td>
+                    <td><strong>$420</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Theme Park Tickets (2 Days Total)</strong></td>
-                    <td>Strictly 2 Park Days: 1-Day Universal 2-Park Pass + 1-Day Disney World Pass (2 adults)</td>
-                    <td>$680</td>
+                    <td><strong>National Park Excursions</strong></td>
+                    <td>Biscayne Boca Chita Boat Tour ($160) + Shark Valley Tram Tour ($62)</td>
+                    <td><strong>$222</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Dining & Zero-Alcohol Beverages</strong></td>
-                    <td>Versailles Cuban dinner, Key West seafood, Smokehouse BBQ, breakfasts</td>
-                    <td>$540</td>
+                    <td><strong>National Parks Entry Passes</strong></td>
+                    <td>America the Beautiful Interagency Annual Pass (covers Everglades & all vehicle entries)</td>
+                    <td><strong>$80</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Contingency & Incidentals</strong></td>
-                    <td>Parking fees, tips, snacks, hydration reserve</td>
-                    <td>$100</td>
+                    <td><strong>Gastronomy (Zero Alcohol)</strong></td>
+                    <td>7 days authentic Cuban, Keys seafood, fresh tropical fruit batidos, and Key lime treats for 2</td>
+                    <td><strong>$580</strong></td>
                   </tr>
-                  <tr style="border-top: 2px solid var(--gold-primary); font-weight: 700;">
-                    <td><strong>GRAND SHARED TOTAL</strong></td>
-                    <td><strong>Strict Combined Total for Both Travelers (Zero Splitting)</strong></td>
-                    <td style="color: var(--gold-primary); font-size: 1.25rem;"><strong>$3,520</strong></td>
+                  <tr>
+                    <td><strong>Marine Field Kit & Incidentals</strong></td>
+                    <td>Zinc reef sunscreen, waterproof phone cases, insect repellent, state park admissions</td>
+                    <td><strong>$100</strong></td>
                   </tr>
                 </tbody>
               </table>
 
-              <p style="font-size: 0.78rem; color: var(--sand-muted); line-height: 1.4;">
-                *Note: US dining standard 18–20% gratuity is fully accounted for in the dining line. Zero hidden resort fees or unbudgeted car drop surcharges.
-              </p>
+              <div style="display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-gold); padding-top: 8px;">
+                <span class="tag tag-gold">ZERO HIDDEN RESORT FEES</span>
+                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,465</span>
+              </div>
             </div>
 
-            <!-- Operational Metrics -->
-            <div style="display: grid; grid-template-rows: repeat(4, 1fr); gap: 10px;">
-              <div class="stat-box">
-                <div class="stat-number gold">8 Days / 7 Nights</div>
-                <div class="stat-caption">Duration • 3 Coastal / 4 Central Base</div>
+            <!-- Scorecard Summary Pillar -->
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <div class="stat-box" style="padding: 14px;">
+                <div class="card-label">FLIGHT SAVINGS</div>
+                <div class="stat-number gold">$628 Total</div>
+                <div class="stat-caption">Locked non-stop flights for 2 ($314/pax)</div>
               </div>
-              <div class="stat-box">
-                <div class="stat-number teal">585 Road Miles</div>
-                <div class="stat-caption">Forward Driving • Zero Backtracking</div>
+              <div class="stat-box" style="padding: 14px;">
+                <div class="card-label">NATIONAL PARKS VISITED</div>
+                <div class="stat-number teal">3 of 3 (100%)</div>
+                <div class="stat-caption">Biscayne • Everglades • Dry Tortugas</div>
               </div>
-              <div class="stat-box">
-                <div class="stat-number terracotta">~92,000 Steps</div>
-                <div class="stat-caption">Foot Distance (~42 Miles Walked)</div>
+              <div class="stat-box" style="padding: 14px;">
+                <div class="card-label">HIGHWAY EFFICIENCY</div>
+                <div class="stat-number terracotta">420 Miles</div>
+                <div class="stat-caption">Zero Orlando backtracking • Compact loop</div>
               </div>
-              <div class="stat-box">
-                <div class="stat-number gold">$3,520 All-In</div>
-                <div class="stat-caption">Complete Couple Expedition Budget</div>
+              <div class="stat-box" style="padding: 14px;">
+                <div class="card-label">THEME PARK PENALTY</div>
+                <div class="stat-number gold">$0.00</div>
+                <div class="stat-caption">Zero Disney / Universal tickets purchased</div>
               </div>
             </div>
           </div>
@@ -480,68 +488,75 @@ def get_slides():
            ===================================================================== -->
       <section class="slide" data-slide="30">
         <div class="slide-header">
-          <div class="slide-eyebrow">TACTICAL FIELD DIRECTORY & OFFLINE APPS</div>
-          <h2 class="slide-title">Zero-Fail Field Directory, Park Hotlines & App Kit</h2>
-          <p class="slide-subtitle">Essential 24/7 emergency dispatch numbers, official park customer service hotlines, and mandatory smartphone apps for seamless field execution.</p>
+          <div class="slide-eyebrow">ZERO-FAIL DIRECTORY • CRITICAL DISPATCH</div>
+          <h2 class="slide-title">Zero-Fail Field Directory: Park Hotlines & Marine SOS</h2>
+          <p class="slide-subtitle">Emergency contact numbers, ranger dispatch centers, maritime rescue frequencies, and hospital coordinates across South Florida and the Keys.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
-            <div class="glass-card terracotta-trim">
-              <div class="card-label">EMERGENCY & TRAIL HOTLINES</div>
-              <h3 class="card-heading">Critical Field Dispatch Numbers</h3>
+            <div class="glass-card gold-trim">
+              <div class="card-label">NATIONAL PARK DISPATCH & FERRIES</div>
+              <h3 class="card-heading">Official Park Headquarters & Transit</h3>
 
               <table class="table-editorial" style="margin-bottom: 1rem;">
                 <thead>
                   <tr>
-                    <th>Entity</th>
-                    <th>Hotline Number</th>
-                    <th>Operational Function</th>
+                    <th>Agency / Service</th>
+                    <th>Station Location</th>
+                    <th>Contact Phone</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Emergency Services</strong></td>
-                    <td><strong>911</strong></td>
-                    <td>Police, Fire, Ocean Rescue, Florida Highway Patrol (*FHP / *347)</td>
+                    <td><strong>Biscayne National Park</strong></td>
+                    <td>Dante Fascell Visitor Center (Convoy Point)</td>
+                    <td>(305) 230-1144</td>
                   </tr>
                   <tr>
-                    <td><strong>Everglades Park Dispatch</strong></td>
-                    <td><strong>(305) 242-7740</strong></td>
-                    <td>Shark Valley ranger station & wildlife assistance</td>
+                    <td><strong>Everglades: Shark Valley</strong></td>
+                    <td>Tamiami Trail Tram Station</td>
+                    <td>(305) 221-8776</td>
                   </tr>
                   <tr>
-                    <td><strong>Florida SunPass Customer Care</strong></td>
-                    <td><strong>1-888-TOLL-FLA</strong></td>
-                    <td>Toll transponder support & account management</td>
+                    <td><strong>Everglades: Flamingo</strong></td>
+                    <td>Flamingo Marina & Visitor Station</td>
+                    <td>(239) 695-2945</td>
                   </tr>
                   <tr>
-                    <td><strong>Universal Orlando Guest Services</strong></td>
-                    <td><strong>(407) 224-4233</strong></td>
-                    <td>Ticket modifications, Express Pass & accessibility</td>
+                    <td><strong>Yankee Freedom III Ferry</strong></td>
+                    <td>Key West Ferry Terminal (100 Grinnell St)</td>
+                    <td>(800) 634-0939</td>
                   </tr>
                   <tr>
-                    <td><strong>Walt Disney World Guest Relations</strong></td>
-                    <td><strong>(407) 939-5277</strong></td>
-                    <td>Lightning Lane assistance & dining reservations</td>
+                    <td><strong>Dry Tortugas NPS Office</strong></td>
+                    <td>Garden Key Fort Jefferson Station</td>
+                    <td>(305) 242-7700</td>
                   </tr>
                 </tbody>
               </table>
 
-              <div class="tag tag-terracotta">24/7 RAPID DISPATCH DIRECTORY</div>
+              <div class="field-alert">
+                <strong>MARITIME VHF NOTICE:</strong> In Dry Tortugas waters without cellular service, monitor VHF Marine Channel 16 for emergency hailing and US Coast Guard Sector Key West.
+              </div>
             </div>
 
-            <div class="glass-card gold-trim">
-              <div class="card-label">MOBILE APPLICATION SUITE</div>
-              <h3 class="card-heading">Mandatory Smartphone App Kit</h3>
+            <div class="glass-card teal-trim">
+              <div class="card-label">EMERGENCY & MEDICAL HUBS</div>
+              <h3 class="card-heading">Medical Centers & Roadside Assistance</h3>
 
-              <ul class="highlight-list">
-                <li><strong>My Disney Experience:</strong> Essential for Lightning Lane bookings, TRON Virtual Queue drops, and mobile dining orders.</li>
-                <li><strong>Official Universal Orlando App:</strong> Real-time wait times, interactive GPS park maps, and mobile meal pickup.</li>
-                <li><strong>Visitor Toll Pass / SunPass App:</strong> Live toll tracking and receipt generation avoiding rental car agency fees.</li>
-                <li><strong>National Park Service (NPS) App:</strong> Download the offline map for Everglades National Park before entering sawgrass areas.</li>
-                <li><strong>RadarScope / Windy:</strong> High-resolution real-time Doppler radar for tracking the exact movement of 3:00 PM convective thunderstorms.</li>
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>Lower Keys Medical Center:</strong> 5900 College Rd, Key West, FL 33040. Full 24/7 Level IV trauma & emergency department: <code>(305) 294-5531</code>.</li>
+                <li><strong>Baptist Health Homestead Hospital:</strong> 975 Baptist Way, Homestead, FL 33033. Closest emergency center for Everglades & Biscayne: <code>(786) 243-8000</code>.</li>
+                <li><strong>Florida Highway Patrol (Roadside SOS):</strong> Dial <code>*FHP (*347)</code> from any mobile phone for Overseas Highway assistance.</li>
+                <li><strong>Monroe County Sheriff (Keys Dispatch):</strong> Non-emergency dispatch: <code>(305) 289-2351</code>.</li>
+                <li><strong>US Coast Guard Sector Key West:</strong> 24-Hour Search & Rescue Operations: <code>(305) 292-8727</code>.</li>
               </ul>
+
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">24/7 EMERGENCY: 911</span>
+                <span class="tag tag-teal">VHF RADIO: CH 16</span>
+              </div>
             </div>
           </div>
         </div>

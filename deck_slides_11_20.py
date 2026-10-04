@@ -1,42 +1,43 @@
 def get_slides():
     return """
       <!-- =====================================================================
-           SLIDE 11: DAY 2: OVERSEAS HIGHWAY (US-1) & KEY LARGO CORAL REEFS
+           SLIDE 11: DAY 2: EVERGLADES NATIONAL PARK (SHARK VALLEY TRAM & TOWER)
            ===================================================================== -->
       <section class="slide" data-slide="11">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 2 ITINERARY • THE OVERSEAS HIGHWAY</div>
-          <h2 class="slide-title">Day 2: The Overseas Highway (US-1) & Key Largo Coral Reefs</h2>
-          <p class="slide-subtitle">Departing Miami south across the highway that floats on water, stopping at John Pennekamp Coral Reef State Park for world-class reef snorkeling.</p>
+          <div class="slide-eyebrow">DAY 2 ITINERARY • SUNDAY, OCTOBER 25, 2026</div>
+          <h2 class="slide-title">Day 2: Everglades National Park: Shark Valley Tram & Tower</h2>
+          <p class="slide-subtitle">Venture into the primeval river of grass along the Tamiami Trail, embarking on a 15-mile guided naturalist tram tour and ascending the 65-foot observation tower.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">UNDERSEA EXPEDITION</div>
-              <h3 class="card-heading">John Pennekamp State Park • Key Largo</h3>
+              <div class="card-label">RIVER OF GRASS EXPEDITION</div>
+              <h3 class="card-heading">Shark Valley • Tamiami Trail (US-41)</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Established in 1963 as the first undersea park in the US, John Pennekamp encompasses 70 nautical square miles of living coral reef, mangrove swamps, and seagrass beds:
+                Shark Valley offers the most concentrated wildlife viewing in North America. Freshwater flows south through miles of sawgrass prairie directly into Florida Bay:
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>08:15 AM – Departure South:</strong> Take Florida's Turnpike South (FL-821) joining US-1 at Florida City. Cross the mangrove causeway into Key Largo (Mile Marker 102.5).</li>
-                <li><strong>10:00 AM – 2.5-Hour Coral Reef Snorkel Boat:</strong> Board the park catamaran to Molasses Reef and Grecian Rocks. Snorkel in crystal-clear 10–18 ft shallows filled with elkhorn coral, parrotfish, yellowtail snappers, and stingrays ($78 total for 2).</li>
-                <li><strong>01:00 PM – Islamorada Lunch Stop:</strong> Dine at <em>Chef Michael's</em> or <em>Harriette's Restaurant</em> for blackened yellowtail snapper and fresh lime slaw.</li>
+                <li><strong>07:30 AM – Scenic Drive West:</strong> Take Krome Avenue north to US-41 (Tamiami Trail West) through agricultural pine rocklands to the Shark Valley park gate (38 miles).</li>
+                <li><strong>09:00 AM – 2-Hour Guided Open-Air Tram:</strong> Board the naturalist-guided open tram into the heart of the sawgrass slough. Observe dozens of wild American alligators basking alongside the canal, anhingas drying their wings, and snowy egrets ($62 total for 2).</li>
+                <li><strong>10:15 AM – 65-Foot Spiral Observation Tower:</strong> Ascend the iconic mid-century modern ramp for an awe-inspiring 360° panoramic view stretching 20 miles across the unbroken Everglades horizon. Spot softshell turtles and Florida gar in the deep waterhole below.</li>
+                <li><strong>12:00 PM – Southbound Transit:</strong> Return to Florida City, refueling and picking up chilled fresh fruit before continuing onto the Overseas Highway (US-1).</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-teal">DEPTH: 10–18 FT</span>
-                <span class="tag tag-gold">MILE MARKER: 102.5</span>
-                <span class="tag tag-terracotta">REEF: LIVING CORAL</span>
+                <span class="tag tag-gold">PARK 2 OF 3: EVERGLADES</span>
+                <span class="tag tag-teal">TRAM: 15-MILE LOOP</span>
+                <span class="tag tag-terracotta">TOWER: 65 FT ELEVATION</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide11_keylargo.jpg" alt="Key Largo coral reef snorkeling" loading="lazy">
+              <img src="images/slide17_sharkvalley.jpg" alt="Everglades sawgrass and wild alligators" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Living Atlantic Coral Barrier</div>
-                <div class="media-caption">Snorkeling among brain corals and tropical fish in the turquoise shallows of John Pennekamp.</div>
+                <div class="media-title">The Primeval River of Grass</div>
+                <div class="media-caption">Gliding through unbroken sawgrass prairies teeming with wild alligators and wading bird colonies.</div>
               </div>
             </div>
           </div>
@@ -44,12 +45,12 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 12: DAY 2 COAST: BAHIA HONDA STATE PARK & SEVEN MILE BRIDGE
+           SLIDE 12: DAY 2 COAST: SEVEN MILE BRIDGE & BAHIA HONDA LAGOON
            ===================================================================== -->
       <section class="slide" data-slide="12">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 2 COAST • THE ROAD TO KEY WEST</div>
-          <h2 class="slide-title">Day 2: Seven Mile Bridge Crossing & Bahia Honda Lagoon</h2>
+          <div class="slide-eyebrow">DAY 2 COAST • THE HIGHWAY THAT FLOATS ON WATER</div>
+          <h2 class="slide-title">Day 2 Coast: Seven Mile Bridge & Bahia Honda Lagoon</h2>
           <p class="slide-subtitle">Cruising across Henry Flagler's engineering marvel, swimming in the natural sandbar lagoons of Bahia Honda, and arriving in Key West for sunset.</p>
         </div>
 
@@ -91,14 +92,14 @@ def get_slides():
         <div class="slide-header">
           <div class="slide-eyebrow">NIGHT 2 RETREAT • CONCH ARCHITECTURE</div>
           <h2 class="slide-title">Night 2: Historic Victorian Guesthouse in Old Town Key West</h2>
-          <p class="slide-subtitle">A secluded tropical garden bed & breakfast within walking distance of Mallory Square, featuring private bath, wraparound veranda, and morning breakfast.</p>
+          <p class="slide-subtitle">A secluded tropical garden bed & breakfast within walking distance of the historic ferry docks, featuring private bath, wraparound veranda, and morning breakfast.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
               <div class="card-label">ISLAND SANCTUARY</div>
-              <h3 class="card-heading">The Mermaid & Alligator or Speakeasy Inn</h3>
+              <h3 class="card-heading">The Mermaid & Alligator or Orchid Key Inn</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
                 Key West's magic lies in its residential Old Town lanes lined with pastel gingerbread fretwork, white picket fences, and towering royal poinciana trees:
               </p>
@@ -110,15 +111,15 @@ def get_slides():
                   <div class="stat-caption">Combined total for 2 guests with breakfast</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">WALKABILITY</div>
-                  <div class="stat-number teal">100%</div>
-                  <div class="stat-caption">Walk to Duval St, Hemingway Home & Sunset</div>
+                  <div class="card-label">FERRY PROXIMITY</div>
+                  <div class="stat-number teal">8 min walk</div>
+                  <div class="stat-caption">To Yankee Freedom Ferry Docks</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Private Veranda & Pool:</strong> Hidden tropical courtyard with heated plunge pool and lush palm canopy.</li>
-                <li><strong>Zero Car Usage:</strong> Leave the rental car parked overnight; entire historic district is effortlessly walked or explored on foot.</li>
+                <li><strong>Early Ferry Advantage:</strong> Waking up inside Old Town means a leisurely 8-minute morning stroll to the 07:00 AM Dry Tortugas ferry check-in with zero parking hassles.</li>
+                <li><strong>Private Veranda & Pool:</strong> Hidden tropical courtyard with heated plunge pool, tranquil fountains, and lush palm canopy.</li>
                 <li><strong>Quiet Location:</strong> Located on quiet Truman Avenue or Simonton Street, shielded from loud Duval Street bar music.</li>
               </ul>
             </div>
@@ -135,40 +136,43 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 14: DAY 3: KEY WEST HISTORIC PENINSULA & FORT ZACHARY TAYLOR
+           SLIDE 14: DAY 3: DRY TORTUGAS NATIONAL PARK (YANKEE FREEDOM III)
            ===================================================================== -->
       <section class="slide" data-slide="14">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 3 ITINERARY • SOUTHERNMOST OUTPOST</div>
-          <h2 class="slide-title">Day 3: Historic Key West, Hemingway Estate & Fort Zachary</h2>
-          <p class="slide-subtitle">Morning walking exploration of Old Town Key West, the famous polydactyl cats of the Hemingway Home, and swimming at Fort Zachary Taylor State Park.</p>
+          <div class="slide-eyebrow">DAY 3 ITINERARY • MONDAY, OCTOBER 26, 2026</div>
+          <h2 class="slide-title">Day 3: Dry Tortugas National Park: Yankee Freedom III</h2>
+          <p class="slide-subtitle">Embarking on a high-speed luxury catamaran 70 miles west into the Gulf of Mexico to the remote coral archipelago and Civil War fortress of Dry Tortugas.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">HISTORIC EXPLORATION</div>
-              <h3 class="card-heading">Old Town Key West Morning Trail</h3>
+              <div class="card-label">OPEN OCEAN VOYAGE</div>
+              <h3 class="card-heading">70 Miles West • The Yankee Freedom III</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Accessible only by boat or seaplane, Dry Tortugas preserves 100 square miles of pristine marine wilderness, bird colonies, and America's largest brick coastal citadel:
+              </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>08:00 AM – Southernmost Point Buoy:</strong> Walk to the colorful concrete monument (90 miles to Cuba) early in the morning before tourist lines form.</li>
-                <li><strong>09:00 AM – Ernest Hemingway Home & Museum:</strong> Tour the 1851 French colonial estate where Hemingway wrote <em>A Farewell to Arms</em>. Meet dozens of six-toed (polydactyl) cats roaming the lush gardens ($36 total for 2).</li>
-                <li><strong>11:30 AM – Fort Zachary Taylor Historic State Park:</strong> Explore the pre-Civil War red-brick fortress containing the nation's largest cache of Civil War cannons. Relax on the natural shaded coral beach ($6.50 park entry).</li>
-                <li><strong>02:30 PM – Northbound Coastal Transit:</strong> Depart Key West northbound along the Overseas Highway toward your midway base in Marathon / Islamorada.</li>
+                <li><strong>07:00 AM – Ferry Terminal Check-In:</strong> Arrive at the Key West Ferry Terminal (100 Grinnell St). Board the 110-foot high-speed aluminum catamaran <em>Yankee Freedom III</em>. Enjoy complimentary hot breakfast and coffee in the air-conditioned cabin.</li>
+                <li><strong>07:30 AM – Departure Across Gulf of Mexico:</strong> Cruise past the Marquesas Keys. Spot Atlantic bottlenose dolphins and flying fish skimming the emerald swells.</li>
+                <li><strong>10:00 AM – Arrival at Garden Key:</strong> The massive hexagonal brick walls of Fort Jefferson rise majestically out of turquoise water. National Park rangers greet the vessel at the dock.</li>
+                <li><strong>Included Amenities:</strong> Catamaran ticket includes full buffet picnic lunch on the boat, snorkel gear, and official NPS access ($420 total for 2).</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">HERITAGE: HEMINGWAY</span>
-                <span class="tag tag-teal">FORT ZACHARY: 1851</span>
-                <span class="tag tag-terracotta">TRANSIT: 55 MI NORTH</span>
+                <span class="tag tag-gold">PARK 3 OF 3: DRY TORTUGAS</span>
+                <span class="tag tag-teal">70 MILES OFFSHORE</span>
+                <span class="tag tag-terracotta">SPEED: 30 KNOTS</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide14_keywest.jpg" alt="Old Town Key West streets" loading="lazy">
+              <img src="images/slide14_drytortugas.jpg" alt="Dry Tortugas aerial turquoise water and island" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Mile Marker 0 & Maritime Lore</div>
-                <div class="media-caption">From Hemingway's lush writing studio to the Civil War brick bastion guarding the Florida Straits.</div>
+                <div class="media-title">Garden Key in the Open Gulf</div>
+                <div class="media-caption">Seventy miles beyond the end of the road, surrounded by living coral barrier reefs and crystal seas.</div>
               </div>
             </div>
           </div>
@@ -176,67 +180,40 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 15: DAY 3 CULINARY: AUTHENTIC KEY WEST CONCH & KEY LIME PIE
+           SLIDE 15: DAY 3 HERITAGE & REEF: FORT JEFFERSON & CORAL MOAT
            ===================================================================== -->
       <section class="slide" data-slide="15">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 3 CULINARY • MARITIME HARVEST</div>
-          <h2 class="slide-title">Day 3: Authentic Conch Fritters & Key Lime Tasting (Zero Alcohol)</h2>
-          <p class="slide-subtitle">Fresh grilled local seafood and authentic tart Key lime pie made with real Florida Keys limes and graham cracker crust.</p>
+          <div class="slide-eyebrow">DAY 3 HERITAGE & UNDERWATER REALM</div>
+          <h2 class="slide-title">Day 3: Fort Jefferson Citadel, Seawall Moat & Coral Snorkeling</h2>
+          <p class="slide-subtitle">Walking the 16-million-brick fortress battlements, exploring Dr. Samuel Mudd's Civil War quarters, and snorkeling the world-class coral moat wall.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">MARITIME FLAVORS</div>
-              <h3 class="card-heading">B.O.'s Fish Wagon & Kermit's Key Lime</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                Key West's culinary identity is rooted in Bahamian wrecking history and native citrus groves. Enjoy a zero-alcohol feast honoring local ingredients:
-              </p>
+              <div class="card-label">CITADEL & REEF TRIAGE</div>
+              <h3 class="card-heading">Brick Masonry & Marine Sanctuary</h3>
 
-              <table class="table-editorial" style="margin-bottom: 1rem;">
-                <thead>
-                  <tr>
-                    <th>Specialty Dish</th>
-                    <th>Flavor Architecture</th>
-                    <th>Shared Cost</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Crisp Conch Fritters</strong></td>
-                    <td>Tender Queen Conch meat with minced bell pepper, celery & lime calypso sauce</td>
-                    <td>$16 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Blackened Mahi Sandwich</strong></td>
-                    <td>Line-caught Mahi-mahi on Cuban bread with spicy key lime tartar sauce</td>
-                    <td>$32 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Authentic Key Lime Pie</strong></td>
-                    <td>Tart pale-yellow curd (real Key limes, never green dye) with toasted meringue</td>
-                    <td>$14 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Zero-Alcohol Beverages</strong></td>
-                    <td>Fresh-pressed Key Limeade with crushed mint & cold sparkling coconut water</td>
-                    <td>$10 total</td>
-                  </tr>
-                </tbody>
-              </table>
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>10:30 AM – Guided Fort Jefferson Tour:</strong> Join the NPS historian to inspect the 16 million handmade red bricks, massive gun casemates, and the holding cell of Dr. Samuel Mudd (the physician who set John Wilkes Booth's broken leg).</li>
+                <li><strong>11:45 AM – Walk the Moat Seawall:</strong> Stroll the narrow outer brick seawall surrounding the fort's ocean moat. Look directly down into crystalline water to spot queen conch, stingrays, and sea turtles.</li>
+                <li><strong>01:00 PM – World-Class Coral Snorkeling:</strong> Don masks and fins at the South Beach and Coaling Dock ruins. Snorkel along the exterior moat wall—covered in vibrant purple sea fans, brain corals, schools of yellowtail snapper, and curious angelfish.</li>
+                <li><strong>03:00 PM – Catamaran Boarding & Return:</strong> Re-board the Yankee Freedom III for the afternoon voyage back to Key West, arriving at the historic seaport by 05:30 PM.</li>
+              </ul>
 
-              <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: 8px;">
-                <span class="tag tag-gold">REAL KEY LIMES</span>
-                <span style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--gold-primary);">Total Shared Lunch: ~$72</span>
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">16M BRICKS</span>
+                <span class="tag tag-teal">VISIBILITY: 60+ FT</span>
+                <span class="tag tag-terracotta">CIVIL WAR HISTORIC SITE</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide15_keylime.jpg" alt="Key lime pie and fresh lime" loading="lazy">
+              <img src="images/slide15_fortjefferson.jpg" alt="Fort Jefferson brick arches and turquoise moat" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Real Taste of the Keys</div>
-                <div class="media-caption">Pale yellow tart custard made with authentic Florida Key limes and buttery graham cracker crust.</div>
+                <div class="media-title">The Gibraltar of the Gulf</div>
+                <div class="media-caption">America's largest masonry fortress surrounded by vibrant living coral reefs and turquoise moats.</div>
               </div>
             </div>
           </div>
@@ -244,49 +221,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 16: NIGHT 3 LODGING: UPPER KEYS OCEAN RETREAT (MARATHON / ISLAMORADA)
+           SLIDE 16: NIGHT 3 LODGING: KEY WEST OLD TOWN & MALLORY SUNSET
            ===================================================================== -->
       <section class="slide" data-slide="16">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 3 RETREAT • MIDWAY RECOVERY</div>
-          <h2 class="slide-title">Night 3: Oceanfront Coastal Retreat in Marathon / Islamorada</h2>
-          <p class="slide-subtitle">Northbound afternoon drive along the Overseas Highway to a peaceful mid-keys resort, shortening tomorrow morning's drive into the Everglades.</p>
+          <div class="slide-eyebrow">NIGHT 3 RETREAT • ISLAND CONTINUATION</div>
+          <h2 class="slide-title">Night 3: Key West Old Town Sanctuary & Mallory Sunset</h2>
+          <p class="slide-subtitle">Returning from sea to relax at your historic guesthouse, stroll the sunset pier, and enjoy authentic Key lime confections with zero alcohol.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">TACTICAL REST STOP</div>
-              <h3 class="card-heading">Islander Resort or Faro Blanco Resort</h3>
+              <div class="card-label">EVENING TRANQUILITY</div>
+              <h3 class="card-heading">Post-Expedition Decompression</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                By driving 55 miles north out of Key West in late afternoon, you cut tomorrow's morning transit time to the Everglades in half, avoiding an exhausting 3.5-hour highway haul:
+                After a full 8-hour maritime expedition into the Gulf of Mexico, unwind in Old Town Key West with no driving required:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$165 total</div>
-                  <div class="stat-caption">Combined total for 2 guests with ocean view</div>
+                  <div class="stat-number gold">$195 total</div>
+                  <div class="stat-caption">Night 2 of 2 in Key West Old Town</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">GLADES TIME SAVED</div>
-                  <div class="stat-number teal">1h 30m</div>
-                  <div class="stat-caption">Closer to Shark Valley entrance tomorrow</div>
+                  <div class="card-label">EVENING PACE</div>
+                  <div class="stat-number teal">Unhurried</div>
+                  <div class="stat-caption">100% on foot • Zero car stress</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Waterfront Balcony:</strong> Watch pelicans dive at sunset over calm Florida Bay shallows.</li>
-                <li><strong>Restorative Amenities:</strong> Heated swimming pool and bayside hammocks for resting legs before tomorrow's wilderness tram trek.</li>
-                <li><strong>Early Night Protocol:</strong> Rest early to ensure a fresh 08:30 AM departure into the Everglades sawgrass wilderness.</li>
+                <li><strong>Poolside Rinse & Relax:</strong> Soak tired swimming muscles in the guesthouse courtyard pool under rustling palm fronds.</li>
+                <li><strong>Mallory Square Evening Promenade:</strong> Watch local Cuban artisans, street acrobats, and fire-eaters against the glowing orange horizon.</li>
+                <li><strong>Artisan Conch Dinner:</strong> Savor grilled line-caught grouper, warm plantain chips with fresh lime mojo, and ice-cold Key lime sparkling water.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide16_upperkeys.jpg" alt="Upper Keys ocean resort" loading="lazy">
+              <img src="images/slide14_keywest.jpg" alt="Key West sunset over Gulf of Mexico" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Peaceful Florida Bay Shallows</div>
-                <div class="media-caption">A serene coastal pause halfway up the archipelago, positioning for the Everglades crossing.</div>
+                <div class="media-title">Sunset at the Edge of the Continent</div>
+                <div class="media-caption">Glowing twilight over Key West harbor following an unforgettable day exploring Dry Tortugas.</div>
               </div>
             </div>
           </div>
@@ -294,40 +271,40 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 17: DAY 4: EVERGLADES NATIONAL PARK & TAMIAMI TRAIL
+           SLIDE 17: DAY 4: KEY WEST MORNING CULTURE TO MIDDLE KEYS
            ===================================================================== -->
       <section class="slide" data-slide="17">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 4 ITINERARY • RIVER OF GRASS</div>
-          <h2 class="slide-title">Day 4: Everglades National Park (Shark Valley & Tram Safari)</h2>
-          <p class="slide-subtitle">Exploring the premier 1.5-million-acre UNESCO World Heritage wetland, sawgrass prairies, and observing wild American alligators in their natural habitat.</p>
+          <div class="slide-eyebrow">DAY 4 ITINERARY • TUESDAY, OCTOBER 27, 2026</div>
+          <h2 class="slide-title">Day 4: Key West Morning Culture & Northbound Overseas Drive</h2>
+          <p class="slide-subtitle">Exploring Ernest Hemingway's estate with 50+ polydactyl cats, the Key West Butterfly Conservatory, and cruising north into the Middle Keys.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">WILDERNESS SAFARI</div>
-              <h3 class="card-heading">Shark Valley • The Heart of the Glades</h3>
+              <div class="card-label">ISLAND HERITAGE & COASTAL DRIVE</div>
+              <h3 class="card-heading">Hemingway Estate & Northward Vector</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>08:30 AM – Scenic Drive to Tamiami Trail:</strong> Drive north across Key Largo, take Card Sound Road to Florida City, and connect to US-41 (Tamiami Trail West).</li>
-                <li><strong>10:30 AM – Shark Valley Open-Air Tram Tour:</strong> Board the 2-hour guided tram (or rent park bicycles) along the 15-mile paved loop through the heart of the freshwater sawgrass slough ($62 total for 2).</li>
-                <li><strong>11:30 AM – 65-Foot Observation Tower:</strong> Climb the spiral ramp for an extraordinary 360° panoramic vista over 20+ miles of unbroken River of Grass. Observe dozen of wild alligators basking in the canal below alongside roseate spoonbills and anhingas.</li>
-                <li><strong>01:30 PM – Miccosukee Cultural Lunch:</strong> Enjoy warm traditional fry bread and fresh vegetable stew along the Tamiami Trail.</li>
+                <li><strong>08:30 AM – Southernmost Point Buoy:</strong> Stroll down Whitehead Street for a morning photo at the iconic painted buoy (90 miles to Cuba) in soft golden light.</li>
+                <li><strong>09:30 AM – Ernest Hemingway Home & Museum:</strong> Walk the 1851 Spanish colonial estate where Hemingway lived and wrote. Wander the lush gardens and meet 50+ six-toed (polydactyl) cats descended from his original cat Snow White ($36 total for 2).</li>
+                <li><strong>11:30 AM – Key West Butterfly & Nature Conservatory:</strong> Step into a climate-controlled glass dome filled with 50+ butterfly species and colorful flamingos ($32 total for 2).</li>
+                <li><strong>01:30 PM – Northbound US-1 Departure:</strong> Begin your scenic drive north across the Overseas Highway bridges toward the pristine Middle Keys.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-teal">UNESCO BIOSPHERE</span>
-                <span class="tag tag-gold">LOOP: 15 MILES</span>
-                <span class="tag tag-terracotta">TOWER: 65 FT HIGH</span>
+                <span class="tag tag-gold">HEMINGWAY CATS: 50+</span>
+                <span class="tag tag-teal">BUTTERFLIES: 50+ SPECIES</span>
+                <span class="tag tag-terracotta">TRANSIT: 55 MILES</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide17_everglades.jpg" alt="Everglades sawgrass and alligators" loading="lazy">
+              <img src="images/slide15_keylime.jpg" alt="Key West tropical garden and heritage architecture" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Endless River of Grass</div>
-                <div class="media-caption">A primordial subtropical wilderness where sawgrass prairie, cypress domes, and wild alligators thrive.</div>
+                <div class="media-title">Literary Legends & Subtropical Flora</div>
+                <div class="media-caption">From Hemingway's private catwalk studio to the fluttering canopy of the butterfly conservatory.</div>
               </div>
             </div>
           </div>
@@ -335,51 +312,42 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 18: DAY 4 TRANSIT: FLORIDA TURNPIKE NORTHBOUND TRANSIT TO ORLANDO
+           SLIDE 18: DAY 4 COAST: ROBBIE'S TARPON FEEDING & ISLAMORADA
            ===================================================================== -->
       <section class="slide" data-slide="18">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 4 TRANSIT • CENTRAL FLORIDA HIGHWAY</div>
-          <h2 class="slide-title">Day 4: Florida's Turnpike Northbound Cruise to Orlando</h2>
-          <p class="slide-subtitle">A smooth 215-mile northbound highway transit across the Florida peninsula, checking into the Orlando theme park resort base by dusk.</p>
+          <div class="slide-eyebrow">DAY 4 COAST • THE SPORTFISHING CAPITAL</div>
+          <h2 class="slide-title">Day 4 Coast: Robbie's Tarpon Feeding & Islamorada Oceanfront</h2>
+          <p class="slide-subtitle">Hand-feeding massive 100-pound silver king tarpons at Robbie's Marina, exploring Islamorada's turquoise sandbars, and relaxing on the oceanfront.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">PENINSULA ARTERY</div>
-              <h3 class="card-heading">Smooth 70 mph Tollway Corridor</h3>
+              <div class="card-label">COASTAL ENCOUNTERS</div>
+              <h3 class="card-heading">Robbie's Marina of Islamorada (MM 77.5)</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Islamorada is revered globally as the sportfishing capital of the world, where crystal backcountry flats meet the open Atlantic:
+              </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>02:45 PM – Join Florida's Turnpike (FL-91 N):</strong> Connect to the Turnpike at Miramar. Settle into a comfortable, smooth 70 mph cruise northbound.</li>
-                <li><strong>04:30 PM – Fort Pierce Service Plaza:</strong> Stretch your legs, refill ice water bottles, and pick up sweet citrus honey candies.</li>
-                <li><strong>06:15 PM – Orlando / Lake Buena Vista Arrival:</strong> Exit the Turnpike onto I-4 / Central Florida Parkway. Check into your settled 4-night theme park resort base.</li>
-                <li><strong>07:30 PM – Evening Orientation:</strong> Unpack luggage completely (zero room moves for 4 days!), stroll Disney Springs or CityWalk, and enjoy an early night of restful sleep.</li>
+                <li><strong>03:30 PM – Hand-Feeding Giant Tarpons:</strong> Step onto the historic wooden docks at Robbie's Marina. Purchase a bucket of baitfish to hand-feed massive 4-to-6-foot wild silver king tarpons that leap right from the water ($12 total for 2). Watch pelicans and brown herons eye the dock.</li>
+                <li><strong>04:30 PM – Islamorada Village of Islands:</strong> Explore local artisan shops, open-air craft markets, and stunning ocean overlooks along the Overseas Heritage Trail.</li>
+                <li><strong>06:00 PM – Oceanfront Dinner:</strong> Enjoy fresh grilled yellowtail snapper, conch chowder, and freshly squeezed Florida Key limeade at an open-air oceanfront cafe.</li>
               </ul>
 
-              <table class="table-editorial">
-                <thead>
-                  <tr>
-                    <th>Leg Metrics</th>
-                    <th>Distance & Time</th>
-                    <th>Toll Cost</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Shark Valley to Orlando Base</td>
-                    <td>215 miles • 3h 15m driving</td>
-                    <td>$14.20 (SunPass / Visitor Toll)</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">TARPON SIZE: 100+ LBS</span>
+                <span class="tag tag-teal">MILE MARKER: 77.5</span>
+                <span class="tag tag-terracotta">ATLANTIC VIEWS</span>
+              </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide18_turnpike.jpg" alt="Florida Turnpike highway" loading="lazy">
+              <img src="images/slide11_keylargo.jpg" alt="Robbie's Marina turquoise waters and tarpons" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Northbound Turnpike Artery</div>
-                <div class="media-caption">Wide, smooth tollway through Florida's citrus and cattle country straight into Orlando's entertainment capital.</div>
+                <div class="media-title">Wild Marine Giants of Islamorada</div>
+                <div class="media-caption">Hand-feeding hundred-pound silver king tarpons on the historic open-air docks of Robbie's.</div>
               </div>
             </div>
           </div>
@@ -387,49 +355,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 19: NIGHT 4 LODGING: ORLANDO THEME PARK BASE (UNIVERSAL / DISNEY AREA)
+           SLIDE 19: NIGHT 4 LODGING: ISLAMORADA / MARATHON OCEAN RETREAT
            ===================================================================== -->
       <section class="slide" data-slide="19">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 4 RETREAT • THEME PARK HEADQUARTERS</div>
-          <h2 class="slide-title">Night 4: Settled 4-Night Base at an Orlando Resort Partner Hotel</h2>
-          <p class="slide-subtitle">Spacious, highly rated 3★/4★ hotel offering free theme park shuttles, early park admission privileges, large resort pool, and zero room changes for the rest of the trip.</p>
+          <div class="slide-eyebrow">NIGHT 4 RETREAT • MIDDLE KEYS WATERFRONT</div>
+          <h2 class="slide-title">Night 4: Oceanfront Cottage Retreat in Islamorada / Marathon</h2>
+          <p class="slide-subtitle">A tranquil coastal resort featuring private waterfront hammocks, swaying coconut palms, heated pool, and private en-suite veranda.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">BASE CAMP ADVANTAGE</div>
-              <h3 class="card-heading">Universal's Cabana Bay or Drury Plaza Disney Springs</h3>
+              <div class="card-label">COASTAL HAVEN</div>
+              <h3 class="card-heading">Postcard Inn Beach Resort or Pines & Palms</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Spending 4 consecutive nights at a single high-quality partner hotel eliminates the exhaustion of packing and unpacking luggage between theme park days:
+                Positioned midway along the Overseas Highway, Islamorada provides pure tropical relaxation away from commercial congestion:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$145 / night</div>
-                  <div class="stat-caption">$580 combined total for 4 consecutive nights</div>
+                  <div class="stat-number gold">$180 total</div>
+                  <div class="stat-caption">Combined total for 2 guests with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">PARK PRIVILEGE</div>
-                  <div class="stat-number teal">1 Hour Early</div>
-                  <div class="stat-caption">Early Park Admission to Harry Potter & Rides</div>
+                  <div class="card-label">COASTAL SETTING</div>
+                  <div class="stat-number teal">Oceanfront</div>
+                  <div class="stat-caption">Direct Atlantic waterfront & dock</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Free Park Transit:</strong> Dedicated continuous air-conditioned shuttle buses to Universal CityWalk and Disney ticket gates.</li>
-                <li><strong>Heated Resort Pools:</strong> Expansive lazy river pool and hot tubs for soothing leg muscles after 20,000 steps.</li>
-                <li><strong>Hot Breakfast Included:</strong> Full hot morning buffet saving $35 per day on breakfast.</li>
+                <li><strong>Ocean Breeze & Hammocks:</strong> Relax in shaded waterfront double hammocks strung between mature coconut palms directly over the Atlantic.</li>
+                <li><strong>En-Suite Amenities:</strong> Crisp air-conditioned coastal room, plush bedding, private bath, mini-fridge for fruit, and complimentary morning coffee.</li>
+                <li><strong>Strategic Midway Point:</strong> Sets you up for a short 35-minute drive north to Biscayne boat excursions tomorrow morning.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide19_orlandohotel.jpg" alt="Orlando resort pool and hotel" loading="lazy">
+              <img src="images/slide16_upperkeys.jpg" alt="Oceanfront resort with hammocks and palms" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Resort Oasis & Recovery Base</div>
-                <div class="media-caption">Comfortable bedding, quiet rooms, and heated pools for 4 nights of uninterrupted continuity.</div>
+                <div class="media-title">Middle Keys Ocean Tranquility</div>
+                <div class="media-caption">Waterfront relaxation, private docks, and gentle ocean breezes in the heart of Islamorada.</div>
               </div>
             </div>
           </div>
@@ -437,40 +405,43 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 20: DAY 5: UNIVERSAL STUDIOS FLORIDA & ISLANDS OF ADVENTURE
+           SLIDE 20: DAY 5: BISCAYNE NATIONAL PARK OFFSHORE BOAT TOUR
            ===================================================================== -->
       <section class="slide" data-slide="20">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 5 ITINERARY • THE UNIVERSAL DAY (PARK DAY 1 OF 2)</div>
-          <h2 class="slide-title">Day 5: The Universal Day: Universal Studios & Islands of Adventure</h2>
-          <p class="slide-subtitle">Your single dedicated day at Universal: a high-efficiency 2-Park expedition featuring The Wizarding World of Harry Potter, Jurassic World VelociCoaster, and the Hogwarts Express.</p>
+          <div class="slide-eyebrow">DAY 5 ITINERARY • WEDNESDAY, OCTOBER 28, 2026</div>
+          <h2 class="slide-title">Day 5: Biscayne National Park: Boca Chita Key & Reef Boat Tour</h2>
+          <p class="slide-subtitle">Embarking on the official Biscayne National Park Institute boat excursion out to historic Boca Chita Key, the ornamental lighthouse, and offshore reef snorkeling.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
-            <div class="glass-card gold-trim">
-              <div class="card-label">THRILL ARCHITECTURE</div>
-              <h3 class="card-heading">Two World-Class Theme Parks in One Day</h3>
+            <div class="glass-card teal-trim">
+              <div class="card-label">SUBMERGED WILDERNESS EXPEDITION</div>
+              <h3 class="card-heading">Boca Chita Key & Maritime Heritage Shipwrecks</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Since Biscayne is 95% underwater, the only way to experience its true splendor is by boat out into the open bay and barrier keys:
+              </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>07:30 AM – Early Park Admission:</strong> Enter Islands of Adventure 1 hour before general public. Walk straight to <em>Hagrid's Magical Creatures Motorbike Adventure</em> before queue builds.</li>
-                <li><strong>09:30 AM – Jurassic World VelociCoaster:</strong> Florida's fastest and steepest launch coaster (70 mph launch, 155 ft top hat, 4 zero-gravity inversions over the lagoon).</li>
-                <li><strong>11:30 AM – The Hogwarts Express:</strong> Board the train at Hogsmeade Station with your Park-to-Park pass, enjoying the interactive window projections traveling to King's Cross.</li>
-                <li><strong>01:00 PM – Diagon Alley Immersion:</strong> Walk through the secret brick wall into London's hidden wizarding street. Ride <em>Harry Potter and the Escape from Gringotts</em> and watch the dragon breathe real fire.</li>
+                <li><strong>08:30 AM – Convoy Point Boat Launch:</strong> Meet your certified NPS captain and naturalist at the Biscayne National Park Institute marina.</li>
+                <li><strong>09:00 AM – 3.5-Hour Island & Reef Boat Excursion:</strong> Cruise across Biscayne Bay's sapphire waters to uninhabited Boca Chita Key ($160 total for 2).</li>
+                <li><strong>10:00 AM – Historic Boca Chita Lighthouse:</strong> Explore the iconic 1930s coral-rock lighthouse, walk the tranquil mangrove shoreline trail, and gaze back at the distant Miami skyline across the bay.</li>
+                <li><strong>11:15 AM – Living Barrier Reef Snorkeling:</strong> Anchor along the protected reef crest or shallow shipwreck remains along the Maritime Heritage Trail. Snorkel among schools of sergeant majors, blue tangs, and towering sea plumes.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">2 PARKS • 1 DAY</span>
-                <span class="tag tag-teal">VELOCICOASTER: 70 MPH</span>
-                <span class="tag tag-terracotta">HOGWARTS EXPRESS</span>
+                <span class="tag tag-gold">PARK 1 DEEP IMMERSION</span>
+                <span class="tag tag-teal">BOCA CHITA KEY</span>
+                <span class="tag tag-terracotta">LIVING REEF BARRIER</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide20_universal.jpg" alt="Universal Studios and Wizarding World" loading="lazy">
+              <img src="images/slide20_biscayne.jpg" alt="Biscayne coral reef snorkeling and clear water" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Diagon Alley & Hogsmeade</div>
-                <div class="media-caption">Unrivaled cinematic immersion, breathtaking coaster engineering, and cobblestone wizarding lanes.</div>
+                <div class="media-title">The Submerged Wilderness of Biscayne</div>
+                <div class="media-caption">Exploring coral rock lighthouses and pristine living barrier reefs in America's largest marine park.</div>
               </div>
             </div>
           </div>

@@ -5,9 +5,9 @@ def get_slides():
            ===================================================================== -->
       <section class="slide active" data-slide="1">
         <div class="slide-header">
-          <div class="slide-eyebrow">PRIVATE ISLAND & PENINSULA EXPEDITION • MASTER FIELD GUIDE</div>
-          <h1 class="slide-title">Florida Grand Expedition: Keys, Glades & Theme Park Thrills</h1>
-          <p class="slide-subtitle">An 8-day / 7-night road trip connecting Miami, the Overseas Highway (US-1), Key West, Everglades National Park, and Orlando's premier theme parks (Universal & Disney).</p>
+          <div class="slide-eyebrow">NATIONAL PARKS TRIFECTA & FLORIDA KEYS • MASTER FIELD GUIDE</div>
+          <h1 class="slide-title">Florida National Parks Trifecta: Biscayne, Everglades & Dry Tortugas</h1>
+          <p class="slide-subtitle">A comprehensive 7-day / 6-night expedition (October 24–30, 2026) conquering all three US National Parks in Florida, the Overseas Highway (US-1), and Key West—with zero theme parks.</p>
         </div>
 
         <div class="content-area">
@@ -15,42 +15,43 @@ def get_slides():
             <div class="glass-card gold-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
               <div>
                 <div class="card-label">STRATEGIC ARCHITECTURE</div>
-                <h3 class="card-heading">Forward-Vector Island & Inland Road Trip</h3>
+                <h3 class="card-heading">Three National Parks • Coral Reefs to Sawgrass Wilderness</h3>
                 <p class="card-body" style="margin-bottom: 1.2rem;">
-                  Traversing the Sunshine State via an optimized <strong>Open-Jaw Flight Corridor (EWR ➔ MIA in, MCO ➔ EWR out)</strong>. Starting with Atlantic coral barrier reefs and sub-tropical relaxation across the Florida Keys, venturing into the ancient river of grass in the Everglades, and concluding with adrenaline-pumping immersion inside Orlando's world-class theme parks.
+                  Operating along an optimized <strong>Roundtrip Miami Corridor (EWR ➔ MIA ➔ EWR for $628 total)</strong>. Experiencing the submerged marine wilderness and shipwrecks of <strong>Biscayne National Park</strong>, the primeval river of grass and alligator sloughs of <strong>Everglades National Park</strong> (both Shark Valley and Flamingo districts), and embarking on an open-ocean catamaran expedition 70 miles west into the Gulf of Mexico to explore the 19th-century brick citadel of <strong>Dry Tortugas National Park</strong>.
                 </p>
 
                 <ul class="highlight-list">
-                  <li><strong>Zero Backtracking:</strong> Eliminates a grueling 390-mile, 7.5-hour highway drive from Key West back to Orlando.</li>
-                  <li><strong>Strict 2-Park Architecture:</strong> Exactly 1 dedicated day at Universal (Day 5) + 1 dedicated day at Disney (Day 6), followed by an unhurried, 100% theme-park-free recovery day exploring historic canals and Disney Springs.</li>
-                  <li><strong>Strict Shared Accounting:</strong> All financials presented strictly as unified totals for two travelers combined ($3,520 total).</li>
+                  <li><strong>Zero Theme Parks:</strong> 100% focused on wild marine ecosystems, ancient hardwood hammocks, living coral barrier reefs, and authentic regional culture.</li>
+                  <li><strong>All 3 Florida National Parks:</strong> Biscayne (Day 1 & Day 5), Everglades (Day 2 & Day 6), and Dry Tortugas (Day 3 full-day expedition).</li>
+                  <li><strong>Locked Flight Cost:</strong> Non-stop flights EWR ➔ MIA ➔ EWR secured for exactly $628 combined total for 2 passengers.</li>
+                  <li><strong>Strict Shared Accounting:</strong> Every dollar presented as a unified couple total ($3,465 total for 2 travelers combined).</li>
                   <li><strong>Zero-Alcohol Gastronomy:</strong> Fresh Florida orange & grapefruit juice, authentic Cuban cafecitos, mamey batidos, and tart Key Lime mocktails.</li>
                 </ul>
               </div>
 
               <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.2rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle);">
-                <span class="tag tag-gold">OCTOBER – MAY OPTIMAL WINDOW</span>
-                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--sand-muted);">EXPEDITION STATUS: VERIFIED 2026</span>
+                <span class="tag tag-gold">OCTOBER 24–30, 2026</span>
+                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--sand-muted);">EXPEDITION STATUS: VERIFIED</span>
               </div>
             </div>
 
             <!-- 4 Metric Stat Boxes -->
             <div style="display: grid; grid-template-rows: repeat(4, 1fr); gap: 10px;">
               <div class="stat-box">
-                <div class="stat-number gold">8 Days / 7 Nights</div>
-                <div class="stat-caption">Trip Duration • 3 Coastal / 4 Orlando Base</div>
+                <div class="stat-number gold">7 Days / 6 Nights</div>
+                <div class="stat-caption">Saturday Oct 24 to Friday Oct 30, 2026</div>
               </div>
               <div class="stat-box">
-                <div class="stat-number teal">~585 Road Miles</div>
-                <div class="stat-caption">Forward Non-Stop Driving • 42 Overseas Bridges</div>
+                <div class="stat-number teal">3 National Parks</div>
+                <div class="stat-caption">Biscayne • Everglades • Dry Tortugas</div>
               </div>
               <div class="stat-box">
-                <div class="stat-number terracotta">4 Distinct Worlds</div>
-                <div class="stat-caption">Reefs, Sawgrass, 1 Universal Day & 1 Disney Day</div>
+                <div class="stat-number terracotta">~420 Road Miles</div>
+                <div class="stat-caption">Overseas Highway Loop • Zero Backtrack Waste</div>
               </div>
               <div class="stat-box">
-                <div class="stat-number gold">$3,520 Shared Total</div>
-                <div class="stat-caption">Unified Couple Budget • Flights, Lodging, Car & Parks</div>
+                <div class="stat-number gold">$3,465 Shared Total</div>
+                <div class="stat-caption">Unified Couple Budget • Flights ($628), Ferry, Parks & Lodging</div>
               </div>
             </div>
           </div>
@@ -58,67 +59,67 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 02: STRATEGIC ROUTE ARCHITECTURE (OPEN-JAW ADVANTAGE)
+           SLIDE 02: STRATEGIC ROUTE ARCHITECTURE (NATIONAL PARKS TRIFECTA)
            ===================================================================== -->
       <section class="slide" data-slide="2">
         <div class="slide-header">
-          <div class="slide-eyebrow">TACTICAL FLIGHT & ROUTE ANALYSIS</div>
-          <h2 class="slide-title">The Open-Jaw Advantage: EWR ➔ MIA | MCO ➔ EWR</h2>
-          <p class="slide-subtitle">Why flying multi-city into Miami and departing from Orlando is vastly superior to a round-trip ticket in cost, transit time, and travel sanity.</p>
+          <div class="slide-eyebrow">TACTICAL CORRIDOR & GEOGRAPHY</div>
+          <h2 class="slide-title">Strategic Architecture: The South Florida Parks Trifecta</h2>
+          <p class="slide-subtitle">How South Florida's unique geography positions three vastly distinct national parks within a compact, hyper-efficient road and maritime loop.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">LOGISTICAL TRIAGE</div>
-              <h3 class="card-heading">Cost & Driving Time Comparison</h3>
+              <div class="card-label">ECOSYSTEM BLUEPRINT</div>
+              <h3 class="card-heading">Three Ecosystems, One Seamless Corridor</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Many travelers instinctively book round-trip flights assuming they are cheaper. In US domestic airline travel, this assumption is false and leads to severe logistical penalties:
+                Unlike Western parks separated by hundreds of miles of highway, Florida's 3 national parks are tightly concentrated in South Florida and the Florida Keys:
               </p>
 
               <table class="table-editorial" style="margin-bottom: 1rem;">
                 <thead>
                   <tr>
-                    <th>Routing Strategy</th>
-                    <th>Flights (2 Pax)</th>
-                    <th>Highway Backtrack</th>
-                    <th>Verdict</th>
+                    <th>National Park</th>
+                    <th>Dominant Biome</th>
+                    <th>Primary Vector</th>
+                    <th>Tactical Highlight</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Round-Trip EWR-MCO</strong></td>
-                    <td>$450 total</td>
-                    <td>390 mi (7.5 hrs wasted)</td>
-                    <td><span class="tag tag-terracotta">Severe Fatigue</span></td>
+                    <td><strong>Biscayne</strong></td>
+                    <td>95% Submerged Marine</td>
+                    <td>Homestead / Boat</td>
+                    <td><span class="tag tag-teal">Boca Chita Reef</span></td>
                   </tr>
                   <tr>
-                    <td><strong>Round-Trip EWR-MIA</strong></td>
-                    <td>$470 total</td>
-                    <td>235 mi (4.0 hrs wasted)</td>
-                    <td><span class="tag tag-terracotta">Logistical Drag</span></td>
+                    <td><strong>Everglades</strong></td>
+                    <td>Sawgrass & Mangrove</td>
+                    <td>Shark Valley & Flamingo</td>
+                    <td><span class="tag tag-gold">Tram & Anhinga</span></td>
                   </tr>
                   <tr>
-                    <td><strong>Open-Jaw (MIA in / MCO out)</strong></td>
-                    <td><strong>$460 total</strong></td>
-                    <td><strong>0 miles (0 hrs wasted)</strong></td>
-                    <td><span class="tag tag-gold">Optimal Solution</span></td>
+                    <td><strong>Dry Tortugas</strong></td>
+                    <td>Remote Coral Atoll</td>
+                    <td>Key West Catamaran</td>
+                    <td><span class="tag tag-terracotta">Fort Jefferson</span></td>
                   </tr>
                 </tbody>
               </table>
 
               <ul class="highlight-list">
-                <li><strong>Additive Pricing:</strong> Domestic one-way fares on United & JetBlue are purely additive. Booking EWR-MIA outbound and MCO-EWR inbound costs within $10 of a round-trip ticket.</li>
-                <li><strong>Florida's Zero-Drop-Fee Fleet:</strong> Rental car agencies constantly rebalance fleets between South Florida and Orlando. Intrastate drop fees are $0–$25.</li>
-                <li><strong>Fuel & Toll Savings:</strong> Eliminating the 390-mile backtrack saves ~$65 in fuel and $24 in SunPass highway tolls.</li>
+                <li><strong>No Central Florida Waste:</strong> Cutting Orlando theme parks saves 450+ miles of monotonous Turnpike driving and 8+ hours of highway fatigue.</li>
+                <li><strong>Zero Car Drop Fees:</strong> Picking up and dropping off the rental vehicle at Miami International Airport (MIA) eliminates one-way rental penalties.</li>
+                <li><strong>Natural Transition Window:</strong> Late October marks the golden shift into Florida's dry season—decreasing humidity, clearing ocean visibility, and dropping mosquito activity.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide02_hero.jpg" alt="Florida coastline and highway" loading="lazy">
+              <img src="images/slide02_hero.jpg" alt="Florida turquoise coastline and barrier reef" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">585 Miles of Forward Momentum</div>
-                <div class="media-caption">From Atlantic barrier reefs to Central Florida thrill parks with zero hours wasted driving backwards.</div>
+                <div class="media-title">The South Florida Wilderness Corridor</div>
+                <div class="media-caption">From Atlantic living reefs to the vast river of grass and remote Gulf of Mexico coral islands.</div>
               </div>
             </div>
           </div>
@@ -126,78 +127,89 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 03: INTERACTIVE FLORIDA CARTOGRAPHY & GPS COMMAND
+           SLIDE 03: INTERACTIVE EXPEDITION CARTOGRAPHY & GPS COMMAND
            ===================================================================== -->
       <section class="slide" data-slide="3">
         <div class="slide-header">
           <div class="slide-eyebrow">FIELD CARTOGRAPHY & DISPATCH</div>
           <h2 class="slide-title">Interactive Expedition Cartography & Waypoint Dispatch</h2>
-          <p class="slide-subtitle">Click any numbered milestone along the Overseas Highway, Everglades wilderness, or Orlando theme park corridor to inspect GPS coordinates, driving times, and tactical notes.</p>
+          <p class="slide-subtitle">Click any numbered milestone across South Florida, the Florida Keys, and Dry Tortugas to inspect GPS coordinates, driving times, and tactical notes.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col-wide-left">
             <div class="glass-card teal-trim" style="display: flex; flex-direction: column;">
               <div class="waypoint-selector" id="mapPillContainer">
-                <button class="stage-pill active" onclick="selectMapStage(0)">01: Miami</button>
-                <button class="stage-pill" onclick="selectMapStage(1)">02: Key Largo</button>
-                <button class="stage-pill" onclick="selectMapStage(2)">03: Bahia Honda</button>
-                <button class="stage-pill" onclick="selectMapStage(3)">04: Key West</button>
-                <button class="stage-pill" onclick="selectMapStage(4)">05: Everglades</button>
-                <button class="stage-pill" onclick="selectMapStage(5)">06: Universal</button>
-                <button class="stage-pill" onclick="selectMapStage(6)">07: Disney World</button>
-                <button class="stage-pill" onclick="selectMapStage(7)">08: MCO Airport</button>
+                <button class="stage-pill active" onclick="selectMapStage(0)">01: Miami Hub</button>
+                <button class="stage-pill" onclick="selectMapStage(1)">02: Biscayne NP</button>
+                <button class="stage-pill" onclick="selectMapStage(2)">03: Key Largo</button>
+                <button class="stage-pill" onclick="selectMapStage(3)">04: Bahia Honda</button>
+                <button class="stage-pill" onclick="selectMapStage(4)">05: Key West</button>
+                <button class="stage-pill" onclick="selectMapStage(5)">06: Dry Tortugas</button>
+                <button class="stage-pill" onclick="selectMapStage(6)">07: Shark Valley</button>
+                <button class="stage-pill" onclick="selectMapStage(7)">08: Flamingo</button>
               </div>
 
-              <!-- Interactive SVG Map of Florida Peninsula & Keys -->
+              <!-- Interactive SVG Map of South Florida, Keys & Dry Tortugas -->
               <div style="flex: 1; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.06); border-radius: 8px; padding: 8px; border: 1px solid var(--border-subtle); min-height: 240px;">
                 <svg viewBox="0 0 600 480" style="width: 100%; height: 100%; max-height: 260px;" id="floridaSvgMap">
                   <!-- Ocean Background -->
                   <rect width="600" height="480" fill="transparent" />
                   
-                  <!-- Florida Landmass Outline -->
-                  <path d="M 140 70 L 390 70 C 400 80, 415 110, 420 160 C 430 200, 420 250, 410 300 C 405 340, 395 365, 385 385 C 375 395, 370 410, 355 420 C 330 435, 300 445, 275 450 C 245 455, 215 455, 200 455 C 190 455, 185 450, 195 445 C 230 438, 270 425, 290 410 C 310 395, 320 375, 310 350 C 290 320, 270 300, 260 270 C 240 220, 250 170, 230 130 C 200 100, 160 85, 140 70 Z" 
+                  <!-- South Florida Landmass Outline -->
+                  <path d="M 220 50 L 460 50 C 475 100, 480 180, 470 250 C 465 290, 455 330, 435 365 C 415 395, 385 410, 360 415 C 330 420, 290 415, 270 390 C 255 365, 240 320, 235 270 C 225 210, 215 130, 220 50 Z" 
                         fill="rgba(180, 123, 44, 0.12)" stroke="var(--border-gold)" stroke-width="2" />
                   
-                  <!-- Lake Okeechobee -->
-                  <ellipse cx="360" cy="305" rx="20" ry="25" fill="rgba(15, 118, 110, 0.35)" stroke="var(--teal-ocean)" stroke-width="1.5" />
+                  <!-- Florida Keys Archipelago Arc -->
+                  <path d="M 435 365 Q 400 415 330 435 Q 260 450 190 452" 
+                        fill="none" stroke="rgba(15, 118, 110, 0.3)" stroke-width="6" stroke-linecap="round" />
 
-                  <!-- Driving Route Polyline -->
-                  <polyline points="385,365 370,410 310,438 240,452 325,375 345,280 345,185 335,175 355,180" 
+                  <!-- Driving & Maritime Route Lines -->
+                  <!-- Miami -> Biscayne -> Keys -> Key West -->
+                  <polyline points="440,240 435,285 410,345 350,420 250,448 190,452" 
                             fill="none" stroke="var(--gold-primary)" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" />
+                  <!-- Key West -> Dry Tortugas (Maritime Ferry Line) -->
+                  <line x1="190" y1="452" x2="80" y2="445" 
+                        stroke="var(--teal-ocean)" stroke-width="2.5" stroke-dasharray="4,4" stroke-linecap="round" />
+                  <!-- Miami -> Shark Valley -->
+                  <line x1="440" y1="240" x2="355" y2="245" 
+                        stroke="var(--gold-primary)" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" />
+                  <!-- Florida City -> Flamingo -->
+                  <line x1="420" y1="300" x2="365" y2="380" 
+                        stroke="var(--gold-primary)" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" />
 
-                  <!-- Waypoint Nodes (Group with interactive click) -->
-                  <!-- 01: Miami -->
-                  <circle id="node-0" class="map-node" cx="385" cy="365" r="9" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(0)" style="cursor: pointer;" />
-                  <text x="398" y="370" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">01: MIA</text>
+                  <!-- Waypoint Nodes -->
+                  <!-- 01: Miami (MIA) -->
+                  <circle id="node-0" class="map-node" cx="440" cy="240" r="9" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(0)" style="cursor: pointer;" />
+                  <text x="452" y="244" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">01: MIA</text>
 
-                  <!-- 02: Key Largo -->
-                  <circle id="node-1" class="map-node" cx="370" cy="410" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(1)" style="cursor: pointer;" />
-                  <text x="382" y="414" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">02: Key Largo</text>
+                  <!-- 02: Biscayne NP -->
+                  <circle id="node-1" class="map-node" cx="435" cy="285" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(1)" style="cursor: pointer;" />
+                  <text x="447" y="289" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">02: Biscayne NP</text>
 
-                  <!-- 03: Bahia Honda -->
-                  <circle id="node-2" class="map-node" cx="310" cy="438" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(2)" style="cursor: pointer;" />
-                  <text x="315" y="450" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">03: Bahia Honda</text>
+                  <!-- 03: Key Largo -->
+                  <circle id="node-2" class="map-node" cx="410" cy="345" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(2)" style="cursor: pointer;" />
+                  <text x="422" y="349" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">03: Key Largo</text>
 
-                  <!-- 04: Key West -->
-                  <circle id="node-3" class="map-node" cx="240" cy="452" r="9" fill="var(--terracotta)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(3)" style="cursor: pointer;" />
-                  <text x="180" y="456" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">04: Key West</text>
+                  <!-- 04: Bahia Honda -->
+                  <circle id="node-3" class="map-node" cx="250" cy="448" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(3)" style="cursor: pointer;" />
+                  <text x="245" y="468" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">04: Bahia Honda</text>
 
-                  <!-- 05: Everglades -->
-                  <circle id="node-4" class="map-node" cx="325" cy="375" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(4)" style="cursor: pointer;" />
-                  <text x="250" y="380" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">05: Everglades</text>
+                  <!-- 05: Key West -->
+                  <circle id="node-4" class="map-node" cx="190" cy="452" r="9" fill="var(--terracotta)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(4)" style="cursor: pointer;" />
+                  <text x="180" y="435" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">05: Key West</text>
 
-                  <!-- 06: Universal Studios -->
-                  <circle id="node-5" class="map-node" cx="345" cy="185" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(5)" style="cursor: pointer;" />
-                  <text x="265" y="188" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">06: Universal</text>
+                  <!-- 06: Dry Tortugas -->
+                  <circle id="node-5" class="map-node" cx="80" cy="445" r="9" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(5)" style="cursor: pointer;" />
+                  <text x="25" y="435" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">06: Dry Tortugas</text>
 
-                  <!-- 07: Walt Disney World -->
-                  <circle id="node-6" class="map-node" cx="335" cy="198" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(6)" style="cursor: pointer;" />
-                  <text x="270" y="202" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">07: Disney</text>
+                  <!-- 07: Shark Valley (Everglades) -->
+                  <circle id="node-6" class="map-node" cx="355" cy="245" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(6)" style="cursor: pointer;" />
+                  <text x="270" y="240" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">07: Shark Valley</text>
 
-                  <!-- 08: MCO Departure -->
-                  <circle id="node-7" class="map-node" cx="355" cy="180" r="9" fill="var(--terracotta)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(7)" style="cursor: pointer;" />
-                  <text x="368" y="184" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">08: MCO Out</text>
+                  <!-- 08: Flamingo (Everglades) -->
+                  <circle id="node-7" class="map-node" cx="365" cy="380" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(7)" style="cursor: pointer;" />
+                  <text x="290" y="385" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">08: Flamingo</text>
                 </svg>
               </div>
             </div>
@@ -211,120 +223,107 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 04: FLORIDA METEOROLOGY & MICROCLIMATE NAVIGATION
+           SLIDE 04: SUBTROPICAL METEOROLOGY & LATE OCTOBER TRANSITION
            ===================================================================== -->
       <section class="slide" data-slide="4">
         <div class="slide-header">
           <div class="slide-eyebrow">SEASONAL ATMOSPHERICS & WEATHER PROTOCOLS</div>
-          <h2 class="slide-title">Subtropical Meteorology & Thunderstorm Navigation</h2>
-          <p class="slide-subtitle">Navigating Florida's distinct wet and dry seasons, trade winds, UV radiation indexes, and the iconic 3:00 PM convective thunderstorm cycle.</p>
+          <h2 class="slide-title">Subtropical Meteorology: The Late October Window</h2>
+          <p class="slide-subtitle">Why October 24–30 represents one of South Florida's finest transitional weeks: diminishing storm activity, pristine water clarity, and comfortable ocean temperatures.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">MICROCLIMATE DYNAMICS</div>
-              <h3 class="card-heading">Dry Season vs Wet Season</h3>
+              <div class="card-label">ATMOSPHERIC DYNAMICS</div>
+              <h3 class="card-heading">The Wet-to-Dry Season Pivot</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Florida straddles two distinct climate zones: tropical savanna in the Keys and humid subtropical in Central Florida. Timing your expedition determines heat stress and wildlife visibility:
+                Late October marks the meteorological conclusion of South Florida's humid rainy season and the onset of stable winter trade winds:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem;">
                 <div class="stat-box">
-                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--gold-primary);">DRY SEASON (NOV–APRIL)</div>
-                  <div style="font-size: 1.35rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">72°F – 82°F</div>
-                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Zero hurricane risk, 45% humidity, peak alligator grouping in Everglades.</div>
+                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--gold-primary);">AIR TEMPS (OCT 24–30)</div>
+                  <div style="font-size: 1.35rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">82°F – 85°F High</div>
+                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Overnight lows dip to comfortable 72°F–74°F; moderate 60% humidity.</div>
                 </div>
                 <div class="stat-box">
-                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--terracotta);">WET SEASON (MAY–OCT)</div>
-                  <div style="font-size: 1.35rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">88°F – 93°F</div>
-                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Daily 3 PM thunderstorms, 80%+ humidity, scattered glades wildlife.</div>
+                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--teal-ocean);">WATER TEMPS (STRAITS)</div>
+                  <div style="font-size: 1.35rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">80°F – 82°F</div>
+                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Perfect for hours of snorkeling at Dry Tortugas and Biscayne without wetsuits.</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>UV Index Protocol:</strong> Midday UV index reaches 10+ year-round. Polarized sunglasses protect against severe Overseas Highway water glare.</li>
-                <li><strong>Ocean Shallows Heat:</strong> Florida Straits water temperatures average 75°F (24°C) in winter and 86°F (30°C) in summer, allowing year-round snorkeling.</li>
+                <li><strong>Precipitation Shift:</strong> Summer's torrential daily 3:00 PM downpours taper off drastically. October averages fewer than 6 rainy days per month in Key West.</li>
+                <li><strong>Gulf of Mexico Swell:</strong> Dry Tortugas open-ocean catamaran crossings are smoothest in late fall before intense winter cold fronts arrive.</li>
+                <li><strong>Mosquito Declension:</strong> As wetland waters begin to recede, mosquito counts in the Everglades begin their annual sharp decline.</li>
               </ul>
             </div>
 
-            <div class="glass-card terracotta-trim">
-              <div class="card-label">THE 3:00 PM STORM PLAYBOOK</div>
-              <h3 class="card-heading">Theme Park Thunderstorm Strategy</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                During summer and shoulder seasons, opposing Atlantic and Gulf sea breezes collide directly over Central Florida between 2:30 PM and 4:30 PM, triggering torrential 40-minute downpours:
-              </p>
-
-              <ul class="highlight-list">
-                <li><strong>Lightning Proximity Holds:</strong> Universal and Disney automatically pause outdoor high-speed roller coasters (VelociCoaster, Hulk, Big Thunder) if cloud-to-ground lightning is detected within 8 miles.</li>
-                <li><strong>Indoor Anchor Transition:</strong> At 2:00 PM, enter indoor climate-controlled attractions: <em>Harry Potter and the Escape from Gringotts</em>, <em>TRON Lightcycle / Run</em>, or <em>Pirates of the Caribbean</em>.</li>
-                <li><strong>Midday Resort Break:</strong> Use the 2:00–4:30 PM storm window to return to your hotel for a relaxing shower or nap, returning as crowds thin out under clear evening skies.</li>
-              </ul>
+            <div class="editorial-media">
+              <img src="images/slide02_hero.jpg" alt="Calm turquoise waters of Florida Keys" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">Clear Waters & Moderate Winds</div>
+                <div class="media-caption">Late October delivers outstanding 50+ ft underwater visibility across barrier reefs and Fort Jefferson's moat.</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- =====================================================================
-           SLIDE 05: HIGHWAY LOGISTICS, SUNPASS & RENTAL CAR ARCHITECTURE
+           SLIDE 05: HIGHWAY LOGISTICS & MARITIME TRANSIT
            ===================================================================== -->
       <section class="slide" data-slide="5">
         <div class="slide-header">
-          <div class="slide-eyebrow">GROUND TRANSPORTATION & TOLL PROTOCOLS</div>
-          <h2 class="slide-title">Highway Logistics & SunPass Toll Architecture</h2>
-          <p class="slide-subtitle">Navigating the Overseas Highway (US-1), Florida's Turnpike (FL-91), rental agency toll surcharges, and selecting the optimal road trip vehicle.</p>
+          <div class="slide-eyebrow">GROUND & WATER ROUTE ARCHITECTURE</div>
+          <h2 class="slide-title">Highway Logistics, SunPass & The Yankee Freedom III</h2>
+          <p class="slide-subtitle">Mastering the Overseas Highway (US-1), electronic cashless toll plazas, and securing mandatory reservations for the Dry Tortugas ferry.</p>
         </div>
 
         <div class="content-area">
-          <div class="grid-2col-wide-left">
-            <div class="glass-card gold-trim" style="display: flex; flex-direction: column;">
-              <div class="card-label">VEHICLE CLASS SELECTION</div>
-              
-              <!-- 4 Interactive Transit Options -->
-              <div class="transit-options-grid">
-                <div class="transit-option-card active" data-opt="0" onclick="switchTransitOption(5, 0)">
-                  <strong>Mid-size SUV / Sedan</strong>
-                  <p>Recommended • High Agility</p>
-                </div>
-                <div class="transit-option-card" data-opt="1" onclick="switchTransitOption(5, 1)">
-                  <strong>Compact Electric (EV)</strong>
-                  <p>Tesla Model 3 / Y Corridor</p>
-                </div>
-                <div class="transit-option-card" data-opt="2" onclick="switchTransitOption(5, 2)">
-                  <strong>Full-size SUV / Minivan</strong>
-                  <p>High Fuel & Parking Cost</p>
-                </div>
-                <div class="transit-option-card" data-opt="3" onclick="switchTransitOption(5, 3)">
-                  <strong>Shuttles & Ride-Share</strong>
-                  <p>Inflexible & Cost Prohibitive</p>
-                </div>
+          <div class="grid-2col">
+            <div class="glass-card gold-trim">
+              <div class="card-label">TRANSIT ARCHITECTURE</div>
+              <h3 class="card-heading">Vehicle Selection & Maritime Protocols</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Select your ground transportation strategy below to compare efficiency, parking agility, and total combined costs across 7 days:
+              </p>
+
+              <!-- Interactive Vehicle Switcher Buttons -->
+              <div class="transit-switcher-pills" style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1rem;">
+                <button class="stage-pill active transit-option-card" onclick="switchTransitOption(5, 0)">1: Mid-Size Sedan/SUV (Rec.)</button>
+                <button class="stage-pill transit-option-card" onclick="switchTransitOption(5, 1)">2: Compact EV / Tesla</button>
+                <button class="stage-pill transit-option-card" onclick="switchTransitOption(5, 2)">3: Full-Size SUV</button>
+                <button class="stage-pill transit-option-card" onclick="switchTransitOption(5, 3)">4: Mass Transit / Shuttles</button>
               </div>
 
-              <!-- Transit Detail Container -->
-              <div id="transitDetailCard-5" style="flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
-                <!-- Populated by JS -->
+              <!-- Dynamic Detail Card -->
+              <div id="transitDetailCard-5" style="background: rgba(0,0,0,0.04); border-radius: 8px; padding: 12px; border: 1px solid var(--border-subtle);">
+                <!-- Populated dynamically by switchTransitOption() -->
               </div>
             </div>
 
-            <!-- SunPass Toll Trap Warning Card -->
-            <div class="glass-card terracotta-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="glass-card teal-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
               <div>
-                <div class="card-label" style="color: var(--terracotta);">CRITICAL COST DEFENSE</div>
-                <h3 class="card-heading" style="color: var(--terracotta);">The Rental Car Toll Trap</h3>
-                <p class="card-body" style="margin-bottom: 1rem;">
-                  Florida highway tolls (Turnpike, FL-821, Card Sound Rd) are 100% electronic with zero cash toll booths. Rental agencies exploit this via predatory fees:
-                </p>
+                <div class="card-label">CRITICAL EXPEDITION RESERVATIONS</div>
+                <h3 class="card-heading">Yankee Freedom III & SunPass Rules</h3>
+                
+                <div class="field-alert" style="margin-bottom: 1rem;">
+                  <strong>FERRY CRITICAL DIRECTIVE:</strong> The <em>Yankee Freedom III</em> catamaran is the exclusive authorized public ferry to Dry Tortugas. Daily capacity is strictly capped at 250 passengers and sells out months in advance ($420 total for 2 passengers combined).
+                </div>
 
                 <ul class="highlight-list">
-                  <li><strong>The Agency Trap:</strong> Hertz, Avis, and Budget charge $11.99 to $14.99 <em>per day</em> as an administrative "convenience fee" on top of the actual tolls.</li>
-                  <li><strong>The Solution:</strong> Buy a $4.99 <strong>SunPass Mini</strong> sticker at Publix or use Orlando Airport's free <strong>Visitor Toll Pass</strong> program to pay strictly state cash rates ($14 total tolls for the entire trip).</li>
-                  <li><strong>US-1 Speed Trap Alert:</strong> Monroe County deputies enforce strict 45 mph limits through Islamorada and 35 mph nighttime limits in Big Pine Key to protect endangered Key Deer.</li>
+                  <li><strong>SunPass Cashless Tolls:</strong> South Florida expressways (FL-836, FL-821 Turnpike Extension) have zero cash booths. Use the rental agency's plate pass or a personal $14.99 SunPass Pro transponder to avoid $15/day service fees.</li>
+                  <li><strong>US-1 Mile Markers:</strong> The Overseas Highway uses Mile Markers (MM) from MM 126 (Florida City) down to MM 0 (Key West). Speed limits strictly drop to 35–45 mph in residential keys.</li>
+                  <li><strong>Shark Valley Tram:</strong> Pre-book the 2-hour guided tram at Everglades Shark Valley for Sunday, Oct 25 ($62 total for 2).</li>
                 </ul>
               </div>
 
-              <div class="stat-box" style="margin-top: 1rem; border-color: rgba(194,65,12,0.3);">
-                <div class="stat-number terracotta">$14 vs $115</div>
-                <div class="stat-caption">Visitor Toll Pass Cost vs Rental Agency Toll Package</div>
+              <div style="display: flex; gap: 8px; margin-top: 1rem;">
+                <span class="tag tag-gold">MIA-MIA COMPACT LOOP</span>
+                <span class="tag tag-teal">YANKEE FREEDOM: SECURE NOW</span>
               </div>
             </div>
           </div>
@@ -332,43 +331,58 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 06: SUBTROPICAL WILDLIFE & WETLAND SAFETY PROTOCOLS
+           SLIDE 06: SUBTROPICAL MARINE & WETLAND SAFETY PROTOCOLS
            ===================================================================== -->
       <section class="slide" data-slide="6">
         <div class="slide-header">
-          <div class="slide-eyebrow">ECOLOGICAL PRESERVATION & SAFETY DIRECTIVES</div>
-          <h2 class="slide-title">Wetland Wildlife Protocols & Coral Reef Preservation</h2>
-          <p class="slide-subtitle">Mandatory safety standards for American alligator encounters in the Everglades, mosquito mitigation, and reef-safe sun care in the Florida Keys.</p>
+          <div class="slide-eyebrow">FIELD ETHICS & ECOSYSTEM SAFETY</div>
+          <h2 class="slide-title">Subtropical Marine & Wetland Safety Protocols</h2>
+          <p class="slide-subtitle">Safeguarding both travelers and fragile national park ecosystems: alligator vs. crocodile behavior, mineral reef sunscreen, and mosquito defense.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
-            <div class="glass-card teal-trim">
-              <div class="card-label">EVERGLADES WILDLIFE DIRECTIVES</div>
-              <h3 class="card-heading">Alligator Encounter Protocols</h3>
+            <div class="glass-card gold-trim">
+              <div class="card-label">WILDLIFE PROTOCOLS</div>
+              <h3 class="card-heading">Alligators vs. American Crocodiles</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                The Everglades is home to over 200,000 wild American alligators (*Alligator mississippiensis*). At Shark Valley, alligators frequently bask on the warm asphalt path inches from visitors:
+                South Florida is the only place on Earth where native <strong>American Alligators</strong> (freshwater sawgrass sloughs) and endangered <strong>American Crocodiles</strong> (coastal saltwater mangroves) coexist:
               </p>
 
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem;">
+                <div class="stat-box">
+                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--teal-ocean);">AMERICAN ALLIGATOR</div>
+                  <div style="font-size: 1rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">Broad U-Shaped Snout</div>
+                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Dark black/grey. Plentiful along Shark Valley tram trail and Anhinga boardwalk.</div>
+                </div>
+                <div class="stat-box">
+                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--terracotta);">AMERICAN CROCODILE</div>
+                  <div style="font-size: 1rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">Narrow V-Shaped Snout</div>
+                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Olive-tan coloration. Basks openly at Flamingo Marina basin and Florida Bay docks.</div>
+                </div>
+              </div>
+
               <ul class="highlight-list">
-                <li><strong>20-Foot Safety Perimeter:</strong> National Park Service regulations mandate maintaining at least 20 feet (6 meters) distance from any alligator at all times.</li>
-                <li><strong>Zero Feeding / Harassment:</strong> Feeding wild alligators is a felony under Florida state law. Fed alligators lose fear of humans and must be euthanized.</li>
-                <li><strong>Elevated Boardwalks & Paths:</strong> Never wade into murky waters, canals, or sawgrass marshes off designated paths. Keep hands inside tram vehicles.</li>
-                <li><strong>Nesting Caution:</strong> During spring and early summer, females vigorously defend mounded nests along canal banks. Avoid any hissing alligator immediately.</li>
+                <li><strong>The 15-Foot Buffer:</strong> Federal park law requires maintaining a minimum 15-foot (4.5 m) distance from all crocodilians at all times. Never feed or corner wildlife.</li>
+                <li><strong>Trail Mindfulness:</strong> At Shark Valley, alligators frequently sunbathe directly on the edge of the asphalt bike/tram trail. Remain calmly centered on the roadway.</li>
               </ul>
             </div>
 
-            <div class="glass-card gold-trim">
-              <div class="card-label">COASTAL & REEF PROTECTION</div>
-              <h3 class="card-heading">Reef-Safe Sunscreen & Insect Armor</h3>
+            <div class="glass-card teal-trim">
+              <div class="card-label">MARINE REEF ETHICS</div>
+              <h3 class="card-heading">Reef Sunscreen & Snorkel Stewardship</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Protecting fragile coral reef polyps and defending against aggressive wetland biting insects:
+                Biscayne and Dry Tortugas harbor some of the most delicate living coral heads remaining in the Florida Reef Tract:
               </p>
 
+              <div class="field-alert" style="margin-bottom: 1rem;">
+                <strong>MINERAL ZINC ONLY:</strong> Chemical sunscreens containing <em>oxybenzone</em> or <em>octinoxate</em> cause coral bleaching and DNA damage. Bring non-nano Zinc Oxide (20%+) reef-safe sunscreen.
+              </div>
+
               <ul class="highlight-list">
-                <li><strong>Mineral-Only Sunscreen:</strong> Key West and Florida Keys state parks ban sunscreens containing oxybenzone and octinoxate. Use non-nano Zinc Oxide or Titanium Dioxide formulas.</li>
-                <li><strong>Mosquito & No-See-Um Armor:</strong> In the Everglades, apply 20% Picaridin or DEET spray to exposed ankles and wrists. Wear lightweight, loose-fitting long sleeves during dawn and dusk.</li>
-                <li><strong>Living Coral Rule:</strong> When snorkeling John Pennekamp or Bahia Honda, never stand on or touch coral heads. Basalt and coral colonies take decades to regenerate.</li>
+                <li><strong>Never Touch Coral:</strong> Corals are delicate living colonial animals. Touching or standing on coral heads breaks decades of growth and causes infectious bacterial die-offs.</li>
+                <li><strong>No Shiny Jewelry:</strong> Remove glittering watches, rings, and chains before snorkeling. Flashy silver jewelry can trigger investigative strikes from predatory barracuda.</li>
+                <li><strong>Mangrove Insect Protocol:</strong> Bring Picaridin or 30% DEET repellent for dawn/dusk walks on the Snake Bight and Christian Point trails in southern Everglades.</li>
               </ul>
             </div>
           </div>
@@ -376,214 +390,242 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 07: TECHNICAL PACKING & THEME PARK FIELD KIT
+           SLIDE 07: TECHNICAL PACKING & MARINE FIELD KIT
            ===================================================================== -->
       <section class="slide" data-slide="7">
         <div class="slide-header">
-          <div class="slide-eyebrow">EQUIPMENT MATRIX & DAILY CARRY</div>
-          <h2 class="slide-title">Expedition Technical Kit & Daily Theme Park Loadout</h2>
-          <p class="slide-subtitle">Essential field gear optimized for 20,000 daily walking steps, high UV exposure, rapid rain showers, and phone battery conservation.</p>
-        </div>
-
-        <div class="content-area">
-          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;">
-            <div class="glass-card gold-trim">
-              <div class="card-label">PARK TECH KIT</div>
-              <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-title); margin-bottom: 0.5rem;">Digital Endurance</h4>
-              <ul class="highlight-list" style="font-size: 0.88rem;">
-                <li>20,000 mAh Anker power bank (Lightning Lane app burns phone battery by 1 PM).</li>
-                <li>RFID badge lanyards for park tickets and hotel keys.</li>
-                <li>Apple AirTags inside rental car and backpacks.</li>
-              </ul>
-            </div>
-
-            <div class="glass-card terracotta-trim">
-              <div class="card-label">FOOTWEAR & APPAREL</div>
-              <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-title); margin-bottom: 0.5rem;">Cushioned Movement</h4>
-              <ul class="highlight-list" style="font-size: 0.88rem;">
-                <li>Max-cushion walking shoes (Hoka Bondi, Brooks Ghost) for concrete theme parks.</li>
-                <li>Body Glide anti-chafe balm (essential in 80% humidity).</li>
-                <li>Ultra-compact packable rain ponchos (for water rides & downpours).</li>
-              </ul>
-            </div>
-
-            <div class="glass-card teal-trim">
-              <div class="card-label">HYDRATION & SUN</div>
-              <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-title); margin-bottom: 0.5rem;">Subtropical Defense</h4>
-              <ul class="highlight-list" style="font-size: 0.88rem;">
-                <li>Dual insulated 24 oz stainless steel water bottles.</li>
-                <li>Free ice water refills available at all Disney & Universal quick-service windows.</li>
-                <li>Polarized sunglasses & UPF 50+ breathable sun hoodies.</li>
-              </ul>
-            </div>
-
-            <div class="glass-card gold-trim">
-              <div class="card-label">AQUATIC LOADOUT</div>
-              <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-title); margin-bottom: 0.5rem;">Keys & Glades Kit</h4>
-              <ul class="highlight-list" style="font-size: 0.88rem;">
-                <li>10L waterproof dry bag for snorkel boats.</li>
-                <li>Waterproof floating phone pouch with lanyard.</li>
-                <li>Reef-safe mineral sunscreen (Zinc Oxide 20%).</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 08: DAY 1: INBOUND EWR -> MIA ARRIVAL & MIAMI CULTURAL GATEWAY
-           ===================================================================== -->
-      <section class="slide" data-slide="8">
-        <div class="slide-header">
-          <div class="slide-eyebrow">DAY 1 ITINERARY • ARRIVAL & URBAN ARTS</div>
-          <h2 class="slide-title">Day 1: Inbound EWR ➔ MIA & Miami Cultural Gateway</h2>
-          <p class="slide-subtitle">Touchdown at Miami International Airport, swift rental car dispatch, and an afternoon cultural exploration of Wynwood Walls and historic Little Havana.</p>
+          <div class="slide-eyebrow">FIELD OUTFITTING & KIT ARCHITECTURE</div>
+          <h2 class="slide-title">Technical Packing: Marine, Reef & Wetland Field Kit</h2>
+          <p class="slide-subtitle">Precision packing checklist for saltwater snorkeling, full-day open-ocean ferry transits, and subtropical wetland boardwalks.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">TACTICAL TIMELINE</div>
-              <h3 class="card-heading">Seamless Arrival & Afternoon Arts</h3>
-
-              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>07:00 AM – Flight EWR ➔ MIA:</strong> United Airlines Flight 1422 departs Newark Liberty (EWR). Non-stop 3-hour 15-minute flight across the Eastern seaboard.</li>
-                <li><strong>10:15 AM – MIA Arrival & Rental Pickup:</strong> Touchdown at MIA. Ride the MIA Mover automated tram directly to the consolidated Rental Car Center. Pick up mid-size rental vehicle.</li>
-                <li><strong>11:45 AM – Wynwood Walls Arts District:</strong> Drive 15 minutes to Wynwood. Stroll the world's most celebrated outdoor street art museum featuring immense murals by international masters.</li>
-                <li><strong>03:30 PM – Hotel Check-In:</strong> Check into your boutique Coral Gables / Miami base. Unpack and recharge.</li>
-                <li><strong>04:45 PM – Calle Ocho (SW 8th St):</strong> Stroll Little Havana, observe lively domino games at <em>Parque Máximo Gómez</em>, and soak in vibrant Cuban music.</li>
-              </ul>
-
-              <div style="display: flex; gap: 10px;">
-                <span class="tag tag-gold">FLIGHT: 3H 15M</span>
-                <span class="tag tag-teal">DRIVING: 18 MILES</span>
-                <span class="tag tag-terracotta">CULTURE: LITTLE HAVANA</span>
-              </div>
-            </div>
-
-            <div class="editorial-media">
-              <img src="images/slide08_miami.jpg" alt="Miami skyline and Wynwood" loading="lazy">
-              <div class="media-overlay">
-                <div class="media-title">Miami Gateway & Cultural Canvas</div>
-                <div class="media-caption">From airport touchdown straight into Wynwood's contemporary murals and Little Havana's historic streets.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 09: NIGHT 1 LODGING: MIAMI BOUTIQUE ART DECO / CORAL GABLES BASE
-           ===================================================================== -->
-      <section class="slide" data-slide="9">
-        <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 1 RETREAT • URBAN SANCTUARY</div>
-          <h2 class="slide-title">Night 1: Historic Boutique Base in Coral Gables / Miami</h2>
-          <p class="slide-subtitle">Tranquil, highly rated 3★/4★ lodging featuring Mediterranean revival architecture, private ensuite bath, quiet courtyard, and secure overnight parking.</p>
-        </div>
-
-        <div class="content-area">
-          <div class="grid-2col">
-            <div class="glass-card gold-trim">
-              <div class="card-label">ACCOMMODATION DOSSIER</div>
-              <h3 class="card-heading">Hotel Colonnade Coral Gables or Life House</h3>
-              <p class="card-body" style="margin-bottom: 1.2rem;">
-                Strategically avoiding loud, overpriced South Beach party strips in favor of tranquil Coral Gables or historic Little Havana. Positioned directly adjacent to the southern highway exits for tomorrow's departure to the Keys:
-              </p>
-
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
-                <div class="stat-box">
-                  <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$165 total</div>
-                  <div class="stat-caption">Combined total for 2 guests with ensuite bath</div>
-                </div>
-                <div class="stat-box">
-                  <div class="card-label">TRANSIT POSITION</div>
-                  <div class="stat-number teal">8 mins</div>
-                  <div class="stat-caption">Direct access to Florida's Turnpike South</div>
-                </div>
-              </div>
-
-              <ul class="highlight-list">
-                <li><strong>Room Configuration:</strong> Deluxe King room with soundproof glazing, marble en-suite bathroom, and high-speed Wi-Fi.</li>
-                <li><strong>Parking Facility:</strong> On-site secured garage parking ($25 valet/self-park) eliminating street parking anxiety.</li>
-                <li><strong>Restorative Environment:</strong> Quiet courtyard pool and espresso bar, ensuring deep sleep before tomorrow's Overseas Highway drive.</li>
-              </ul>
-            </div>
-
-            <div class="editorial-media">
-              <img src="images/slide09_artdeco.jpg" alt="Boutique hotel architecture" loading="lazy">
-              <div class="media-overlay">
-                <div class="media-title">Architectural Elegance & Quiet Rest</div>
-                <div class="media-caption">Mediterranean revival arches and peaceful courtyards, away from coastal nightlife noise.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 10: NIGHT 1 GASTRONOMY: AUTHENTIC CUBAN ROPA VIEJA & WARM PASTELITOS
-           ===================================================================== -->
-      <section class="slide" data-slide="10">
-        <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 1 CULINARY • CUBAN HERITAGE</div>
-          <h2 class="slide-title">Night 1: Legendary Calle Ocho Cuban Feast (Zero Alcohol)</h2>
-          <p class="slide-subtitle">Dinner at the historic Versailles Restaurant or Sanguich de Miami: slow-cooked shredded flank steak, warm savory pastries, and iced tropical juices.</p>
-        </div>
-
-        <div class="content-area">
-          <div class="grid-2col">
-            <div class="glass-card terracotta-trim">
-              <div class="card-label">AUTHENTIC CULINARY ITINERARY</div>
-              <h3 class="card-heading">Versailles Restaurant • Little Havana</h3>
+              <div class="card-label">GEAR MATRIX</div>
+              <h3 class="card-heading">Marine & Snorkel Equipment</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Operating since 1971, Versailles is the cultural heart of the Cuban diaspora. Enjoy a rich, comforting meal bursting with garlic, cumin, and slow-braised flavor:
+                While the <em>Yankee Freedom III</em> provides basic snorkel gear, having your own well-fitting gear ensures maximum comfort, zero leaks, and immediate access at Biscayne:
               </p>
 
               <table class="table-editorial" style="margin-bottom: 1rem;">
                 <thead>
                   <tr>
-                    <th>Dish / Refreshment</th>
-                    <th>Gastronomic Profile</th>
+                    <th>Item</th>
+                    <th>Specification</th>
+                    <th>Field Purpose</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Dry-Top Snorkel & Mask</strong></td>
+                    <td>Silicone skirt, tempered glass</td>
+                    <td>Prevents saltwater intake in open swells</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Long-Sleeve Rashguards</strong></td>
+                    <td>UPF 50+ rating (2 per person)</td>
+                    <td>Sun protection without toxic sunscreen run-off</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Water Shoes / Booties</strong></td>
+                    <td>Grippy rubber sole</td>
+                    <td>Protects against jagged coral limestone at Fort Jefferson</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Dry Bag Backpack</strong></td>
+                    <td>20L – 30L waterproof vinyl</td>
+                    <td>Keeps cameras, phones, and towels bone-dry on boats</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <ul class="highlight-list">
+                <li><strong>Polarized Sunglasses:</strong> Crucial for cutting ocean surface glare to spot sea turtles, stingrays, and manatees from piers and boat decks.</li>
+                <li><strong>Defogging Drops:</strong> Biodegradable baby shampoo or commercial defogger for crystal-clear mask views.</li>
+              </ul>
+            </div>
+
+            <div class="glass-card teal-trim">
+              <div class="card-label">EXPEDITION ESSENTIALS</div>
+              <h3 class="card-heading">Wetland & Trail Field Necessities</h3>
+
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>National Parks Passport:</strong> Official NPS passport book to collect cancellations stamps at Dante Fascell (Biscayne), Shark Valley, Flamingo, and Fort Jefferson.</li>
+                <li><strong>Insulated Water Bottles:</strong> 32 oz stainless steel bottles (Hydro Flask / Yeti). Dry Tortugas has zero potable public water fountains once the ferry departs; staying hydrated in 85°F sun is critical.</li>
+                <li><strong>Lightweight Wide-Brim Sun Hats:</strong> Breathable nylon hats with chin cords to resist 25-knot marine breezes on the catamaran upper deck.</li>
+                <li><strong>Compact Binoculars:</strong> 8x42 or 10x42 optics for spotting roseate spoonbills, bald eagles, and soaring magnificent frigatebirds.</li>
+                <li><strong>Dramamine / Sea-Bands:</strong> Taken 30 minutes prior to boarding the Yankee Freedom catamaran if prone to open-ocean swell nausea.</li>
+              </ul>
+
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">LIGHTWEIGHT CARRY-ON</span>
+                <span class="tag tag-teal">NPS PASSPORT READY</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 08: DAY 1: INBOUND EWR->MIA & BISCAYNE NATIONAL PARK GATEWAY
+           ===================================================================== -->
+      <section class="slide" data-slide="8">
+        <div class="slide-header">
+          <div class="slide-eyebrow">DAY 1 ITINERARY • SATURDAY, OCTOBER 24, 2026</div>
+          <h2 class="slide-title">Day 1: Inbound Flight EWR ➔ MIA & Biscayne Bay Gateway</h2>
+          <p class="slide-subtitle">Landing at Miami International, retrieving your rental vehicle, and heading south to the Dante Fascell Visitor Center at Biscayne National Park.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card gold-trim">
+              <div class="card-label">ARRIVAL & FIRST NATIONAL PARK</div>
+              <h3 class="card-heading">Convoy Point • Dante Fascell Visitor Center</h3>
+
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>06:45 AM – Non-Stop Flight (EWR ➔ MIA):</strong> Depart Newark on United / American Airlines ($628 roundtrip for 2). Land at Miami International Airport by 09:45 AM.</li>
+                <li><strong>10:30 AM – Rental Car Pickup:</strong> Take the automated MIA Mover monorail directly to the Consolidated Rental Car Center. Pick up your reserved mid-size vehicle with SunPass.</li>
+                <li><strong>12:00 PM – Drive South to Homestead:</strong> Highway transit (38 miles) down Florida's Turnpike (FL-821) into the agricultural cradle of South Dade County.</li>
+                <li><strong>01:30 PM – Biscayne National Park (Convoy Point):</strong> Enter the park's coastal headquarters. Stroll the scenic wooden jetty boardwalk extending over the turquoise shallows of Biscayne Bay. Spot wild manatees in the marina basin and wading herons among the red mangroves.</li>
+                <li><strong>03:30 PM – Dante Fascell Art & Nature Gallery:</strong> Browse the exhibits showcasing the park's 4 ecosystems and collect your first National Park Passport cancellation stamp.</li>
+              </ul>
+
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">PARK 1 OF 3: BISCAYNE</span>
+                <span class="tag tag-teal">ENTRY: FREE GATEWAY</span>
+                <span class="tag tag-terracotta">FLIGHT: $628 TOTAL</span>
+              </div>
+            </div>
+
+            <div class="editorial-media">
+              <img src="images/slide08_miami.jpg" alt="Biscayne Bay Convoy Point boardwalk and water" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">Convoy Point & Biscayne Bay</div>
+                <div class="media-caption">The protected mainland gateway to 173,000 acres of crystalline turquoise waters and mangrove shorelines.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 09: NIGHT 1 LODGING: HOMESTEAD / FLORIDA CITY PARK GATEWAY
+           ===================================================================== -->
+      <section class="slide" data-slide="9">
+        <div class="slide-header">
+          <div class="slide-eyebrow">NIGHT 1 RETREAT • STRATEGIC PARK BASE</div>
+          <h2 class="slide-title">Night 1: Strategic Gateway Base in Homestead / Florida City</h2>
+          <p class="slide-subtitle">A comfortable, quiet, highly rated 3★ hotel positioned at the exact junction of Everglades National Park, Biscayne National Park, and US-1.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card gold-trim">
+              <div class="card-label">BASE CAMP LOGISTICS</div>
+              <h3 class="card-heading">Courtyard by Marriott or TownePlace Suites Homestead</h3>
+              <p class="card-body" style="margin-bottom: 1.2rem;">
+                Staying in Homestead eliminates driving fatigue on Day 1 and positions you within 15 minutes of Everglades National Park for an early sunrise start tomorrow:
+              </p>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
+                <div class="stat-box">
+                  <div class="card-label">SHARED RATE</div>
+                  <div class="stat-number gold">$145 total</div>
+                  <div class="stat-caption">Combined total for 2 guests with tax</div>
+                </div>
+                <div class="stat-box">
+                  <div class="card-label">PARK PROXIMITY</div>
+                  <div class="stat-number teal">12 min</div>
+                  <div class="stat-caption">To Everglades Ernest F. Coe Visitor Center</div>
+                </div>
+              </div>
+
+              <ul class="highlight-list">
+                <li><strong>Modern En-Suite Comfort:</strong> Spacious king room, crisp air conditioning, fast complimentary Wi-Fi, and outdoor swimming pool.</li>
+                <li><strong>Free Parking:</strong> Safe on-site self-parking with zero valet or daily resort charges.</li>
+                <li><strong>Next Morning Advantage:</strong> Avoids morning Miami highway traffic entirely; seamless departure west to Shark Valley on Sunday morning.</li>
+              </ul>
+            </div>
+
+            <div class="editorial-media">
+              <img src="images/slide09_artdeco.jpg" alt="South Florida hotel courtyard and pool" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">Restful Gateway Sanctuary</div>
+                <div class="media-caption">Recharging in quiet comfort before embarking on the Everglades and Florida Keys expedition.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 10: NIGHT 1 GASTRONOMY: AUTHENTIC CUBAN CRIOLLO
+           ===================================================================== -->
+      <section class="slide" data-slide="10">
+        <div class="slide-header">
+          <div class="slide-eyebrow">NIGHT 1 GASTRONOMY • SOUTH DADE HERITAGE</div>
+          <h2 class="slide-title">Night 1: Authentic Cuban Criollo & Fresh Tropical Batidos (Zero Alcohol)</h2>
+          <p class="slide-subtitle">A hearty, traditional Cuban dinner in Homestead featuring slow-braised ropa vieja, sweet plantains, and chilled tropical fruit smoothies.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card gold-trim">
+              <div class="card-label">TRADITIONAL FEAST</div>
+              <h3 class="card-heading">Mario's Latin Cafe or El Rinconcito Latino</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Homestead is famed for its vibrant Latin agricultural heritage and multi-generational Cuban family kitchens. Enjoy a generous, zero-alcohol feast honoring authentic criollo flavors:
+              </p>
+
+              <table class="table-editorial" style="margin-bottom: 1rem;">
+                <thead>
+                  <tr>
+                    <th>Specialty Dish</th>
+                    <th>Culinary Architecture</th>
                     <th>Shared Cost</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Warm Pastelitos & Empanadas</strong></td>
-                    <td>Flaky guava & cheese pastries + beef picadillo turnover</td>
-                    <td>$14 total</td>
-                  </tr>
-                  <tr>
                     <td><strong>Ropa Vieja Criolla</strong></td>
-                    <td>Slow-shredded flank steak in tomato, bell pepper & olives</td>
-                    <td>$38 total</td>
+                    <td>Shredded flank steak slow-braised with sweet bell peppers, onions, Spanish olives & tomato sofrito</td>
+                    <td>$24 total</td>
                   </tr>
                   <tr>
-                    <td><strong>Moros & Maduros</strong></td>
-                    <td>Seasoned black beans, white rice & sweet caramelized plantains</td>
+                    <td><strong>Lechon Asado Con Mojo</strong></td>
+                    <td>Marinated tender pulled pork shoulder with citrus-garlic mojo criollo & sweet grilled onions</td>
+                    <td>$22 total</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Moros y Cristianos & Maduros</strong></td>
+                    <td>Black beans simmered with white rice, accompanied by caramelized sweet fried plantains</td>
                     <td>Included</td>
                   </tr>
                   <tr>
-                    <td><strong>Zero-Alcohol Elixirs</strong></td>
-                    <td>Fresh <em>Jugo de Naranja</em>, icy <em>Batido de Mamey</em> & Cuban <em>Cafecito</em></td>
-                    <td>$14 total</td>
+                    <td><strong>Batido de Mamey & Guayaba</strong></td>
+                    <td>Chilled tropical fruit milkshakes blended with fresh mamey sapote fruit and pink guava (100% non-alcoholic)</td>
+                    <td>$12 total</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Cuban Colada</strong></td>
+                    <td>Rich espresso pulled with sweet espumita de azucar foam, served in sharing demitasses</td>
+                    <td>$5 total</td>
                   </tr>
                 </tbody>
               </table>
 
               <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: 8px;">
-                <span class="tag tag-terracotta">100% ZERO ALCOHOL</span>
-                <span style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--gold-primary);">Total Shared Dinner: ~$66</span>
+                <span class="tag tag-gold">AUTHENTIC CUBAN HERITAGE</span>
+                <span style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--gold-primary);">Total Shared Dinner: ~$63</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide10_cuban.jpg" alt="Authentic Cuban dining" loading="lazy">
+              <img src="images/slide10_cuban.jpg" alt="Cuban coffee and authentic criollo feast" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Authentic Calle Ocho Gastronomy</div>
-                <div class="media-caption">Warm garlic-citrus mojo, tender braised meats, and fresh tropical fruit batidos.</div>
+                <div class="media-title">The Essence of Cuban Criollo</div>
+                <div class="media-caption">Slow-cooked citrus sofritos, caramelized plantains, and rich espresso with whipped espumita.</div>
               </div>
             </div>
           </div>

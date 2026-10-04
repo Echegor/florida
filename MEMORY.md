@@ -1,58 +1,64 @@
-# Florida Grand Expedition: Agent Memory & Task Tracker
+# Florida National Parks Trifecta: Agent Memory & Task Tracker
 
 ## 1. Core User Constraints & Preferences
-* **Shared Budget Format:** Strictly present all financial figures as a unified shared total for both travelers combined (never divide per person).
-* **Accommodation Standard:** Clean, quiet, highly rated 3★ and 4★ hotels, boutique Art Deco inns, Key West historic guesthouses, and Orlando theme park partner hotels with private en-suite baths ($120–$190/night). No $600/night luxury resorts or deceptive resort fee padding.
-* **Zero Alcohol:** Authentic Floridian, Cuban, Caribbean, and Southern dining with zero wine, beer, or cocktails. Feature fresh Florida orange and grapefruit juice, Cuban *cafecito* & *colada*, tropical fruit *batidos* (mango, guava, passion fruit), Key Lime sparkling mocktails, and Southern sweet iced tea.
-* **Ground Logistics & Route Architecture:** Open-Jaw flight route (Inbound: EWR -> MIA; Outbound: MCO -> EWR). Compact/mid-size rental car with SunPass transponder picked up at MIA and dropped off at MCO. This saves over 7 hours of backtracking, eliminates 390 miles of highway driving, and takes advantage of near-zero intrastate Florida drop fees.
-* **Measurement Units:** American units (miles, feet, °F, fluid oz) presented prominently across all metrics, waypoints, cards, and scorecard, with metric equivalents in parentheses where helpful.
-* **Visual Excellence:** Every single slide must include high-resolution thematic photography, rich glassmorphism UI cards, sunset gold/ocean teal/emerald accent borders, and clean typography.
-* **Mobile First:** Preserve the responsive mobile navigation drawer, native `<select>` slide pickers, and fluid flex/grid layouts.
+* **Dates:** Saturday, October 24, 2026 to Friday, October 30, 2026 (7 Days / 6 Nights).
+* **Flights:** Locked at **$628 total** for 2 passengers combined (Non-stop Newark EWR ➔ Miami MIA ➔ Newark EWR).
+* **Zero Theme Parks:** Strictly zero Disney and zero Universal.
+* **National Parks Trifecta:** Must visit all 3 US National Parks in Florida:
+  1. **Biscayne National Park:** Convoy Point, Dante Fascell Visitor Center, Boca Chita Key boat tour & reef snorkeling.
+  2. **Everglades National Park:** Shark Valley 15-mile tram & 65-ft tower; Royal Palm Anhinga Trail & Flamingo Marina.
+  3. **Dry Tortugas National Park:** Yankee Freedom III catamaran ferry from Key West, Fort Jefferson, moat seawall walk & coral reef snorkeling.
+* **Shared Budget Format:** Strictly present all financial figures as a unified shared total for both travelers combined ($3,465 total for 2; never divide per person).
+* **Accommodation Standard:** Clean, quiet, highly rated 3★ and 4★ hotels, boutique coastal retreats, and Key West historic guesthouses ($145–$195/night).
+* **Zero Alcohol:** Authentic regional non-alcoholic specialties (Cuban *cafecito*, *batidos* of mamey/guava/mango, Key Lime sparkling mocktails, Florida fresh citrus).
+* **Ground Logistics:** Mid-size sedan or SUV picked up and dropped off at MIA Consolidated Rental Car Center (~420 miles total; zero one-way drop fees).
+* **Measurement Units:** US Customary units (miles, feet, °F) presented prominently throughout.
 
 ---
 
 ## 2. Slide-by-Slide Buildout Status (30 Slides Total) - ALL COMPLETED [x]
 
-- [x] **Slide 01:** Cover & Expedition Metrics (8-Day Grand Florida Route, Dates, 580 Miles, 4 Biomes)
-- [x] **Slide 02:** Strategic Route Architecture: South-to-North Open-Jaw Flight Corridor (EWR->MIA / MCO->EWR)
-- [x] **Slide 03:** Interactive Florida Cartography & GPS Command (Interactive SVG: Miami, Keys, Everglades, Orlando)
-- [x] **Slide 04:** Florida Meteorology & Microclimate Navigation (Afternoon storms, humidity management, sun protection)
-- [x] **Slide 05:** Highway Logistics & SunPass Toll Architecture (Overseas Highway US-1, Florida Turnpike, rental toll transponders)
-- [x] **Slide 06:** Subtropical Wildlife & Wetland Safety Protocols (Alligator safety, mosquito management, coral reef protection)
-- [x] **Slide 07:** Technical Packing & Theme Park Field Kit (Breathable UV gear, dry bags, park power banks, hydration)
-- [x] **Slide 08:** Day 1: Inbound EWR -> MIA Arrival & Miami Cultural Gateway (Wynwood & Calle Ocho)
-- [x] **Slide 09:** Night 1 Lodging: Miami Boutique Art Deco / Coral Gables Base
-- [x] **Slide 10:** Night 1 Gastronomy: Authentic Cuban Ropa Vieja & Warm Pastelitos (Zero Alcohol)
-- [x] **Slide 11:** Day 2: The Overseas Highway (US-1) & Key Largo Coral Reefs (John Pennekamp)
-- [x] **Slide 12:** Day 2 Coast: Bahia Honda State Park & Seven Mile Bridge to Key West
-- [x] **Slide 13:** Night 2 Lodging: Key West Historic Old Town Guesthouse
-- [x] **Slide 14:** Day 3: Key West Historic Peninsula (Mallory Square, Fort Zachary Taylor, Hemingway Estate)
-- [x] **Slide 15:** Day 3 Culinary: Authentic Key West Conch & Tart Key Lime Pie
-- [x] **Slide 16:** Night 3 Lodging: Upper Keys Ocean Retreat (Marathon / Islamorada)
-- [x] **Slide 17:** Day 4: Everglades National Park & Tamiami Trail (Shark Valley Tram & Sawgrass Slough)
-- [x] **Slide 18:** Day 4 Transit: Florida Turnpike Northbound Transit to Orlando
-- [x] **Slide 19:** Night 4 Lodging: Orlando Theme Park Base (Universal / Disney Area 3★/4★ Hotel)
-- [x] **Slide 20:** Day 5: The Universal Day (1 Day at Universal Studios & Islands of Adventure)
-- [x] **Slide 21:** Day 5 Tactical Protocol: Express Pass Strategy, Single Rider & Butterbeer
-- [x] **Slide 22:** Night 5 Lodging: Orlando Base Continuation & Pool Recovery
-- [x] **Slide 23:** Day 6: The Disney Day (1 Day at Walt Disney World Magic Kingdom)
-- [x] **Slide 24:** Day 6 Tactical Protocol: Lightning Lane Strategy, Virtual Queue & Fireworks
-- [x] **Slide 25:** Night 6 Lodging: Orlando Base Continuation
-- [x] **Slide 26:** Day 7: Park-Free Recovery: Winter Park Scenic Canals & Disney Springs Promenade (Zero Park Tickets)
-- [x] **Slide 27:** Day 7 Farewell Dinner: Central Florida Southern Smokehouse & Citrus Finale
-- [x] **Slide 28:** Day 8: Orlando International (MCO) Departure Protocol & Flight Return to EWR
-- [x] **Slide 29:** Master Expedition Scorecard & Shared Financial Ledger (Total Budget Breakdown for 2)
-- [x] **Slide 30:** Zero-Fail Field Directory: Park Hotlines, Park-to-Park Transit & Emergency SOS
+- [x] **Slide 01:** Cover & Expedition Metrics (7 Days / 6 Nights, Oct 24–30, 2026, 3 National Parks, $3,465 Shared Budget)
+- [x] **Slide 02:** Strategic Architecture: The South Florida Parks Trifecta (Biscayne, Everglades, Dry Tortugas)
+- [x] **Slide 03:** Interactive Expedition Cartography & GPS Command (Interactive SVG Map with 8 South Florida & Keys nodes)
+- [x] **Slide 04:** Subtropical Meteorology & Late October Transition (Dry season onset, 82°F–85°F, 81°F ocean waters)
+- [x] **Slide 05:** Highway Logistics, SunPass & The Yankee Freedom III (Overseas Highway, vehicle switcher, ferry protocols)
+- [x] **Slide 06:** Subtropical Marine & Wetland Safety Protocols (Alligators vs Crocodiles, Mineral Zinc Reef Sunscreen)
+- [x] **Slide 07:** Technical Packing: Marine, Reef & Wetland Field Kit (Snorkel gear, UPF rashguards, dry bags, NPS passport)
+- [x] **Slide 08:** Day 1 (Sat Oct 24): Inbound Flight EWR ➔ MIA & Biscayne Bay Gateway (Convoy Point)
+- [x] **Slide 09:** Night 1 Lodging: Strategic Gateway Base in Homestead / Florida City (Courtyard / TownePlace)
+- [x] **Slide 10:** Night 1 Gastronomy: Authentic Cuban Criollo & Fresh Tropical Batidos (Zero Alcohol)
+- [x] **Slide 11:** Day 2 (Sun Oct 25): Everglades National Park (Shark Valley Tram & 65-ft Tower)
+- [x] **Slide 12:** Day 2 Coast: Seven Mile Bridge & Bahia Honda Lagoon to Key West
+- [x] **Slide 13:** Night 2 Lodging: Historic Victorian Guesthouse in Old Town Key West
+- [x] **Slide 14:** Day 3 (Mon Oct 26): Dry Tortugas National Park (Yankee Freedom III Catamaran Expedition)
+- [x] **Slide 15:** Day 3 Heritage: Fort Jefferson Citadel, Seawall Moat & Coral Snorkeling
+- [x] **Slide 16:** Night 3 Lodging: Key West Old Town Sanctuary & Mallory Sunset
+- [x] **Slide 17:** Day 4 (Tue Oct 27): Key West Morning Culture (Hemingway Estate) to Northbound Overseas Drive
+- [x] **Slide 18:** Day 4 Coast: Robbie's Tarpon Feeding & Islamorada Oceanfront
+- [x] **Slide 19:** Night 4 Lodging: Oceanfront Cottage Retreat in Islamorada / Marathon
+- [x] **Slide 20:** Day 5 (Wed Oct 28): Biscayne National Park: Boca Chita Key & Reef Boat Tour
+- [x] **Slide 21:** Day 5 Reef: John Pennekamp Coral Reef State Park & Mangrove Shallows
+- [x] **Slide 22:** Night 5 Lodging: Relaxing Waterfront Inn in Key Largo
+- [x] **Slide 23:** Day 6 (Thu Oct 29): Everglades Southern District (Anhinga Trail & Flamingo Marina)
+- [x] **Slide 24:** Day 6 Nature & Culture: Big Cypress National Preserve & Coral Gables Banyan Trails
+- [x] **Slide 25:** Night 6 Lodging: Boutique Elegance in Historic Coral Gables
+- [x] **Slide 26:** Day 7 (Fri Oct 30): Calle Ocho Cultural Morning & Little Havana Espresso (Domino Park)
+- [x] **Slide 27:** Day 7 Farewell Feast: Celebratory Banquet at Versailles (Zero Alcohol)
+- [x] **Slide 28:** Day 7 Departure: Consolidated Car Return & Non-Stop Flight to EWR
+- [x] **Slide 29:** Master Expedition Scorecard & Shared Financial Ledger ($3,465 Total Combined for 2)
+- [x] **Slide 30:** Zero-Fail Field Directory: Park Hotlines, Ferry Office & Marine SOS
 
 ---
 
-## 3. Implementation Verification & Audits
-* **Total Slides in DOM:** 30 sequential sections with `data-slide="1"` through `data-slide="30"`.
-* **Theme Palettes:** Porcelain & Slate (`linen`), Atlantic Navy (`coastal`), Obsidian & Gold (`obsidian`).
-* **Interactive Cartography (Slide 3):** Full SVG Florida peninsula and Keys landmass map with 8 interactive waypoint nodes and synchronized detail card.
-* **Interactive Driving Selector (Slide 5):** 4 vehicle comparison options with interactive toggle.
-* **Mobile Responsiveness:** Native `<select>` pickers in header & footer, touch swipe handlers, drag-to-dismiss bottom sheet drawer.
-* **Zero Alcohol:** 100% compliant across all gastronomic slides (featuring fresh citrus juices, Cuban cafecitos, mamey batidos, Butterbeer, Dole Whip, and sweet tea).
-* **Shared Financials:** 100% compliant (strict shared total of $3,520 for 2 guests; zero per-person columns).
-* **American Units:** 100% compliant (miles, feet, °F prominent throughout).
-* **Authentic Imagery:** 22 verified high-res local images in `/images/`, zero generic broken placeholders.
+## 3. Financial Ledger Summary ($3,465 Total for 2 Travelers)
+* **Flights (Roundtrip EWR ➔ MIA for 2, locked):** $628
+* **Rental Car (7 Days MIA-MIA, zero drop fees) + SunPass:** $310
+* **Expedition Fuel (~420 mi @ 32 mpg):** $45
+* **En-suite Lodging (6 Nights 3★/4★):** $1,080 ($145 Homestead, $195 Key West, $195 Key West, $180 Islamorada, $175 Key Largo, $190 Coral Gables)
+* **Dry Tortugas Yankee Freedom III Catamaran (2 Pax):** $420
+* **National Park Guided Excursions:** $222 ($160 Biscayne boat tour + $62 Shark Valley tram)
+* **National Parks Interagency Pass:** $80
+* **Dining & Zero-Alcohol Gastronomy (7 Days for 2):** $580
+* **Marine Field Gear & Incidentals:** $100
+* **Total Combined Couple Budget:** $3,465

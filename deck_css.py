@@ -7,17 +7,17 @@ def get_head():
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>Florida Grand Expedition: Keys, Glades & Theme Park Thrills | Master Field Guide</title>
-  <meta name="description" content="Comprehensive 8-day / 7-night road trip guide across Florida connecting Miami, the Overseas Highway (US-1), Key West, Everglades National Park, and Orlando's premier theme parks (Universal & Disney). Complete with open-jaw flight analysis, zero-alcohol dining, and unified couple budget.">
+  <title>Florida National Parks Trifecta: Biscayne, Everglades & Dry Tortugas | Master Field Guide</title>
+  <meta name="description" content="Comprehensive 7-day / 6-night expedition guide across Florida connecting Miami, all three National Parks (Biscayne, Everglades, Dry Tortugas), and the Overseas Highway. Complete with locked $628 EWR-MIA flights, zero-alcohol dining, and unified couple budget.">
   <meta name="theme-color" content="#b47b2c">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%230f172a' stroke='%23b47b2c' stroke-width='6'/><polygon points='50,18 58,45 85,50 58,55 50,82 42,55 15,50 42,45' fill='%23b47b2c'/></svg>">
-  <meta property="og:title" content="Florida Grand Expedition: Keys, Glades & Theme Park Thrills">
-  <meta property="og:description" content="8-day / 7-night road trip guide connecting Miami, the Overseas Highway, Everglades, Universal Studios, and Disney World.">
+  <meta property="og:title" content="Florida National Parks Trifecta: Biscayne, Everglades & Dry Tortugas">
+  <meta property="og:description" content="7-day expedition connecting Biscayne, Everglades, Dry Tortugas, Key West, and the Overseas Highway.">
   <meta property="og:image" content="images/slide02_hero.jpg">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Florida Grand Expedition: Keys, Glades & Theme Park Thrills">
-  <meta name="twitter:description" content="Comprehensive 8-day expedition across Florida connecting the Overseas Highway, Everglades, Universal Studios, and Disney World.">
+  <meta name="twitter:title" content="Florida National Parks Trifecta: Biscayne, Everglades & Dry Tortugas">
+  <meta name="twitter:description" content="Comprehensive 7-day expedition connecting Biscayne, Everglades, Dry Tortugas, Key West, and the Overseas Highway.">
   <meta name="twitter:image" content="images/slide02_hero.jpg">
   
   <!-- Google Fonts -->
@@ -1019,42 +1019,42 @@ def get_head():
           <select id="nativeSlidePicker" class="native-slide-select" aria-label="Select Expedition Milestone">
             <optgroup label="🗺️ ACT I: STRATEGIC ORIENTATION (SLIDES 1–7)">
               <option value="0" selected>Slide 01 • Cover & Expedition Metrics</option>
-              <option value="1">Slide 02 • Strategic Corridor: Open-Jaw EWR->MIA / MCO->EWR</option>
-              <option value="2">Slide 03 • Interactive Florida Cartography & GPS Command</option>
-              <option value="3">Slide 04 • Florida Meteorology & Microclimate Navigation</option>
-              <option value="4">Slide 05 • Highway Logistics, SunPass & Rental Transponders</option>
-              <option value="5">Slide 06 • Subtropical Wildlife & Wetland Safety Protocols</option>
-              <option value="6">Slide 07 • Technical Packing & Theme Park Field Kit</option>
+              <option value="1">Slide 02 • Strategic Architecture: National Parks Trifecta</option>
+              <option value="2">Slide 03 • Interactive Cartography & GPS Command</option>
+              <option value="3">Slide 04 • Subtropical Meteorology: Late October Window</option>
+              <option value="4">Slide 05 • Highway Logistics, SunPass & Yankee Freedom Ferry</option>
+              <option value="5">Slide 06 • Subtropical Marine & Wetland Safety Protocols</option>
+              <option value="6">Slide 07 • Technical Packing: Marine, Reef & Wetland Field Kit</option>
             </optgroup>
-            <optgroup label="🌴 ACT II: MIAMI & OVERSEAS HIGHWAY (SLIDES 8–13)">
-              <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & Cultural Gateway</option>
-              <option value="8">Slide 09 • Night 1: Miami Boutique Art Deco / Coral Gables</option>
-              <option value="9">Slide 10 • Night 1: Authentic Cuban Ropa Vieja & Cafecito</option>
-              <option value="10">Slide 11 • Day 2: Overseas Highway US-1 & Key Largo Coral Reefs</option>
-              <option value="11">Slide 12 • Day 2: Bahia Honda State Park & Seven Mile Bridge</option>
+            <optgroup label="🌊 ACT II: GATEWAY, BISCAYNE & EVERGLADES (SLIDES 8–11)">
+              <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & Biscayne Gateway</option>
+              <option value="8">Slide 09 • Night 1: Strategic Gateway Base in Homestead</option>
+              <option value="9">Slide 10 • Night 1: Authentic Cuban Criollo & Batidos</option>
+              <option value="10">Slide 11 • Day 2: Everglades NP (Shark Valley Tram & Tower)</option>
+            </optgroup>
+            <optgroup label="🏰 ACT III: OVERSEAS HIGHWAY & DRY TORTUGAS (SLIDES 12–16)">
+              <option value="11">Slide 12 • Day 2 Coast: Seven Mile Bridge & Bahia Honda Lagoon</option>
               <option value="12">Slide 13 • Night 2: Key West Historic Old Town Guesthouse</option>
+              <option value="13">Slide 14 • Day 3: Dry Tortugas NP (Yankee Freedom III)</option>
+              <option value="14">Slide 15 • Day 3: Fort Jefferson Citadel & Coral Snorkeling</option>
+              <option value="15">Slide 16 • Night 3: Key West Old Town & Mallory Sunset</option>
             </optgroup>
-            <optgroup label="🐊 ACT III: KEY WEST & EVERGLADES (SLIDES 14–19)">
-              <option value="13">Slide 14 • Day 3: Key West Historic Peninsula & Fort Zachary</option>
-              <option value="14">Slide 15 • Day 3: Authentic Conch & Tart Key Lime Pie</option>
-              <option value="15">Slide 16 • Night 3: Upper Keys Ocean Retreat (Marathon/Islamorada)</option>
-              <option value="16">Slide 17 • Day 4: Everglades National Park (Shark Valley Tram)</option>
-              <option value="17">Slide 18 • Day 4: Florida Turnpike Northbound Transit</option>
-              <option value="18">Slide 19 • Night 4: Orlando Theme Park Base (3★/4★ Resort)</option>
+            <optgroup label="🌴 ACT IV: THE MIDDLE & UPPER KEYS (SLIDES 17–22)">
+              <option value="16">Slide 17 • Day 4: Key West Morning Culture & Northbound Drive</option>
+              <option value="17">Slide 18 • Day 4 Coast: Robbie's Tarpon Feeding & Islamorada</option>
+              <option value="18">Slide 19 • Night 4: Oceanfront Cottage Retreat in Islamorada</option>
+              <option value="19">Slide 20 • Day 5: Biscayne NP: Boca Chita Boat Tour</option>
+              <option value="20">Slide 21 • Day 5 Reef: John Pennekamp Coral Reef State Park</option>
+              <option value="21">Slide 22 • Night 5: Relaxing Waterfront Inn in Key Largo</option>
             </optgroup>
-            <optgroup label="⚡ ACT IV: ORLANDO THEME PARK THRILLS (SLIDES 20–25)">
-              <option value="19">Slide 20 • Day 5: The Universal Day (Islands & Studios)</option>
-              <option value="20">Slide 21 • Day 5: Universal Ride Strategy & Butterbeer</option>
-              <option value="21">Slide 22 • Night 5: Orlando Base Continuation & Pool Recovery</option>
-              <option value="22">Slide 23 • Day 6: The Disney Day (Magic Kingdom)</option>
-              <option value="23">Slide 24 • Day 6: Lightning Lane, Virtual Queue & Fireworks</option>
-              <option value="24">Slide 25 • Night 6: Orlando Base Continuation</option>
-            </optgroup>
-            <optgroup label="🏆 ACT V: EXPEDITION FINALE & SCORECARD (SLIDES 26–30)">
-              <option value="25">Slide 26 • Day 7: Park-Free Canals & Disney Springs</option>
-              <option value="26">Slide 27 • Day 7: Southern Smokehouse Feast & Citrus Finale</option>
-              <option value="27">Slide 28 • Day 8: MCO Departure Protocol & Flight to EWR</option>
-              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,520)</option>
+            <optgroup label="🐊 ACT V: EVERGLADES DEEP & MIAMI FINALE (SLIDES 23–30)">
+              <option value="22">Slide 23 • Day 6: Everglades Southern District (Anhinga & Flamingo)</option>
+              <option value="23">Slide 24 • Day 6: Big Cypress Preserve & Coral Gables</option>
+              <option value="24">Slide 25 • Night 6: Boutique Elegance in Historic Coral Gables</option>
+              <option value="25">Slide 26 • Day 7: Calle Ocho Cultural Morning & Little Havana</option>
+              <option value="26">Slide 27 • Day 7: Celebratory Farewell Banquet at Versailles</option>
+              <option value="27">Slide 28 • Day 7: Consolidated Car Return & Flight to EWR</option>
+              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,465)</option>
               <option value="29">Slide 30 • Zero-Fail Field Directory & Emergency Hotlines</option>
             </optgroup>
           </select>
@@ -1090,12 +1090,11 @@ def get_head():
           </div>
           <div class="drawer-filter-pills" id="drawerFilterPills">
             <button class="drawer-filter-pill active" data-filter="all" type="button">All (30)</button>
-            <button class="drawer-filter-pill" data-filter="overview" type="button">Strategy (7)</button>
-            <button class="drawer-filter-pill" data-filter="keys" type="button">Keys & Coast (6)</button>
-            <button class="drawer-filter-pill" data-filter="glades" type="button">Everglades (2)</button>
-            <button class="drawer-filter-pill" data-filter="parks" type="button">Theme Parks (6)</button>
+            <button class="drawer-filter-pill" data-filter="strategy" type="button">Strategy (7)</button>
+            <button class="drawer-filter-pill" data-filter="parks" type="button">National Parks (8)</button>
+            <button class="drawer-filter-pill" data-filter="keys" type="button">Florida Keys (5)</button>
             <button class="drawer-filter-pill" data-filter="retreat" type="button">Lodging (5)</button>
-            <button class="drawer-filter-pill" data-filter="dining" type="button">Gastronomy (4)</button>
+            <button class="drawer-filter-pill" data-filter="dining" type="button">Gastronomy (5)</button>
           </div>
         </div>
         <div class="drawer-list" id="drawerList">
