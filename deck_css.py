@@ -1019,42 +1019,42 @@ def get_head():
           <select id="nativeSlidePicker" class="native-slide-select" aria-label="Select Expedition Milestone">
             <optgroup label="🗺️ ACT I: STRATEGIC ORIENTATION (SLIDES 1–7)">
               <option value="0" selected>Slide 01 • Cover & Expedition Metrics</option>
-              <option value="1">Slide 02 • Strategic Architecture: National Parks Trifecta</option>
+              <option value="1">Slide 02 • Strategic Architecture: South Florida & Keys Flow</option>
               <option value="2">Slide 03 • Interactive Cartography & GPS Command</option>
               <option value="3">Slide 04 • Subtropical Meteorology: Late October Window</option>
-              <option value="4">Slide 05 • Highway Logistics, SunPass & Yankee Freedom Ferry</option>
+              <option value="4">Slide 05 • Highway Logistics, SunPass & Ferry Protocol</option>
               <option value="5">Slide 06 • Subtropical Marine & Wetland Safety Protocols</option>
-              <option value="6">Slide 07 • Technical Packing: Marine, Reef & Wetland Field Kit</option>
+              <option value="6">Slide 07 • Technical Packing: Marine, Reef & Urban Kit</option>
             </optgroup>
-            <optgroup label="🌊 ACT II: GATEWAY, BISCAYNE & EVERGLADES (SLIDES 8–11)">
-              <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & Biscayne Gateway</option>
-              <option value="8">Slide 09 • Night 1: Strategic Gateway Base in Homestead</option>
-              <option value="9">Slide 10 • Night 1: Authentic Cuban Criollo & Batidos</option>
-              <option value="10">Slide 11 • Day 2: Everglades NP (Shark Valley Tram & Tower)</option>
+            <optgroup label="🏖️ ACT II: MIAMI BEACH & SOUTH BEACH (SLIDES 8–13)">
+              <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & Miami Beach Arrival</option>
+              <option value="8">Slide 09 • Night 1: South Beach Art Deco Boutique Hotel</option>
+              <option value="9">Slide 10 • Day 1: South Pointe Park Pier & Neon Ocean Drive</option>
+              <option value="10">Slide 11 • Day 2: South Beach Sunrise & Art Deco Walking Tour</option>
+              <option value="11">Slide 12 • Day 2: Wynwood Walls Outdoor Mural Museum & Cafes</option>
+              <option value="12">Slide 13 • Night 2: South Beach Sanctuary & Promenade Dining</option>
             </optgroup>
-            <optgroup label="🏰 ACT III: OVERSEAS HIGHWAY & DRY TORTUGAS (SLIDES 12–16)">
-              <option value="11">Slide 12 • Day 2 Coast: Seven Mile Bridge & Bahia Honda Lagoon</option>
-              <option value="12">Slide 13 • Night 2: Key West Historic Old Town Guesthouse</option>
-              <option value="13">Slide 14 • Day 3: Dry Tortugas NP (Yankee Freedom III)</option>
-              <option value="14">Slide 15 • Day 3: Fort Jefferson Citadel & Coral Snorkeling</option>
-              <option value="15">Slide 16 • Night 3: Key West Old Town & Mallory Sunset</option>
+            <optgroup label="🐊 ACT III: EVERGLADES & KEY WEST (SLIDES 14–19)">
+              <option value="13">Slide 14 • Day 3: Everglades NP (Shark Valley Tram & Tower)</option>
+              <option value="14">Slide 15 • Day 3 Coast: Seven Mile Bridge & Bahia Honda</option>
+              <option value="15">Slide 16 • Night 3: Key West Historic Old Town Guesthouse</option>
+              <option value="16">Slide 17 • Day 4: Key West Heritage & Hemingway Estate (Cats)</option>
+              <option value="17">Slide 18 • Day 4 Coast: Fort Zachary Taylor Citadel & Beach</option>
+              <option value="18">Slide 19 • Night 4: Key West Sanctuary Continuation (Pre-Ferry)</option>
             </optgroup>
-            <optgroup label="🌴 ACT IV: THE MIDDLE & UPPER KEYS (SLIDES 17–22)">
-              <option value="16">Slide 17 • Day 4: Key West Morning Culture & Northbound Drive</option>
-              <option value="17">Slide 18 • Day 4 Coast: Robbie's Tarpon Feeding & Islamorada</option>
-              <option value="18">Slide 19 • Night 4: Oceanfront Cottage Retreat in Islamorada</option>
-              <option value="19">Slide 20 • Day 5: Biscayne NP: Boca Chita Boat Tour</option>
-              <option value="20">Slide 21 • Day 5 Reef: John Pennekamp Coral Reef State Park</option>
-              <option value="21">Slide 22 • Night 5: Relaxing Waterfront Inn in Key Largo</option>
+            <optgroup label="🏰 ACT IV: DRY TORTUGAS & MIDDLE KEYS (SLIDES 20–22)">
+              <option value="19">Slide 20 • Day 5: Dry Tortugas NP [BOOKED: Yankee Freedom III]</option>
+              <option value="20">Slide 21 • Day 5: Fort Jefferson Citadel, Moat & Coral Snorkeling</option>
+              <option value="21">Slide 22 • Night 5: Oceanfront Cottage Retreat in Islamorada</option>
             </optgroup>
-            <optgroup label="🐊 ACT V: EVERGLADES DEEP & MIAMI FINALE (SLIDES 23–30)">
-              <option value="22">Slide 23 • Day 6: Everglades Southern District (Anhinga & Flamingo)</option>
-              <option value="23">Slide 24 • Day 6: Big Cypress Preserve & Coral Gables</option>
+            <optgroup label="🌊 ACT V: BISCAYNE & EXPEDITION FINALE (SLIDES 23–30)">
+              <option value="22">Slide 23 • Day 6: Robbie's Tarpon Feeding & Islamorada</option>
+              <option value="23">Slide 24 • Day 6: Biscayne NP (Boca Chita Key Boat Tour)</option>
               <option value="24">Slide 25 • Night 6: Boutique Elegance in Historic Coral Gables</option>
-              <option value="25">Slide 26 • Day 7: Calle Ocho Cultural Morning & Little Havana</option>
+              <option value="25">Slide 26 • Day 7: Little Havana Morning: Domino Park & Cafecito</option>
               <option value="26">Slide 27 • Day 7: Celebratory Farewell Banquet at Versailles</option>
               <option value="27">Slide 28 • Day 7: Consolidated Car Return & Flight to EWR</option>
-              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,465)</option>
+              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,625)</option>
               <option value="29">Slide 30 • Zero-Fail Field Directory & Emergency Hotlines</option>
             </optgroup>
           </select>
@@ -1085,16 +1085,16 @@ def get_head():
         <div class="drawer-search-row">
           <div class="drawer-search-wrapper">
             <span class="drawer-search-icon">🔍</span>
-            <input type="text" class="drawer-search-input" id="drawerSearchInput" placeholder="Search milestone, park, beach, or hotel..." autocomplete="off">
+            <input type="text" class="drawer-search-input" id="drawerSearchInput" placeholder="Search milestone, beach, park, or hotel..." autocomplete="off">
             <button class="drawer-search-clear" id="drawerSearchClear" type="button" style="display: none;">✕</button>
           </div>
           <div class="drawer-filter-pills" id="drawerFilterPills">
             <button class="drawer-filter-pill active" data-filter="all" type="button">All (30)</button>
             <button class="drawer-filter-pill" data-filter="strategy" type="button">Strategy (7)</button>
-            <button class="drawer-filter-pill" data-filter="parks" type="button">National Parks (8)</button>
-            <button class="drawer-filter-pill" data-filter="keys" type="button">Florida Keys (5)</button>
+            <button class="drawer-filter-pill" data-filter="miami" type="button">Miami Beach (6)</button>
+            <button class="drawer-filter-pill" data-filter="parks" type="button">National Parks (7)</button>
+            <button class="drawer-filter-pill" data-filter="keys" type="button">The Keys (5)</button>
             <button class="drawer-filter-pill" data-filter="retreat" type="button">Lodging (5)</button>
-            <button class="drawer-filter-pill" data-filter="dining" type="button">Gastronomy (5)</button>
           </div>
         </div>
         <div class="drawer-list" id="drawerList">

@@ -249,31 +249,41 @@ def get_footer_and_js():
           metrics: "0 Miles Driven • Sea Level (6 ft)",
           tag: "AIRPORT HUB",
           tagClass: "tag-gold",
-          desc: "Touchdown at MIA on non-stop flight from EWR ($628 total for 2). Consolidated Rental Car Center dispatch via MIA Mover monorail (zero drop fee!). Departure hub on Friday afternoon."
+          desc: "Touchdown at MIA on non-stop flight from EWR ($628 booked for 2). Consolidated Rental Car Center dispatch via MIA Mover monorail (zero drop fee!). Departure hub on Friday afternoon."
         },
         {
           id: 1,
-          label: "MILESTONE 02 • PARK 1 OF 3 (MAINLAND)",
-          title: "Biscayne National Park (Convoy Point)",
-          coords: "25.4641° N, 80.3326° W",
-          metrics: "38 Miles from MIA • Homestead Gateway",
-          tag: "SUBMERGED PARK",
-          tagClass: "tag-teal",
-          desc: "America's largest marine national park (95% underwater). Wooden boardwalk overlooking Biscayne Bay, manatee nursery in marina basin, and departure dock for boat tours to Boca Chita Key."
+          label: "MILESTONE 02 • URBAN COAST BASE",
+          title: "Miami Beach & South Beach Art Deco",
+          coords: "25.7825° N, 80.1340° W",
+          metrics: "12 Miles from MIA • Atlantic Oceanfront",
+          tag: "SOUTH BEACH",
+          tagClass: "tag-gold",
+          desc: "2 full nights based in historic South Beach. Turquoise Atlantic ocean swims, iconic pastel 1930s Art Deco architecture on Ocean Drive, and sunset at South Pointe Park Pier watching cruise ships depart."
         },
         {
           id: 2,
-          label: "MILESTONE 03 • THE UPPER KEYS",
-          title: "Key Largo & John Pennekamp Coral Reef",
-          coords: "25.1246° N, 80.4042° W",
-          metrics: "62 Miles from MIA • Mile Marker 102.5",
-          tag: "CORAL REEF",
-          tagClass: "tag-teal",
-          desc: "First underwater park in the United States. Exploring saltwater mangrove creeks by kayak, viewing living coral specimens at the visitor center aquarium, and historic Spanish cannons at Canon Beach."
+          label: "MILESTONE 03 • CREATIVE CAPITAL",
+          title: "Wynwood Walls Street Art District",
+          coords: "25.8000° N, 80.1989° W",
+          metrics: "5 Miles from South Beach • NW 2nd Ave",
+          tag: "STREET ART",
+          tagClass: "tag-gold",
+          desc: "The world's premier open-air museum of public contemporary street murals, featuring giant wall-scale works by international graffiti artists, artisan sourdough bakeries, and cold brew coffee."
         },
         {
           id: 3,
-          label: "MILESTONE 04 • THE MIDDLE KEYS",
+          label: "MILESTONE 04 • PARK 1 OF 3 (SAWGRASS)",
+          title: "Everglades National Park (Shark Valley)",
+          coords: "25.7467° N, 80.7656° W",
+          metrics: "42 Miles West • Tamiami Trail (US-41)",
+          tag: "RIVER OF GRASS",
+          tagClass: "tag-teal",
+          desc: "Your single definitive Everglades expedition. 2-hour naturalist-guided open tram loop through sawgrass prairie, observing dozens of wild alligators, and climbing the 65-foot observation tower."
+        },
+        {
+          id: 4,
+          label: "MILESTONE 05 • THE MIDDLE KEYS",
           title: "Seven Mile Bridge & Bahia Honda State Park",
           coords: "24.6644° N, 81.2581° W",
           metrics: "128 Miles from MIA • Mile Marker 37",
@@ -282,44 +292,34 @@ def get_footer_and_js():
           desc: "Traversing Henry Flagler's iconic Seven Mile Bridge suspended above turquoise ocean waters. Hiking the historic Old Bahia Honda rail bridge overlook and swimming in pristine Calusa Beach lagoons."
         },
         {
-          id: 4,
-          label: "MILESTONE 05 • END OF THE ROAD",
-          title: "Key West Old Town & Ferry Terminal",
+          id: 5,
+          label: "MILESTONE 06 • END OF THE ROAD",
+          title: "Key West Old Town & Historic Seaport",
           coords: "24.5551° N, 81.7800° W",
           metrics: "165 Miles from MIA • Mile Marker 0",
           tag: "SOUTHERNMOST",
           tagClass: "tag-terracotta",
-          desc: "Victorian Conch architecture, Ernest Hemingway's estate with 50+ six-toed cats, Fort Zachary Taylor, nightly sunset celebration at Mallory Square, and departure terminal for the Dry Tortugas ferry."
-        },
-        {
-          id: 5,
-          label: "MILESTONE 06 • PARK 2 OF 3 (OFFSHORE)",
-          title: "Dry Tortugas National Park (Fort Jefferson)",
-          coords: "24.6285° N, 82.8732° W",
-          metrics: "70 Miles Offshore • Open Gulf of Mexico",
-          tag: "BRICK CITADEL",
-          tagClass: "tag-teal",
-          desc: "Full-day open-ocean expedition aboard the high-speed Yankee Freedom III catamaran. America's largest 19th-century coastal brick fortress, walking the seawall moat, and world-class coral reef snorkeling."
+          desc: "2 nights in historic Old Town. Ernest Hemingway Estate (50+ polydactyl cats), Fort Zachary Taylor State Park, Mallory Square sunset celebration, and departure terminal for Dry Tortugas."
         },
         {
           id: 6,
-          label: "MILESTONE 07 • PARK 3 OF 3 (NORTH)",
-          title: "Everglades National Park (Shark Valley)",
-          coords: "25.7467° N, 80.7656° W",
-          metrics: "Tamiami Trail (US-41) • Sawgrass Slough",
-          tag: "RIVER OF GRASS",
-          tagClass: "tag-gold",
-          desc: "1.5-million-acre subtropical river of grass. 2-hour naturalist-guided open tram loop through sawgrass prairie, observing dozens of wild alligators, anhingas, and climbing the 65-foot observation tower."
+          label: "MILESTONE 07 • PARK 2 OF 3 (BOOKED)",
+          title: "Dry Tortugas National Park (Fort Jefferson)",
+          coords: "24.6285° N, 82.8732° W",
+          metrics: "70 Miles Offshore • Booked 07:00 AM Wed",
+          tag: "CITADEL & REEF",
+          tagClass: "tag-teal",
+          desc: "Confirmed booking aboard the high-speed Yankee Freedom III catamaran on Wednesday, Oct 28. 16-million-brick Civil War fortress, walking the seawall moat, and world-class coral reef snorkeling."
         },
         {
           id: 7,
-          label: "MILESTONE 08 • PARK 3 OF 3 (SOUTH)",
-          title: "Everglades National Park (Flamingo Marina)",
-          coords: "25.1415° N, 80.9254° W",
-          metrics: "38 Miles south of Park Gate • Florida Bay",
-          tag: "WILD CROCODILES",
-          tagClass: "tag-gold",
-          desc: "Anhinga Trail boardwalk over Taylor Slough, Gumbo Limbo hardwood hammock, and Flamingo Marina where wild American crocodiles and West Indian manatees swim right along the docks."
+          label: "MILESTONE 08 • PARK 3 OF 3 (MARINE)",
+          title: "Biscayne National Park (Boca Chita Key)",
+          coords: "25.4641° N, 80.3326° W",
+          metrics: "Convoy Point Dock • Submerged Sanctuary",
+          tag: "LIVING REEF",
+          tagClass: "tag-teal",
+          desc: "95% underwater national park. Official 3.5-hour boat excursion out to Boca Chita Key (1930s coral-rock lighthouse) and living barrier coral reef snorkeling along the Maritime Heritage Shipwreck Trail."
         }
       ];
 
@@ -335,7 +335,7 @@ def get_footer_and_js():
             n.setAttribute('r', '11');
             n.setAttribute('stroke-width', '3.5');
           } else {
-            n.setAttribute('r', (i === 0 || i === 4 || i === 5) ? '9' : '8');
+            n.setAttribute('r', (i === 1 || i === 5 || i === 6) ? '9' : '8');
             n.setAttribute('stroke-width', '2');
           }
         });
@@ -345,8 +345,8 @@ def get_footer_and_js():
         const wp = waypoints[idx];
         if (!card || !wp) return;
 
-        // Slide target mapping
-        const slideTargetMap = [7, 7, 20, 11, 12, 13, 10, 22];
+        // Slide target mapping: 0->Slide 8, 1->Slide 8, 2->Slide 12, 3->Slide 14, 4->Slide 15, 5->Slide 16, 6->Slide 20, 7->Slide 24
+        const slideTargetMap = [7, 7, 11, 13, 14, 15, 19, 23];
 
         card.innerHTML = `
           <div>
@@ -371,7 +371,7 @@ def get_footer_and_js():
           </div>
 
           <div style="margin-top: 1rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--sand-muted);">NATIONAL PARKS TRIFECTA</span>
+            <span style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--sand-muted);">SOUTH FLORIDA & KEYS CORRIDOR</span>
             <button class="nav-btn" style="padding: 4px 10px; font-size: 0.72rem;" onclick="goToSlide(${slideTargetMap[idx] || 0})">JUMP TO ITINERARY →</button>
           </div>
         `;
@@ -494,28 +494,28 @@ def get_footer_and_js():
         5: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LOGISTICS' },
         6: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'SAFETY' },
         7: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'PACKING' },
-        8: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 1: BISCAYNE' },
-        9: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 1 BASE' },
-        10: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'CUBAN CRIOLLO' },
-        11: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 2: SHARK VALLEY' },
-        12: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 2: SEVEN MILE' },
-        13: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
-        14: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 3: DRY TORTUGAS' },
-        15: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 3: FORT JEFFERSON' },
+        8: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 1: SOUTH BEACH' },
+        9: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 1 BASE' },
+        10: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'SOUTH POINTE' },
+        11: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 2: ART DECO' },
+        12: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 2: WYNWOOD' },
+        13: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
+        14: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 3: EVERGLADES' },
+        15: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: SEVEN MILE' },
         16: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 3 BASE' },
         17: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: HEMINGWAY' },
-        18: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: TARPONS' },
+        18: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: FORT ZACH' },
         19: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 4 BASE' },
-        20: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 5: BOCA CHITA' },
-        21: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 5: PENNEKAMP' },
+        20: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 5: DRY TORTUGAS' },
+        21: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'FORT JEFFERSON' },
         22: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 5 BASE' },
-        23: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 6: FLAMINGO' },
-        24: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'DAY 6: BIG CYPRESS' },
+        23: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 6: TARPONS' },
+        24: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 6: BISCAYNE' },
         25: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 6 BASE' },
-        26: { cat: ['all', 'dining', 'strategy'], primaryCat: 'dining', tag: 'DAY 7: CALLE OCHO' },
-        27: { cat: ['all', 'dining'], primaryCat: 'dining', tag: 'DAY 7: VERSAILLES' },
+        26: { cat: ['all', 'miami', 'strategy'], primaryCat: 'miami', tag: 'DAY 7: CALLE OCHO' },
+        27: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 7: VERSAILLES' },
         28: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'DAY 7: DEPARTURE' },
-        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($3,465)' },
+        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($3,625)' },
         30: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'NPS DIRECTORY' }
       };
 

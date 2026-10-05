@@ -1,42 +1,40 @@
 def get_slides():
     return """
       <!-- =====================================================================
-           SLIDE 21: DAY 5 REEF & MANGROVE: JOHN PENNEKAMP CORAL REEF STATE PARK
+           SLIDE 21: DAY 5 HERITAGE & REEF: FORT JEFFERSON & CORAL MOAT
            ===================================================================== -->
       <section class="slide" data-slide="21">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 5 REEF • THE UNDERWATER SANCTUARY</div>
-          <h2 class="slide-title">Day 5 Reef: John Pennekamp Coral Reef State Park</h2>
-          <p class="slide-subtitle">Exploring America's first underwater state park in Key Largo: protected mangrove creeks, glass-bottom reef viewing, and vibrant marine nursery ecosystems.</p>
+          <div class="slide-eyebrow">DAY 5 HERITAGE & UNDERWATER REALM</div>
+          <h2 class="slide-title">Day 5: Fort Jefferson Citadel, Moat Walk & Coral Snorkeling</h2>
+          <p class="slide-subtitle">Walking the 16-million-brick fortress battlements, exploring Dr. Samuel Mudd's Civil War quarters, and snorkeling along the world-class coral moat wall.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
-            <div class="glass-card teal-trim">
-              <div class="card-label">KEY LARGO MARINE REALM</div>
-              <h3 class="card-heading">Mangrove Shallows & Living Coral Gardens</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                Adjoining Biscayne National Park to the south, John Pennekamp encompasses 70 nautical square miles of Atlantic coral reef and dense mangrove estuaries:
-              </p>
+            <div class="glass-card gold-trim">
+              <div class="card-label">CITADEL & REEF TRIAGE</div>
+              <h3 class="card-heading">Brick Masonry & Marine Sanctuary</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>02:00 PM – Key Largo Arrival (MM 102.5):</strong> Enter John Pennekamp Coral Reef State Park ($9.00 vehicle entry).</li>
-                <li><strong>02:30 PM – Mangrove Kayak or Shallows Exploration:</strong> Paddle through winding saltwater mangrove tunnels where clear waters reveal juvenile lemon sharks, snook, and mangrove crabs clinging to prop roots ($38 total for 2).</li>
-                <li><strong>04:30 PM – Canon Beach & Visitor Center Aquarium:</strong> View the 30,000-gallon saltwater aquarium showcasing living moray eels, spiny lobsters, and living coral specimens. Walk Canon Beach to see 17th-century Spanish shipwreck cannons embedded in the sand.</li>
+                <li><strong>10:30 AM – Guided Fort Jefferson Tour:</strong> Join the NPS historian to inspect the 16 million handmade red bricks, massive gun casemates, and the holding cell of Dr. Samuel Mudd (the physician who set John Wilkes Booth's broken leg).</li>
+                <li><strong>11:45 AM – Walk the Moat Seawall:</strong> Stroll the narrow outer brick seawall surrounding the fort's ocean moat. Look directly down into crystalline water to spot queen conch, stingrays, and sea turtles.</li>
+                <li><strong>01:00 PM – World-Class Coral Snorkeling:</strong> Don masks and fins at the South Beach and Coaling Dock ruins. Snorkel along the exterior moat wall—covered in vibrant purple sea fans, brain corals, schools of yellowtail snapper, and curious angelfish.</li>
+                <li><strong>03:00 PM – Catamaran Boarding & Return:</strong> Re-board the Yankee Freedom III for the afternoon voyage back to Key West, arriving at the historic seaport by 05:30 PM.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">MANGROVE NURSERY</span>
-                <span class="tag tag-teal">FIRST UNDERSEA PARK</span>
-                <span class="tag tag-terracotta">MILE MARKER 102.5</span>
+                <span class="tag tag-gold">16M BRICKS</span>
+                <span class="tag tag-teal">VISIBILITY: 60+ FT</span>
+                <span class="tag tag-terracotta">CIVIL WAR CITADEL</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide21_pennekamp.jpg" alt="Key Largo underwater coral reef and clear water" loading="lazy">
+              <img src="images/slide15_fortjefferson.jpg" alt="Fort Jefferson brick arches and turquoise moat" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Protected Shallows of Key Largo</div>
-                <div class="media-caption">Vibrant coral formations and clear mangrove waterways protecting the juvenile life of the Florida Reef.</div>
+                <div class="media-title">The Gibraltar of the Gulf</div>
+                <div class="media-caption">America's largest masonry fortress surrounded by vibrant living coral reefs and turquoise moats.</div>
               </div>
             </div>
           </div>
@@ -44,49 +42,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 22: NIGHT 5 LODGING: KEY LARGO / UPPER KEYS COASTAL BASE
+           SLIDE 22: NIGHT 5 LODGING: ISLAMORADA / MARATHON OCEAN RETREAT
            ===================================================================== -->
       <section class="slide" data-slide="22">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 5 RETREAT • UPPER KEYS WATERFRONT</div>
-          <h2 class="slide-title">Night 5: Relaxing Waterfront Inn in Key Largo</h2>
-          <p class="slide-subtitle">A restful coastal hotel featuring peaceful harbor views, outdoor swimming pool, comfortable en-suite bath, and walking distance to fresh seafood docks.</p>
+          <div class="slide-eyebrow">NIGHT 5 RETREAT • MIDDLE KEYS WATERFRONT</div>
+          <h2 class="slide-title">Night 5: Oceanfront Cottage Retreat in Islamorada / Marathon</h2>
+          <p class="slide-subtitle">After returning from Dry Tortugas, take a relaxing 1-hour sunset drive up to the Middle Keys to unwind in a waterfront hammock under coconut palms.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">UPPER KEYS BASE</div>
-              <h3 class="card-heading">Marina Del Mar Resort or Bayside Inn Key Largo</h3>
+              <div class="card-label">COASTAL HAVEN</div>
+              <h3 class="card-heading">Postcard Inn Beach Resort or Pines & Palms</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Key Largo marks the northern gateway of the Keys, offering immediate access back to the mainland for tomorrow's deep Everglades southern expedition:
+                Positioned midway along the Overseas Highway, Islamorada provides pure tropical relaxation away from commercial congestion:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$175 total</div>
+                  <div class="stat-number gold">$160 total</div>
                   <div class="stat-caption">Combined total for 2 guests with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">EVERGLADES ACCESS</div>
-                  <div class="stat-number teal">35 min</div>
-                  <div class="stat-caption">Direct drive to Royal Palm Gate</div>
+                  <div class="card-label">COASTAL SETTING</div>
+                  <div class="stat-number teal">Oceanfront</div>
+                  <div class="stat-caption">Direct Atlantic waterfront & dock</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Harbor Side Atmosphere:</strong> Enjoy a peaceful evening watching charter boats return to the marina under purple dusk skies.</li>
-                <li><strong>En-Suite Comfort:</strong> Premium king bed, quiet air conditioning, en-suite bathroom, and private balcony overlooking the water.</li>
-                <li><strong>Fresh Dockside Dinner:</strong> Savor grilled blackened grouper, conch fritters, and chilled Key lime mocktails at the open-air marina restaurant ($58 total for 2).</li>
+                <li><strong>Ocean Breeze & Hammocks:</strong> Relax in shaded waterfront double hammocks strung between mature coconut palms directly over the Atlantic.</li>
+                <li><strong>En-Suite Amenities:</strong> Crisp air-conditioned coastal room, plush bedding, private bath, mini-fridge for fruit, and complimentary morning coffee.</li>
+                <li><strong>Strategic Midway Point:</strong> Sets you up for a short 35-minute drive north to Biscayne boat excursions tomorrow morning.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide16_upperkeys.jpg" alt="Key Largo marina at dusk" loading="lazy">
+              <img src="images/slide16_upperkeys.jpg" alt="Oceanfront resort with hammocks and palms" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Peaceful Marina Evenings</div>
-                <div class="media-caption">Unwinding alongside the quiet boat slips and mangrove channels of Key Largo.</div>
+                <div class="media-title">Middle Keys Ocean Tranquility</div>
+                <div class="media-caption">Waterfront relaxation, private docks, and gentle ocean breezes in the heart of Islamorada.</div>
               </div>
             </div>
           </div>
@@ -94,84 +92,42 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 23: DAY 6: EVERGLADES NATIONAL PARK (ANHINGA TRAIL & FLAMINGO)
+           SLIDE 23: DAY 6: ROBBIE'S TARPON FEEDING & ISLAMORADA BACKCOUNTRY
            ===================================================================== -->
       <section class="slide" data-slide="23">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 6 ITINERARY • THURSDAY, OCTOBER 29, 2026</div>
-          <h2 class="slide-title">Day 6: Everglades Southern District: Anhinga Trail & Flamingo</h2>
-          <p class="slide-subtitle">Venture deep down the 38-mile Main Park Road through Royal Palm, the Taylor Slough Anhinga boardwalk, and out to Flamingo Marina on Florida Bay.</p>
-        </div>
-
-        <div class="content-area">
-          <div class="grid-2col">
-            <div class="glass-card teal-trim">
-              <div class="card-label">EVERGLADES DEEP WILDERNESS</div>
-              <h3 class="card-heading">Royal Palm & Florida Bay Coastline</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                Unlike Shark Valley's open tram, the southern district allows intimate on-foot exploration across freshwater sloughs and coastal mangrove estuaries:
-              </p>
-
-              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>08:00 AM – Ernest F. Coe Visitor Center:</strong> Enter the main park entrance in Homestead. Collect your Everglades cancellation stamp and orientation maps.</li>
-                <li><strong>08:45 AM – Royal Palm: Anhinga Trail:</strong> Stroll the iconic 0.8-mile elevated wooden boardwalk winding directly over Taylor Slough. Stand inches above wild American alligators, purple gallinules stepping across lily pads, and nesting anhingas.</li>
-                <li><strong>10:00 AM – Gumbo Limbo Trail:</strong> Walk through a dense subtropical hardwood hammock shaded by red-barked gumbo limbo trees ("tourist trees") and royal palms.</li>
-                <li><strong>12:00 PM – Flamingo Marina & Florida Bay:</strong> Drive 38 miles through pine rocklands and dwarf cypress forests to the edge of the continent. Watch wild American crocodiles and West Indian manatees swimming right beside the marina docks.</li>
-              </ul>
-
-              <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">ANHINGA BOARDWALK</span>
-                <span class="tag tag-teal">AMERICAN CROCODILES</span>
-                <span class="tag tag-terracotta">FLORIDA BAY EDGE</span>
-              </div>
-            </div>
-
-            <div class="editorial-media">
-              <img src="images/slide23_anhinga.jpg" alt="Everglades Anhinga trail wetlands and wildlife" loading="lazy">
-              <div class="media-overlay">
-                <div class="media-title">Intimate Wetland Boardwalks</div>
-                <div class="media-caption">Observing native wildlife up close along the tranquil freshwater sloughs of Royal Palm.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 24: DAY 6 NATURE & CULTURE: BIG CYPRESS & CORAL GABLES
-           ===================================================================== -->
-      <section class="slide" data-slide="24">
-        <div class="slide-header">
-          <div class="slide-eyebrow">DAY 6 TRANSIT • CYPRESS SWAMP TO CITY BEAUTIFUL</div>
-          <h2 class="slide-title">Day 6: Big Cypress National Preserve & Coral Gables Banyan Trails</h2>
-          <p class="slide-subtitle">Visiting the ancient dwarf cypress swamps of Big Cypress, followed by a scenic transit into the Mediterranean canopies of historic Coral Gables.</p>
+          <div class="slide-eyebrow">DAY 6 COAST • THE SPORTFISHING CAPITAL</div>
+          <h2 class="slide-title">Day 6: Robbie's Tarpon Feeding & Islamorada Backcountry</h2>
+          <p class="slide-subtitle">Hand-feeding massive 100-pound silver king tarpons at Robbie's Marina, exploring Islamorada's turquoise sandbars, and heading to Biscayne.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">LANDSCAPE CONTRASTS</div>
-              <h3 class="card-heading">Dwarf Cypress to Mediterranean Revival</h3>
+              <div class="card-label">COASTAL ENCOUNTERS</div>
+              <h3 class="card-heading">Robbie's Marina of Islamorada (MM 77.5)</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Islamorada is revered globally as the sportfishing capital of the world, where crystal backcountry flats meet the open Atlantic:
+              </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>02:30 PM – Big Cypress Oasis Boardwalk:</strong> Cruise west along the Tamiami Trail to the Oasis Visitor Center boardwalk in Big Cypress National Preserve. Spot 20+ giant alligators resting shoulder-to-shoulder in the deep roadside canal.</li>
-                <li><strong>04:30 PM – Drive into Coral Gables:</strong> Enter George Merrick's 1920s master-planned "City Beautiful." Drive along Coral Way beneath cathedral-like canopies of 100-year-old banyan trees.</li>
-                <li><strong>05:30 PM – Historic Biltmore Hotel Grounds:</strong> Stroll the manicured grounds of the iconic 1926 Biltmore Hotel, admiring its 300-foot Giralda replica tower and colonnaded courtyards.</li>
-                <li><strong>07:00 PM – Miracle Mile Dinner:</strong> Walk down pedestrian-friendly Miracle Mile for authentic Latin American cuisine and fresh fruit smoothies ($52 total for 2).</li>
+                <li><strong>09:00 AM – Hand-Feeding Giant Tarpons:</strong> Step onto the historic wooden docks at Robbie's Marina. Purchase a bucket of baitfish to hand-feed massive 4-to-6-foot wild silver king tarpons that leap right from the water ($12 total for 2). Watch pelicans and brown herons eye the dock.</li>
+                <li><strong>10:15 AM – Upper Keys Scenic Drive:</strong> Cruise north past Key Largo and Tavernier along the Overseas Highway toward Biscayne National Park.</li>
+                <li><strong>11:30 AM – Florida City Fresh Fruit Stop:</strong> Grab chilled fresh tropical fruit and coconut water before boarding the Biscayne boat excursion.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">BIG CYPRESS PRESERVE</span>
-                <span class="tag tag-teal">BANYAN TREE CANOPY</span>
-                <span class="tag tag-terracotta">CORAL GABLES 1926</span>
+                <span class="tag tag-gold">TARPON SIZE: 100+ LBS</span>
+                <span class="tag tag-teal">MILE MARKER: 77.5</span>
+                <span class="tag tag-terracotta">ATLANTIC BACKCOUNTRY</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide24_bigcypress.jpg" alt="Big Cypress swamp with cypress trees" loading="lazy">
+              <img src="images/slide11_keylargo.jpg" alt="Robbie's Marina turquoise waters and tarpons" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Primeval Cypress Ecosystems</div>
-                <div class="media-caption">From ancient cypress domes draped in Spanish moss to the grand Mediterranean avenues of Coral Gables.</div>
+                <div class="media-title">Wild Marine Giants of Islamorada</div>
+                <div class="media-caption">Hand-feeding hundred-pound silver king tarpons on the historic open-air docks of Robbie's.</div>
               </div>
             </div>
           </div>
@@ -179,7 +135,51 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 25: NIGHT 6 LODGING: MIAMI / CORAL GABLES BOUTIQUE BASE
+           SLIDE 24: DAY 6: BISCAYNE NATIONAL PARK BOCA CHITA BOAT TOUR
+           ===================================================================== -->
+      <section class="slide" data-slide="24">
+        <div class="slide-header">
+          <div class="slide-eyebrow">DAY 6 ITINERARY • THURSDAY, OCTOBER 29, 2026</div>
+          <h2 class="slide-title">Day 6: Biscayne National Park: Boca Chita Key & Reef Boat Tour</h2>
+          <p class="slide-subtitle">Embarking on the official Biscayne National Park Institute boat excursion out to historic Boca Chita Key, the ornamental lighthouse, and offshore reef snorkeling.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card teal-trim">
+              <div class="card-label">SUBMERGED WILDERNESS EXPEDITION</div>
+              <h3 class="card-heading">Boca Chita Key & Maritime Heritage Shipwrecks</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Since Biscayne is 95% underwater, the only way to experience its true splendor is by boat out into the open bay and barrier keys:
+              </p>
+
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>01:00 PM – Convoy Point Boat Launch:</strong> Meet your certified NPS captain and naturalist at the Biscayne National Park Institute marina (Homestead).</li>
+                <li><strong>01:30 PM – 3.5-Hour Island & Reef Boat Excursion:</strong> Cruise across Biscayne Bay's sapphire waters to uninhabited Boca Chita Key ($160 total for 2).</li>
+                <li><strong>02:30 PM – Historic Boca Chita Lighthouse:</strong> Explore the iconic 1930s coral-rock lighthouse, walk the tranquil mangrove shoreline trail, and gaze back at the distant Miami skyline across the bay.</li>
+                <li><strong>03:45 PM – Living Barrier Reef Snorkeling:</strong> Anchor along the protected reef crest or shallow shipwreck remains along the Maritime Heritage Trail. Snorkel among schools of sergeant majors, blue tangs, and towering sea plumes.</li>
+              </ul>
+
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">PARK 3 OF 3: BISCAYNE</span>
+                <span class="tag tag-teal">BOCA CHITA KEY</span>
+                <span class="tag tag-terracotta">LIVING REEF BARRIER</span>
+              </div>
+            </div>
+
+            <div class="editorial-media">
+              <img src="images/slide20_biscayne.jpg" alt="Biscayne coral reef snorkeling and clear water" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">The Submerged Wilderness of Biscayne</div>
+                <div class="media-caption">Exploring coral rock lighthouses and pristine living barrier reefs in America's largest marine park.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 25: NIGHT 6 LODGING: CORAL GABLES BOUTIQUE BASE
            ===================================================================== -->
       <section class="slide" data-slide="25">
         <div class="slide-header">
@@ -383,8 +383,8 @@ def get_slides():
       <section class="slide" data-slide="29">
         <div class="slide-header">
           <div class="slide-eyebrow">MASTER EXPEDITION SCORECARD & SHARED FINANCIAL LEDGER</div>
-          <h2 class="slide-title">The Master Ledger: $3,465 Total Combined for 2 Travelers</h2>
-          <p class="slide-subtitle">Strict unified financial ledger presenting every expenditure as a combined total for two passengers across flights, lodging, ferry, car rental, and park excursions.</p>
+          <h2 class="slide-title">The Master Ledger: $3,625 Total Combined for 2 Travelers</h2>
+          <p class="slide-subtitle">Verified unified financial ledger presenting every expenditure as a combined total for two passengers across flights ($628 booked), ferry ($520 booked), lodging, car, and excursions.</p>
         </div>
 
         <div class="content-area">
@@ -403,9 +403,14 @@ def get_slides():
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Flights (2 Pax)</strong></td>
+                    <td><strong>Flights (2 Pax) [BOOKED]</strong></td>
                     <td>Non-stop EWR ➔ MIA ➔ EWR booked for 2 passengers combined</td>
                     <td><strong>$628</strong></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Dry Tortugas Catamaran Ferry [BOOKED]</strong></td>
+                    <td><em>Yankee Freedom III</em> booked for Wed Oct 28 ($260 x 2, includes hot breakfast, lunch, gear & park admission)</td>
+                    <td><strong>$520</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Rental Vehicle + SunPass</strong></td>
@@ -419,32 +424,27 @@ def get_slides():
                   </tr>
                   <tr>
                     <td><strong>En-Suite Lodging (6 Nights)</strong></td>
-                    <td>Homestead (1N $145), Key West (2N $390), Islamorada (1N $180), Key Largo (1N $175), Coral Gables (1N $190)</td>
-                    <td><strong>$1,080</strong></td>
+                    <td>South Beach (2N $400), Key West Old Town (2N $390), Islamorada (1N $160), Coral Gables (1N $190)</td>
+                    <td><strong>$1,140</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Dry Tortugas Catamaran Ferry</strong></td>
-                    <td><em>Yankee Freedom III</em> roundtrip ferry for 2 (includes hot breakfast, buffet lunch, snorkel gear & NPS access)</td>
-                    <td><strong>$420</strong></td>
-                  </tr>
-                  <tr>
-                    <td><strong>National Park Excursions</strong></td>
+                    <td><strong>National Park Guided Excursions</strong></td>
                     <td>Biscayne Boca Chita Boat Tour ($160) + Shark Valley Tram Tour ($62)</td>
                     <td><strong>$222</strong></td>
                   </tr>
                   <tr>
                     <td><strong>National Parks Entry Passes</strong></td>
-                    <td>America the Beautiful Interagency Annual Pass (covers Everglades & all vehicle entries)</td>
+                    <td>America the Beautiful Interagency Annual Pass (covers Everglades & vehicle access)</td>
                     <td><strong>$80</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Gastronomy (Zero Alcohol)</strong></td>
-                    <td>7 days authentic Cuban, Keys seafood, fresh tropical fruit batidos, and Key lime treats for 2</td>
+                    <td>7 days authentic South Beach dining, Cuban criollo, local seafood, tropical fruit batidos, and Key lime treats</td>
                     <td><strong>$580</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Marine Field Kit & Incidentals</strong></td>
-                    <td>Zinc reef sunscreen, waterproof phone cases, insect repellent, state park admissions</td>
+                    <td>Zinc reef sunscreen, Wynwood museum tickets ($24), waterproof phone cases, state park entries</td>
                     <td><strong>$100</strong></td>
                   </tr>
                 </tbody>
@@ -452,31 +452,31 @@ def get_slides():
 
               <div style="display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-gold); padding-top: 8px;">
                 <span class="tag tag-gold">ZERO HIDDEN RESORT FEES</span>
-                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,465</span>
+                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,625</span>
               </div>
             </div>
 
             <!-- Scorecard Summary Pillar -->
             <div style="display: flex; flex-direction: column; gap: 10px;">
               <div class="stat-box" style="padding: 14px;">
-                <div class="card-label">FLIGHT SAVINGS</div>
-                <div class="stat-number gold">$628 Total</div>
-                <div class="stat-caption">Locked non-stop flights for 2 ($314/pax)</div>
+                <div class="card-label">FLIGHT STATUS</div>
+                <div class="stat-number gold">$628 BOOKED</div>
+                <div class="stat-caption">Non-stop EWR ⇄ MIA for 2 travelers</div>
               </div>
               <div class="stat-box" style="padding: 14px;">
-                <div class="card-label">NATIONAL PARKS VISITED</div>
-                <div class="stat-number teal">3 of 3 (100%)</div>
-                <div class="stat-caption">Biscayne • Everglades • Dry Tortugas</div>
+                <div class="card-label">DRY TORTUGAS STATUS</div>
+                <div class="stat-number teal">07:00 AM BOOKED</div>
+                <div class="stat-caption">Yankee Freedom III Catamaran (Wed Oct 28)</div>
               </div>
               <div class="stat-box" style="padding: 14px;">
-                <div class="card-label">HIGHWAY EFFICIENCY</div>
-                <div class="stat-number terracotta">420 Miles</div>
-                <div class="stat-caption">Zero Orlando backtracking • Compact loop</div>
+                <div class="card-label">PARKS TRIFECTA</div>
+                <div class="stat-number terracotta">3 of 3 (100%)</div>
+                <div class="stat-caption">Everglades • Dry Tortugas • Biscayne</div>
               </div>
               <div class="stat-box" style="padding: 14px;">
-                <div class="card-label">THEME PARK PENALTY</div>
-                <div class="stat-number gold">$0.00</div>
-                <div class="stat-caption">Zero Disney / Universal tickets purchased</div>
+                <div class="card-label">SOUTH BEACH BASE</div>
+                <div class="stat-number gold">2 Full Nights</div>
+                <div class="stat-caption">Ocean Drive • South Pointe • Wynwood</div>
               </div>
             </div>
           </div>
@@ -509,22 +509,7 @@ def get_slides():
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Biscayne National Park</strong></td>
-                    <td>Dante Fascell Visitor Center (Convoy Point)</td>
-                    <td>(305) 230-1144</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Everglades: Shark Valley</strong></td>
-                    <td>Tamiami Trail Tram Station</td>
-                    <td>(305) 221-8776</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Everglades: Flamingo</strong></td>
-                    <td>Flamingo Marina & Visitor Station</td>
-                    <td>(239) 695-2945</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Yankee Freedom III Ferry</strong></td>
+                    <td><strong>Yankee Freedom III Ferry [BOOKED]</strong></td>
                     <td>Key West Ferry Terminal (100 Grinnell St)</td>
                     <td>(800) 634-0939</td>
                   </tr>
@@ -532,6 +517,21 @@ def get_slides():
                     <td><strong>Dry Tortugas NPS Office</strong></td>
                     <td>Garden Key Fort Jefferson Station</td>
                     <td>(305) 242-7700</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Everglades: Shark Valley</strong></td>
+                    <td>Tamiami Trail Tram Station</td>
+                    <td>(305) 221-8776</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Biscayne National Park</strong></td>
+                    <td>Dante Fascell Visitor Center (Convoy Point)</td>
+                    <td>(305) 230-1144</td>
+                  </tr>
+                  <tr>
+                    <td><strong>US Coast Guard Sector Key West</strong></td>
+                    <td>24-Hour Search & Rescue Operations</td>
+                    <td>(305) 292-8727</td>
                   </tr>
                 </tbody>
               </table>
@@ -546,11 +546,11 @@ def get_slides():
               <h3 class="card-heading">Medical Centers & Roadside Assistance</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>Lower Keys Medical Center:</strong> 5900 College Rd, Key West, FL 33040. Full 24/7 Level IV trauma & emergency department: <code>(305) 294-5531</code>.</li>
-                <li><strong>Baptist Health Homestead Hospital:</strong> 975 Baptist Way, Homestead, FL 33033. Closest emergency center for Everglades & Biscayne: <code>(786) 243-8000</code>.</li>
+                <li><strong>Mount Sinai Medical Center (Miami Beach):</strong> 4300 Alton Rd, Miami Beach, FL 33140. Full 24/7 emergency & trauma: <code>(305) 674-2121</code>.</li>
+                <li><strong>Lower Keys Medical Center:</strong> 5900 College Rd, Key West, FL 33040. Full 24/7 Level IV trauma & emergency: <code>(305) 294-5531</code>.</li>
+                <li><strong>Baptist Health Doctors Hospital:</strong> 5000 University Dr, Coral Gables, FL 33146: <code>(786) 308-3000</code>.</li>
                 <li><strong>Florida Highway Patrol (Roadside SOS):</strong> Dial <code>*FHP (*347)</code> from any mobile phone for Overseas Highway assistance.</li>
                 <li><strong>Monroe County Sheriff (Keys Dispatch):</strong> Non-emergency dispatch: <code>(305) 289-2351</code>.</li>
-                <li><strong>US Coast Guard Sector Key West:</strong> 24-Hour Search & Rescue Operations: <code>(305) 292-8727</code>.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">

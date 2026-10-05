@@ -5,33 +5,33 @@ def get_slides():
            ===================================================================== -->
       <section class="slide active" data-slide="1">
         <div class="slide-header">
-          <div class="slide-eyebrow">NATIONAL PARKS TRIFECTA & FLORIDA KEYS • MASTER FIELD GUIDE</div>
-          <h1 class="slide-title">Florida National Parks Trifecta: Biscayne, Everglades & Dry Tortugas</h1>
-          <p class="slide-subtitle">A comprehensive 7-day / 6-night expedition (October 24–30, 2026) conquering all three US National Parks in Florida, the Overseas Highway (US-1), and Key West—with zero theme parks.</p>
+          <div class="slide-eyebrow">MIAMI BEACH, THE KEYS & NATIONAL PARKS TRIFECTA • MASTER FIELD GUIDE</div>
+          <h1 class="slide-title">Florida Grand Expedition: Miami Beach, The Keys & 3 National Parks</h1>
+          <p class="slide-subtitle">A verified 7-day / 6-night expedition (October 24–30, 2026) connecting South Beach Art Deco glamour, the Overseas Highway (US-1), Key West, and all three Florida National Parks: Everglades, Dry Tortugas (BOOKED), and Biscayne.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col-wide-left">
             <div class="glass-card gold-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
               <div>
-                <div class="card-label">STRATEGIC ARCHITECTURE</div>
-                <h3 class="card-heading">Three National Parks • Coral Reefs to Sawgrass Wilderness</h3>
+                <div class="card-label">STRATEGIC EXPEDITION ARCHITECTURE</div>
+                <h3 class="card-heading">Urban Elegance to Remote Coral Wilderness</h3>
                 <p class="card-body" style="margin-bottom: 1.2rem;">
-                  Operating along an optimized <strong>Roundtrip Miami Corridor (EWR ➔ MIA ➔ EWR for $628 total)</strong>. Experiencing the submerged marine wilderness and shipwrecks of <strong>Biscayne National Park</strong>, the primeval river of grass and alligator sloughs of <strong>Everglades National Park</strong> (both Shark Valley and Flamingo districts), and embarking on an open-ocean catamaran expedition 70 miles west into the Gulf of Mexico to explore the 19th-century brick citadel of <strong>Dry Tortugas National Park</strong>.
+                  Operating along an optimized <strong>Roundtrip Miami Corridor (EWR ➔ MIA ➔ EWR booked for $628 total)</strong>. Beginning with 2 full nights immersed in the iconic Art Deco glamour of <strong>Miami Beach & Wynwood</strong>, venturing into a single definitive expedition through <strong>Everglades National Park (Shark Valley)</strong>, conquering Henry Flagler's Overseas Highway to <strong>Key West</strong>, voyaging 70 miles offshore on the high-speed catamaran to <strong>Dry Tortugas National Park (BOOKED at 07:00 AM for Wed, Oct 28)</strong>, and exploring the submerged barrier reefs of <strong>Biscayne National Park</strong>.
                 </p>
 
                 <ul class="highlight-list">
-                  <li><strong>Zero Theme Parks:</strong> 100% focused on wild marine ecosystems, ancient hardwood hammocks, living coral barrier reefs, and authentic regional culture.</li>
-                  <li><strong>All 3 Florida National Parks:</strong> Biscayne (Day 1 & Day 5), Everglades (Day 2 & Day 6), and Dry Tortugas (Day 3 full-day expedition).</li>
-                  <li><strong>Locked Flight Cost:</strong> Non-stop flights EWR ➔ MIA ➔ EWR secured for exactly $628 combined total for 2 passengers.</li>
-                  <li><strong>Strict Shared Accounting:</strong> Every dollar presented as a unified couple total ($3,465 total for 2 travelers combined).</li>
-                  <li><strong>Zero-Alcohol Gastronomy:</strong> Fresh Florida orange & grapefruit juice, authentic Cuban cafecitos, mamey batidos, and tart Key Lime mocktails.</li>
+                  <li><strong>Dedicated Miami Beach Base:</strong> 2 full nights based directly in South Beach (Ocean Drive, Lummus Beach, South Pointe Park Pier, and Wynwood Walls).</li>
+                  <li><strong>Single Definitive Everglades Visit:</strong> One high-yield, comprehensive exploration at Shark Valley (15-mile tram & 65-ft tower)—zero redundant backtrack trips!</li>
+                  <li><strong>Booked Dry Tortugas Ferry:</strong> Confirmed 07:00 AM check-in aboard the <em>Yankee Freedom III</em> catamaran for Wednesday, Oct 28 ($520 total for 2).</li>
+                  <li><strong>Strict Shared Accounting:</strong> Every expenditure calculated as a combined couple total ($3,625 total for 2 travelers).</li>
+                  <li><strong>Zero-Alcohol Gastronomy:</strong> Authentic Cuban criollo, freshly squeezed citrus, tropical batidos, and Key lime mocktails.</li>
                 </ul>
               </div>
 
               <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.2rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle);">
                 <span class="tag tag-gold">OCTOBER 24–30, 2026</span>
-                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--sand-muted);">EXPEDITION STATUS: VERIFIED</span>
+                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--teal-ocean); font-weight: 700;">FLIGHTS & FERRY SECURED [BOOKED]</span>
               </div>
             </div>
 
@@ -43,15 +43,15 @@ def get_slides():
               </div>
               <div class="stat-box">
                 <div class="stat-number teal">3 National Parks</div>
-                <div class="stat-caption">Biscayne • Everglades • Dry Tortugas</div>
+                <div class="stat-caption">Everglades • Dry Tortugas (Booked) • Biscayne</div>
               </div>
               <div class="stat-box">
-                <div class="stat-number terracotta">~420 Road Miles</div>
-                <div class="stat-caption">Overseas Highway Loop • Zero Backtrack Waste</div>
+                <div class="stat-number terracotta">2 Nights South Beach</div>
+                <div class="stat-caption">Ocean Drive • South Pointe • Wynwood Walls</div>
               </div>
               <div class="stat-box">
-                <div class="stat-number gold">$3,465 Shared Total</div>
-                <div class="stat-caption">Unified Couple Budget • Flights ($628), Ferry, Parks & Lodging</div>
+                <div class="stat-number gold">$3,625 Shared Total</div>
+                <div class="stat-caption">Unified Couple Budget • Flights ($628), Ferry ($520) & Lodging</div>
               </div>
             </div>
           </div>
@@ -59,67 +59,67 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 02: STRATEGIC ROUTE ARCHITECTURE (NATIONAL PARKS TRIFECTA)
+           SLIDE 02: STRATEGIC ROUTE ARCHITECTURE (THE SOUTH FLORIDA FLOW)
            ===================================================================== -->
       <section class="slide" data-slide="2">
         <div class="slide-header">
-          <div class="slide-eyebrow">TACTICAL CORRIDOR & GEOGRAPHY</div>
-          <h2 class="slide-title">Strategic Architecture: The South Florida Parks Trifecta</h2>
-          <p class="slide-subtitle">How South Florida's unique geography positions three vastly distinct national parks within a compact, hyper-efficient road and maritime loop.</p>
+          <div class="slide-eyebrow">TACTICAL CORRIDOR & ROUTE ARCHITECTURE</div>
+          <h2 class="slide-title">Strategic Architecture: Miami Beach, The Keys & Parks</h2>
+          <p class="slide-subtitle">A balanced loop designed to eliminate backtracking: starting with ocean relaxation in Miami Beach, sweeping south through the Everglades and Key West, and concluding with Biscayne and Little Havana.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">ECOSYSTEM BLUEPRINT</div>
-              <h3 class="card-heading">Three Ecosystems, One Seamless Corridor</h3>
+              <div class="card-label">FORWARD VECTOR CORRIDOR</div>
+              <h3 class="card-heading">Three Phases, Zero Wasted Driving</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Unlike Western parks separated by hundreds of miles of highway, Florida's 3 national parks are tightly concentrated in South Florida and the Florida Keys:
+                By eliminating duplicate park visits and placing Miami Beach at the front of the trip, the route flows with natural forward momentum:
               </p>
 
               <table class="table-editorial" style="margin-bottom: 1rem;">
                 <thead>
                   <tr>
-                    <th>National Park</th>
-                    <th>Dominant Biome</th>
-                    <th>Primary Vector</th>
-                    <th>Tactical Highlight</th>
+                    <th>Trip Phase</th>
+                    <th>Dates</th>
+                    <th>Base Location</th>
+                    <th>Core Highlights</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Biscayne</strong></td>
-                    <td>95% Submerged Marine</td>
-                    <td>Homestead / Boat</td>
-                    <td><span class="tag tag-teal">Boca Chita Reef</span></td>
+                    <td><strong>Phase I: Urban Coast</strong></td>
+                    <td>Sat Oct 24 – Sun Oct 25</td>
+                    <td>South Beach (2N)</td>
+                    <td><span class="tag tag-gold">Ocean Dr & Wynwood</span></td>
                   </tr>
                   <tr>
-                    <td><strong>Everglades</strong></td>
-                    <td>Sawgrass & Mangrove</td>
-                    <td>Shark Valley & Flamingo</td>
-                    <td><span class="tag tag-gold">Tram & Anhinga</span></td>
+                    <td><strong>Phase II: The Keys & Gulf</strong></td>
+                    <td>Mon Oct 26 – Wed Oct 28</td>
+                    <td>Key West (2N) + Islamorada (1N)</td>
+                    <td><span class="tag tag-teal">Everglades & Dry Tortugas</span></td>
                   </tr>
                   <tr>
-                    <td><strong>Dry Tortugas</strong></td>
-                    <td>Remote Coral Atoll</td>
-                    <td>Key West Catamaran</td>
-                    <td><span class="tag tag-terracotta">Fort Jefferson</span></td>
+                    <td><strong>Phase III: Marine Reef</strong></td>
+                    <td>Thu Oct 29 – Fri Oct 30</td>
+                    <td>Coral Gables (1N)</td>
+                    <td><span class="tag tag-terracotta">Biscayne & Versailles</span></td>
                   </tr>
                 </tbody>
               </table>
 
               <ul class="highlight-list">
-                <li><strong>No Central Florida Waste:</strong> Cutting Orlando theme parks saves 450+ miles of monotonous Turnpike driving and 8+ hours of highway fatigue.</li>
-                <li><strong>Zero Car Drop Fees:</strong> Picking up and dropping off the rental vehicle at Miami International Airport (MIA) eliminates one-way rental penalties.</li>
-                <li><strong>Natural Transition Window:</strong> Late October marks the golden shift into Florida's dry season—decreasing humidity, clearing ocean visibility, and dropping mosquito activity.</li>
+                <li><strong>No Central Florida Waste:</strong> Zero Orlando theme parks saves 450+ miles of toll driving and $1,200+ in theme park ticket markups.</li>
+                <li><strong>One Definitive Everglades Stop:</strong> Shark Valley provides the ultimate sawgrass and alligator experience on Monday, Oct 26 en route to Key West.</li>
+                <li><strong>Zero Car Drop Fees:</strong> Roundtrip MIA-to-MIA vehicle loop eliminates one-way rental penalties entirely.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
               <img src="images/slide02_hero.jpg" alt="Florida turquoise coastline and barrier reef" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The South Florida Wilderness Corridor</div>
-                <div class="media-caption">From Atlantic living reefs to the vast river of grass and remote Gulf of Mexico coral islands.</div>
+                <div class="media-title">The South Florida Wilderness & Coast Corridor</div>
+                <div class="media-caption">From the pastel architecture of South Beach to the remote coral citadel of Dry Tortugas.</div>
               </div>
             </div>
           </div>
@@ -133,21 +133,21 @@ def get_slides():
         <div class="slide-header">
           <div class="slide-eyebrow">FIELD CARTOGRAPHY & DISPATCH</div>
           <h2 class="slide-title">Interactive Expedition Cartography & Waypoint Dispatch</h2>
-          <p class="slide-subtitle">Click any numbered milestone across South Florida, the Florida Keys, and Dry Tortugas to inspect GPS coordinates, driving times, and tactical notes.</p>
+          <p class="slide-subtitle">Click any numbered milestone across Miami Beach, the Everglades, the Florida Keys, and Dry Tortugas to inspect GPS coordinates, driving times, and tactical notes.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col-wide-left">
             <div class="glass-card teal-trim" style="display: flex; flex-direction: column;">
               <div class="waypoint-selector" id="mapPillContainer">
-                <button class="stage-pill active" onclick="selectMapStage(0)">01: Miami Hub</button>
-                <button class="stage-pill" onclick="selectMapStage(1)">02: Biscayne NP</button>
-                <button class="stage-pill" onclick="selectMapStage(2)">03: Key Largo</button>
-                <button class="stage-pill" onclick="selectMapStage(3)">04: Bahia Honda</button>
-                <button class="stage-pill" onclick="selectMapStage(4)">05: Key West</button>
-                <button class="stage-pill" onclick="selectMapStage(5)">06: Dry Tortugas</button>
-                <button class="stage-pill" onclick="selectMapStage(6)">07: Shark Valley</button>
-                <button class="stage-pill" onclick="selectMapStage(7)">08: Flamingo</button>
+                <button class="stage-pill active" onclick="selectMapStage(0)">01: MIA Hub</button>
+                <button class="stage-pill" onclick="selectMapStage(1)">02: Miami Beach</button>
+                <button class="stage-pill" onclick="selectMapStage(2)">03: Wynwood</button>
+                <button class="stage-pill" onclick="selectMapStage(3)">04: Shark Valley</button>
+                <button class="stage-pill" onclick="selectMapStage(4)">05: Seven Mile</button>
+                <button class="stage-pill" onclick="selectMapStage(5)">06: Key West</button>
+                <button class="stage-pill" onclick="selectMapStage(6)">07: Dry Tortugas</button>
+                <button class="stage-pill" onclick="selectMapStage(7)">08: Biscayne NP</button>
               </div>
 
               <!-- Interactive SVG Map of South Florida, Keys & Dry Tortugas -->
@@ -165,51 +165,54 @@ def get_slides():
                         fill="none" stroke="rgba(15, 118, 110, 0.3)" stroke-width="6" stroke-linecap="round" />
 
                   <!-- Driving & Maritime Route Lines -->
-                  <!-- Miami -> Biscayne -> Keys -> Key West -->
-                  <polyline points="440,240 435,285 410,345 350,420 250,448 190,452" 
+                  <!-- MIA -> Miami Beach -->
+                  <line x1="435" y1="235" x2="465" y2="235" 
+                        stroke="var(--gold-primary)" stroke-width="3" stroke-linecap="round" />
+                  <!-- Miami Beach -> Shark Valley -->
+                  <line x1="465" y1="235" x2="355" y2="245" 
+                        stroke="var(--gold-primary)" stroke-width="2.5" stroke-dasharray="6,4" stroke-linecap="round" />
+                  <!-- Shark Valley -> Keys -> Key West -->
+                  <polyline points="355,245 425,320 410,345 350,420 250,448 190,452" 
                             fill="none" stroke="var(--gold-primary)" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" />
                   <!-- Key West -> Dry Tortugas (Maritime Ferry Line) -->
                   <line x1="190" y1="452" x2="80" y2="445" 
                         stroke="var(--teal-ocean)" stroke-width="2.5" stroke-dasharray="4,4" stroke-linecap="round" />
-                  <!-- Miami -> Shark Valley -->
-                  <line x1="440" y1="240" x2="355" y2="245" 
-                        stroke="var(--gold-primary)" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" />
-                  <!-- Florida City -> Flamingo -->
-                  <line x1="420" y1="300" x2="365" y2="380" 
+                  <!-- Keys -> Biscayne NP -->
+                  <line x1="410" y1="345" x2="435" y2="285" 
                         stroke="var(--gold-primary)" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" />
 
                   <!-- Waypoint Nodes -->
                   <!-- 01: Miami (MIA) -->
-                  <circle id="node-0" class="map-node" cx="440" cy="240" r="9" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(0)" style="cursor: pointer;" />
-                  <text x="452" y="244" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">01: MIA</text>
+                  <circle id="node-0" class="map-node" cx="435" cy="235" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(0)" style="cursor: pointer;" />
+                  <text x="405" y="230" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9" font-weight="700">01: MIA</text>
 
-                  <!-- 02: Biscayne NP -->
-                  <circle id="node-1" class="map-node" cx="435" cy="285" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(1)" style="cursor: pointer;" />
-                  <text x="447" y="289" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">02: Biscayne NP</text>
+                  <!-- 02: Miami Beach -->
+                  <circle id="node-1" class="map-node" cx="465" cy="235" r="9" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(1)" style="cursor: pointer;" />
+                  <text x="475" y="238" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9" font-weight="700">02: Miami Beach</text>
 
-                  <!-- 03: Key Largo -->
-                  <circle id="node-2" class="map-node" cx="410" cy="345" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(2)" style="cursor: pointer;" />
-                  <text x="422" y="349" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">03: Key Largo</text>
+                  <!-- 03: Wynwood -->
+                  <circle id="node-2" class="map-node" cx="450" cy="225" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(2)" style="cursor: pointer;" />
+                  <text x="458" y="215" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">03: Wynwood</text>
 
-                  <!-- 04: Bahia Honda -->
-                  <circle id="node-3" class="map-node" cx="250" cy="448" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(3)" style="cursor: pointer;" />
-                  <text x="245" y="468" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">04: Bahia Honda</text>
+                  <!-- 04: Shark Valley -->
+                  <circle id="node-3" class="map-node" cx="355" cy="245" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(3)" style="cursor: pointer;" />
+                  <text x="270" y="248" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9" font-weight="700">04: Shark Valley</text>
 
-                  <!-- 05: Key West -->
-                  <circle id="node-4" class="map-node" cx="190" cy="452" r="9" fill="var(--terracotta)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(4)" style="cursor: pointer;" />
-                  <text x="180" y="435" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">05: Key West</text>
+                  <!-- 05: Seven Mile Bridge -->
+                  <circle id="node-4" class="map-node" cx="250" cy="448" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(4)" style="cursor: pointer;" />
+                  <text x="240" y="468" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">05: Seven Mile</text>
 
-                  <!-- 06: Dry Tortugas -->
-                  <circle id="node-5" class="map-node" cx="80" cy="445" r="9" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(5)" style="cursor: pointer;" />
-                  <text x="25" y="435" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">06: Dry Tortugas</text>
+                  <!-- 06: Key West -->
+                  <circle id="node-5" class="map-node" cx="190" cy="452" r="9" fill="var(--terracotta)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(5)" style="cursor: pointer;" />
+                  <text x="180" y="435" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">06: Key West</text>
 
-                  <!-- 07: Shark Valley (Everglades) -->
-                  <circle id="node-6" class="map-node" cx="355" cy="245" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(6)" style="cursor: pointer;" />
-                  <text x="270" y="240" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">07: Shark Valley</text>
+                  <!-- 07: Dry Tortugas (BOOKED) -->
+                  <circle id="node-6" class="map-node" cx="80" cy="445" r="10" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2.5" onclick="selectMapStage(6)" style="cursor: pointer;" />
+                  <text x="20" y="435" fill="var(--text-title)" font-family="var(--font-mono)" font-size="10" font-weight="700">07: Dry Tortugas [BOOKED]</text>
 
-                  <!-- 08: Flamingo (Everglades) -->
-                  <circle id="node-7" class="map-node" cx="365" cy="380" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(7)" style="cursor: pointer;" />
-                  <text x="290" y="385" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">08: Flamingo</text>
+                  <!-- 08: Biscayne NP -->
+                  <circle id="node-7" class="map-node" cx="435" cy="285" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(7)" style="cursor: pointer;" />
+                  <text x="447" y="289" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">08: Biscayne NP</text>
                 </svg>
               </div>
             </div>
@@ -279,7 +282,7 @@ def get_slides():
         <div class="slide-header">
           <div class="slide-eyebrow">GROUND & WATER ROUTE ARCHITECTURE</div>
           <h2 class="slide-title">Highway Logistics, SunPass & The Yankee Freedom III</h2>
-          <p class="slide-subtitle">Mastering the Overseas Highway (US-1), electronic cashless toll plazas, and securing mandatory reservations for the Dry Tortugas ferry.</p>
+          <p class="slide-subtitle">Mastering the Overseas Highway (US-1), electronic cashless toll plazas, and managing confirmed reservations for the Dry Tortugas ferry.</p>
         </div>
 
         <div class="content-area">
@@ -307,23 +310,23 @@ def get_slides():
 
             <div class="glass-card teal-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
               <div>
-                <div class="card-label">CRITICAL EXPEDITION RESERVATIONS</div>
-                <h3 class="card-heading">Yankee Freedom III & SunPass Rules</h3>
+                <div class="card-label">CONFIRMED MARITIME EXPEDITION</div>
+                <h3 class="card-heading">Yankee Freedom III • Wednesday, Oct 28</h3>
                 
-                <div class="field-alert" style="margin-bottom: 1rem;">
-                  <strong>FERRY CRITICAL DIRECTIVE:</strong> The <em>Yankee Freedom III</em> catamaran is the exclusive authorized public ferry to Dry Tortugas. Daily capacity is strictly capped at 250 passengers and sells out months in advance ($420 total for 2 passengers combined).
+                <div class="field-alert" style="margin-bottom: 1rem; border-left: 4px solid var(--teal-ocean);">
+                  <strong>TICKETS BOOKED:</strong> 07:00 AM check-in at Key West Ferry Terminal (100 Grinnell St) confirmed for Wednesday, Oct 28 ($520 total for 2 passengers). Hot breakfast, buffet lunch, snorkel gear & park entry included.
                 </div>
 
                 <ul class="highlight-list">
-                  <li><strong>SunPass Cashless Tolls:</strong> South Florida expressways (FL-836, FL-821 Turnpike Extension) have zero cash booths. Use the rental agency's plate pass or a personal $14.99 SunPass Pro transponder to avoid $15/day service fees.</li>
-                  <li><strong>US-1 Mile Markers:</strong> The Overseas Highway uses Mile Markers (MM) from MM 126 (Florida City) down to MM 0 (Key West). Speed limits strictly drop to 35–45 mph in residential keys.</li>
-                  <li><strong>Shark Valley Tram:</strong> Pre-book the 2-hour guided tram at Everglades Shark Valley for Sunday, Oct 25 ($62 total for 2).</li>
+                  <li><strong>SunPass Cashless Tolls:</strong> South Florida expressways (Airport Expressway FL-112, Dolphin FL-836) have zero cash booths. Use the rental agency's plate pass or a personal SunPass transponder.</li>
+                  <li><strong>South Beach Parking:</strong> Park in municipal garages (e.g., 7th & Collins or 13th & Collins) at $20/day instead of $55/day hotel valet.</li>
+                  <li><strong>US-1 Mile Markers:</strong> Speed limits strictly drop to 35–45 mph in residential keys. Big Pine Key enforces a 35 mph night speed limit to protect endangered miniature Key deer.</li>
                 </ul>
               </div>
 
               <div style="display: flex; gap: 8px; margin-top: 1rem;">
                 <span class="tag tag-gold">MIA-MIA COMPACT LOOP</span>
-                <span class="tag tag-teal">YANKEE FREEDOM: SECURE NOW</span>
+                <span class="tag tag-teal">FERRY: BOOKED OCT 28</span>
               </div>
             </div>
           </div>
@@ -337,34 +340,34 @@ def get_slides():
         <div class="slide-header">
           <div class="slide-eyebrow">FIELD ETHICS & ECOSYSTEM SAFETY</div>
           <h2 class="slide-title">Subtropical Marine & Wetland Safety Protocols</h2>
-          <p class="slide-subtitle">Safeguarding both travelers and fragile national park ecosystems: alligator vs. crocodile behavior, mineral reef sunscreen, and mosquito defense.</p>
+          <p class="slide-subtitle">Safeguarding both travelers and fragile national park ecosystems: alligator behavior, mineral reef sunscreen, and coral conservation.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
               <div class="card-label">WILDLIFE PROTOCOLS</div>
-              <h3 class="card-heading">Alligators vs. American Crocodiles</h3>
+              <h3 class="card-heading">Alligators & Wetland Etiquette</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                South Florida is the only place on Earth where native <strong>American Alligators</strong> (freshwater sawgrass sloughs) and endangered <strong>American Crocodiles</strong> (coastal saltwater mangroves) coexist:
+                At Everglades Shark Valley, native American alligators sunbathe openly along the edge of the asphalt tram loop:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem;">
                 <div class="stat-box">
                   <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--teal-ocean);">AMERICAN ALLIGATOR</div>
-                  <div style="font-size: 1rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">Broad U-Shaped Snout</div>
-                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Dark black/grey. Plentiful along Shark Valley tram trail and Anhinga boardwalk.</div>
+                  <div style="font-size: 1rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">Freshwater Sloughs</div>
+                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Plentiful along Shark Valley canal. Maintains a calm, non-aggressive posture when respected.</div>
                 </div>
                 <div class="stat-box">
-                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--terracotta);">AMERICAN CROCODILE</div>
-                  <div style="font-size: 1rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">Narrow V-Shaped Snout</div>
-                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Olive-tan coloration. Basks openly at Flamingo Marina basin and Florida Bay docks.</div>
+                  <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--terracotta);">15-FOOT BUFFER RULE</div>
+                  <div style="font-size: 1rem; font-weight: 700; color: var(--text-title); margin: 2px 0;">Federal Park Law</div>
+                  <div style="font-size: 0.76rem; color: var(--sand-muted);">Strictly maintain at least 15 ft (4.5 m) distance. Never approach, crowd, or feed wildlife.</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>The 15-Foot Buffer:</strong> Federal park law requires maintaining a minimum 15-foot (4.5 m) distance from all crocodilians at all times. Never feed or corner wildlife.</li>
-                <li><strong>Trail Mindfulness:</strong> At Shark Valley, alligators frequently sunbathe directly on the edge of the asphalt bike/tram trail. Remain calmly centered on the roadway.</li>
+                <li><strong>Trail Mindfulness:</strong> While riding the tram or walking near the observation tower, keep hands inside vehicle and stay centered on the pavement.</li>
+                <li><strong>Wading Birds:</strong> Never chase roseate spoonbills, wood storks, or great blue herons; observe them using binoculars.</li>
               </ul>
             </div>
 
@@ -372,7 +375,7 @@ def get_slides():
               <div class="card-label">MARINE REEF ETHICS</div>
               <h3 class="card-heading">Reef Sunscreen & Snorkel Stewardship</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Biscayne and Dry Tortugas harbor some of the most delicate living coral heads remaining in the Florida Reef Tract:
+                Dry Tortugas and Biscayne preserve pristine living coral heads that require conscious protection:
               </p>
 
               <div class="field-alert" style="margin-bottom: 1rem;">
@@ -380,9 +383,8 @@ def get_slides():
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Never Touch Coral:</strong> Corals are delicate living colonial animals. Touching or standing on coral heads breaks decades of growth and causes infectious bacterial die-offs.</li>
-                <li><strong>No Shiny Jewelry:</strong> Remove glittering watches, rings, and chains before snorkeling. Flashy silver jewelry can trigger investigative strikes from predatory barracuda.</li>
-                <li><strong>Mangrove Insect Protocol:</strong> Bring Picaridin or 30% DEET repellent for dawn/dusk walks on the Snake Bight and Christian Point trails in southern Everglades.</li>
+                <li><strong>Never Stand on Coral:</strong> Corals are delicate living colonial organisms. Standing on coral breaks decades of growth and kills the colony.</li>
+                <li><strong>No Shiny Jewelry:</strong> Remove glittering watches, rings, and chains before snorkeling to avoid attracting predatory barracuda.</li>
               </ul>
             </div>
           </div>
@@ -390,13 +392,13 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 07: TECHNICAL PACKING & MARINE FIELD KIT
+           SLIDE 07: TECHNICAL PACKING: MARINE, REEF & URBAN FIELD KIT
            ===================================================================== -->
       <section class="slide" data-slide="7">
         <div class="slide-header">
           <div class="slide-eyebrow">FIELD OUTFITTING & KIT ARCHITECTURE</div>
-          <h2 class="slide-title">Technical Packing: Marine, Reef & Wetland Field Kit</h2>
-          <p class="slide-subtitle">Precision packing checklist for saltwater snorkeling, full-day open-ocean ferry transits, and subtropical wetland boardwalks.</p>
+          <h2 class="slide-title">Technical Packing: Marine, Reef & Urban Field Kit</h2>
+          <p class="slide-subtitle">Precision packing checklist spanning South Beach oceanfront promenades, full-day open-ocean ferry transits, and subtropical wetland boardwalks.</p>
         </div>
 
         <div class="content-area">
@@ -404,9 +406,6 @@ def get_slides():
             <div class="glass-card gold-trim">
               <div class="card-label">GEAR MATRIX</div>
               <h3 class="card-heading">Marine & Snorkel Equipment</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                While the <em>Yankee Freedom III</em> provides basic snorkel gear, having your own well-fitting gear ensures maximum comfort, zero leaks, and immediate access at Biscayne:
-              </p>
 
               <table class="table-editorial" style="margin-bottom: 1rem;">
                 <thead>
@@ -420,7 +419,7 @@ def get_slides():
                   <tr>
                     <td><strong>Dry-Top Snorkel & Mask</strong></td>
                     <td>Silicone skirt, tempered glass</td>
-                    <td>Prevents saltwater intake in open swells</td>
+                    <td>Comfortable fit for Dry Tortugas & Biscayne reefs</td>
                   </tr>
                   <tr>
                     <td><strong>Long-Sleeve Rashguards</strong></td>
@@ -430,7 +429,7 @@ def get_slides():
                   <tr>
                     <td><strong>Water Shoes / Booties</strong></td>
                     <td>Grippy rubber sole</td>
-                    <td>Protects against jagged coral limestone at Fort Jefferson</td>
+                    <td>Protects feet on limestone at Fort Jefferson moat</td>
                   </tr>
                   <tr>
                     <td><strong>Dry Bag Backpack</strong></td>
@@ -441,21 +440,21 @@ def get_slides():
               </table>
 
               <ul class="highlight-list">
-                <li><strong>Polarized Sunglasses:</strong> Crucial for cutting ocean surface glare to spot sea turtles, stingrays, and manatees from piers and boat decks.</li>
-                <li><strong>Defogging Drops:</strong> Biodegradable baby shampoo or commercial defogger for crystal-clear mask views.</li>
+                <li><strong>Polarized Sunglasses:</strong> Cuts ocean surface glare to spot sea turtles, stingrays, and manatees.</li>
+                <li><strong>Defogging Drops:</strong> Biodegradable baby shampoo or commercial drops for crystal-clear mask views.</li>
               </ul>
             </div>
 
             <div class="glass-card teal-trim">
-              <div class="card-label">EXPEDITION ESSENTIALS</div>
-              <h3 class="card-heading">Wetland & Trail Field Necessities</h3>
+              <div class="card-label">URBAN & TRAIL ESSENTIALS</div>
+              <h3 class="card-heading">City Strolls & National Parks</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>National Parks Passport:</strong> Official NPS passport book to collect cancellations stamps at Dante Fascell (Biscayne), Shark Valley, Flamingo, and Fort Jefferson.</li>
-                <li><strong>Insulated Water Bottles:</strong> 32 oz stainless steel bottles (Hydro Flask / Yeti). Dry Tortugas has zero potable public water fountains once the ferry departs; staying hydrated in 85°F sun is critical.</li>
-                <li><strong>Lightweight Wide-Brim Sun Hats:</strong> Breathable nylon hats with chin cords to resist 25-knot marine breezes on the catamaran upper deck.</li>
-                <li><strong>Compact Binoculars:</strong> 8x42 or 10x42 optics for spotting roseate spoonbills, bald eagles, and soaring magnificent frigatebirds.</li>
-                <li><strong>Dramamine / Sea-Bands:</strong> Taken 30 minutes prior to boarding the Yankee Freedom catamaran if prone to open-ocean swell nausea.</li>
+                <li><strong>National Parks Passport:</strong> Official NPS book to collect cancellation stamps at Shark Valley, Fort Jefferson, and Biscayne.</li>
+                <li><strong>Insulated Water Bottles:</strong> 32 oz stainless steel bottles (Hydro Flask / Yeti). Staying hydrated in 85°F sun is critical.</li>
+                <li><strong>Breathable Walking Shoes:</strong> Lightweight sneakers for logging 15,000+ steps across South Beach, Wynwood Walls, and Key West Old Town.</li>
+                <li><strong>Smart Casual Evening Wear:</strong> Breathable linen shirts and dresses for South Beach and Little Havana dining.</li>
+                <li><strong>Dramamine / Sea-Bands:</strong> For the 70-mile open-water catamaran crossing to Dry Tortugas.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
@@ -468,41 +467,41 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 08: DAY 1: INBOUND EWR->MIA & BISCAYNE NATIONAL PARK GATEWAY
+           SLIDE 08: DAY 1: INBOUND EWR->MIA & MIAMI BEACH ARRIVAL
            ===================================================================== -->
       <section class="slide" data-slide="8">
         <div class="slide-header">
           <div class="slide-eyebrow">DAY 1 ITINERARY • SATURDAY, OCTOBER 24, 2026</div>
-          <h2 class="slide-title">Day 1: Inbound Flight EWR ➔ MIA & Biscayne Bay Gateway</h2>
-          <p class="slide-subtitle">Landing at Miami International, retrieving your rental vehicle, and heading south to the Dante Fascell Visitor Center at Biscayne National Park.</p>
+          <h2 class="slide-title">Day 1: Inbound Flight EWR ➔ MIA & Miami Beach Arrival</h2>
+          <p class="slide-subtitle">Landing at Miami International, retrieving your rental car, and crossing the turquoise waters of Biscayne Bay directly into world-famous South Beach.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">ARRIVAL & FIRST NATIONAL PARK</div>
-              <h3 class="card-heading">Convoy Point • Dante Fascell Visitor Center</h3>
+              <div class="card-label">ARRIVAL & BEACH IMMERSION</div>
+              <h3 class="card-heading">Touchdown in the Magic City</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>06:45 AM – Non-Stop Flight (EWR ➔ MIA):</strong> Depart Newark on United / American Airlines ($628 roundtrip for 2). Land at Miami International Airport by 09:45 AM.</li>
-                <li><strong>10:30 AM – Rental Car Pickup:</strong> Take the automated MIA Mover monorail directly to the Consolidated Rental Car Center. Pick up your reserved mid-size vehicle with SunPass.</li>
-                <li><strong>12:00 PM – Drive South to Homestead:</strong> Highway transit (38 miles) down Florida's Turnpike (FL-821) into the agricultural cradle of South Dade County.</li>
-                <li><strong>01:30 PM – Biscayne National Park (Convoy Point):</strong> Enter the park's coastal headquarters. Stroll the scenic wooden jetty boardwalk extending over the turquoise shallows of Biscayne Bay. Spot wild manatees in the marina basin and wading herons among the red mangroves.</li>
-                <li><strong>03:30 PM – Dante Fascell Art & Nature Gallery:</strong> Browse the exhibits showcasing the park's 4 ecosystems and collect your first National Park Passport cancellation stamp.</li>
+                <li><strong>06:45 AM – Non-Stop Flight (EWR ➔ MIA):</strong> Depart Newark Liberty International (booked for $628 total for 2). Touch down at MIA by 09:45 AM.</li>
+                <li><strong>10:30 AM – Rental Car Retrieval:</strong> Take the automated MIA Mover monorail directly to the Consolidated Rental Car Center. Pick up your reserved mid-size vehicle with SunPass.</li>
+                <li><strong>11:30 AM – Cross into Miami Beach:</strong> Drive east across the scenic MacArthur / Julia Tuttle Causeway with sweeping views of the downtown skyline and cruise ship docks.</li>
+                <li><strong>12:30 PM – South Beach Check-In & Lunch:</strong> Check into your Art Deco boutique hotel on Collins Ave / Ocean Drive. Enjoy an open-air lunch along pedestrian Española Way (pressed Cuban sandwiches and fresh tropical smoothies).</li>
+                <li><strong>02:30 PM – Lummus Beach Relaxation:</strong> Step onto the soft white sand of South Beach. Swim in the calm, warm turquoise Atlantic shallows (81°F).</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">PARK 1 OF 3: BISCAYNE</span>
-                <span class="tag tag-teal">ENTRY: FREE GATEWAY</span>
-                <span class="tag tag-terracotta">FLIGHT: $628 TOTAL</span>
+                <span class="tag tag-gold">MIAMI BEACH ARRIVAL</span>
+                <span class="tag tag-teal">FLIGHT: BOOKED $628</span>
+                <span class="tag tag-terracotta">SOUTH BEACH WATER: 81°F</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide08_miami.jpg" alt="Biscayne Bay Convoy Point boardwalk and water" loading="lazy">
+              <img src="images/slide10_southbeach.jpg" alt="Miami South Beach turquoise ocean and sand" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Convoy Point & Biscayne Bay</div>
-                <div class="media-caption">The protected mainland gateway to 173,000 acres of crystalline turquoise waters and mangrove shorelines.</div>
+                <div class="media-title">The Turquoise Shallows of South Beach</div>
+                <div class="media-caption">Soft white sand, warm Atlantic waters, and swaying palms along Ocean Drive.</div>
               </div>
             </div>
           </div>
@@ -510,49 +509,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 09: NIGHT 1 LODGING: HOMESTEAD / FLORIDA CITY PARK GATEWAY
+           SLIDE 09: NIGHT 1 LODGING: SOUTH BEACH ART DECO BOUTIQUE BASE
            ===================================================================== -->
       <section class="slide" data-slide="9">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 1 RETREAT • STRATEGIC PARK BASE</div>
-          <h2 class="slide-title">Night 1: Strategic Gateway Base in Homestead / Florida City</h2>
-          <p class="slide-subtitle">A comfortable, quiet, highly rated 3★ hotel positioned at the exact junction of Everglades National Park, Biscayne National Park, and US-1.</p>
+          <div class="slide-eyebrow">NIGHT 1 RETREAT • ARCHITECTURAL ICON</div>
+          <h2 class="slide-title">Night 1: Boutique Art Deco Sanctuary in South Beach</h2>
+          <p class="slide-subtitle">A stylish, highly rated boutique hotel located in the heart of the historic Art Deco District, steps from the beach and Ocean Drive.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
               <div class="card-label">BASE CAMP LOGISTICS</div>
-              <h3 class="card-heading">Courtyard by Marriott or TownePlace Suites Homestead</h3>
+              <h3 class="card-heading">The Avalon Hotel, The Shepley, or The Betsy</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Staying in Homestead eliminates driving fatigue on Day 1 and positions you within 15 minutes of Everglades National Park for an early sunrise start tomorrow:
+                Staying directly in South Beach gives you effortless walkability, eliminating car traffic and parking headaches on your first two days:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$145 total</div>
-                  <div class="stat-caption">Combined total for 2 guests with tax</div>
+                  <div class="stat-number gold">$200 total</div>
+                  <div class="stat-caption">Night 1 of 2 in South Beach with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">PARK PROXIMITY</div>
-                  <div class="stat-number teal">12 min</div>
-                  <div class="stat-caption">To Everglades Ernest F. Coe Visitor Center</div>
+                  <div class="card-label">BEACH PROXIMITY</div>
+                  <div class="stat-number teal">2 min walk</div>
+                  <div class="stat-caption">Direct access to sand & oceanfront</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Modern En-Suite Comfort:</strong> Spacious king room, crisp air conditioning, fast complimentary Wi-Fi, and outdoor swimming pool.</li>
-                <li><strong>Free Parking:</strong> Safe on-site self-parking with zero valet or daily resort charges.</li>
-                <li><strong>Next Morning Advantage:</strong> Avoids morning Miami highway traffic entirely; seamless departure west to Shark Valley on Sunday morning.</li>
+                <li><strong>Art Deco Design:</strong> Restored 1930s nautical streamlined architecture, custom terrazzo flooring, and plush king bedding.</li>
+                <li><strong>Complete Walkability:</strong> Step out directly onto Ocean Drive, Lummus Beach Park, and Lincoln Road without moving the car.</li>
+                <li><strong>Restorative Rest:</strong> Soundproofed double-glazed windows ensure total peace and quiet for deep overnight sleep.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide09_artdeco.jpg" alt="South Florida hotel courtyard and pool" loading="lazy">
+              <img src="images/slide09_artdeco.jpg" alt="South Beach Art Deco neon architecture" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Restful Gateway Sanctuary</div>
-                <div class="media-caption">Recharging in quiet comfort before embarking on the Everglades and Florida Keys expedition.</div>
+                <div class="media-title">Nautical Art Deco Glamour</div>
+                <div class="media-caption">Streamlined 1930s architecture glowing with pastel neon accents in South Beach.</div>
               </div>
             </div>
           </div>
@@ -560,72 +559,40 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 10: NIGHT 1 GASTRONOMY: AUTHENTIC CUBAN CRIOLLO
+           SLIDE 10: DAY 1 EVENING: SOUTH POINTE PARK PIER & OCEAN DRIVE
            ===================================================================== -->
       <section class="slide" data-slide="10">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 1 GASTRONOMY • SOUTH DADE HERITAGE</div>
-          <h2 class="slide-title">Night 1: Authentic Cuban Criollo & Fresh Tropical Batidos (Zero Alcohol)</h2>
-          <p class="slide-subtitle">A hearty, traditional Cuban dinner in Homestead featuring slow-braised ropa vieja, sweet plantains, and chilled tropical fruit smoothies.</p>
+          <div class="slide-eyebrow">DAY 1 EVENING • SUNSET OVER THE INLET</div>
+          <h2 class="slide-title">Day 1 Evening: South Pointe Park Pier & Neon Ocean Drive</h2>
+          <p class="slide-subtitle">Watching massive cruise ships glide out through Government Cut at sunset, strolling the palm-lined promenade, and enjoying neon-lit dining.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">TRADITIONAL FEAST</div>
-              <h3 class="card-heading">Mario's Latin Cafe or El Rinconcito Latino</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                Homestead is famed for its vibrant Latin agricultural heritage and multi-generational Cuban family kitchens. Enjoy a generous, zero-alcohol feast honoring authentic criollo flavors:
-              </p>
+              <div class="card-label">SUNSET & EVENING PROMENADE</div>
+              <h3 class="card-heading">South Pointe Park & Pier</h3>
 
-              <table class="table-editorial" style="margin-bottom: 1rem;">
-                <thead>
-                  <tr>
-                    <th>Specialty Dish</th>
-                    <th>Culinary Architecture</th>
-                    <th>Shared Cost</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>Ropa Vieja Criolla</strong></td>
-                    <td>Shredded flank steak slow-braised with sweet bell peppers, onions, Spanish olives & tomato sofrito</td>
-                    <td>$24 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Lechon Asado Con Mojo</strong></td>
-                    <td>Marinated tender pulled pork shoulder with citrus-garlic mojo criollo & sweet grilled onions</td>
-                    <td>$22 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Moros y Cristianos & Maduros</strong></td>
-                    <td>Black beans simmered with white rice, accompanied by caramelized sweet fried plantains</td>
-                    <td>Included</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Batido de Mamey & Guayaba</strong></td>
-                    <td>Chilled tropical fruit milkshakes blended with fresh mamey sapote fruit and pink guava (100% non-alcoholic)</td>
-                    <td>$12 total</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Cuban Colada</strong></td>
-                    <td>Rich espresso pulled with sweet espumita de azucar foam, served in sharing demitasses</td>
-                    <td>$5 total</td>
-                  </tr>
-                </tbody>
-              </table>
+              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
+                <li><strong>05:30 PM – South Pointe Park Stroll:</strong> Walk to the southernmost tip of Miami Beach. Stroll through the manicured green lawns and modern viewing pavilions overlooking Fisher Island.</li>
+                <li><strong>06:15 PM – Sunset at the Pier:</strong> Walk 450 feet out over the ocean onto the South Pointe Park Pier. Watch towering cruise liners sail out into the Atlantic as the sun sets behind the glowing downtown Miami skyline.</li>
+                <li><strong>07:30 PM – Ocean Drive Promenade:</strong> Walk north along Ocean Drive under iconic pastel neon lighting. Admire the vintage convertibles parked along the curb.</li>
+                <li><strong>08:30 PM – Casual Latin Dinner:</strong> Dine outdoors along pedestrian Española Way: sizzling fajitas, warm plantain tostones, and freshly pressed lime agua frescas ($55 total for 2).</li>
+              </ul>
 
-              <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: 8px;">
-                <span class="tag tag-gold">AUTHENTIC CUBAN HERITAGE</span>
-                <span style="font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--gold-primary);">Total Shared Dinner: ~$63</span>
+              <div style="display: flex; gap: 8px;">
+                <span class="tag tag-gold">SOUTH POINTE PIER</span>
+                <span class="tag tag-teal">SUNSET CRUISE PARADE</span>
+                <span class="tag tag-terracotta">NEON OCEAN DRIVE</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide10_cuban.jpg" alt="Cuban coffee and authentic criollo feast" loading="lazy">
+              <img src="images/slide08_miami.jpg" alt="Miami waterfront skyline and glowing sunset" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Essence of Cuban Criollo</div>
-                <div class="media-caption">Slow-cooked citrus sofritos, caramelized plantains, and rich espresso with whipped espumita.</div>
+                <div class="media-title">Twilight Over Government Cut</div>
+                <div class="media-caption">The sparkling southern tip of Miami Beach where emerald ocean waters meet the city skyline.</div>
               </div>
             </div>
           </div>
