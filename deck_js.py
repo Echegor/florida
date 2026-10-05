@@ -382,19 +382,19 @@ def get_footer_and_js():
       // =====================================================================
       const transitData = [
         {
-          label: "RECOMMENDED EXPEDITION CHOICE",
-          title: "Mid-size SUV or Standard Sedan",
-          tagText: "OPTIMAL AGILITY",
+          label: "CONFIRMED ENTERPRISE RESERVATION",
+          title: "Enterprise Mid-Size SUV (Nissan Rogue AWD or Similar)",
+          tagText: "RESERVED $427.44",
           tagClass: "tag-gold",
-          cost: "$310 total",
-          costSub: "7 Days (MIA-MIA, Zero Drop Fee)",
-          mpg: "32 MPG Hwy",
-          mpgSub: "420 miles = ~$45 gas",
+          cost: "$427.44 total",
+          costSub: "7 Days (MIA-MIA, Sat Oct 24 11 AM – Fri Oct 30 4 PM)",
+          mpg: "30-33 MPG Hwy",
+          mpgSub: "AWD Safety • High Bridge Visibility",
           highlights: [
-            "<strong>Ideal Trunk Storage:</strong> Ample locked trunk space to keep two large suitcases completely hidden out of sight during beach, Biscayne, and Everglades trail stops.",
-            "<strong>Parking Agility:</strong> Narrow historic lanes and tight parking spaces in Key West Old Town are easily navigated without maneuvering stress.",
-            "<strong>Zero Drop Fee:</strong> Picked up and dropped off at Miami International (MIA) Rental Car Center—100% free of one-way intrastate drop charges.",
-            "<strong>High Highway Efficiency:</strong> 32 mpg average ensures only 1 to 2 fuel fill-ups across the entire 420-mile expedition."
+            "<strong>Elevated Seating & Parapet Visibility:</strong> Higher ride height gives unobstructed sightlines over concrete bridge guardrails on the Seven Mile Bridge into the turquoise straits.",
+            "<strong>Confirmed Enterprise Booking:</strong> Reserved for $427.44 with free cancellation until Oct 21. Pick-up Sat Oct 24 at 11:00 AM; drop-off Fri Oct 30 at 4:00 PM.",
+            "<strong>Automated SunPass / TollPass:</strong> Pre-equipped with Enterprise video tolling across Florida toll roads with automatic convenience billing.",
+            "<strong>Spacious Cargo & All-Weather AWD:</strong> Abundant rear hatch room for 2 suitcases, snorkel gear, daypacks, and confident all-weather traction."
           ]
         },
         {
@@ -515,7 +515,7 @@ def get_footer_and_js():
         26: { cat: ['all', 'miami', 'strategy'], primaryCat: 'miami', tag: 'DAY 7: CALLE OCHO' },
         27: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 7: VERSAILLES' },
         28: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'DAY 7: DEPARTURE' },
-        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($3,625)' },
+        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($3,742)' },
         30: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'NPS DIRECTORY' }
       };
 

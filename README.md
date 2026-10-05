@@ -19,7 +19,7 @@ An interactive, high-resolution editorial presentation deck and tactical field g
 * **Zero Theme Parks:** Strictly zero Disney and zero Universal—100% focused on wild nature, marine sanctuaries, architecture, and authentic Cuban/tropical culture.
 
 ## Core Rules & Constraints
-* **Unified Financials:** Strictly presented as a combined total for two travelers (**,625 total for 2**, including  confirmed roundtrip flights,  confirmed Dry Tortugas ferry, car rental with SunPass, 6 nights en-suite lodging, guided excursions, dining, and park passes).
+* **Unified Financials:** Strictly presented as a combined total for two travelers (**,742 total for 2**, including  confirmed roundtrip flights,  confirmed Dry Tortugas ferry, confirmed Enterprise Nissan Rogue AWD rental (.44), 6 nights en-suite lodging, guided excursions, dining, and park passes).
 * **Accommodation:** Highly rated 3★ and 4★ hotels, coastal retreats, and boutique historic guesthouses (–/night).
 * **Zero Alcohol:** Curated non-alcoholic regional beverages (fresh Florida orange/grapefruit juice, Cuban cafecitos, tropical fruit batidos, Key Lime mocktails).
 * **Units:** US Customary units (miles, feet, °F) prioritized throughout.

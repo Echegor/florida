@@ -1054,7 +1054,7 @@ def get_head():
               <option value="25">Slide 26 • Day 7: Little Havana Morning: Domino Park & Cafecito</option>
               <option value="26">Slide 27 • Day 7: Celebratory Farewell Banquet at Versailles</option>
               <option value="27">Slide 28 • Day 7: Consolidated Car Return & Flight to EWR</option>
-              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,625)</option>
+              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,742)</option>
               <option value="29">Slide 30 • Zero-Fail Field Directory & Emergency Hotlines</option>
             </optgroup>
           </select>

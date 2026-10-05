@@ -11,7 +11,7 @@
   2. **Dry Tortugas National Park:** Day 5 (BOOKED: Yankee Freedom III catamaran, Fort Jefferson, moat seawall & coral reef snorkeling).
   3. **Biscayne National Park:** Day 6 (Convoy Point, Dante Fascell Visitor Center, Boca Chita Key boat tour & reef snorkeling).
 * **Zero Theme Parks:** Strictly zero Disney and zero Universal.
-* **Shared Budget Format:** Strictly presented as a unified shared total for both travelers combined (,625 total for 2).
+* **Shared Budget Format:** Strictly presented as a unified shared total for both travelers combined (,742 total for 2).
 * **Accommodation Standard:** Clean, quiet, highly rated 3★ and 4★ hotels, boutique coastal retreats, and Key West historic guesthouses (–/night).
 * **Zero Alcohol:** Authentic regional non-alcoholic specialties (Cuban *cafecito*, *batidos* of mamey/guava/mango, Key Lime sparkling mocktails, Florida fresh citrus).
 * **Ground Logistics:** Mid-size sedan or SUV picked up and dropped off at MIA Consolidated Rental Car Center (~460 miles total; zero one-way drop fees).
@@ -21,7 +21,7 @@
 
 ## 2. Slide-by-Slide Buildout Status (30 Slides Total) - ALL COMPLETED [x]
 
-- [x] **Slide 01:** Cover & Expedition Metrics (7 Days / 6 Nights, Oct 24–30, 2026, 3 National Parks, ,625 Shared Budget)
+- [x] **Slide 01:** Cover & Expedition Metrics (7 Days / 6 Nights, Oct 24–30, 2026, 3 National Parks, ,742 Shared Budget)
 - [x] **Slide 02:** Strategic Architecture: The South Florida Parks Trifecta (Biscayne, Everglades, Dry Tortugas)
 - [x] **Slide 03:** Interactive Expedition Cartography & GPS Command (Interactive SVG Map with 8 South Florida & Keys nodes)
 - [x] **Slide 04:** Subtropical Meteorology & Late October Transition (Dry season onset, 82°F–85°F, 81°F ocean waters)
@@ -49,19 +49,19 @@
 - [x] **Slide 26:** Day 7 (Fri Oct 30): Calle Ocho Cultural Morning & Little Havana Espresso (Domino Park)
 - [x] **Slide 27:** Day 7 (Fri Oct 30): Farewell Cuban Feast at Versailles Restaurant (Zero Alcohol)
 - [x] **Slide 28:** Day 7 (Fri Oct 30): MIA Return, Vehicle Hand-Off & Non-Stop Flight to EWR
-- [x] **Slide 29:** Master Expedition Scorecard & Shared Financial Ledger (,625 Total Combined for 2)
+- [x] **Slide 29:** Master Expedition Scorecard & Shared Financial Ledger (,742 Total Combined for 2)
 - [x] **Slide 30:** Zero-Fail Field Directory: Park Hotlines, Ferry Office & Marine SOS
 
 ---
 
-## 3. Financial Ledger Summary (,625 Total for 2 Travelers)
+## 3. Financial Ledger Summary (,742 Total for 2 Travelers)
 * **Flights (Roundtrip EWR ⇄ MIA for 2, BOOKED):** 
 * **Dry Tortugas Yankee Freedom III Catamaran (2 Pax, BOOKED):** 
-* **Rental Car (7 Days MIA-MIA, zero drop fees) + SunPass:** 
+* **Rental Vehicle (7 Days Enterprise MIA-MIA, RESERVED):** .44 (Nissan Rogue AWD or similar, Sat Oct 24 11:00 AM – Fri Oct 30 4:00 PM)
 * **Expedition Fuel (~460 mi @ 32 mpg):** 
 * **En-suite Lodging (6 Nights 3★/4★):** ,140 ( South Beach 2N,  Key West 2N,  Islamorada 1N,  Coral Gables 1N)
 * **National Park Guided Excursions:**  ( Biscayne boat tour +  Shark Valley tram)
 * **National Parks Interagency Pass:** 
 * **Dining & Zero-Alcohol Gastronomy (7 Days for 2):** 
 * **Field Gear, Wynwood Walls () & Incidentals:** 
-* **Total Combined Couple Budget:** ,625
+* **Total Combined Couple Budget:** ,742

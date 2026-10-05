@@ -24,14 +24,14 @@ def get_slides():
                   <li><strong>Dedicated Miami Beach Base:</strong> 2 full nights based directly in South Beach (Ocean Drive, Lummus Beach, South Pointe Park Pier, and Wynwood Walls).</li>
                   <li><strong>Single Definitive Everglades Visit:</strong> One high-yield, comprehensive exploration at Shark Valley (15-mile tram & 65-ft tower)—zero redundant backtrack trips!</li>
                   <li><strong>Booked Dry Tortugas Ferry:</strong> Confirmed 07:00 AM check-in aboard the <em>Yankee Freedom III</em> catamaran for Wednesday, Oct 28 ($520 total for 2).</li>
-                  <li><strong>Strict Shared Accounting:</strong> Every expenditure calculated as a combined couple total ($3,625 total for 2 travelers).</li>
+                  <li><strong>Strict Shared Accounting:</strong> Every expenditure calculated as a combined couple total ($3,742 total for 2 travelers, including $427 Enterprise SUV).</li>
                   <li><strong>Zero-Alcohol Gastronomy:</strong> Authentic Cuban criollo, freshly squeezed citrus, tropical batidos, and Key lime mocktails.</li>
                 </ul>
               </div>
 
               <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.2rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle);">
                 <span class="tag tag-gold">OCTOBER 24–30, 2026</span>
-                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--teal-ocean); font-weight: 700;">FLIGHTS & FERRY SECURED [BOOKED]</span>
+                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--teal-ocean); font-weight: 700;">FLIGHTS, FERRY & CAR RESERVED</span>
               </div>
             </div>
 
@@ -50,8 +50,8 @@ def get_slides():
                 <div class="stat-caption">Ocean Drive • South Pointe • Wynwood Walls</div>
               </div>
               <div class="stat-box">
-                <div class="stat-number gold">$3,625 Shared Total</div>
-                <div class="stat-caption">Unified Couple Budget • Flights ($628), Ferry ($520) & Lodging</div>
+                <div class="stat-number gold">$3,742 Shared Total</div>
+                <div class="stat-caption">Unified Couple Budget • Flights ($628), Ferry ($520), Car ($427) & Lodging</div>
               </div>
             </div>
           </div>
@@ -484,7 +484,7 @@ def get_slides():
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
                 <li><strong>06:45 AM – Non-Stop Flight (EWR ➔ MIA):</strong> Depart Newark Liberty International (booked for $628 total for 2). Touch down at MIA by 09:45 AM.</li>
-                <li><strong>10:30 AM – Rental Car Retrieval:</strong> Take the automated MIA Mover monorail directly to the Consolidated Rental Car Center. Pick up your reserved mid-size vehicle with SunPass.</li>
+                <li><strong>11:00 AM – Enterprise Rental Car Pickup:</strong> Take the automated MIA Mover monorail directly to the Consolidated Rental Car Center. Pick up your reserved Enterprise Nissan Rogue AWD ($427.44 confirmed) equipped with SunPass.</li>
                 <li><strong>11:30 AM – Cross into Miami Beach:</strong> Drive east across the scenic MacArthur / Julia Tuttle Causeway with sweeping views of the downtown skyline and cruise ship docks.</li>
                 <li><strong>12:30 PM – South Beach Check-In & Lunch:</strong> Check into your Art Deco boutique hotel on Collins Ave / Ocean Drive. Enjoy an open-air lunch along pedestrian Española Way (pressed Cuban sandwiches and fresh tropical smoothies).</li>
                 <li><strong>02:30 PM – Lummus Beach Relaxation:</strong> Step onto the soft white sand of South Beach. Swim in the calm, warm turquoise Atlantic shallows (81°F).</li>

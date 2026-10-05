@@ -353,16 +353,17 @@ def get_slides():
               <h3 class="card-heading">Zero-Friction Airport Logistics</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>02:00 PM – Rental Car Return:</strong> Drive 14 minutes north from Versailles along Le Jeune Road directly into the MIA Consolidated Rental Car Center. Instant digital vehicle return barcode scan (zero drop fee!).</li>
-                <li><strong>02:30 PM – MIA Mover Monorail:</strong> Board the sleek automated people mover connecting the RCC directly to the main terminal in 3 minutes (zero buses or shuttles).</li>
-                <li><strong>03:00 PM – TSA Security Clearance:</strong> Clear Concourse D / E TSA checkpoints in under 20 minutes.</li>
-                <li><strong>05:15 PM – Non-Stop Flight (MIA ➔ EWR):</strong> Board your non-stop United / American flight home to Newark Liberty International, concluding the 7-day National Parks Trifecta.</li>
+                <li><strong>03:00 PM – Head to Airport:</strong> Conclude lunch at Versailles and drive 14 minutes north along Le Jeune Road directly to the MIA Consolidated Rental Car Center.</li>
+                <li><strong>03:30 PM – Rental Car Return:</strong> Return the Enterprise Nissan Rogue AWD by 04:00 PM (confirmed drop-off time). Instant digital vehicle return barcode scan (zero drop fees!).</li>
+                <li><strong>04:00 PM – MIA Mover Monorail:</strong> Board the sleek automated people mover connecting the RCC directly to the main terminal in 3 minutes (zero buses or shuttles).</li>
+                <li><strong>04:30 PM – TSA Security Clearance:</strong> Clear Concourse D / E TSA checkpoints in under 20 minutes with ample time to relax at the gate.</li>
+                <li><strong>06:15 PM – Non-Stop Flight (MIA ➔ EWR):</strong> Board your evening non-stop flight home to Newark Liberty International, concluding the 7-day National Parks Trifecta.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
                 <span class="tag tag-gold">MIA CONSOLIDATED HUB</span>
-                <span class="tag tag-teal">NON-STOP FLIGHT: 2H 50M</span>
-                <span class="tag tag-terracotta">ARRIVE EWR: 08:05 PM</span>
+                <span class="tag tag-teal">CAR RETURN: 04:00 PM</span>
+                <span class="tag tag-terracotta">ARRIVE EWR: 09:10 PM</span>
               </div>
             </div>
 
@@ -383,8 +384,8 @@ def get_slides():
       <section class="slide" data-slide="29">
         <div class="slide-header">
           <div class="slide-eyebrow">MASTER EXPEDITION SCORECARD & SHARED FINANCIAL LEDGER</div>
-          <h2 class="slide-title">The Master Ledger: $3,625 Total Combined for 2 Travelers</h2>
-          <p class="slide-subtitle">Verified unified financial ledger presenting every expenditure as a combined total for two passengers across flights ($628 booked), ferry ($520 booked), lodging, car, and excursions.</p>
+          <h2 class="slide-title">The Master Ledger: $3,742 Total Combined for 2 Travelers</h2>
+          <p class="slide-subtitle">Verified unified financial ledger presenting every expenditure as a combined total for two passengers across flights ($628 booked), ferry ($520 booked), rental car ($427 reserved), lodging, and excursions.</p>
         </div>
 
         <div class="content-area">
@@ -405,54 +406,54 @@ def get_slides():
                   <tr>
                     <td><strong>Flights (2 Pax) [BOOKED]</strong></td>
                     <td>Non-stop EWR ➔ MIA ➔ EWR booked for 2 passengers combined</td>
-                    <td><strong>$628</strong></td>
+                    <td><strong>$628.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Dry Tortugas Catamaran Ferry [BOOKED]</strong></td>
                     <td><em>Yankee Freedom III</em> booked for Wed Oct 28 ($260 x 2, includes hot breakfast, lunch, gear & park admission)</td>
-                    <td><strong>$520</strong></td>
+                    <td><strong>$520.00</strong></td>
                   </tr>
                   <tr>
-                    <td><strong>Rental Vehicle + SunPass</strong></td>
-                    <td>7-Day mid-size sedan/SUV (MIA-MIA, zero drop fees) + cashless toll pass</td>
-                    <td><strong>$310</strong></td>
+                    <td><strong>Enterprise Rental SUV [RESERVED]</strong></td>
+                    <td>Nissan Rogue AWD or similar (7 Days MIA-MIA, Sat Oct 24 11 AM – Fri Oct 30 4 PM, confirmed rate)</td>
+                    <td><strong>$427.44</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Expedition Fuel</strong></td>
-                    <td>~420 total road miles @ 32 mpg average ($3.45/gal regular)</td>
-                    <td><strong>$45</strong></td>
+                    <td>~460 total road miles @ 30 mpg average ($3.45/gal regular)</td>
+                    <td><strong>$45.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>En-Suite Lodging (6 Nights)</strong></td>
                     <td>South Beach (2N $400), Key West Old Town (2N $390), Islamorada (1N $160), Coral Gables (1N $190)</td>
-                    <td><strong>$1,140</strong></td>
+                    <td><strong>$1,140.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>National Park Guided Excursions</strong></td>
                     <td>Biscayne Boca Chita Boat Tour ($160) + Shark Valley Tram Tour ($62)</td>
-                    <td><strong>$222</strong></td>
+                    <td><strong>$222.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>National Parks Entry Passes</strong></td>
                     <td>America the Beautiful Interagency Annual Pass (covers Everglades & vehicle access)</td>
-                    <td><strong>$80</strong></td>
+                    <td><strong>$80.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Gastronomy (Zero Alcohol)</strong></td>
                     <td>7 days authentic South Beach dining, Cuban criollo, local seafood, tropical fruit batidos, and Key lime treats</td>
-                    <td><strong>$580</strong></td>
+                    <td><strong>$580.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>Marine Field Kit & Incidentals</strong></td>
                     <td>Zinc reef sunscreen, Wynwood museum tickets ($24), waterproof phone cases, state park entries</td>
-                    <td><strong>$100</strong></td>
+                    <td><strong>$100.00</strong></td>
                   </tr>
                 </tbody>
               </table>
 
               <div style="display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-gold); padding-top: 8px;">
                 <span class="tag tag-gold">ZERO HIDDEN RESORT FEES</span>
-                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,625</span>
+                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,742.44</span>
               </div>
             </div>
 
