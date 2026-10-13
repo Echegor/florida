@@ -3,6 +3,9 @@ def get_slides():
       <!-- =====================================================================
            SLIDE 01: COVER & EXPEDITION METRICS
            ===================================================================== -->
+      <!-- =====================================================================
+           SLIDE 01: COVER, EXPEDITION METRICS & FULLCALENDAR ITINERARY
+           ===================================================================== -->
       <section class="slide active" data-slide="1">
         <div class="slide-header">
           <div class="slide-eyebrow">MIAMI BEACH, THE KEYS & NATIONAL PARKS TRIFECTA • MASTER FIELD GUIDE</div>
@@ -11,47 +14,81 @@ def get_slides():
         </div>
 
         <div class="content-area">
-          <div class="grid-2col-wide-left">
+          <div class="grid-2col" style="grid-template-columns: 1fr 1.35fr; gap: 1.25rem; align-items: start;">
+            <!-- Left Column: Architecture & Stats -->
             <div class="glass-card gold-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
               <div>
                 <div class="card-label">STRATEGIC EXPEDITION ARCHITECTURE</div>
                 <h3 class="card-heading">Urban Elegance to Remote Coral Wilderness</h3>
-                <p class="card-body" style="margin-bottom: 1.2rem;">
-                  Operating along an optimized <strong>Roundtrip Miami Corridor (EWR ➔ MIA ➔ EWR booked for $628 total)</strong>. Beginning with 2 full nights immersed in the iconic Art Deco glamour of <strong>Miami Beach & Wynwood</strong>, venturing into a single definitive expedition through <strong>Everglades National Park (Shark Valley)</strong>, conquering Henry Flagler's Overseas Highway to <strong>Key West</strong>, voyaging 70 miles offshore on the high-speed catamaran to <strong>Dry Tortugas National Park (BOOKED at 07:00 AM for Wed, Oct 28)</strong>, and exploring the submerged barrier reefs of <strong>Biscayne National Park</strong>.
+                <p class="card-body" style="margin-bottom: 0.9rem;">
+                  Operating along an optimized <strong>Roundtrip Miami Corridor (EWR ⇄ MIA booked for $628 total)</strong>. Beginning with 2 full nights in <strong>South Beach & Wynwood</strong>, venturing through <strong>Everglades National Park (Shark Valley)</strong>, conquering the Overseas Highway to <strong>Key West</strong>, voyaging to <strong>Dry Tortugas National Park (BOOKED at 07:00 AM for Wed, Oct 28)</strong>, and exploring <strong>Biscayne National Park</strong>.
                 </p>
 
-                <ul class="highlight-list">
-                  <li><strong>Dedicated Miami Beach Base:</strong> 2 full nights based directly in South Beach (Ocean Drive, Lummus Beach, South Pointe Park Pier, and Wynwood Walls).</li>
-                  <li><strong>Single Definitive Everglades Visit:</strong> One high-yield, comprehensive exploration at Shark Valley (15-mile tram & 65-ft tower)—zero redundant backtrack trips!</li>
-                  <li><strong>Booked Dry Tortugas Ferry:</strong> Confirmed 07:00 AM check-in aboard the <em>Yankee Freedom III</em> catamaran for Wednesday, Oct 28 ($520 total for 2).</li>
-                  <li><strong>Strict Shared Accounting:</strong> Every expenditure calculated as a combined couple total ($3,742 total for 2 travelers, including $427 Enterprise SUV).</li>
-                  <li><strong>Zero-Alcohol Gastronomy:</strong> Authentic Cuban criollo, freshly squeezed citrus, tropical batidos, and Key lime mocktails.</li>
+                <ul class="highlight-list" style="margin-bottom: 0.9rem;">
+                  <li><strong>Dedicated Miami Beach Base:</strong> 2 full nights based in South Beach (Ocean Drive, Lummus Beach, South Pointe Pier & Wynwood Walls).</li>
+                  <li><strong>Single Everglades Visit:</strong> Shark Valley 15-mile tram & 65-ft tower—zero redundant backtracking!</li>
+                  <li><strong>Booked Dry Tortugas Ferry:</strong> 07:00 AM check-in aboard <em>Yankee Freedom III</em> for Wed, Oct 28 ($520 total for 2).</li>
+                  <li><strong>Enterprise SUV Reserved:</strong> Nissan Rogue AWD ($427.44 confirmed) with SunPass for high bridge visibility.</li>
+                  <li><strong>Strict Shared Accounting:</strong> Combined couple budget ($3,742 total for 2 travelers).</li>
                 </ul>
+
+                <!-- 4 Compact Stat Boxes (2x2 grid) -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 0.6rem;">
+                  <div class="stat-box" style="padding: 8px 10px;">
+                    <div class="stat-number gold" style="font-size: 1.15rem;">7D / 6N</div>
+                    <div class="stat-caption" style="font-size: 0.72rem;">Oct 24–30, 2026</div>
+                  </div>
+                  <div class="stat-box" style="padding: 8px 10px;">
+                    <div class="stat-number teal" style="font-size: 1.15rem;">3 Parks</div>
+                    <div class="stat-caption" style="font-size: 0.72rem;">Everglades • Dry Tortugas • Biscayne</div>
+                  </div>
+                  <div class="stat-box" style="padding: 8px 10px;">
+                    <div class="stat-number terracotta" style="font-size: 1.15rem;">2N Beach</div>
+                    <div class="stat-caption" style="font-size: 0.72rem;">South Beach & Wynwood</div>
+                  </div>
+                  <div class="stat-box" style="padding: 8px 10px;">
+                    <div class="stat-number gold" style="font-size: 1.15rem;">$3,742</div>
+                    <div class="stat-caption" style="font-size: 0.72rem;">Total Couple Budget</div>
+                  </div>
+                </div>
               </div>
 
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.2rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle);">
-                <span class="tag tag-gold">OCTOBER 24–30, 2026</span>
-                <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--teal-ocean); font-weight: 700;">FLIGHTS, FERRY & CAR RESERVED</span>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.9rem; padding-top: 0.7rem; border-top: 1px solid var(--border-subtle);">
+                <span class="tag tag-gold">OCT 24–30, 2026</span>
+                <span style="font-family: var(--font-mono); font-size: 0.76rem; color: var(--teal-ocean); font-weight: 700;">FLIGHTS, FERRY & CAR RESERVED</span>
               </div>
             </div>
 
-            <!-- 4 Metric Stat Boxes -->
-            <div style="display: grid; grid-template-rows: repeat(4, 1fr); gap: 10px;">
-              <div class="stat-box">
-                <div class="stat-number gold">7 Days / 6 Nights</div>
-                <div class="stat-caption">Saturday Oct 24 to Friday Oct 30, 2026</div>
+            <!-- Right Column: Interactive FullCalendar Engine -->
+            <div class="glass-card teal-trim calendar-container-card">
+              <div class="calendar-card-header">
+                <div>
+                  <div class="card-label">EXPEDITION CALENDAR • BUILT-IN FULLCALENDAR ENGINE</div>
+                  <h3 class="card-heading" style="margin: 0; font-size: 1.05rem;">October 2026 Interactive Itinerary</h3>
+                </div>
+                <div class="calendar-view-pills">
+                  <button class="cal-pill-btn active" id="calBtnMonth" onclick="switchCalendarView('dayGridMonth')">Month</button>
+                  <button class="cal-pill-btn" id="calBtnWeek" onclick="switchCalendarView('dayGridWeek')">Trip Week</button>
+                  <button class="cal-pill-btn" id="calBtnList" onclick="switchCalendarView('listWeek')">Agenda</button>
+                </div>
               </div>
-              <div class="stat-box">
-                <div class="stat-number teal">3 National Parks</div>
-                <div class="stat-caption">Everglades • Dry Tortugas (Booked) • Biscayne</div>
-              </div>
-              <div class="stat-box">
-                <div class="stat-number terracotta">2 Nights South Beach</div>
-                <div class="stat-caption">Ocean Drive • South Pointe • Wynwood Walls</div>
-              </div>
-              <div class="stat-box">
-                <div class="stat-number gold">$3,742 Shared Total</div>
-                <div class="stat-caption">Unified Couple Budget • Flights ($628), Ferry ($520), Car ($427) & Lodging</div>
+
+              <!-- FullCalendar Mount Target -->
+              <div id="expeditionCalendar"></div>
+
+              <!-- Interactive Selected Milestone Banner -->
+              <div class="calendar-event-banner" id="calendarEventBanner">
+                <div class="calendar-event-banner-content">
+                  <div class="calendar-event-banner-title" id="calBannerTitle">
+                    <span>💡 Interactive Expedition Calendar</span>
+                  </div>
+                  <div class="calendar-event-banner-meta" id="calBannerMeta">
+                    <span>Click any calendar milestone above to view logistics, times, reservation status, and jump to that slide.</span>
+                  </div>
+                </div>
+                <button class="calendar-event-banner-btn" id="calBannerJumpBtn" style="display: none;" onclick="jumpToCalendarSlide()">
+                  JUMP TO SLIDE →
+                </button>
               </div>
             </div>
           </div>

@@ -997,10 +997,249 @@ def get_head():
       .slide:last-of-type {
         page-break-after: auto !important;
         break-after: auto !important;
-        border-bottom: none !important;
-      }
+    /* ==========================================================================
+       EXPEDITION FULLCALENDAR STYLES (SLIDE 1)
+       ========================================================================== */
+    .calendar-container-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: 480px;
+      overflow: hidden;
+      padding: 1.25rem !important;
+    }
+
+    .calendar-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .calendar-view-pills {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .cal-pill-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--sand-muted);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .cal-pill-btn:hover {
+      border-color: var(--gold-primary);
+      color: var(--gold-primary);
+      background: rgba(180, 123, 44, 0.08);
+    }
+
+    .cal-pill-btn.active {
+      background: var(--gold-primary);
+      color: #ffffff;
+      border-color: var(--gold-primary);
+      box-shadow: 0 2px 6px rgba(180, 123, 44, 0.25);
+    }
+
+    #expeditionCalendar {
+      flex: 1;
+      font-family: var(--font-sans);
+      font-size: 0.82rem;
+      min-height: 330px;
+    }
+
+    /* FullCalendar Custom Theming */
+    .fc {
+      --fc-border-color: var(--border-subtle);
+      --fc-page-bg-color: transparent;
+      --fc-neutral-bg-color: rgba(0, 0, 0, 0.02);
+      --fc-today-bg-color: rgba(180, 123, 44, 0.07);
+    }
+
+    .fc .fc-toolbar.fc-header-toolbar {
+      margin-bottom: 0.5rem;
+      gap: 6px;
+    }
+
+    .fc .fc-toolbar-title {
+      font-family: var(--font-serif);
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--text-title);
+      letter-spacing: -0.01em;
+    }
+
+    .fc .fc-button {
+      background: var(--bg-card) !important;
+      color: var(--text-title) !important;
+      border: 1px solid var(--border-subtle) !important;
+      font-family: var(--font-mono) !important;
+      font-size: 0.70rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.06em !important;
+      padding: 3px 8px !important;
+      border-radius: 4px !important;
+      box-shadow: none !important;
+      transition: all 0.18s ease !important;
+    }
+
+    .fc .fc-button:hover {
+      background: var(--gold-primary) !important;
+      border-color: var(--gold-primary) !important;
+      color: #ffffff !important;
+    }
+
+    .fc .fc-button-primary:not(:disabled).fc-button-active,
+    .fc .fc-button-primary:not(:disabled):active {
+      background: var(--gold-primary) !important;
+      border-color: var(--gold-primary) !important;
+      color: #ffffff !important;
+    }
+
+    .fc .fc-col-header-cell-cushion {
+      font-family: var(--font-mono);
+      font-size: 0.70rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--sand-muted);
+      padding: 4px 2px !important;
+      text-decoration: none;
+    }
+
+    .fc .fc-daygrid-day-number {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--sand-muted);
+      padding: 3px 5px !important;
+      text-decoration: none;
+    }
+
+    /* Active Expedition Days (Oct 24–30) */
+    .fc-expedition-active-day {
+      background: rgba(180, 123, 44, 0.06) !important;
+    }
+    .fc-expedition-active-day .fc-daygrid-day-number {
+      color: var(--gold-primary) !important;
+      font-weight: 700 !important;
+    }
+
+    .fc .fc-event {
+      border-radius: 4px;
+      border: none !important;
+      font-size: 0.69rem;
+      font-weight: 600;
+      padding: 1px 4px;
+      cursor: pointer;
+      margin-bottom: 2px !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .fc .fc-event:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
+      filter: brightness(1.06);
+    }
+
+    .fc .fc-event-title {
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .fc-list-event:hover td {
+      background: rgba(180, 123, 44, 0.08) !important;
+    }
+
+    .fc-list-day-cushion {
+      background: var(--stat-bg) !important;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--gold-primary);
+    }
+
+    /* Event Detail Banner under Calendar */
+    .calendar-event-banner {
+      margin-top: 0.65rem;
+      padding: 9px 12px;
+      border-radius: 6px;
+      background: var(--stat-bg);
+      border: 1px solid var(--border-gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.25s ease;
+      min-height: 48px;
+    }
+
+    .calendar-event-banner-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      flex: 1;
+    }
+
+    .calendar-event-banner-title {
+      font-family: var(--font-sans);
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: var(--text-title);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .calendar-event-banner-meta {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--sand-muted);
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .calendar-event-banner-btn {
+      background: var(--gold-primary);
+      color: #ffffff;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 4px;
+      font-family: var(--font-mono);
+      font-size: 0.70rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+
+    .calendar-event-banner-btn:hover {
+      background: var(--gold-glow);
+      box-shadow: 0 2px 8px rgba(180, 123, 44, 0.35);
     }
   </style>
+  <!-- FullCalendar 6 Standard Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+  <script>
+    if (typeof FullCalendar === 'undefined') {
+      document.write('<script src="js/fullcalendar.min.js"><\\/script>');
+    }
+  </script>
 </head>
 <body data-theme="linen">
   <div class="viewport-ambient"></div>

@@ -6,6 +6,13 @@ An interactive, high-resolution editorial presentation deck and tactical field g
 ## Live Presentation
 🔗 **[Launch Interactive Expedition Deck](https://echegor.github.io/florida/)**
 
+## Interactive Features
+* **Built-in FullCalendar 6 Engine (Slide 1):** Interactive calendar on the cover slide powered by FullCalendar standard bundle, pre-loaded with all 27 milestones, lodging bases, flight times, ferry check-in, park excursions, and rental car pickup/returns.
+  * **View Switchers:** Month Grid (October 2026), 7-Day Expedition Week view, and Agenda list view.
+  * **Event Jump Links:** Click any milestone in the calendar to inspect logistics and jump directly to that day's itinerary slide.
+* **Interactive Cartography (Slide 3):** SVG map with 8 clickable waypoints and coordinate routes.
+* **Vehicle & Transit Switcher (Slide 5):** Interactive comparison of rental vehicles featuring the confirmed Enterprise Nissan Rogue AWD.
+
 ## Route & Ecosystem Highlights
 * **The Florida National Parks Trifecta:**
   * **Everglades National Park (Day 3 • Mon Oct 26):** Definitive single expedition through the River of Grass at Shark Valley on the Tamiami Trail—featuring the 15-mile tram excursion and 65-ft panoramic observation tower over wild alligator territory.
@@ -19,7 +26,7 @@ An interactive, high-resolution editorial presentation deck and tactical field g
 * **Zero Theme Parks:** Strictly zero Disney and zero Universal—100% focused on wild nature, marine sanctuaries, architecture, and authentic Cuban/tropical culture.
 
 ## Core Rules & Constraints
-* **Unified Financials:** Strictly presented as a combined total for two travelers (**,742 total for 2**, including  confirmed roundtrip flights,  confirmed Dry Tortugas ferry, confirmed Enterprise Nissan Rogue AWD rental (.44), 6 nights en-suite lodging, guided excursions, dining, and park passes).
+* **Unified Financials:** Strictly presented as a combined total for two travelers (**,742 total for 2**, including  confirmed roundtrip flights,  confirmed Dry Tortugas ferry, .44 confirmed Enterprise Nissan Rogue AWD rental, 6 nights en-suite lodging, guided excursions, dining, and park passes).
 * **Accommodation:** Highly rated 3★ and 4★ hotels, coastal retreats, and boutique historic guesthouses (–/night).
 * **Zero Alcohol:** Curated non-alcoholic regional beverages (fresh Florida orange/grapefruit juice, Cuban cafecitos, tropical fruit batidos, Key Lime mocktails).
 * **Units:** US Customary units (miles, feet, °F) prioritized throughout.

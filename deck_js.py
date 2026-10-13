@@ -108,6 +108,13 @@ def get_footer_and_js():
         try {
           history.replaceState(null, '', '#' + (currentIndex + 1));
         } catch(e) {}
+
+        // Resize FullCalendar if returning to Slide 1
+        if (currentIndex === 0 && window.expeditionCalendar) {
+          setTimeout(() => {
+            window.expeditionCalendar.updateSize();
+          }, 80);
+        }
       }
 
       function goToSlide(index) {
@@ -658,11 +665,593 @@ def get_footer_and_js():
         });
       }
 
-      // Initialize Dynamic Widgets
+      // =====================================================================
+      // FULLCALENDAR 6 INTEGRATION & EXPEDITION DATASET
+      // =====================================================================
+      const tripCalendarEvents = [
+        // Multi-day Lodging Base Stays
+        {
+          id: 'base-southbeach',
+          title: '🏨 Stay: South Beach Art Deco (2 Nights)',
+          start: '2026-10-24',
+          end: '2026-10-26',
+          allDay: true,
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Lodging Base',
+            location: 'South Beach, Miami Beach (Collins Ave / Washington Ave)',
+            details: '2 full nights in historic Art Deco district. Walkable to Lummus Beach & Ocean Drive.',
+            status: 'Target $400 for 2',
+            slide: 9
+          }
+        },
+        {
+          id: 'base-keywest',
+          title: '🏨 Stay: Key West Old Town Guesthouse (2 Nights)',
+          start: '2026-10-26',
+          end: '2026-10-28',
+          allDay: true,
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Lodging Base',
+            location: 'Old Town Key West (near 100 Grinnell St Ferry Terminal)',
+            details: 'Victorian Conch guesthouse. Critical proximity for 07:00 AM Dry Tortugas catamaran check-in.',
+            status: 'Target $390 for 2',
+            slide: 16
+          }
+        },
+        {
+          id: 'base-islamorada',
+          title: '🏨 Stay: Islamorada Oceanfront Retreat (1 Night)',
+          start: '2026-10-28',
+          end: '2026-10-29',
+          allDay: true,
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Lodging Base',
+            location: 'Islamorada / Upper Keys (MM 78–82)',
+            details: 'Oceanfront cottage relaxing evening following the Dry Tortugas open-water voyage.',
+            status: 'Target $160 for 2',
+            slide: 22
+          }
+        },
+        {
+          id: 'base-coralgables',
+          title: '🏨 Stay: Historic Coral Gables Hotel (1 Night)',
+          start: '2026-10-29',
+          end: '2026-10-30',
+          allDay: true,
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Lodging Base',
+            location: 'Coral Gables / Miracle Mile',
+            details: 'Mediterranean Revival boutique base. 15 minutes from MIA for Friday return.',
+            status: 'Target $190 for 2',
+            slide: 25
+          }
+        },
+
+        // Day 1: Saturday, Oct 24, 2026
+        {
+          id: 'd1-flight-in',
+          title: '✈️ Inbound Flight: EWR ➔ MIA [BOOKED]',
+          start: '2026-10-24T06:45:00',
+          end: '2026-10-24T09:45:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'Flight',
+            location: 'Newark (EWR) to Miami International (MIA)',
+            details: 'Non-stop roundtrip flight booked for $628 total for 2 passengers.',
+            status: 'BOOKED ($628 total)',
+            slide: 8
+          }
+        },
+        {
+          id: 'd1-car-pickup',
+          title: '🚗 Enterprise Car Pickup: Nissan Rogue AWD [RESERVED]',
+          start: '2026-10-24T11:00:00',
+          end: '2026-10-24T11:45:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Car Rental',
+            location: 'MIA Consolidated Rental Car Center (via MIA Mover)',
+            details: 'Enterprise Intermediate SUV (Nissan Rogue AWD or similar) reserved for $427.44 with SunPass.',
+            status: 'RESERVED ($427.44 confirmed)',
+            slide: 8
+          }
+        },
+        {
+          id: 'd1-checkin-lunch',
+          title: '🌴 South Beach Check-In & Española Way Lunch',
+          start: '2026-10-24T12:30:00',
+          end: '2026-10-24T14:30:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Arrival & Dining',
+            location: 'South Beach / Española Way',
+            details: 'Check into Collins Ave boutique hotel; authentic pressed Cuban sandwiches & tropical batidos.',
+            status: 'Included in dining budget',
+            slide: 9
+          }
+        },
+        {
+          id: 'd1-sunset-ocean-drive',
+          title: '🌅 South Pointe Pier Sunset & Ocean Drive Neon',
+          start: '2026-10-24T17:30:00',
+          end: '2026-10-24T20:30:00',
+          color: '#8c5d18',
+          extendedProps: {
+            category: 'Exploration',
+            location: 'South Pointe Park Pier & Ocean Drive',
+            details: 'Golden hour at South Pointe Park overlooking Government Cut, followed by Art Deco neon walking tour.',
+            status: 'Free milestone',
+            slide: 10
+          }
+        },
+
+        // Day 2: Sunday, Oct 25, 2026
+        {
+          id: 'd2-artdeco-beach',
+          title: '🏛️ Art Deco Historic District & Lummus Beach Swim',
+          start: '2026-10-25T08:30:00',
+          end: '2026-10-25T11:30:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'Architecture & Beach',
+            location: 'Ocean Drive & Lummus Beach',
+            details: 'Morning architectural walk through Streamline Moderne landmarks; swim in 81°F turquoise water.',
+            status: 'Free milestone',
+            slide: 11
+          }
+        },
+        {
+          id: 'd2-wynwood',
+          title: '🎨 Wynwood Walls Street Art & Design District',
+          start: '2026-10-25T13:00:00',
+          end: '2026-10-25T16:30:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Culture & Art',
+            location: 'Wynwood Arts District, Miami',
+            details: 'World-renowned outdoor mural galleries ($24 for 2), boutique cafes, and tropical fruit smoothies.',
+            status: '$24 entry for 2',
+            slide: 12
+          }
+        },
+        {
+          id: 'd2-dinner-stroll',
+          title: '🍽️ South Beach Evening & Cuban Criollo Dinner',
+          start: '2026-10-25T18:30:00',
+          end: '2026-10-25T21:00:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Dining',
+            location: 'Puerto Sagua / Collins Ave, South Beach',
+            details: 'Authentic Cuban criollo dinner: slow-simmered ropa vieja, sweet plantains, and sparkling lime mocktails.',
+            status: 'Zero-alcohol dining',
+            slide: 13
+          }
+        },
+
+        // Day 3: Monday, Oct 26, 2026
+        {
+          id: 'd3-drive-everglades',
+          title: '🛣️ Scenic Drive: South Beach ➔ Shark Valley',
+          start: '2026-10-26T08:00:00',
+          end: '2026-10-26T09:30:00',
+          color: '#475569',
+          extendedProps: {
+            category: 'Transit',
+            location: 'Tamiami Trail (US-41 West)',
+            details: '45-mile westbound scenic drive across the subtropical sawgrass prairies into Everglades National Park.',
+            status: 'SunPass / Highway',
+            slide: 14
+          }
+        },
+        {
+          id: 'd3-shark-valley',
+          title: '🐊 Everglades NP: Shark Valley Tram & 65-ft Tower',
+          start: '2026-10-26T10:00:00',
+          end: '2026-10-26T12:30:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'National Park 1 of 3',
+            location: 'Shark Valley, Everglades National Park',
+            details: '15-mile guided tram tour along alligator sloughs to the panoramic 65-ft observation tower ($62 for 2).',
+            status: 'NPS Excursion ($62 total)',
+            slide: 14
+          }
+        },
+        {
+          id: 'd3-overseas-highway',
+          title: '🌉 Overseas Highway: Seven Mile Bridge & Bahia Honda',
+          start: '2026-10-26T13:30:00',
+          end: '2026-10-26T17:00:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Scenic Highway',
+            location: 'Overseas Highway (US-1 South) to Key West',
+            details: '113 miles across 42 bridges spanning the Florida Straits. Quick beach stop at Bahia Honda State Park.',
+            status: 'Iconic American Byway',
+            slide: 15
+          }
+        },
+        {
+          id: 'd3-keywest-checkin',
+          title: '⚓ Key West Old Town Check-In & Conch Stroll',
+          start: '2026-10-26T18:00:00',
+          end: '2026-10-26T21:00:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Lodging & Evening',
+            location: 'Old Town Key West',
+            details: 'Check into historic Victorian Conch guesthouse; evening stroll down tree-lined Duval & Fleming streets.',
+            status: 'Base 2 Check-In',
+            slide: 16
+          }
+        },
+
+        // Day 4: Tuesday, Oct 27, 2026
+        {
+          id: 'd4-hemingway',
+          title: '🐈 Ernest Hemingway Estate & Polydactyl Cats',
+          start: '2026-10-27T09:30:00',
+          end: '2026-10-27T12:00:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Heritage & Culture',
+            location: '907 Whitehead St, Key West',
+            details: 'Tour the 1851 Spanish Colonial home, writing studio, lush gardens, and meet 50+ six-toed cats ($36 for 2).',
+            status: 'Walk-in ($36 for 2)',
+            slide: 17
+          }
+        },
+        {
+          id: 'd4-fort-zachary',
+          title: '🏖️ Fort Zachary Taylor Beach & Coral Snorkel',
+          start: '2026-10-27T13:30:00',
+          end: '2026-10-27T16:30:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'State Park & Marine',
+            location: 'Fort Zachary Taylor Historic State Park',
+            details: 'Pristine coral cove snorkeling, shaded Australian pine canopy, and historic Civil War brick fort.',
+            status: 'State Park entry ($7)',
+            slide: 18
+          }
+        },
+        {
+          id: 'd4-mallory-sunset',
+          title: '🌇 Mallory Square Sunset Celebration',
+          start: '2026-10-27T18:00:00',
+          end: '2026-10-27T19:30:00',
+          color: '#8c5d18',
+          extendedProps: {
+            category: 'Culture & Sunset',
+            location: 'Mallory Square Pier, Key West',
+            details: 'Historic Key West sunset celebration with acoustic performers overlooking Key West Harbor.',
+            status: 'Free public event',
+            slide: 18
+          }
+        },
+        {
+          id: 'd4-pre-ferry-rest',
+          title: '😴 Pre-Ferry Early Rest (07:00 AM Call Tomorrow!)',
+          start: '2026-10-27T20:00:00',
+          end: '2026-10-27T21:30:00',
+          color: '#475569',
+          extendedProps: {
+            category: 'Rest & Logistics',
+            location: 'Key West Old Town Guesthouse',
+            details: 'Early rest to prepare for tomorrow morning\'s 7:00 AM mandatory ferry check-in at 100 Grinnell St.',
+            status: 'Rest protocol',
+            slide: 19
+          }
+        },
+
+        // Day 5: Wednesday, Oct 28, 2026
+        {
+          id: 'd5-ferry-checkin',
+          title: '🚢 MANDATORY FERRY CHECK-IN: Yankee Freedom III [BOOKED]',
+          start: '2026-10-28T07:00:00',
+          end: '2026-10-28T08:00:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'National Park Ferry',
+            location: 'Key West Ferry Terminal (100 Grinnell St)',
+            details: '07:00 AM check-in confirmed aboard high-speed catamaran. Includes hot breakfast, buffet lunch & snorkel gear.',
+            status: 'CONFIRMED BOOKED ($520 total for 2)',
+            slide: 20
+          }
+        },
+        {
+          id: 'd5-catamaran-voyage',
+          title: '🌊 High-Speed Catamaran Cruise (70 mi West)',
+          start: '2026-10-28T08:00:00',
+          end: '2026-10-28T10:15:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'Ocean Cruise',
+            location: 'Gulf of Mexico / Florida Straits',
+            details: 'Luxury catamaran crossing 70 miles west of Key West with marine naturalist commentary.',
+            status: 'Included with ferry',
+            slide: 20
+          }
+        },
+        {
+          id: 'd5-dry-tortugas-expedition',
+          title: '🏰 Dry Tortugas NP: Fort Jefferson & Coral Moat Snorkel',
+          start: '2026-10-28T10:30:00',
+          end: '2026-10-28T14:45:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'National Park 2 of 3',
+            location: 'Garden Key, Dry Tortugas National Park',
+            details: '16-million-brick Civil War fortress tour, moat seawall walk, beach picnic buffet, and world-class reef snorkeling.',
+            status: 'BOOKED EXCURSION',
+            slide: 21
+          }
+        },
+        {
+          id: 'd5-return-ferry',
+          title: '🚢 Return Catamaran Voyage to Key West Terminal',
+          start: '2026-10-28T15:00:00',
+          end: '2026-10-28T17:30:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'Ocean Cruise',
+            location: 'Key West Historic Seaport Arrival',
+            details: 'Return voyage across the Straits docking in Key West at 5:30 PM.',
+            status: 'Included with ferry',
+            slide: 21
+          }
+        },
+        {
+          id: 'd5-drive-islamorada',
+          title: '🚗 Drive North on US-1 to Islamorada Retreat',
+          start: '2026-10-28T18:00:00',
+          end: '2026-10-28T20:00:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Transit & Lodging',
+            location: 'Key West to Islamorada (80 miles)',
+            details: 'Scenic evening drive north along US-1 to break up the return journey. Check into oceanfront cottage.',
+            status: 'Base 3 Check-In',
+            slide: 22
+          }
+        },
+
+        // Day 6: Thursday, Oct 29, 2026
+        {
+          id: 'd6-robbies-tarpons',
+          title: '🐟 Robbie\'s Marina: Hand-Feeding 100-lb Tarpons',
+          start: '2026-10-29T09:00:00',
+          end: '2026-10-29T10:30:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Marine Wildlife',
+            location: 'Robbie\'s Marina, Islamorada (MM 77.5)',
+            details: 'Hand-feed giant silver king tarpons directly from the wooden dock. Fresh key lime pie and coconut water.',
+            status: 'Dock admission (~$15)',
+            slide: 23
+          }
+        },
+        {
+          id: 'd6-biscayne-tour',
+          title: '⛵ Biscayne NP: Boca Chita Key Boat Tour & Reef',
+          start: '2026-10-29T12:00:00',
+          end: '2026-10-29T16:30:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'National Park 3 of 3',
+            location: 'Dante Fascell Visitor Center, Convoy Point',
+            details: '3.5-hour boat excursion out to historic Boca Chita Key lighthouse and barrier coral reef snorkeling ($160 for 2).',
+            status: 'NPS Excursion ($160 total)',
+            slide: 24
+          }
+        },
+        {
+          id: 'd6-coralgables-checkin',
+          title: '🏛️ Coral Gables Check-In & Mediterranean Evening',
+          start: '2026-10-29T18:00:00',
+          end: '2026-10-29T21:00:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Lodging Base',
+            location: 'Historic Coral Gables / Miracle Mile',
+            details: 'Check into boutique hotel; evening stroll under historic banyan trees. 15 minutes from MIA for tomorrow.',
+            status: 'Base 4 Check-In',
+            slide: 25
+          }
+        },
+
+        // Day 7: Friday, Oct 30, 2026
+        {
+          id: 'd7-calle-ocho',
+          title: '☕ Calle Ocho Cultural Walk & Domino Park',
+          start: '2026-10-30T09:30:00',
+          end: '2026-10-30T12:00:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Culture & Gastronomy',
+            location: 'Little Havana, Miami (SW 8th St)',
+            details: 'Morning Cuban espresso (cafecito), pastelitos de guayaba, and watching domino masters at Domino Park.',
+            status: 'Cultural immersion',
+            slide: 26
+          }
+        },
+        {
+          id: 'd7-versailles-feast',
+          title: '🍽️ Celebratory Farewell Feast at Versailles',
+          start: '2026-10-30T12:30:00',
+          end: '2026-10-30T14:30:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Celebratory Banquet',
+            location: 'Versailles Restaurant (3555 SW 8th St)',
+            details: 'Legendary Cuban farewell banquet: roast pork lechón asado, moros y cristianos, sweet plantains, and flan.',
+            status: 'Grand finale dining',
+            slide: 27
+          }
+        },
+        {
+          id: 'd7-car-return',
+          title: '🚗 Enterprise Car Return (04:00 PM Drop-Off)',
+          start: '2026-10-30T15:30:00',
+          end: '2026-10-30T16:00:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Logistics',
+            location: 'MIA Consolidated Rental Car Center',
+            details: 'Return Nissan Rogue AWD at MIA RCC garage by 04:00 PM. Instant digital barcode return, take MIA Mover to terminal.',
+            status: 'CONFIRMED DROP-OFF (04:00 PM)',
+            slide: 28
+          }
+        },
+        {
+          id: 'd7-flight-home',
+          title: '✈️ Non-Stop Flight Home: MIA ➔ EWR [BOOKED]',
+          start: '2026-10-30T18:15:00',
+          end: '2026-10-30T21:10:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'Flight Home',
+            location: 'Miami International (MIA) to Newark (EWR)',
+            details: 'Evening non-stop flight home to Newark Liberty concluding the 7-day Florida Grand Expedition.',
+            status: 'BOOKED ($628 total for 2)',
+            slide: 28
+          }
+        }
+      ];
+
+      let expeditionCalendarInstance = null;
+      let currentSelectedCalSlide = null;
+
+      function showCalendarEventDetails(event) {
+        const titleEl = document.getElementById('calBannerTitle');
+        const metaEl = document.getElementById('calBannerMeta');
+        const jumpBtn = document.getElementById('calBannerJumpBtn');
+
+        if (!titleEl || !metaEl) return;
+
+        const props = event.extendedProps || {};
+        const statusBadge = props.status ? `<span class="tag tag-gold" style="font-size:0.68rem; padding: 2px 6px;">${props.status}</span>` : '';
+        const catBadge = props.category ? `<span class="tag tag-teal" style="font-size:0.68rem; padding: 2px 6px;">${props.category}</span>` : '';
+
+        titleEl.innerHTML = `<span>${event.title}</span> ${catBadge} ${statusBadge}`;
+
+        let timeStr = '';
+        if (event.allDay) {
+          timeStr = '📅 All-Day Base Stay';
+        } else if (event.start) {
+          const s = new Date(event.start);
+          const e = event.end ? new Date(event.end) : null;
+          const formatTime = d => d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+          timeStr = `⏰ ${formatTime(s)}` + (e ? ` – ${formatTime(e)}` : '');
+        }
+
+        const locStr = props.location ? `📍 ${props.location}` : '';
+        const descStr = props.details ? `• ${props.details}` : '';
+
+        metaEl.innerHTML = `<span>${timeStr}</span> <span>${locStr}</span> <span>${descStr}</span>`;
+
+        if (props.slide && jumpBtn) {
+          currentSelectedCalSlide = props.slide;
+          jumpBtn.style.display = 'flex';
+          jumpBtn.textContent = `JUMP TO SLIDE ${props.slide} →`;
+        } else if (jumpBtn) {
+          jumpBtn.style.display = 'none';
+        }
+      }
+
+      function jumpToCalendarSlide() {
+        if (currentSelectedCalSlide && typeof updateSlide === 'function') {
+          updateSlide(currentSelectedCalSlide - 1);
+        }
+      }
+
+      function switchCalendarView(viewName) {
+        if (!expeditionCalendarInstance) return;
+        expeditionCalendarInstance.changeView(viewName);
+
+        const btnMonth = document.getElementById('calBtnMonth');
+        const btnWeek = document.getElementById('calBtnWeek');
+        const btnList = document.getElementById('calBtnList');
+
+        if (btnMonth) btnMonth.classList.toggle('active', viewName === 'dayGridMonth');
+        if (btnWeek) btnWeek.classList.toggle('active', viewName === 'dayGridWeek');
+        if (btnList) btnList.classList.toggle('active', viewName === 'listWeek');
+      }
+
+      function initExpeditionCalendar() {
+        const calendarEl = document.getElementById('expeditionCalendar');
+        if (!calendarEl) return;
+
+        if (typeof FullCalendar === 'undefined') {
+          setTimeout(initExpeditionCalendar, 120);
+          return;
+        }
+
+        try {
+          expeditionCalendarInstance = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            initialDate: '2026-10-24',
+            firstDay: 0,
+            height: 380,
+            contentHeight: 340,
+            aspectRatio: 1.35,
+            headerToolbar: {
+              left: 'prev,next',
+              center: 'title',
+              right: 'today'
+            },
+            buttonText: {
+              today: 'Trip'
+            },
+            validRange: {
+              start: '2026-10-01',
+              end: '2026-11-01'
+            },
+            dayCellClassNames: function(arg) {
+              const d = arg.date;
+              const year = d.getFullYear();
+              const month = String(d.getMonth() + 1).padStart(2, '0');
+              const day = String(d.getDate()).padStart(2, '0');
+              const iso = `${year}-${month}-${day}`;
+              if (iso >= '2026-10-24' && iso <= '2026-10-30') {
+                return ['fc-expedition-active-day'];
+              }
+              return [];
+            },
+            events: tripCalendarEvents,
+            eventClick: function(info) {
+              info.jsEvent.preventDefault();
+              showCalendarEventDetails(info.event);
+            }
+          });
+
+          expeditionCalendarInstance.render();
+          window.expeditionCalendar = expeditionCalendarInstance;
+          window.switchCalendarView = switchCalendarView;
+          window.jumpToCalendarSlide = jumpToCalendarSlide;
+        } catch(e) {
+          console.error('Error initializing FullCalendar:', e);
+        }
+      }
+
+      // Resize calendar on window resize
+      window.addEventListener('resize', () => {
+        if (window.expeditionCalendar) {
+          window.expeditionCalendar.updateSize();
+        }
+      });
+
+      // Initialize Dynamic Widgets & FullCalendar
       try {
         selectMapStage(0);
         switchTransitOption(5, 0);
         renderDrawerItems();
+        initExpeditionCalendar();
       } catch(e) {
         console.warn(e);
       }
