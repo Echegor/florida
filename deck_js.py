@@ -943,7 +943,7 @@ def get_footer_and_js():
           extendedProps: {
             category: 'Rest & Logistics',
             location: 'Key West Old Town Guesthouse',
-            details: 'Early rest to prepare for tomorrow morning\'s 7:00 AM mandatory ferry check-in at 100 Grinnell St.',
+            details: "Early rest to prepare for tomorrow morning's 7:00 AM mandatory ferry check-in at 100 Grinnell St.",
             status: 'Rest protocol',
             slide: 19
           }
@@ -1024,13 +1024,13 @@ def get_footer_and_js():
         // Day 6: Thursday, Oct 29, 2026
         {
           id: 'd6-robbies-tarpons',
-          title: '🐟 Robbie\'s Marina: Hand-Feeding 100-lb Tarpons',
+          title: "🐟 Robbie's Marina: Hand-Feeding 100-lb Tarpons",
           start: '2026-10-29T09:00:00',
           end: '2026-10-29T10:30:00',
           color: '#b47b2c',
           extendedProps: {
             category: 'Marine Wildlife',
-            location: 'Robbie\'s Marina, Islamorada (MM 77.5)',
+            location: "Robbie's Marina, Islamorada (MM 77.5)",
             details: 'Hand-feed giant silver king tarpons directly from the wooden dock. Fresh key lime pie and coconut water.',
             status: 'Dock admission (~$15)',
             slide: 23
@@ -1196,7 +1196,7 @@ def get_footer_and_js():
           expeditionCalendarInstance = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
             initialDate: '2026-10-24',
-            firstDay: 0,
+            firstDay: 6,
             height: 380,
             contentHeight: 340,
             aspectRatio: 1.35,
