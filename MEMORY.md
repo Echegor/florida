@@ -6,37 +6,37 @@
 * **Dry Tortugas Ferry (BOOKED):** Yankee Freedom III confirmed for **Wednesday, October 28, 2026 at 07:00 AM check-in** ( total for 2 adults).
 * **Car Rental (RESERVED):** Enterprise Intermediate SUV (Nissan Rogue AWD or similar) reserved for **.44** (Sat Oct 24 11:00 AM – Fri Oct 30 4:00 PM at MIA RCC).
 * **First Slide Calendar:** FullCalendar 6 standard bundle embedded on Slide 1 (Month, Trip Week, and Agenda views with 27 interactive trip events).
-* **Dedicated Miami Beach Base:** 2 full nights (Nights 1 & 2: Sat Oct 24 & Sun Oct 25) directly in South Beach (Ocean Drive, Lummus Beach, South Pointe Pier, Art Deco Historic District, and Wynwood Walls).
-* **Single Definitive Everglades Visit:** Shark Valley (15-mile tram & 65-ft observation tower) on Day 3 (Mon Oct 26) en route to Key West (cutting duplicate southern Everglades trip to maximize Miami Beach time).
+* **Dedicated Miami Beach Base:** 2 full nights (Nights 1 & 2: Sat Oct 24 & Sun Oct 25) directly in South Beach (Ocean Drive, Lummus Beach, South Pointe Pier, Art Deco Historic District).
+* **Single Definitive Everglades Expedition:** Shark Valley (15-mile tram & 65-ft observation tower) + afternoon high-speed airboat safari & Big Cypress wild alligator boardwalk on Day 2 (Sun Oct 25), freeing Day 3 (Mon Oct 26) for an unhurried road trip down the Overseas Highway to Key West.
 * **National Parks Trifecta (All 3 Visited):**
-  1. **Everglades National Park:** Day 3 (Shark Valley tram & tower).
+  1. **Everglades National Park:** Day 2 (Shark Valley tram & tower, plus backcountry airboat & Big Cypress).
   2. **Dry Tortugas National Park:** Day 5 (BOOKED: Yankee Freedom III catamaran, Fort Jefferson, moat seawall & coral reef snorkeling).
   3. **Biscayne National Park:** Day 6 (Convoy Point, Dante Fascell Visitor Center, Boca Chita Key boat tour & reef snorkeling).
 * **Zero Theme Parks:** Strictly zero Disney and zero Universal.
-* **Shared Budget Format:** Strictly presented as a unified shared total for both travelers combined (,742 total for 2).
-* **Accommodation Standard:** Clean, quiet, highly rated 3★ and 4★ hotels, boutique coastal retreats, and Key West historic guesthouses (–/night).
+* **Shared Budget Format:** Strictly presented as a unified shared total for both travelers combined ($3,782 total for 2).
+* **Accommodation Standard:** Clean, quiet, highly rated 3★ and 4★ hotels, boutique coastal retreats, and Key West historic guesthouses ($160–$220/night).
 * **Zero Alcohol:** Authentic regional non-alcoholic specialties (Cuban *cafecito*, *batidos* of mamey/guava/mango, Key Lime sparkling mocktails, Florida fresh citrus).
-* **Ground Logistics:** Enterprise Nissan Rogue AWD picked up and dropped off at MIA Consolidated Rental Car Center (~460 miles total; zero one-way drop fees).
+* **Ground Logistics:** Enterprise Nissan Rogue AWD (6-day rental Sunday morning to Friday afternoon; saves Saturday parking friction in South Beach).
 * **Measurement Units:** US Customary units (miles, feet, °F) presented prominently throughout.
 
 ---
 
 ## 2. Slide-by-Slide Buildout Status (30 Slides Total) - ALL COMPLETED [x]
 
-- [x] **Slide 01:** Cover, Expedition Metrics & FullCalendar 6 Interactive Itinerary (,742 Total for 2)
+- [x] **Slide 01:** Cover, Expedition Metrics & FullCalendar 6 Interactive Itinerary ($3,782 Total for 2)
 - [x] **Slide 02:** Strategic Architecture: The South Florida Parks Trifecta (Biscayne, Everglades, Dry Tortugas)
 - [x] **Slide 03:** Interactive Expedition Cartography & GPS Command (Interactive SVG Map with 8 South Florida & Keys nodes)
 - [x] **Slide 04:** Subtropical Meteorology & Late October Transition (Dry season onset, 82°F–85°F, 81°F ocean waters)
 - [x] **Slide 05:** Highway Logistics, SunPass & The Yankee Freedom III (Overseas Highway, vehicle switcher with Enterprise Rogue, ferry protocols)
 - [x] **Slide 06:** Subtropical Marine & Wetland Safety Protocols (Alligators vs Crocodiles, Mineral Zinc Reef Sunscreen)
 - [x] **Slide 07:** Technical Packing: Marine, Reef & Wetland Field Kit (Snorkel gear, UPF rashguards, dry bags, NPS passport)
-- [x] **Slide 08:** Day 1 (Sat Oct 24): Inbound Flight EWR ➔ MIA, Enterprise Pickup (11:00 AM) & Scenic MacArthur Causeway Crossing
+- [x] **Slide 08:** Day 1 (Sat Oct 24): Inbound Flight EWR ➔ MIA, Car-Free Rideshare to South Beach ($0 Parking) & Ocean Drive
 - [x] **Slide 09:** Night 1 Lodging: Boutique Art Deco Sanctuary in South Beach (Collins Ave / Washington Ave)
 - [x] **Slide 10:** Day 1 (Sat Oct 24): South Pointe Sunset, Ocean Drive Neon Walk & Cuban Dinner (Zero Alcohol)
-- [x] **Slide 11:** Day 2 (Sun Oct 25): South Beach Art Deco Architecture & Lummus Beach Morning
-- [x] **Slide 12:** Day 2 (Sun Oct 25): Wynwood Walls Street Art & Design District Culture
+- [x] **Slide 11:** Day 2 (Sun Oct 25): Everglades National Park (Shark Valley Tram & 65-ft Observation Tower)
+- [x] **Slide 12:** Day 2 (Sun Oct 25): Everglades Airboat Safari & Big Cypress Preserve (Wild Alligator Boardwalk)
 - [x] **Slide 13:** Night 2 Lodging: South Beach Art Deco Retreat & Evening Stroll
-- [x] **Slide 14:** Day 3 (Mon Oct 26): Everglades National Park (Shark Valley Tram & 65-ft Observation Tower)
+- [x] **Slide 14:** Day 3 (Mon Oct 26): The Ultimate Overseas Highway Road Trip to Key West (Robbie's Tarpon Feeding)
 - [x] **Slide 15:** Day 3 (Mon Oct 26): Overseas Highway Crossing, Seven Mile Bridge & Bahia Honda Lagoon
 - [x] **Slide 16:** Night 3 Lodging: Historic Victorian Conch Guesthouse in Old Town Key West
 - [x] **Slide 17:** Day 4 (Tue Oct 27): Key West Heritage (Ernest Hemingway Estate & Polydactyl Cats)

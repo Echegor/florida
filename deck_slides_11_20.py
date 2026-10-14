@@ -24,7 +24,7 @@ def get_slides():
                 <li><strong>09:15 AM – Scenic Drive West on Tamiami Trail:</strong> Drive west along historic US-41 across the Everglades sawgrass prairie to the Shark Valley gate.</li>
                 <li><strong>10:00 AM – 2-Hour Guided Open-Air Tram:</strong> Board the naturalist-guided tram into the sawgrass slough. Observe dozens of wild American alligators basking on the banks, anhingas drying their wings, and snowy egrets ($62 total for 2).</li>
                 <li><strong>11:15 AM – 65-Foot Spiral Observation Tower:</strong> Ascend the iconic spiral ramp for an awe-inspiring 360° panoramic view stretching 20 miles across unbroken wilderness. Spot Florida gar and softshell turtles in the deep slough below.</li>
-                <li><strong>12:45 PM – Vector East to Wynwood:</strong> Drive back toward Miami for an afternoon of street art and artisan cafes in the Wynwood Arts District.</li>
+                <li><strong>12:30 PM – Glades Smokehouse Lunch:</strong> Drive 10 minutes along Tamiami Trail for an authentic glades smokehouse lunch (blackened catfish, pulled pork, or gator bites) before launching into the backcountry sawgrass.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
@@ -46,43 +46,43 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 12: DAY 2 AFTERNOON: WYNWOOD WALLS OUTDOOR MURAL MUSEUM
+           SLIDE 12: DAY 2 AFTERNOON: EVERGLADES AIRBOAT SAFARI & BIG CYPRESS
            ===================================================================== -->
       <section class="slide" data-slide="12">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 2 AFTERNOON • CONTEMPORARY ARTS DISTRICT</div>
-          <h2 class="slide-title">Day 2 Afternoon: Wynwood Walls Outdoor Street Art Museum & Cafes</h2>
-          <p class="slide-subtitle">Returning from the sawgrass wilderness to explore Miami's creative epicenter: world-renowned murals by international street artists, contemporary galleries, and artisan bakeries.</p>
+          <div class="slide-eyebrow">DAY 2 AFTERNOON • BACKCOUNTRY WILDERNESS EXPEDITION</div>
+          <h2 class="slide-title">Day 2 Afternoon: Everglades Airboat Safari & Big Cypress Preserve</h2>
+          <p class="slide-subtitle">Skimming at high speed across remote sawgrass rivers into hardwood hammocks, tracking wild alligators, and exploring the primeval cypress domes of Big Cypress National Preserve.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">CONTEMPORARY CREATIVE DISTRICT</div>
-              <h3 class="card-heading">Wynwood Arts District (NW 2nd Ave)</h3>
+              <div class="card-label">RIVER OF GRASS BACKCOUNTRY SAFARI</div>
+              <h3 class="card-heading">Tamiami Trail Airboat & Big Cypress Oasis</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Transformed from a 1970s industrial warehouse district, Wynwood is now globally acclaimed as an open-air canvas of public contemporary mural art:
+                Ditching commercial city districts to venture deeper into the untamed Florida wetlands where roaring propeller airboats glide across shallow waters into secluded native hammocks:
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>01:30 PM – Artisan Bakery Lunch & Cold Brew:</strong> Arrive in Wynwood from Everglades. Enjoy lunch at <em>Zak the Baker</em> (freshly baked sourdough sandwiches, goat cheese toasts, and cold brew coffee) or <em>The Salty Donut</em>.</li>
-                <li><strong>02:30 PM – Wynwood Walls Outdoor Museum:</strong> Tour the enclosed museum grounds featuring giant wall-scale murals by Shepard Fairey, Retna, and Lady Pink ($24 total for 2).</li>
-                <li><strong>04:00 PM – Street Murals Walking Loop:</strong> Explore the vibrant side streets (NW 23rd to NW 26th St) filled with constantly rotating graffiti murals and artisan pop-up boutiques.</li>
-                <li><strong>05:30 PM – Return to South Beach Sanctuary:</strong> Cross back into South Beach, park in the municipal garage ($20/night), and unwind before evening dinner.</li>
+                <li><strong>01:15 PM – High-Speed Airboat Safari:</strong> Board an authentic propeller airboat for an exhilarating run skimming across the open sawgrass prairie and through twisting mangrove channels (~$65 total for 2).</li>
+                <li><strong>02:15 PM – Wild Alligator & Raptor Spotting:</strong> Glide inches above the water observing massive wild alligators basking along the banks, great blue herons, and rare purple gallinules in untouched habitat.</li>
+                <li><strong>03:15 PM – Big Cypress Oasis Gator Boardwalk:</strong> Drive west along US-41 into Big Cypress National Preserve. Walk the scenic boardwalk along the roadside canal where dozens of wild alligators congregate naturally in deep freshwater pools.</li>
+                <li><strong>04:45 PM – Golden Hour Return to South Beach:</strong> Drive east along Tamiami Trail through the sunset glow, park in the 7th & Collins garage ($20/night), and recharge for dinner.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">WYNWOOD WALLS</span>
-                <span class="tag tag-teal">WORLD-CLASS STREET ART</span>
-                <span class="tag tag-terracotta">ARTISAN DINING</span>
+                <span class="tag tag-gold">AIRBOAT EXPEDITION</span>
+                <span class="tag tag-teal">BIG CYPRESS PRESERVE</span>
+                <span class="tag tag-terracotta">WILD ALLIGATORS</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide12_wynwood.jpg" alt="Wynwood colorful street art mural wall" loading="lazy">
+              <img src="images/slide12_airboat.jpg" alt="Everglades airboat navigating sawgrass prairie" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Living Canvases of Wynwood</div>
-                <div class="media-caption">Massive murals and cutting-edge urban artistry in the heart of Miami's creative district.</div>
+                <div class="media-title">Roaring Across the River of Grass</div>
+                <div class="media-caption">Propeller-driven speed skimming inches above wild sawgrass waterways and secluded mangrove hammocks.</div>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ def get_slides():
         <div class="slide-header">
           <div class="slide-eyebrow">NIGHT 2 RETREAT • SOUTH BEACH IMMERSION</div>
           <h2 class="slide-title">Night 2: South Beach Sanctuary & Promenade Dining</h2>
-          <p class="slide-subtitle">Relaxing in the ocean breeze after exploring the arts district, strolling pedestrian Lincoln Road, and dining along historic Española Way.</p>
+          <p class="slide-subtitle">Relaxing in the ocean breeze after an exhilarating day in the Everglades wilderness, strolling pedestrian Lincoln Road, and dining along historic Española Way.</p>
         </div>
 
         <div class="content-area">

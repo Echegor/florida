@@ -270,13 +270,13 @@ def get_footer_and_js():
         },
         {
           id: 2,
-          label: "MILESTONE 03 • CREATIVE CAPITAL",
-          title: "Wynwood Walls Street Art District",
-          coords: "25.8000° N, 80.1989° W",
-          metrics: "5 Miles from South Beach • NW 2nd Ave",
-          tag: "STREET ART",
-          tagClass: "tag-gold",
-          desc: "The world's premier open-air museum of public contemporary street murals, featuring giant wall-scale works by international graffiti artists, artisan sourdough bakeries, and cold brew coffee."
+          label: "MILESTONE 03 • EVERGLADES BACKCOUNTRY",
+          title: "Everglades Airboat Safari & Big Cypress",
+          coords: "25.8576° N, 80.8488° W",
+          metrics: "Tamiami Trail (US-41) • Sawgrass Frontier",
+          tag: "AIRBOAT SAFARI",
+          tagClass: "tag-teal",
+          desc: "Thrilling high-speed propeller airboat run skimming across shallow sawgrass prairies into remote mangrove hammocks, paired with the Big Cypress Oasis boardwalk where dozens of wild alligators bask in roadside canals."
         },
         {
           id: 3,
@@ -352,8 +352,8 @@ def get_footer_and_js():
         const wp = waypoints[idx];
         if (!card || !wp) return;
 
-        // Slide target mapping: 0->Slide 8, 1->Slide 8, 2->Slide 12, 3->Slide 14, 4->Slide 15, 5->Slide 16, 6->Slide 20, 7->Slide 24
-        const slideTargetMap = [7, 7, 11, 13, 14, 15, 19, 23];
+        // Slide target mapping: 0->Slide 8, 1->Slide 8, 2->Slide 12, 3->Slide 11, 4->Slide 15, 5->Slide 16, 6->Slide 20, 7->Slide 24
+        const slideTargetMap = [7, 7, 11, 10, 14, 15, 19, 23];
 
         card.innerHTML = `
           <div>
@@ -506,7 +506,7 @@ def get_footer_and_js():
         9: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 1 BASE' },
         10: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'SOUTH POINTE' },
         11: { cat: ['all', 'parks', 'miami'], primaryCat: 'parks', tag: 'DAY 2: EVERGLADES' },
-        12: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 2: WYNWOOD' },
+        12: { cat: ['all', 'parks', 'wildlife'], primaryCat: 'parks', tag: 'DAY 2: AIRBOAT & BIG CYPRESS' },
         13: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
         14: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: OVERSEAS HWY' },
         15: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: SEVEN MILE' },
@@ -798,7 +798,7 @@ def get_footer_and_js():
           }
         },
 
-        // Day 2: Sunday, Oct 25, 2026 (Everglades National Park & Wynwood Arts)
+        // Day 2: Sunday, Oct 25, 2026 (Everglades National Park & Big Cypress Airboat)
         {
           id: 'd2-car-pickup',
           title: '🚗 Enterprise SUV Pickup (6-Day Rental Begins)',
@@ -830,17 +830,17 @@ def get_footer_and_js():
           }
         },
         {
-          id: 'd2-wynwood',
-          title: '🎨 Wynwood Walls Street Art & Design District',
-          start: '2026-10-25T13:30:00',
-          end: '2026-10-25T16:30:00',
-          color: '#c2410c',
+          id: 'd2-airboat-bigcypress',
+          title: '🚤 Everglades Airboat Safari & Big Cypress',
+          start: '2026-10-25T13:00:00',
+          end: '2026-10-25T16:00:00',
+          color: '#0f766e',
           extendedProps: {
-            category: 'Culture & Art',
-            location: 'Wynwood Arts District, Miami',
-            details: 'Monumental street art murals ($24 for 2), artisan sourdough lunch at Zak the Baker, and cold brews.',
-            status: '$24 entry for 2',
-            cardClass: 'card-terracotta',
+            category: 'Wilderness Adventure',
+            location: 'Tamiami Trail & Big Cypress Oasis',
+            details: 'High-speed sawgrass airboat tour into tree islands (~$65 for 2) + wild alligator boardwalk at Big Cypress Oasis.',
+            status: 'Airboat Tour (~$65 for 2)',
+            cardClass: 'card-teal',
             slide: 12
           }
         },
@@ -1203,7 +1203,7 @@ def get_footer_and_js():
 
       const dayHeaderMeta = {
         '2026-10-24': { day: 'SAT', num: '24', name: 'South Beach Arrival', stay: '🏨 South Beach' },
-        '2026-10-25': { day: 'SUN', num: '25', name: 'Everglades & Wynwood', stay: '🏨 South Beach' },
+        '2026-10-25': { day: 'SUN', num: '25', name: 'Everglades & Big Cypress', stay: '🏨 South Beach' },
         '2026-10-26': { day: 'MON', num: '26', name: 'Overseas Hwy to Key West', stay: '🏨 Key West' },
         '2026-10-27': { day: 'TUE', num: '27', name: 'Key West & Hemingway', stay: '🏨 Key West' },
         '2026-10-28': { day: 'WED', num: '28', name: 'Dry Tortugas [BOOKED]', stay: '🏨 Islamorada' },

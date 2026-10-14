@@ -1389,16 +1389,16 @@ def get_head():
               <option value="5">Slide 06 • Subtropical Marine & Wetland Safety Protocols</option>
               <option value="6">Slide 07 • Technical Packing: Marine, Reef & Urban Kit</option>
             </optgroup>
-            <optgroup label="🏖️ ACT II: MIAMI BEACH & SOUTH BEACH (SLIDES 8–13)">
-              <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & Miami Beach Arrival</option>
+            <optgroup label="🏖️ ACT II: SOUTH BEACH & EVERGLADES (SLIDES 8–13)">
+              <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & South Beach Arrival</option>
               <option value="8">Slide 09 • Night 1: South Beach Art Deco Boutique Hotel</option>
               <option value="9">Slide 10 • Day 1: South Pointe Park Pier & Neon Ocean Drive</option>
-              <option value="10">Slide 11 • Day 2: South Beach Sunrise & Art Deco Walking Tour</option>
-              <option value="11">Slide 12 • Day 2: Wynwood Walls Outdoor Mural Museum & Cafes</option>
+              <option value="10">Slide 11 • Day 2: Everglades NP (Shark Valley Tram & Tower)</option>
+              <option value="11">Slide 12 • Day 2: Everglades Airboat Safari & Big Cypress</option>
               <option value="12">Slide 13 • Night 2: South Beach Sanctuary & Promenade Dining</option>
             </optgroup>
-            <optgroup label="🐊 ACT III: EVERGLADES & KEY WEST (SLIDES 14–19)">
-              <option value="13">Slide 14 • Day 3: Everglades NP (Shark Valley Tram & Tower)</option>
+            <optgroup label="🛣️ ACT III: OVERSEAS HIGHWAY & KEY WEST (SLIDES 14–19)">
+              <option value="13">Slide 14 • Day 3: Overseas Highway Road Trip to Key West</option>
               <option value="14">Slide 15 • Day 3 Coast: Seven Mile Bridge & Bahia Honda</option>
               <option value="15">Slide 16 • Night 3: Key West Historic Old Town Guesthouse</option>
               <option value="16">Slide 17 • Day 4: Key West Heritage & Hemingway Estate (Cats)</option>

@@ -445,15 +445,15 @@ def get_slides():
                   </tr>
                   <tr>
                     <td><strong>Marine Field Kit & Incidentals</strong></td>
-                    <td>Zinc reef sunscreen, Wynwood museum tickets ($24), waterproof phone cases, state park entries</td>
-                    <td><strong>$100.00</strong></td>
+                    <td>Zinc reef sunscreen, Everglades airboat excursion (~$65), waterproof phone cases, state park entries</td>
+                    <td><strong>$140.00</strong></td>
                   </tr>
                 </tbody>
               </table>
 
               <div style="display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-gold); padding-top: 8px;">
                 <span class="tag tag-gold">ZERO HIDDEN RESORT FEES</span>
-                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,742.44</span>
+                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,782.44</span>
               </div>
             </div>
 
@@ -477,7 +477,7 @@ def get_slides():
               <div class="stat-box" style="padding: 14px;">
                 <div class="card-label">SOUTH BEACH BASE</div>
                 <div class="stat-number gold">2 Full Nights</div>
-                <div class="stat-caption">Ocean Drive • South Pointe • Wynwood</div>
+                <div class="stat-caption">Ocean Drive • South Pointe • Everglades</div>
               </div>
             </div>
           </div>

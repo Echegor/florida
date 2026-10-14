@@ -88,7 +88,7 @@ def get_slides():
                     <td><strong>Phase I: Urban & Wilderness</strong></td>
                     <td>Sat Oct 24 – Sun Oct 25</td>
                     <td>South Beach (2N)</td>
-                    <td><span class="tag tag-gold">Everglades NP & Wynwood</span></td>
+                    <td><span class="tag tag-gold">Everglades NP & Big Cypress</span></td>
                   </tr>
                   <tr>
                     <td><strong>Phase II: The Keys & Gulf</strong></td>
@@ -139,7 +139,7 @@ def get_slides():
               <div class="waypoint-selector" id="mapPillContainer">
                 <button class="stage-pill active" onclick="selectMapStage(0)">01: MIA Hub</button>
                 <button class="stage-pill" onclick="selectMapStage(1)">02: Miami Beach</button>
-                <button class="stage-pill" onclick="selectMapStage(2)">03: Wynwood</button>
+                <button class="stage-pill" onclick="selectMapStage(2)">03: Big Cypress</button>
                 <button class="stage-pill" onclick="selectMapStage(3)">04: Shark Valley</button>
                 <button class="stage-pill" onclick="selectMapStage(4)">05: Seven Mile</button>
                 <button class="stage-pill" onclick="selectMapStage(5)">06: Key West</button>
@@ -165,9 +165,11 @@ def get_slides():
                   <!-- MIA -> Miami Beach -->
                   <line x1="435" y1="235" x2="465" y2="235" 
                         stroke="var(--gold-primary)" stroke-width="3" stroke-linecap="round" />
-                  <!-- Miami Beach -> Shark Valley -->
+                  <!-- Miami Beach -> Shark Valley -> Big Cypress -->
                   <line x1="465" y1="235" x2="355" y2="245" 
                         stroke="var(--gold-primary)" stroke-width="2.5" stroke-dasharray="6,4" stroke-linecap="round" />
+                  <line x1="355" y1="245" x2="310" y2="245" 
+                        stroke="var(--teal-ocean)" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" />
                   <!-- Shark Valley -> Keys -> Key West -->
                   <polyline points="355,245 425,320 410,345 350,420 250,448 190,452" 
                             fill="none" stroke="var(--gold-primary)" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round" />
@@ -187,9 +189,9 @@ def get_slides():
                   <circle id="node-1" class="map-node" cx="465" cy="235" r="9" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(1)" style="cursor: pointer;" />
                   <text x="475" y="238" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9" font-weight="700">02: Miami Beach</text>
 
-                  <!-- 03: Wynwood -->
-                  <circle id="node-2" class="map-node" cx="450" cy="225" r="8" fill="var(--gold-primary)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(2)" style="cursor: pointer;" />
-                  <text x="458" y="215" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9">03: Wynwood</text>
+                  <!-- 03: Big Cypress -->
+                  <circle id="node-2" class="map-node" cx="310" cy="245" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(2)" style="cursor: pointer;" />
+                  <text x="310" y="262" fill="var(--text-title)" font-family="var(--font-mono)" font-size="9" text-anchor="middle">03: Big Cypress</text>
 
                   <!-- 04: Shark Valley -->
                   <circle id="node-3" class="map-node" cx="355" cy="245" r="8" fill="var(--teal-ocean)" stroke="#ffffff" stroke-width="2" onclick="selectMapStage(3)" style="cursor: pointer;" />
@@ -449,7 +451,7 @@ def get_slides():
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
                 <li><strong>National Parks Passport:</strong> Official NPS book to collect cancellation stamps at Shark Valley, Fort Jefferson, and Biscayne.</li>
                 <li><strong>Insulated Water Bottles:</strong> 32 oz stainless steel bottles (Hydro Flask / Yeti). Staying hydrated in 85°F sun is critical.</li>
-                <li><strong>Breathable Walking Shoes:</strong> Lightweight sneakers for logging 15,000+ steps across South Beach, Wynwood Walls, and Key West Old Town.</li>
+                <li><strong>Breathable Walking Shoes:</strong> Lightweight sneakers for logging 15,000+ steps across South Beach, Big Cypress boardwalks, and Key West Old Town.</li>
                 <li><strong>Smart Casual Evening Wear:</strong> Breathable linen shirts and dresses for South Beach and Little Havana dining.</li>
                 <li><strong>Dramamine / Sea-Bands:</strong> For the 70-mile open-water catamaran crossing to Dry Tortugas.</li>
               </ul>
