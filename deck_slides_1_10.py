@@ -85,16 +85,16 @@ def get_slides():
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Phase I: Urban Coast</strong></td>
+                    <td><strong>Phase I: Urban & Wilderness</strong></td>
                     <td>Sat Oct 24 – Sun Oct 25</td>
                     <td>South Beach (2N)</td>
-                    <td><span class="tag tag-gold">Ocean Dr & Wynwood</span></td>
+                    <td><span class="tag tag-gold">Everglades NP & Wynwood</span></td>
                   </tr>
                   <tr>
                     <td><strong>Phase II: The Keys & Gulf</strong></td>
                     <td>Mon Oct 26 – Wed Oct 28</td>
                     <td>Key West (2N) + Islamorada (1N)</td>
-                    <td><span class="tag tag-teal">Everglades & Dry Tortugas</span></td>
+                    <td><span class="tag tag-teal">Overseas Hwy & Dry Tortugas</span></td>
                   </tr>
                   <tr>
                     <td><strong>Phase III: Marine Reef</strong></td>
@@ -107,7 +107,7 @@ def get_slides():
 
               <ul class="highlight-list">
                 <li><strong>No Central Florida Waste:</strong> Zero Orlando theme parks saves 450+ miles of toll driving and $1,200+ in theme park ticket markups.</li>
-                <li><strong>One Definitive Everglades Stop:</strong> Shark Valley provides the ultimate sawgrass and alligator experience on Monday, Oct 26 en route to Key West.</li>
+                <li><strong>Dedicated Sunday Everglades Expedition:</strong> Shark Valley sawgrass tram & tower visited on Sunday, Oct 25, leaving Monday completely free for an unhurried scenic drive down the Overseas Highway!</li>
                 <li><strong>Zero Car Drop Fees:</strong> Roundtrip MIA-to-MIA vehicle loop eliminates one-way rental penalties entirely.</li>
               </ul>
             </div>

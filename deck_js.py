@@ -399,8 +399,8 @@ def get_footer_and_js():
           mpgSub: "AWD Safety • High Bridge Visibility",
           highlights: [
             "<strong>Elevated Seating & Parapet Visibility:</strong> Higher ride height gives unobstructed sightlines over concrete bridge guardrails on the Seven Mile Bridge into the turquoise straits.",
-            "<strong>Confirmed 7-Day Option ($427.44):</strong> Pick-up Sat Oct 24 @ 11 AM; drop-off Fri Oct 30 @ 4 PM. South Beach parking garage runs $20–$30/night ($40–$60 total).",
-            "<strong>Recommended 5-Day Option (~$305 • Saves ~$95):</strong> Modify pickup to Mon Oct 26 @ 8:30 AM right as the road trip begins! Rideshare MIA ➔ South Beach ($25), Wynwood R/T ($28), and SoBe ➔ Pickup ($24) = ~$77 total rideshares. 100% free from South Beach parking stress!",
+            "<strong>Confirmed 7-Day Option ($427.44):</strong> Pick-up Sat Oct 24 @ 11 AM; drop-off Fri Oct 30 @ 4 PM. South Beach parking garage runs $20–$30/night.",
+            "<strong>Optimized 6-Day Option (~$360 • Saves ~$50+):</strong> Pick up Sunday Oct 25 @ 8:30 AM for Everglades Shark Valley! Arrive Saturday car-free ($0 South Beach parking Day 1), then enjoy your Nissan Rogue AWD through Friday return.",
             "<strong>Automated SunPass / TollPass:</strong> Pre-equipped with Enterprise video tolling across Florida toll roads with automatic convenience billing.",
             "<strong>Spacious Cargo & All-Weather AWD:</strong> Abundant rear hatch room for 2 suitcases, snorkel gear, daypacks, and confident all-weather traction."
           ]
@@ -505,10 +505,10 @@ def get_footer_and_js():
         8: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 1: SOUTH BEACH' },
         9: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 1 BASE' },
         10: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'SOUTH POINTE' },
-        11: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 2: ART DECO' },
+        11: { cat: ['all', 'parks', 'miami'], primaryCat: 'parks', tag: 'DAY 2: EVERGLADES' },
         12: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 2: WYNWOOD' },
         13: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
-        14: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 3: EVERGLADES' },
+        14: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: OVERSEAS HWY' },
         15: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: SEVEN MILE' },
         16: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 3 BASE' },
         17: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: HEMINGWAY' },
@@ -798,18 +798,33 @@ def get_footer_and_js():
           }
         },
 
-        // Day 2: Sunday, Oct 25, 2026
+        // Day 2: Sunday, Oct 25, 2026 (Everglades National Park & Wynwood Arts)
         {
-          id: 'd2-artdeco-beach',
-          title: '🏛️ Art Deco Historic District & Lummus Beach Swim',
+          id: 'd2-car-pickup',
+          title: '🚗 Enterprise SUV Pickup (6-Day Rental Begins)',
           start: '2026-10-25T08:30:00',
-          end: '2026-10-25T11:30:00',
+          end: '2026-10-25T09:15:00',
+          color: '#b47b2c',
+          extendedProps: {
+            category: 'Car Rental',
+            location: 'Enterprise MIA RCC / Downtown',
+            details: 'Retrieve Nissan Rogue AWD for Everglades & Florida Keys. Saves Sat parking in South Beach (~$360 for 6 days).',
+            status: '6-Day Rental (~$360)',
+            cardClass: 'card-gold',
+            slide: 11
+          }
+        },
+        {
+          id: 'd2-shark-valley',
+          title: '🐊 Everglades NP: Shark Valley Tram & 65-ft Tower',
+          start: '2026-10-25T10:00:00',
+          end: '2026-10-25T12:30:00',
           color: '#0f766e',
           extendedProps: {
-            category: 'Architecture & Beach',
-            location: 'Ocean Drive & Lummus Beach',
-            details: 'Morning architectural walk through Streamline Moderne landmarks; swim in 81°F turquoise water.',
-            status: 'Free milestone',
+            category: 'National Park 1 of 3',
+            location: 'Shark Valley, Everglades National Park',
+            details: '15-mile guided tram tour along alligator sloughs to the panoramic 65-ft observation tower ($62 for 2).',
+            status: 'NPS Excursion ($62 total)',
             cardClass: 'card-teal',
             slide: 11
           }
@@ -817,13 +832,13 @@ def get_footer_and_js():
         {
           id: 'd2-wynwood',
           title: '🎨 Wynwood Walls Street Art & Design District',
-          start: '2026-10-25T13:00:00',
+          start: '2026-10-25T13:30:00',
           end: '2026-10-25T16:30:00',
           color: '#c2410c',
           extendedProps: {
             category: 'Culture & Art',
             location: 'Wynwood Arts District, Miami',
-            details: 'World-renowned outdoor mural galleries ($24 for 2), boutique cafes, and tropical fruit smoothies.',
+            details: 'Monumental street art murals ($24 for 2), artisan sourdough lunch at Zak the Baker, and cold brews.',
             status: '$24 entry for 2',
             cardClass: 'card-terracotta',
             slide: 12
@@ -837,7 +852,7 @@ def get_footer_and_js():
           color: '#b47b2c',
           extendedProps: {
             category: 'Dining',
-            location: 'Puerto Sagua / Collins Ave, South Beach',
+            location: 'Puerto Sagua / Española Way, South Beach',
             details: 'Authentic Cuban criollo dinner: slow-simmered ropa vieja, sweet plantains, and sparkling lime mocktails.',
             status: 'Zero-alcohol dining',
             cardClass: 'card-gold',
@@ -845,77 +860,62 @@ def get_footer_and_js():
           }
         },
 
-        // Day 3: Monday, Oct 26, 2026
+        // Day 3: Monday, Oct 26, 2026 (The Ultimate Overseas Highway Road Trip to Key West)
         {
-          id: 'd3-car-pickup',
-          title: '🚗 Enterprise SUV Pickup (Mon Oct 26 • 5-Day Rental)',
-          start: '2026-10-26T08:00:00',
-          end: '2026-10-26T08:45:00',
-          color: '#b47b2c',
-          extendedProps: {
-            category: 'Car Rental',
-            location: 'Enterprise MIA RCC / Downtown',
-            details: 'Pick up Nissan Rogue AWD at road trip start. 5-day rental (~$305) saves ~$95-$100 and zero South Beach parking fees.',
-            status: '5-Day Rental (~$305)',
-            cardClass: 'card-gold',
-            slide: 14
-          }
-        },
-        {
-          id: 'd3-drive-everglades',
-          title: '🛣️ Scenic Drive: Miami ➔ Shark Valley',
-          start: '2026-10-26T08:45:00',
-          end: '2026-10-26T09:45:00',
+          id: 'd3-depart-sobe',
+          title: '🛣️ Depart South Beach: Scenic Highway Vector South',
+          start: '2026-10-26T09:00:00',
+          end: '2026-10-26T10:30:00',
           color: '#475569',
           extendedProps: {
-            category: 'Transit',
-            location: 'Tamiami Trail (US-41 West)',
-            details: '45-mile westbound scenic drive across the subtropical sawgrass prairies into Everglades National Park.',
+            category: 'Scenic Transit',
+            location: 'South Beach ➔ US-1 Corridor (Upper Keys)',
+            details: 'Check out of South Beach boutique hotel; cruise south past Biscayne Bay into the coral keys archipelago.',
             status: 'SunPass / Highway',
             cardClass: 'card-slate',
             slide: 14
           }
         },
         {
-          id: 'd3-shark-valley',
-          title: '🐊 Everglades NP: Shark Valley Tram & 65-ft Tower',
-          start: '2026-10-26T10:00:00',
-          end: '2026-10-26T12:30:00',
+          id: 'd3-robbies-tarpon',
+          title: "🐟 Robbie's Marina: Hand-Feeding Giant Tarpon",
+          start: '2026-10-26T10:45:00',
+          end: '2026-10-26T12:15:00',
           color: '#0f766e',
           extendedProps: {
-            category: 'National Park 1 of 3',
-            location: 'Shark Valley, Everglades National Park',
-            details: '15-mile guided tram tour along alligator sloughs to the panoramic 65-ft observation tower ($62 for 2).',
-            status: 'NPS Excursion ($62 total)',
+            category: 'Keys Tradition',
+            location: "Robbie's Marina, Islamorada (MM 77.5)",
+            details: 'Hand-feed massive 100-lb silver king tarpon right off the wooden docks; waterfront key lime treats ($12 for 2).',
+            status: 'Keys milestone ($12 total)',
             cardClass: 'card-teal',
             slide: 14
           }
         },
         {
-          id: 'd3-overseas-highway',
-          title: '🌉 Overseas Highway: Seven Mile Bridge & Bahia Honda',
+          id: 'd3-bahia-honda',
+          title: '🏖️ Bahia Honda State Park: Beach Swim & Old Bridge',
           start: '2026-10-26T13:30:00',
-          end: '2026-10-26T17:00:00',
-          color: '#b47b2c',
+          end: '2026-10-26T15:30:00',
+          color: '#0f766e',
           extendedProps: {
-            category: 'Scenic Highway',
-            location: 'Overseas Highway (US-1 South) to Key West',
-            details: '113 miles across 42 bridges spanning the Florida Straits. Quick beach stop at Bahia Honda State Park.',
-            status: 'Iconic American Byway',
-            cardClass: 'card-gold',
+            category: 'State Park & Beach',
+            location: 'Bahia Honda State Park (MM 37)',
+            details: 'Swim in calm 82°F turquoise water at Calusa Beach beneath the historic Flagler Over-Sea railroad trestle ($9).',
+            status: 'State Park entry ($9)',
+            cardClass: 'card-teal',
             slide: 15
           }
         },
         {
           id: 'd3-keywest-checkin',
           title: '⚓ Key West Old Town Check-In & Conch Stroll',
-          start: '2026-10-26T18:00:00',
-          end: '2026-10-26T21:00:00',
+          start: '2026-10-26T16:30:00',
+          end: '2026-10-26T19:30:00',
           color: '#c2410c',
           extendedProps: {
             category: 'Lodging & Evening',
             location: 'Old Town Key West',
-            details: 'Check into historic Victorian Conch guesthouse; evening stroll down tree-lined Duval & Fleming streets.',
+            details: 'Check into Victorian Conch guesthouse with plenty of daylight to stroll Duval St and enjoy Mallory Square sunset.',
             status: 'Base 2 Check-In',
             cardClass: 'card-terracotta',
             slide: 16
@@ -1203,8 +1203,8 @@ def get_footer_and_js():
 
       const dayHeaderMeta = {
         '2026-10-24': { day: 'SAT', num: '24', name: 'South Beach Arrival', stay: '🏨 South Beach' },
-        '2026-10-25': { day: 'SUN', num: '25', name: 'Art Deco & Wynwood', stay: '🏨 South Beach' },
-        '2026-10-26': { day: 'MON', num: '26', name: 'Everglades & Overseas Hwy', stay: '🏨 Key West' },
+        '2026-10-25': { day: 'SUN', num: '25', name: 'Everglades & Wynwood', stay: '🏨 South Beach' },
+        '2026-10-26': { day: 'MON', num: '26', name: 'Overseas Hwy to Key West', stay: '🏨 Key West' },
         '2026-10-27': { day: 'TUE', num: '27', name: 'Key West & Hemingway', stay: '🏨 Key West' },
         '2026-10-28': { day: 'WED', num: '28', name: 'Dry Tortugas [BOOKED]', stay: '🏨 Islamorada' },
         '2026-10-29': { day: 'THU', num: '29', name: 'Biscayne NP & Coral Gables', stay: '🏨 Coral Gables' },
@@ -1408,6 +1408,14 @@ def get_footer_and_js():
       } else {
         updateSlide(0);
       }
+
+      window.addEventListener('hashchange', () => {
+        const h = window.location.hash.replace('#', '');
+        const n = parseInt(h, 10);
+        if (!isNaN(n) && n >= 1 && n <= totalSlides && n - 1 !== currentSlideIndex) {
+          updateSlide(n - 1);
+        }
+      });
 
     })();
   </script>

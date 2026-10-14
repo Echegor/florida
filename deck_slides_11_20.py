@@ -1,42 +1,44 @@
 def get_slides():
     return """
       <!-- =====================================================================
-           SLIDE 11: DAY 2: SOUTH BEACH SUNRISE & ART DECO WALKING TOUR
+           SLIDE 11: DAY 2: EVERGLADES NATIONAL PARK (SHARK VALLEY TRAM & TOWER)
            ===================================================================== -->
       <section class="slide" data-slide="11">
         <div class="slide-header">
           <div class="slide-eyebrow">DAY 2 ITINERARY • SUNDAY, OCTOBER 25, 2026</div>
-          <h2 class="slide-title">Day 2: South Beach Sunrise & Historic Art Deco Walking Tour</h2>
-          <p class="slide-subtitle">A golden morning swim in the Atlantic Ocean, followed by an architectural walking tour of South Beach's world-famous 1930s Art Deco Historic District.</p>
+          <h2 class="slide-title">Day 2: Everglades National Park: Shark Valley Tram & 65-ft Tower</h2>
+          <p class="slide-subtitle">Your primeval Everglades wilderness expedition: retrieving your rental SUV, gliding through sawgrass sloughs on a 15-mile guided tram, climbing the panoramic observation tower, and spotting dozens of wild alligators.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">ARCHITECTURAL HERITAGE</div>
-              <h3 class="card-heading">The Art Deco Historic District</h3>
+              <div class="card-label">RIVER OF GRASS WILDLIFE EXPEDITION</div>
+              <h3 class="card-heading">Shark Valley • Tamiami Trail (US-41 West)</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Containing over 800 designated historic structures from the 1930s and 1940s, South Beach holds the largest concentration of resort Art Deco architecture in the world:
+                Located 42 miles west of Miami, Shark Valley features the densest concentration of visible wildlife in Everglades National Park, where freshwater sloughs flow south through miles of sawgrass prairie into Florida Bay:
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>07:30 AM – South Beach Ocean Swim:</strong> Wake up to the sunrise over the Atlantic Ocean. Enjoy a refreshing early morning swim along 10th Street Beach before the midday crowds arrive.</li>
-                <li><strong>09:00 AM – Historic District Walking Trail:</strong> Walk down Ocean Drive and Collins Avenue to view the iconic porthole windows, nautical railings, eyebrow sunshades, and pastel relief sculptures of <em>The Breakwater</em>, <em>The Colony</em>, and <em>The Cardozo</em>.</li>
-                <li><strong>10:30 AM – Art Deco Welcome Center:</strong> Browse the official Miami Design Preservation League museum (1001 Ocean Dr) to learn how local activists saved this historic enclave from demolition.</li>
+                <li><strong>08:30 AM – Enterprise SUV Pickup (6-Day Rental Begins):</strong> Take a quick 15-minute morning rideshare to retrieve your reserved Nissan Rogue AWD (~$360 for 6 days).</li>
+                <li><strong>09:15 AM – Scenic Drive West on Tamiami Trail:</strong> Drive west along historic US-41 across the Everglades sawgrass prairie to the Shark Valley gate.</li>
+                <li><strong>10:00 AM – 2-Hour Guided Open-Air Tram:</strong> Board the naturalist-guided tram into the sawgrass slough. Observe dozens of wild American alligators basking on the banks, anhingas drying their wings, and snowy egrets ($62 total for 2).</li>
+                <li><strong>11:15 AM – 65-Foot Spiral Observation Tower:</strong> Ascend the iconic spiral ramp for an awe-inspiring 360° panoramic view stretching 20 miles across unbroken wilderness. Spot Florida gar and softshell turtles in the deep slough below.</li>
+                <li><strong>12:45 PM – Vector East to Wynwood:</strong> Drive back toward Miami for an afternoon of street art and artisan cafes in the Wynwood Arts District.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">800+ HISTORIC BUILDINGS</span>
-                <span class="tag tag-teal">STREAMLINE MODERNE</span>
-                <span class="tag tag-terracotta">MORNING ATLANTIC SWIM</span>
+                <span class="tag tag-gold">PARK 1 OF 3: EVERGLADES</span>
+                <span class="tag tag-teal">TRAM: 15-MILE LOOP</span>
+                <span class="tag tag-terracotta">TOWER: 65 FT ELEVATION</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide09_artdeco.jpg" alt="Art Deco historic hotels in South Beach" loading="lazy">
+              <img src="images/slide17_sharkvalley.jpg" alt="Everglades sawgrass and wild alligators" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Pastel Towers of Ocean Drive</div>
-                <div class="media-caption">Exploring the vibrant architectural heritage of South Beach in golden morning light.</div>
+                <div class="media-title">The Primeval River of Grass</div>
+                <div class="media-caption">Gliding through unbroken sawgrass prairies teeming with wild alligators and wading bird colonies.</div>
               </div>
             </div>
           </div>
@@ -44,13 +46,13 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 12: DAY 2 CULTURE: WYNWOOD WALLS OUTDOOR MURAL MUSEUM
+           SLIDE 12: DAY 2 AFTERNOON: WYNWOOD WALLS OUTDOOR MURAL MUSEUM
            ===================================================================== -->
       <section class="slide" data-slide="12">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 2 CULTURE • STREET ART CAPITAL</div>
-          <h2 class="slide-title">Day 2: Wynwood Walls Outdoor Street Art Museum & Cafes</h2>
-          <p class="slide-subtitle">Venturing into Miami's artistic epicenter: massive murals painted by legendary international street artists, contemporary galleries, and artisan bakeries.</p>
+          <div class="slide-eyebrow">DAY 2 AFTERNOON • CONTEMPORARY ARTS DISTRICT</div>
+          <h2 class="slide-title">Day 2 Afternoon: Wynwood Walls Outdoor Street Art Museum & Cafes</h2>
+          <p class="slide-subtitle">Returning from the sawgrass wilderness to explore Miami's creative epicenter: world-renowned murals by international street artists, contemporary galleries, and artisan bakeries.</p>
         </div>
 
         <div class="content-area">
@@ -63,9 +65,10 @@ def get_slides():
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>12:00 PM – Wynwood Walls Exploration:</strong> Tour the enclosed museum grounds featuring giant wall-scale murals by Shepard Fairey, Retna, and Lady Pink ($24 total for 2).</li>
-                <li><strong>01:30 PM – Artisan Bakery & Cold Brew:</strong> Enjoy lunch at <em>Zak the Baker</em> (freshly baked sourdough sandwiches, goat cheese toasts, and cold brew coffee) or <em>The Salty Donut</em>.</li>
-                <li><strong>03:00 PM – Street Murals Walking Loop:</strong> Explore the vibrant side streets (NW 23rd to NW 26th St) filled with constantly rotating graffiti murals and artisan pop-up boutiques.</li>
+                <li><strong>01:30 PM – Artisan Bakery Lunch & Cold Brew:</strong> Arrive in Wynwood from Everglades. Enjoy lunch at <em>Zak the Baker</em> (freshly baked sourdough sandwiches, goat cheese toasts, and cold brew coffee) or <em>The Salty Donut</em>.</li>
+                <li><strong>02:30 PM – Wynwood Walls Outdoor Museum:</strong> Tour the enclosed museum grounds featuring giant wall-scale murals by Shepard Fairey, Retna, and Lady Pink ($24 total for 2).</li>
+                <li><strong>04:00 PM – Street Murals Walking Loop:</strong> Explore the vibrant side streets (NW 23rd to NW 26th St) filled with constantly rotating graffiti murals and artisan pop-up boutiques.</li>
+                <li><strong>05:30 PM – Return to South Beach Sanctuary:</strong> Cross back into South Beach, park in the municipal garage ($20/night), and unwind before evening dinner.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
@@ -121,7 +124,7 @@ def get_slides():
               <ul class="highlight-list">
                 <li><strong>Lincoln Road Promenade:</strong> Stroll the open-air pedestrian mall lined with outdoor cafes, fountain plazas, and retail shops.</li>
                 <li><strong>Española Way Dining:</strong> Dine beneath Mediterranean string lights at an outdoor table: fresh guacamole, grilled local catch, and chilled mint limeades ($55 total for 2).</li>
-                <li><strong>Restorative Sleep:</strong> Ready for tomorrow morning's seamless departure west to Everglades National Park!</li>
+                <li><strong>Restorative Sleep:</strong> Ready for tomorrow morning's unhurried road trip across the dramatic Overseas Highway to Key West!</li>
               </ul>
             </div>
 
@@ -137,43 +140,44 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 14: DAY 3: EVERGLADES NATIONAL PARK (SHARK VALLEY TRAM & TOWER)
+           SLIDE 14: DAY 3: THE ULTIMATE OVERSEAS HIGHWAY ROAD TRIP TO KEY WEST
            ===================================================================== -->
       <section class="slide" data-slide="14">
         <div class="slide-header">
           <div class="slide-eyebrow">DAY 3 ITINERARY • MONDAY, OCTOBER 26, 2026</div>
-          <h2 class="slide-title">Day 3: Everglades National Park: Shark Valley Tram & Tower</h2>
-          <p class="slide-subtitle">Your single, comprehensive Everglades expedition: gliding through the sawgrass slough on a 15-mile guided tram, climbing the 65-ft tower, and watching wild alligators.</p>
+          <h2 class="slide-title">Day 3: The Ultimate Overseas Highway Road Trip to Key West</h2>
+          <p class="slide-subtitle">With Everglades already conquered, enjoy an unhurried scenic cruise down US-1: hand-feeding giant silver tarpon at Robbie's Marina, crossing the iconic Seven Mile Bridge, and swimming in Bahia Honda's turquoise shallows.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">RIVER OF GRASS EXPEDITION</div>
-              <h3 class="card-heading">Shark Valley • Tamiami Trail (US-41)</h3>
+              <div class="card-label">ICONIC ALL-AMERICAN ROAD TRIP</div>
+              <h3 class="card-heading">From Miami Beach to the End of the Road</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Shark Valley offers the most concentrated wildlife viewing in North America. Freshwater flows south through miles of sawgrass prairie directly into Florida Bay:
+                Spanning 113 miles across 42 overseas bridges, the Overseas Highway (US-1) carries you across the Atlantic Ocean and Gulf of Mexico straight into subtropical paradise:
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>08:30 AM – Scenic Drive West:</strong> Depart Miami Beach across the Tamiami Trail (US-41 West) through pine rocklands to the Shark Valley gate (42 miles).</li>
-                <li><strong>10:00 AM – 2-Hour Guided Open-Air Tram:</strong> Board the naturalist-guided open tram into the heart of the sawgrass slough. Observe dozens of wild American alligators basking alongside the canal, anhingas drying their wings, and snowy egrets ($62 total for 2).</li>
-                <li><strong>11:15 AM – 65-Foot Spiral Observation Tower:</strong> Ascend the iconic spiral ramp for an awe-inspiring 360° panoramic view stretching 20 miles across the unbroken Everglades wilderness. Spot Florida gar and softshell turtles in the deep waterhole below.</li>
-                <li><strong>01:00 PM – Southbound Vector to Keys:</strong> Connect via Krome Avenue down to Florida City, joining the Overseas Highway (US-1).</li>
+                <li><strong>09:00 AM – Check Out & Head South:</strong> Depart South Beach in your Enterprise Nissan Rogue AWD, cruising south via Florida City onto the Overseas Highway corridor.</li>
+                <li><strong>10:45 AM – Robbie's Marina Giant Tarpon Feeding:</strong> Stop in Islamorada (MM 77.5) to hand-feed massive 100-lb silver king tarpon right off the wooden pier dock ($12 total for 2).</li>
+                <li><strong>12:15 PM – Chilled Key Lime Pie & Lunch:</strong> Savor authentic chilled Key Lime pie and fresh blackened grouper sandwiches along the waterfront.</li>
+                <li><strong>01:30 PM – Bahia Honda State Park & Beach Swim:</strong> Explore Bahia Honda (MM 37). Swim in crystal-clear 82°F turquoise water at Calusa Beach beneath the historic 1912 Flagler rail bridge.</li>
+                <li><strong>03:30 PM – Key West Arrival & Conch Stroll:</strong> Reach Old Town Key West with the entire afternoon to check in, unpack, and stroll to Mallory Square for sunset!</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">PARK 1 OF 3: EVERGLADES</span>
-                <span class="tag tag-teal">TRAM: 15-MILE LOOP</span>
-                <span class="tag tag-terracotta">TOWER: 65 FT ELEVATION</span>
+                <span class="tag tag-gold">OVERSEAS HIGHWAY (US-1)</span>
+                <span class="tag tag-teal">ROBBIE'S TARPON FEEDING</span>
+                <span class="tag tag-terracotta">BAHIA HONDA BEACH</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide17_sharkvalley.jpg" alt="Everglades sawgrass and wild alligators" loading="lazy">
+              <img src="images/slide16_upperkeys.jpg" alt="Overseas Highway Upper Keys and ocean" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Primeval River of Grass</div>
-                <div class="media-caption">Gliding through unbroken sawgrass prairies teeming with wild alligators and wading bird colonies.</div>
+                <div class="media-title">The Overseas Highway Across Open Ocean</div>
+                <div class="media-caption">Driving across 42 bridges spanning the emerald and sapphire waters of the Florida Straits.</div>
               </div>
             </div>
           </div>
