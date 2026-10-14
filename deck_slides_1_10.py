@@ -4,93 +4,53 @@ def get_slides():
            SLIDE 01: COVER & EXPEDITION METRICS
            ===================================================================== -->
       <!-- =====================================================================
-           SLIDE 01: COVER, EXPEDITION METRICS & FULLCALENDAR ITINERARY
+           SLIDE 01: FULL-PAGE MASTER EXPEDITION CALENDAR (OCT 24–30, 2026)
            ===================================================================== -->
-      <section class="slide active" data-slide="1">
-        <div class="slide-header">
-          <div class="slide-eyebrow">MIAMI BEACH, THE KEYS & NATIONAL PARKS TRIFECTA • MASTER FIELD GUIDE</div>
-          <h1 class="slide-title">Florida Grand Expedition: Miami Beach, The Keys & 3 National Parks</h1>
-          <p class="slide-subtitle">A verified 7-day / 6-night expedition (October 24–30, 2026) connecting South Beach Art Deco glamour, the Overseas Highway (US-1), Key West, and all three Florida National Parks: Everglades, Dry Tortugas (BOOKED), and Biscayne.</p>
+      <section class="slide active" data-slide="1" style="padding: 1.5rem 2.2rem;">
+        <!-- Sleek Editorial Header Bar -->
+        <div class="cal-dashboard-header">
+          <div>
+            <div class="slide-eyebrow" style="margin-bottom: 0.2rem;">FLORIDA EXPEDITION • MASTER CALENDAR & TRIP DASHBOARD</div>
+            <h1 class="slide-title" style="font-size: 1.85rem; margin-bottom: 0.25rem;">Florida Grand Expedition: 7-Day Master Itinerary</h1>
+            <p class="slide-subtitle" style="margin: 0; font-size: 0.88rem; color: var(--sand-muted);">
+              October 24–30, 2026 • South Beach Art Deco, Overseas Highway (US-1), Key West, and 3 National Parks (Everglades, Dry Tortugas [BOOKED], Biscayne).
+            </p>
+          </div>
+
+          <!-- Top Metrics & Controls -->
+          <div class="cal-dashboard-controls">
+            <div class="cal-stat-pills">
+              <span class="tag tag-gold">7 DAYS • OCT 24–30</span>
+              <span class="tag tag-teal">3 NATIONAL PARKS</span>
+              <span class="tag tag-terracotta">SOUTH BEACH + THE KEYS</span>
+              <span class="tag tag-gold">FLIGHTS & FERRY SECURED</span>
+            </div>
+            <div class="calendar-view-pills" style="margin-top: 4px;">
+              <button class="cal-pill-btn active" id="calBtnBoard" onclick="switchCalendarView('dayGrid')">📅 7-Day Board View</button>
+              <button class="cal-pill-btn" id="calBtnTimeline" onclick="switchCalendarView('timeGrid')">⏱️ Hourly Timeline</button>
+              <button class="cal-pill-btn" id="calBtnAgenda" onclick="switchCalendarView('list')">📋 Agenda List</button>
+            </div>
+          </div>
         </div>
 
-        <div class="content-area">
-          <div class="grid-2col" style="grid-template-columns: 1fr 1.35fr; gap: 1.25rem; align-items: start;">
-            <!-- Left Column: Architecture & Stats -->
-            <div class="glass-card gold-trim" style="display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div class="card-label">STRATEGIC EXPEDITION ARCHITECTURE</div>
-                <h3 class="card-heading">Urban Elegance to Remote Coral Wilderness</h3>
-                <p class="card-body" style="margin-bottom: 0.9rem;">
-                  Operating along an optimized <strong>Roundtrip Miami Corridor (EWR ⇄ MIA booked for $628 total)</strong>. Beginning with 2 full nights in <strong>South Beach & Wynwood</strong>, venturing through <strong>Everglades National Park (Shark Valley)</strong>, conquering the Overseas Highway to <strong>Key West</strong>, voyaging to <strong>Dry Tortugas National Park (BOOKED at 07:00 AM for Wed, Oct 28)</strong>, and exploring <strong>Biscayne National Park</strong>.
-                </p>
+        <!-- Full-Page Calendar Canvas Card -->
+        <div class="glass-card gold-trim" style="flex: 1; display: flex; flex-direction: column; overflow: hidden; padding: 0.75rem 1rem; border-radius: 8px; min-height: 500px;">
+          <!-- FullCalendar Target -->
+          <div id="expeditionCalendar" style="flex: 1; width: 100%;"></div>
 
-                <ul class="highlight-list" style="margin-bottom: 0.9rem;">
-                  <li><strong>Dedicated Miami Beach Base:</strong> 2 full nights based in South Beach (Ocean Drive, Lummus Beach, South Pointe Pier & Wynwood Walls).</li>
-                  <li><strong>Single Everglades Visit:</strong> Shark Valley 15-mile tram & 65-ft tower—zero redundant backtracking!</li>
-                  <li><strong>Booked Dry Tortugas Ferry:</strong> 07:00 AM check-in aboard <em>Yankee Freedom III</em> for Wed, Oct 28 ($520 total for 2).</li>
-                  <li><strong>Enterprise SUV Reserved:</strong> Nissan Rogue AWD ($427.44 confirmed) with SunPass for high bridge visibility.</li>
-                  <li><strong>Strict Shared Accounting:</strong> Combined couple budget ($3,742 total for 2 travelers).</li>
-                </ul>
-
-                <!-- 4 Compact Stat Boxes (2x2 grid) -->
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 0.6rem;">
-                  <div class="stat-box" style="padding: 8px 10px;">
-                    <div class="stat-number gold" style="font-size: 1.15rem;">7D / 6N</div>
-                    <div class="stat-caption" style="font-size: 0.72rem;">Oct 24–30, 2026</div>
-                  </div>
-                  <div class="stat-box" style="padding: 8px 10px;">
-                    <div class="stat-number teal" style="font-size: 1.15rem;">3 Parks</div>
-                    <div class="stat-caption" style="font-size: 0.72rem;">Everglades • Dry Tortugas • Biscayne</div>
-                  </div>
-                  <div class="stat-box" style="padding: 8px 10px;">
-                    <div class="stat-number terracotta" style="font-size: 1.15rem;">2N Beach</div>
-                    <div class="stat-caption" style="font-size: 0.72rem;">South Beach & Wynwood</div>
-                  </div>
-                  <div class="stat-box" style="padding: 8px 10px;">
-                    <div class="stat-number gold" style="font-size: 1.15rem;">$3,742</div>
-                    <div class="stat-caption" style="font-size: 0.72rem;">Total Couple Budget</div>
-                  </div>
-                </div>
+          <!-- Interactive Bottom Milestone Inspection Drawer -->
+          <div class="calendar-event-banner" id="calendarEventBanner" style="margin-top: 0.5rem;">
+            <div class="calendar-event-banner-content">
+              <div class="calendar-event-banner-title" id="calBannerTitle">
+                <span>💡 Interactive Expedition Calendar</span>
               </div>
-
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.9rem; padding-top: 0.7rem; border-top: 1px solid var(--border-subtle);">
-                <span class="tag tag-gold">OCT 24–30, 2026</span>
-                <span style="font-family: var(--font-mono); font-size: 0.76rem; color: var(--teal-ocean); font-weight: 700;">FLIGHTS, FERRY & CAR RESERVED</span>
+              <div class="calendar-event-banner-meta" id="calBannerMeta">
+                <span>Click any milestone card above to inspect logistics, confirmed reservations, and jump directly to that itinerary slide.</span>
               </div>
             </div>
-
-            <!-- Right Column: Interactive FullCalendar Engine -->
-            <div class="glass-card teal-trim calendar-container-card">
-              <div class="calendar-card-header">
-                <div>
-                  <div class="card-label">EXPEDITION CALENDAR • BUILT-IN FULLCALENDAR ENGINE</div>
-                  <h3 class="card-heading" style="margin: 0; font-size: 1.05rem;">October 2026 Interactive Itinerary</h3>
-                </div>
-                <div class="calendar-view-pills">
-                  <button class="cal-pill-btn active" id="calBtnMonth" onclick="switchCalendarView('dayGridMonth')">Month</button>
-                  <button class="cal-pill-btn" id="calBtnWeek" onclick="switchCalendarView('dayGridWeek')">Trip Week</button>
-                  <button class="cal-pill-btn" id="calBtnList" onclick="switchCalendarView('listWeek')">Agenda</button>
-                </div>
-              </div>
-
-              <!-- FullCalendar Mount Target -->
-              <div id="expeditionCalendar"></div>
-
-              <!-- Interactive Selected Milestone Banner -->
-              <div class="calendar-event-banner" id="calendarEventBanner">
-                <div class="calendar-event-banner-content">
-                  <div class="calendar-event-banner-title" id="calBannerTitle">
-                    <span>💡 Interactive Expedition Calendar</span>
-                  </div>
-                  <div class="calendar-event-banner-meta" id="calBannerMeta">
-                    <span>Click any calendar milestone above to view logistics, times, reservation status, and jump to that slide.</span>
-                  </div>
-                </div>
-                <button class="calendar-event-banner-btn" id="calBannerJumpBtn" style="display: none;" onclick="jumpToCalendarSlide()">
-                  JUMP TO SLIDE →
-                </button>
-              </div>
-            </div>
+            <button class="calendar-event-banner-btn" id="calBannerJumpBtn" style="display: none;" onclick="jumpToCalendarSlide()">
+              JUMP TO SLIDE →
+            </button>
           </div>
         </div>
       </section>
@@ -521,8 +481,8 @@ def get_slides():
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
                 <li><strong>06:45 AM – Non-Stop Flight (EWR ➔ MIA):</strong> Depart Newark Liberty International (booked for $628 total for 2). Touch down at MIA by 09:45 AM.</li>
-                <li><strong>11:00 AM – Enterprise Rental Car Pickup:</strong> Take the automated MIA Mover monorail directly to the Consolidated Rental Car Center. Pick up your reserved Enterprise Nissan Rogue AWD ($427.44 confirmed) equipped with SunPass.</li>
-                <li><strong>11:30 AM – Cross into Miami Beach:</strong> Drive east across the scenic MacArthur / Julia Tuttle Causeway with sweeping views of the downtown skyline and cruise ship docks.</li>
+                <li><strong>10:15 AM – Ground Logistics Choice:</strong> <em>Option A (Recommended):</em> Take a 25-min rideshare (~$25) directly to your hotel—zero South Beach parking fees, zero garage hassle, saving ~$95+ by picking up your Enterprise SUV Monday morning. <em>Option B (Confirmed):</em> Take the MIA Mover to MIA RCC to pick up the reserved Enterprise Nissan Rogue AWD ($427.44).</li>
+                <li><strong>11:30 AM – Cross into Miami Beach:</strong> Cross the scenic MacArthur Causeway with panoramic views of Biscayne Bay, cruise ship terminals, and the downtown skyline.</li>
                 <li><strong>12:30 PM – South Beach Check-In & Lunch:</strong> Check into your Art Deco boutique hotel on Collins Ave / Ocean Drive. Enjoy an open-air lunch along pedestrian Española Way (pressed Cuban sandwiches and fresh tropical smoothies).</li>
                 <li><strong>02:30 PM – Lummus Beach Relaxation:</strong> Step onto the soft white sand of South Beach. Swim in the calm, warm turquoise Atlantic shallows (81°F).</li>
               </ul>

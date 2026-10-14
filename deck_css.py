@@ -997,25 +997,35 @@ def get_head():
       .slide:last-of-type {
         page-break-after: auto !important;
         break-after: auto !important;
-    /* ==========================================================================
-       EXPEDITION FULLCALENDAR STYLES (SLIDE 1)
-       ========================================================================== */
-    .calendar-container-card {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      min-height: 480px;
-      overflow: hidden;
-      padding: 1.25rem !important;
+      }
     }
 
-    .calendar-card-header {
+    /* ==========================================================================
+       EXPEDITION FULLCALENDAR STYLES (FULL-PAGE TRIP VIEW)
+       ========================================================================== */
+    .cal-dashboard-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.75rem;
+      align-items: flex-start;
+      gap: 1rem;
       flex-wrap: wrap;
-      gap: 8px;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.65rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .cal-dashboard-controls {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    .cal-stat-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
     }
 
     .calendar-view-pills {
@@ -1052,109 +1062,224 @@ def get_head():
 
     #expeditionCalendar {
       flex: 1;
+      width: 100%;
       font-family: var(--font-sans);
       font-size: 0.82rem;
-      min-height: 330px;
+      min-height: 480px;
     }
 
-    /* FullCalendar Custom Theming */
+    /* Custom Day Column Header (Sat Oct 24 - Fri Oct 30) */
+    .custom-fc-header {
+      padding: 8px 4px;
+      text-align: center;
+      background: var(--bg-card);
+      border-bottom: 2px solid var(--gold-primary);
+      border-radius: 4px 4px 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      user-select: none;
+    }
+
+    .cal-hdr-dayname {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--sand-muted);
+      text-transform: uppercase;
+    }
+
+    .cal-hdr-daynum {
+      font-family: var(--font-serif);
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: var(--text-title);
+      line-height: 1.1;
+      margin: 1px 0;
+    }
+
+    .cal-hdr-theme {
+      font-family: var(--font-sans);
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--gold-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .cal-hdr-stay {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      font-weight: 600;
+      color: var(--teal-ocean);
+      background: rgba(15, 118, 110, 0.08);
+      padding: 2px 5px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 2px;
+      white-space: nowrap;
+    }
+
+    /* Custom Editorial Event Cards */
+    .fc .fc-editorial-card {
+      padding: 5px 7px;
+      border-radius: 5px;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.09);
+      border-left: 3.5px solid var(--gold-primary);
+      margin: 2px 0;
+      cursor: pointer;
+      transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      text-align: left;
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 0 !important;
+      box-sizing: border-box !important;
+      overflow: hidden !important;
+    }
+
+    [data-theme="ocean"] .fc .fc-editorial-card,
+    [data-theme="dark"] .fc .fc-editorial-card {
+      background: rgba(255, 255, 255, 0.08) !important;
+      border-color: rgba(255, 255, 255, 0.12) !important;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .fc .fc-editorial-card:hover {
+      transform: translateY(-1.5px);
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+      border-color: var(--gold-primary);
+      filter: brightness(1.02);
+    }
+
+    .fc .fc-editorial-card.card-teal {
+      border-left: 3.5px solid var(--teal-ocean) !important;
+    }
+
+    .fc .fc-editorial-card.card-gold {
+      border-left: 3.5px solid var(--gold-primary) !important;
+    }
+
+    .fc .fc-editorial-card.card-terracotta {
+      border-left: 3.5px solid var(--terracotta) !important;
+    }
+
+    .fc .fc-editorial-card.card-slate {
+      border-left: 3.5px solid var(--sand-muted) !important;
+    }
+
+    .fc .fc-card-time {
+      font-family: var(--font-mono);
+      font-size: 0.63rem;
+      font-weight: 700;
+      color: var(--sand-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2px;
+      gap: 4px;
+    }
+
+    .fc .fc-card-title {
+      font-family: var(--font-sans);
+      font-size: 0.71rem;
+      font-weight: 600;
+      color: var(--text-title);
+      line-height: 1.25;
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      max-width: 100% !important;
+    }
+
+    .fc .fc-card-badge {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      font-weight: 700;
+      padding: 1px 4px;
+      border-radius: 3px;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+
+    /* FullCalendar Internal Overrides for 7-Day Board */
     .fc {
       --fc-border-color: var(--border-subtle);
       --fc-page-bg-color: transparent;
       --fc-neutral-bg-color: rgba(0, 0, 0, 0.02);
-      --fc-today-bg-color: rgba(180, 123, 44, 0.07);
+      --fc-today-bg-color: transparent;
     }
 
-    .fc .fc-toolbar.fc-header-toolbar {
-      margin-bottom: 0.5rem;
-      gap: 6px;
-    }
-
-    .fc .fc-toolbar-title {
-      font-family: var(--font-serif);
-      font-size: 1.12rem;
-      font-weight: 700;
-      color: var(--text-title);
-      letter-spacing: -0.01em;
-    }
-
-    .fc .fc-button {
-      background: var(--bg-card) !important;
-      color: var(--text-title) !important;
+    .fc .fc-scrollgrid {
       border: 1px solid var(--border-subtle) !important;
-      font-family: var(--font-mono) !important;
-      font-size: 0.70rem !important;
-      text-transform: uppercase !important;
-      letter-spacing: 0.06em !important;
-      padding: 3px 8px !important;
-      border-radius: 4px !important;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .fc .fc-col-header-cell {
+      padding: 0 !important;
+      background: var(--bg-card);
+      border-color: var(--border-subtle) !important;
+    }
+
+    .fc .fc-daygrid-day {
+      background: var(--bg-surface);
+      border-color: var(--border-subtle) !important;
+    }
+
+    /* Hide redundant default numeric cell header in dayGrid */
+    .fc .fc-daygrid-day-top {
+      display: none !important;
+    }
+
+    .fc .fc-daygrid-day-frame {
+      min-height: 100%;
+      padding: 4px 3px !important;
+    }
+
+    .fc .fc-daygrid-day-events {
+      margin-top: 0 !important;
+    }
+
+    .fc-daygrid-event-dot {
+      display: none !important;
+    }
+
+    .fc .fc-daygrid-event {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 0 !important;
+      background: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
       box-shadow: none !important;
-      transition: all 0.18s ease !important;
+      overflow: hidden !important;
+      white-space: normal !important;
     }
 
-    .fc .fc-button:hover {
-      background: var(--gold-primary) !important;
-      border-color: var(--gold-primary) !important;
-      color: #ffffff !important;
-    }
-
-    .fc .fc-button-primary:not(:disabled).fc-button-active,
-    .fc .fc-button-primary:not(:disabled):active {
-      background: var(--gold-primary) !important;
-      border-color: var(--gold-primary) !important;
-      color: #ffffff !important;
-    }
-
-    .fc .fc-col-header-cell-cushion {
-      font-family: var(--font-mono);
-      font-size: 0.70rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--sand-muted);
-      padding: 4px 2px !important;
-      text-decoration: none;
-    }
-
-    .fc .fc-daygrid-day-number {
-      font-family: var(--font-mono);
-      font-size: 0.74rem;
-      font-weight: 600;
-      color: var(--sand-muted);
-      padding: 3px 5px !important;
-      text-decoration: none;
-    }
-
-    /* Active Expedition Days (Oct 24–30) */
-    .fc-expedition-active-day {
-      background: rgba(180, 123, 44, 0.06) !important;
-    }
-    .fc-expedition-active-day .fc-daygrid-day-number {
-      color: var(--gold-primary) !important;
-      font-weight: 700 !important;
+    .fc .fc-daygrid-event-harness {
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 0 !important;
+      margin-bottom: 4px !important;
+      overflow: hidden !important;
     }
 
     .fc .fc-event {
-      border-radius: 4px;
+      background: transparent !important;
       border: none !important;
-      font-size: 0.69rem;
-      font-weight: 600;
-      padding: 1px 4px;
-      cursor: pointer;
-      margin-bottom: 2px !important;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .fc .fc-event:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
-      filter: brightness(1.06);
-    }
-
-    .fc .fc-event-title {
-      font-weight: 600;
-      letter-spacing: 0.01em;
+      padding: 0 !important;
+      margin: 0 !important;
+      box-shadow: none !important;
     }
 
     .fc-list-event:hover td {
@@ -1171,8 +1296,7 @@ def get_head():
 
     /* Event Detail Banner under Calendar */
     .calendar-event-banner {
-      margin-top: 0.65rem;
-      padding: 9px 12px;
+      padding: 8px 12px;
       border-radius: 6px;
       background: var(--stat-bg);
       border: 1px solid var(--border-gold);
@@ -1181,7 +1305,7 @@ def get_head():
       align-items: center;
       gap: 10px;
       transition: all 0.25s ease;
-      min-height: 48px;
+      min-height: 44px;
     }
 
     .calendar-event-banner-content {
