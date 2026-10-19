@@ -85,30 +85,36 @@ def get_slides():
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Phase I: Urban & Wilderness</strong></td>
-                    <td>Sat Oct 24 – Sun Oct 25</td>
-                    <td>South Beach (2N)</td>
-                    <td><span class="tag tag-gold">Everglades NP & Big Cypress</span></td>
+                    <td><strong>Phase I: South Beach Arrival</strong></td>
+                    <td>Sat Oct 24 (1N)</td>
+                    <td>Hyatt Centric South Beach</td>
+                    <td><span class="tag tag-gold">Art Deco & Ocean Drive</span></td>
                   </tr>
                   <tr>
-                    <td><strong>Phase II: The Keys & Gulf</strong></td>
-                    <td>Mon Oct 26 – Wed Oct 28</td>
-                    <td>Key West (2N) + Islamorada (1N)</td>
-                    <td><span class="tag tag-teal">Overseas Hwy & Dry Tortugas</span></td>
+                    <td><strong>Phase II: Everglades & Key Largo</strong></td>
+                    <td>Sun Oct 25 – Mon Oct 26 (2N)</td>
+                    <td>Playa Largo Resort & Spa</td>
+                    <td><span class="tag tag-teal">Everglades NP & Pennekamp Reef</span></td>
                   </tr>
                   <tr>
-                    <td><strong>Phase III: Marine Reef</strong></td>
-                    <td>Thu Oct 29 – Fri Oct 30</td>
-                    <td>Coral Gables (1N)</td>
-                    <td><span class="tag tag-terracotta">Biscayne & Versailles</span></td>
+                    <td><strong>Phase III: The Keys & Gulf</strong></td>
+                    <td>Tue Oct 27 – Wed Oct 28 (2N)</td>
+                    <td>The Perry Hotel & Marina Key West</td>
+                    <td><span class="tag tag-terracotta">Seven Mile & Dry Tortugas (BOOKED)</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Phase IV: Biscayne & South Beach</strong></td>
+                    <td>Thu Oct 29 – Fri Oct 30 (1N)</td>
+                    <td>Hyatt Centric South Beach</td>
+                    <td><span class="tag tag-gold">Robbie's Tarpons & Ocean Finale</span></td>
                   </tr>
                 </tbody>
               </table>
 
               <ul class="highlight-list">
-                <li><strong>No Central Florida Waste:</strong> Zero Orlando theme parks saves 450+ miles of toll driving and $1,200+ in theme park ticket markups.</li>
-                <li><strong>Dedicated Sunday Everglades Expedition:</strong> Shark Valley sawgrass tram & tower visited on Sunday, Oct 25, leaving Monday completely free for an unhurried scenic drive down the Overseas Highway!</li>
-                <li><strong>Zero Car Drop Fees:</strong> Roundtrip MIA-to-MIA vehicle loop eliminates one-way rental penalties entirely.</li>
+                <li><strong>Confirmed Premier Resorts:</strong> Hyatt Centric South Beach (Nights 1 & 6), Playa Largo Resort & Spa Autograph Collection (Nights 2 & 3), and The Perry Hotel & Marina Key West (Nights 4 & 5).</li>
+                <li><strong>Zero-Stress Dry Tortugas Logistics:</strong> Based in Key West at The Perry Hotel both the night before and the night after your booked 07:00 AM Dry Tortugas catamaran departure—zero early morning rush and zero post-ferry highway driving.</li>
+                <li><strong>Smart 6-Day Car Rental:</strong> Saturday car-free arrival ($0 South Beach parking fees); pick up your Enterprise SUV Sunday morning at 8:30 AM for the Florida loop.</li>
               </ul>
             </div>
 
@@ -483,15 +489,15 @@ def get_slides():
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
                 <li><strong>06:45 AM – Non-Stop Flight (EWR ➔ MIA):</strong> Depart Newark Liberty International (booked for $628 total for 2). Touch down at MIA by 09:45 AM.</li>
-                <li><strong>10:15 AM – Ground Logistics Choice:</strong> <em>Option A (Recommended):</em> Take a 25-min rideshare (~$25) directly to your hotel—zero South Beach parking fees, zero garage hassle, saving ~$95+ by picking up your Enterprise SUV Monday morning. <em>Option B (Confirmed):</em> Take the MIA Mover to MIA RCC to pick up the reserved Enterprise Nissan Rogue AWD ($427.44).</li>
+                <li><strong>10:15 AM – Ground Logistics Choice:</strong> Take a 25-min rideshare (~$25) directly to South Beach—zero Saturday parking fees, zero garage hassle, saving $50+ on overnight parking by picking up your Enterprise SUV Sunday morning.</li>
                 <li><strong>11:30 AM – Cross into Miami Beach:</strong> Cross the scenic MacArthur Causeway with panoramic views of Biscayne Bay, cruise ship terminals, and the downtown skyline.</li>
-                <li><strong>12:30 PM – South Beach Check-In & Lunch:</strong> Check into your Art Deco boutique hotel on Collins Ave / Ocean Drive. Enjoy an open-air lunch along pedestrian Española Way (pressed Cuban sandwiches and fresh tropical smoothies).</li>
+                <li><strong>12:30 PM – Check In at Hyatt Centric & Lunch:</strong> Check into <em>Hyatt Centric South Beach Miami</em> (1600 Collins Ave). Enjoy an open-air lunch along pedestrian Española Way (pressed Cuban sandwiches and fresh tropical smoothies) just 2 blocks away.</li>
                 <li><strong>02:30 PM – Lummus Beach Relaxation:</strong> Step onto the soft white sand of South Beach. Swim in the calm, warm turquoise Atlantic shallows (81°F).</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
                 <span class="tag tag-gold">MIAMI BEACH ARRIVAL</span>
-                <span class="tag tag-teal">FLIGHT: BOOKED $628</span>
+                <span class="tag tag-teal">HYATT CENTRIC SOBE</span>
                 <span class="tag tag-terracotta">SOUTH BEACH WATER: 81°F</span>
               </div>
             </div>
@@ -508,49 +514,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 09: NIGHT 1 LODGING: SOUTH BEACH ART DECO BOUTIQUE BASE
+           SLIDE 09: NIGHT 1 LODGING: HYATT CENTRIC SOUTH BEACH MIAMI
            ===================================================================== -->
       <section class="slide" data-slide="9">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 1 RETREAT • ARCHITECTURAL ICON</div>
-          <h2 class="slide-title">Night 1: Boutique Art Deco Sanctuary in South Beach</h2>
-          <p class="slide-subtitle">A stylish, highly rated boutique hotel located in the heart of the historic Art Deco District, steps from the beach and Ocean Drive.</p>
+          <div class="slide-eyebrow">NIGHT 1 RETREAT • 1600 COLLINS AVENUE</div>
+          <h2 class="slide-title">Night 1: Hyatt Centric South Beach Miami</h2>
+          <p class="slide-subtitle">A chic boutique retreat on Collins Avenue at 16th Street—just one block from the pristine oceanfront, featuring a 3rd-floor rooftop pool, Spanish-Mediterranean cuisine, and effortless walkability.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
               <div class="card-label">BASE CAMP LOGISTICS</div>
-              <h3 class="card-heading">The Avalon Hotel, The Shepley, or The Betsy</h3>
+              <h3 class="card-heading">Hyatt Centric South Beach Miami (1600 Collins Ave)</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Staying directly in South Beach gives you effortless walkability, eliminating car traffic and parking headaches on your first two days:
+                Staying at Hyatt Centric gives you prime South Beach walkability, eliminating car traffic and parking friction on your first day:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$200 total</div>
-                  <div class="stat-caption">Night 1 of 2 in South Beach with tax</div>
+                  <div class="stat-number gold">$220 total</div>
+                  <div class="stat-caption">Night 1 in South Beach with tax</div>
                 </div>
                 <div class="stat-box">
                   <div class="card-label">BEACH PROXIMITY</div>
-                  <div class="stat-number teal">2 min walk</div>
-                  <div class="stat-caption">Direct access to sand & oceanfront</div>
+                  <div class="stat-number teal">1 block walk</div>
+                  <div class="stat-caption">Direct access to Lummus Beach & sand</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Art Deco Design:</strong> Restored 1930s nautical streamlined architecture, custom terrazzo flooring, and plush king bedding.</li>
-                <li><strong>Complete Walkability:</strong> Step out directly onto Ocean Drive, Lummus Beach Park, and Lincoln Road without moving the car.</li>
-                <li><strong>Restorative Rest:</strong> Soundproofed double-glazed windows ensure total peace and quiet for deep overnight sleep.</li>
+                <li><strong>Prime Collins Avenue Location:</strong> Situated at 1600 Collins Ave, steps from the beach boardwalk, Lincoln Road pedestrian mall, and historic Art Deco landmarks.</li>
+                <li><strong>Rooftop Pool & Lounge:</strong> Elevated 3rd-floor sun deck with private cabanas, heated swimming pool, and ocean breeze relaxation.</li>
+                <li><strong>Spanish Coastal Ambiance:</strong> Modern glass architecture blending Art Deco spirit with serene soundproofed rooms and rain showers for restorative sleep.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide09_artdeco.jpg" alt="South Beach Art Deco neon architecture" loading="lazy">
+              <img src="images/slide09_artdeco.jpg" alt="South Beach Art Deco architecture" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Nautical Art Deco Glamour</div>
-                <div class="media-caption">Streamlined 1930s architecture glowing with pastel neon accents in South Beach.</div>
+                <div class="media-title">Boutique Glamour on Collins Avenue</div>
+                <div class="media-caption">Rooftop pool deck and prime ocean access in the heart of South Beach.</div>
               </div>
             </div>
           </div>

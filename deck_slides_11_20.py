@@ -52,29 +52,29 @@ def get_slides():
         <div class="slide-header">
           <div class="slide-eyebrow">DAY 2 AFTERNOON • BACKCOUNTRY WILDERNESS EXPEDITION</div>
           <h2 class="slide-title">Day 2 Afternoon: Everglades Airboat Safari & Big Cypress Preserve</h2>
-          <p class="slide-subtitle">Skimming at high speed across remote sawgrass rivers into hardwood hammocks, tracking wild alligators, and exploring the primeval cypress domes of Big Cypress National Preserve.</p>
+          <p class="slide-subtitle">Skimming at high speed across remote sawgrass rivers into hardwood hammocks, tracking wild alligators, and scenic late afternoon drive south to Key Largo.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
               <div class="card-label">RIVER OF GRASS BACKCOUNTRY SAFARI</div>
-              <h3 class="card-heading">Tamiami Trail Airboat & Big Cypress Oasis</h3>
+              <h3 class="card-heading">Tamiami Trail Airboat & Drive to Key Largo</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
                 Ditching commercial city districts to venture deeper into the untamed Florida wetlands where roaring propeller airboats glide across shallow waters into secluded native hammocks:
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>01:15 PM – High-Speed Airboat Safari:</strong> Board an authentic propeller airboat for an exhilarating run skimming across the open sawgrass prairie and through twisting mangrove channels (~$65 total for 2).</li>
+                <li><strong>01:15 PM – High-Speed Airboat Safari:</strong> Board an authentic propeller airboat for an exhilarating run skimming across open sawgrass prairies and twisting mangrove channels (~$65 total for 2).</li>
                 <li><strong>02:15 PM – Wild Alligator & Raptor Spotting:</strong> Glide inches above the water observing massive wild alligators basking along the banks, great blue herons, and rare purple gallinules in untouched habitat.</li>
                 <li><strong>03:15 PM – Big Cypress Oasis Gator Boardwalk:</strong> Drive west along US-41 into Big Cypress National Preserve. Walk the scenic boardwalk along the roadside canal where dozens of wild alligators congregate naturally in deep freshwater pools.</li>
-                <li><strong>04:45 PM – Golden Hour Return to South Beach:</strong> Drive east along Tamiami Trail through the sunset glow, park in the 7th & Collins garage ($20/night), and recharge for dinner.</li>
+                <li><strong>04:00 PM – Scenic Drive South to Key Largo:</strong> Cruise south via Krome Avenue and Card Sound Road onto Key Largo. Cross the scenic high-rise Card Sound Bridge over turquoise flats and arrive at Playa Largo Resort & Spa along Florida Bay in time for sunset.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
                 <span class="tag tag-gold">AIRBOAT EXPEDITION</span>
                 <span class="tag tag-teal">BIG CYPRESS PRESERVE</span>
-                <span class="tag tag-terracotta">WILD ALLIGATORS</span>
+                <span class="tag tag-terracotta">ROUTE: CARD SOUND RD</span>
               </div>
             </div>
 
@@ -90,49 +90,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 13: NIGHT 2 LODGING: MIAMI BEACH ART DECO CONTINUATION
+           SLIDE 13: NIGHT 2 LODGING: PLAYA LARGO RESORT & SPA (KEY LARGO)
            ===================================================================== -->
       <section class="slide" data-slide="13">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 2 RETREAT • SOUTH BEACH IMMERSION</div>
-          <h2 class="slide-title">Night 2: South Beach Sanctuary & Promenade Dining</h2>
-          <p class="slide-subtitle">Relaxing in the ocean breeze after an exhilarating day in the Everglades wilderness, strolling pedestrian Lincoln Road, and dining along historic Española Way.</p>
+          <div class="slide-eyebrow">NIGHT 2 RETREAT • KEY LARGO LUXURY RESORT</div>
+          <h2 class="slide-title">Night 2: Playa Largo Resort & Spa, Autograph Collection</h2>
+          <p class="slide-subtitle">Checking into your 14.5-acre secluded Florida Bay waterfront sanctuary in Key Largo, featuring a zero-entry pool, private white-sand beach, and bayfront dining at Sol by the Sea.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">EVENING RELAXATION</div>
-              <h3 class="card-heading">Post-Art Exploration & Coastal Repose</h3>
+              <div class="card-label">BAYFRONT LUXURY RESORT</div>
+              <h3 class="card-heading">Playa Largo Resort & Spa (MM 97.5)</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Spending a second night in South Beach ensures an unhurried experience with zero packing or hotel switching today:
+                Set along the calm waters of Florida Bay, Playa Largo offers the pinnacle of coastal luxury for two relaxing nights in the Upper Keys:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$200 total</div>
-                  <div class="stat-caption">Night 2 of 2 in South Beach with tax</div>
+                  <div class="stat-number gold">$290 total</div>
+                  <div class="stat-caption">Night 1 of 2 in Key Largo with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">ATMOSPHERE</div>
-                  <div class="stat-number teal">100% Walkable</div>
-                  <div class="stat-caption">Pedestrian boulevards & oceanfront</div>
+                  <div class="card-label">PROPERTY</div>
+                  <div class="stat-number teal">14.5 Acres</div>
+                  <div class="stat-caption">Private beach & Florida Bay marina</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Lincoln Road Promenade:</strong> Stroll the open-air pedestrian mall lined with outdoor cafes, fountain plazas, and retail shops.</li>
-                <li><strong>Española Way Dining:</strong> Dine beneath Mediterranean string lights at an outdoor table: fresh guacamole, grilled local catch, and chilled mint limeades ($55 total for 2).</li>
-                <li><strong>Restorative Sleep:</strong> Ready for tomorrow morning's unhurried road trip across the dramatic Overseas Highway to Key West!</li>
+                <li><strong>Florida Bay Sunset Repose:</strong> Unwind on the resort's private beach and dock watching the fiery Gulf sunset melt into the calm bay horizon.</li>
+                <li><strong>Zero-Entry Pool & Hot Tub:</strong> Expansive waterfront swimming pool surrounded by swaying palms, private cabanas, and ocean breeze.</li>
+                <li><strong>Sol by the Sea Waterfront Dining:</strong> Savor fresh local seafood served at tables set directly along the water's edge beneath coastal lanterns.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide10_cuban.jpg" alt="South Beach outdoor dining and cafe lights" loading="lazy">
+              <img src="images/slide13_keywesthotel.jpg" alt="Playa Largo Resort luxury pool and cabanas" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Evening Promenade Along Española Way</div>
-                <div class="media-caption">Cobblestone Mediterranean streets glowing beneath fairy lights and swaying palms.</div>
+                <div class="media-title">Florida Bay Coastal Splendor</div>
+                <div class="media-caption">Secluded waterfront luxury and private beach repose at Playa Largo Resort in Key Largo.</div>
               </div>
             </div>
           </div>
@@ -140,44 +140,44 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 14: DAY 3: THE ULTIMATE OVERSEAS HIGHWAY ROAD TRIP TO KEY WEST
+           SLIDE 14: DAY 3: JOHN PENNEKAMP CORAL REEF STATE PARK & RESORT LEISURE
            ===================================================================== -->
       <section class="slide" data-slide="14">
         <div class="slide-header">
           <div class="slide-eyebrow">DAY 3 ITINERARY • MONDAY, OCTOBER 26, 2026</div>
-          <h2 class="slide-title">Day 3: The Ultimate Overseas Highway Road Trip to Key West</h2>
-          <p class="slide-subtitle">With Everglades already conquered, enjoy an unhurried scenic cruise down US-1: hand-feeding giant silver tarpon at Robbie's Marina, crossing the iconic Seven Mile Bridge, and swimming in Bahia Honda's turquoise shallows.</p>
+          <h2 class="slide-title">Day 3: John Pennekamp Coral Reef State Park & Resort Leisure</h2>
+          <p class="slide-subtitle">Exploring America's first undersea park: shallow living barrier reef snorkeling, glass-bottom reef boat cruise, and relaxed luxury at Playa Largo Resort.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
-              <div class="card-label">ICONIC ALL-AMERICAN ROAD TRIP</div>
-              <h3 class="card-heading">From Miami Beach to the End of the Road</h3>
+              <div class="card-label">SUBTROPICAL REEF EXPEDITION</div>
+              <h3 class="card-heading">Key Largo Barrier Reef & Florida Bay</h3>
               <p class="card-body" style="margin-bottom: 1rem;">
-                Spanning 113 miles across 42 overseas bridges, the Overseas Highway (US-1) carries you across the Atlantic Ocean and Gulf of Mexico straight into subtropical paradise:
+                Key Largo protects the only living coral barrier reef in the continental United States, teeming with colorful marine life in crystal-clear Atlantic waters:
               </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>09:00 AM – Check Out & Head South:</strong> Depart South Beach in your Enterprise Nissan Rogue AWD, cruising south via Florida City onto the Overseas Highway corridor.</li>
-                <li><strong>10:45 AM – Robbie's Marina Giant Tarpon Feeding:</strong> Stop in Islamorada (MM 77.5) to hand-feed massive 100-lb silver king tarpon right off the wooden pier dock ($12 total for 2).</li>
-                <li><strong>12:15 PM – Chilled Key Lime Pie & Lunch:</strong> Savor authentic chilled Key Lime pie and fresh blackened grouper sandwiches along the waterfront.</li>
-                <li><strong>01:30 PM – Bahia Honda State Park & Beach Swim:</strong> Explore Bahia Honda (MM 37). Swim in crystal-clear 82°F turquoise water at Calusa Beach beneath the historic 1912 Flagler rail bridge.</li>
-                <li><strong>03:30 PM – Key West Arrival & Conch Stroll:</strong> Reach Old Town Key West with the entire afternoon to check in, unpack, and stroll to Mallory Square for sunset!</li>
+                <li><strong>09:30 AM – John Pennekamp Coral Reef State Park (MM 102.5):</strong> Arrive at the park visitor center. Board the glass-bottom boat tour or reef snorkel boat to the shallow offshore coral reefs ($64 total for 2).</li>
+                <li><strong>10:30 AM – Barrier Reef Snorkeling:</strong> Float above colorful brain corals, sea fans, stoplight parrotfish, yellowtail snappers, and graceful spotted eagle rays in 82°F calm water.</li>
+                <li><strong>01:00 PM – Key Largo Conch Shack Lunch:</strong> Savor cracked conch, grilled blackened fish tacos, and fresh mango smoothies at a local waterside spot ($45 total for 2).</li>
+                <li><strong>02:30 PM – Mangrove Kayak Trail or Resort Beach:</strong> Paddle transparent kayaks through tranquil mangrove canopy tunnels, or return to Playa Largo Resort for paddleboarding and pool relaxation.</li>
+                <li><strong>05:30 PM – Private Beach Sunset:</strong> Relax in shaded beach hammocks as the sunset paints the sky in shades of gold and violet.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">OVERSEAS HIGHWAY (US-1)</span>
-                <span class="tag tag-teal">ROBBIE'S TARPON FEEDING</span>
-                <span class="tag tag-terracotta">BAHIA HONDA BEACH</span>
+                <span class="tag tag-gold">PENNEKAMP REEF</span>
+                <span class="tag tag-teal">FIRST UNDERSEA PARK</span>
+                <span class="tag tag-terracotta">LIVING CORAL BARRIER</span>
               </div>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide16_upperkeys.jpg" alt="Overseas Highway Upper Keys and ocean" loading="lazy">
+              <img src="images/slide11_keylargo.jpg" alt="Pennekamp living coral reef and colorful fish" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">The Overseas Highway Across Open Ocean</div>
-                <div class="media-caption">Driving across 42 bridges spanning the emerald and sapphire waters of the Florida Straits.</div>
+                <div class="media-title">The Living Continental Reef</div>
+                <div class="media-caption">Snorkeling among schools of yellowtail snapper and vibrant coral formations in Key Largo.</div>
               </div>
             </div>
           </div>
@@ -185,32 +185,86 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 15: DAY 3 COAST: SEVEN MILE BRIDGE & BAHIA HONDA LAGOON
+           SLIDE 15: NIGHT 3 LODGING: PLAYA LARGO RESORT CONTINUATION
            ===================================================================== -->
       <section class="slide" data-slide="15">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 3 COAST • THE HIGHWAY THAT FLOATS ON WATER</div>
-          <h2 class="slide-title">Day 3 Coast: Seven Mile Bridge Crossing & Bahia Honda Lagoon</h2>
-          <p class="slide-subtitle">Cruising across Henry Flagler's engineering marvel, swimming in the natural sandbar lagoons of Bahia Honda, and arriving in Key West for sunset.</p>
+          <div class="slide-eyebrow">NIGHT 3 RETREAT • FLORIDA BAY SUNSET REPOSE</div>
+          <h2 class="slide-title">Night 3: Sunset Repose at Playa Largo Resort & Spa</h2>
+          <p class="slide-subtitle">Savoring a second relaxing evening on Florida Bay: golden-hour beach repose, dockside dining at Sol by the Sea, and preparing for tomorrow's scenic road trip to Key West.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">OCEAN PASSAGE LOGISTICS</div>
-              <h3 class="card-heading">From the Seven Mile Bridge to Mallory Square</h3>
+              <div class="card-label">UPPER KEYS SERENITY</div>
+              <h3 class="card-heading">Two Full Nights of Key Largo Tranquility</h3>
+              <p class="card-body" style="margin-bottom: 1.2rem;">
+                Spending a second night at Playa Largo ensures an unhurried, restorative pace with zero hotel packing or moving today:
+              </p>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
+                <div class="stat-box">
+                  <div class="card-label">SHARED RATE</div>
+                  <div class="stat-number gold">$290 total</div>
+                  <div class="stat-caption">Night 2 of 2 in Key Largo with tax</div>
+                </div>
+                <div class="stat-box">
+                  <div class="card-label">ATMOSPHERE</div>
+                  <div class="stat-number teal">Secluded Bay</div>
+                  <div class="stat-caption">Fire pits & evening starry skies</div>
+                </div>
+              </div>
+
+              <ul class="highlight-list">
+                <li><strong>Beachside Fire Pits:</strong> Gather around the glow of evening beachside fire pits under the coconut palms.</li>
+                <li><strong>Dockside Refreshments:</strong> Sip sparkling passionfruit lime mocktails on the private marina pier.</li>
+                <li><strong>Restorative Rest:</strong> Ready for tomorrow morning's breathtaking drive across Seven Mile Bridge into Key West!</li>
+              </ul>
+            </div>
+
+            <div class="editorial-media">
+              <img src="images/slide14_keywest.jpg" alt="Florida Bay calm waters at sunset" loading="lazy">
+              <div class="media-overlay">
+                <div class="media-title">Evening Glow on Florida Bay</div>
+                <div class="media-caption">Watching the sky shift from gold to amber over tranquil Keys waters.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           SLIDE 16: DAY 4: THE SCENIC OVERSEAS HIGHWAY CRUISE TO KEY WEST
+           ===================================================================== -->
+      <section class="slide" data-slide="16">
+        <div class="slide-header">
+          <div class="slide-eyebrow">DAY 4 ITINERARY • TUESDAY, OCTOBER 27, 2026</div>
+          <h2 class="slide-title">Day 4: The Scenic Overseas Highway Cruise to Key West</h2>
+          <p class="slide-subtitle">Cruising south from Key Largo across 42 bridges: crossing Seven Mile Bridge suspended above turquoise ocean waters, swimming at Bahia Honda State Park, and arriving at The Perry Hotel.</p>
+        </div>
+
+        <div class="content-area">
+          <div class="grid-2col">
+            <div class="glass-card teal-trim">
+              <div class="card-label">ICONIC ALL-AMERICAN OCEAN HIGHWAY</div>
+              <h3 class="card-heading">From Key Largo to Stock Island & Key West</h3>
+              <p class="card-body" style="margin-bottom: 1rem;">
+                Spanning across the open Atlantic Ocean and Gulf of Mexico, US-1 carries you straight to the end of the road:
+              </p>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>03:00 PM – Seven Mile Bridge (MM 47–40):</strong> Cross the longest bridge on the Overseas Highway. Soar over open ocean with the historic 1912 Flagler Over-Sea Railroad trestle running parallel on your right.</li>
-                <li><strong>03:45 PM – Bahia Honda State Park (MM 37):</strong> Walk up the historic Old Bahia Honda Bridge for a panoramic view of the Atlantic Ocean and Gulf of Mexico meeting. Dip in the emerald waters of Calusa Beach ($9.00 park entry).</li>
-                <li><strong>05:30 PM – Key West Arrival (MM 0):</strong> Reach the end of the road. Check into your Old Town guesthouse and park the car.</li>
-                <li><strong>06:15 PM – Mallory Square Sunset Celebration:</strong> Join the nightly gathering on the historic waterfront pier: street performers, tightrope walkers, and acoustic guitars as the sun sinks into the Gulf.</li>
+                <li><strong>09:30 AM – Check Out of Playa Largo:</strong> Depart Key Largo in your Enterprise Nissan Rogue AWD, cruising south through the Middle Keys.</li>
+                <li><strong>11:00 AM – Seven Mile Bridge Crossing (MM 47–40):</strong> Soar over open turquoise water along the longest bridge on the Overseas Highway with the historic 1912 Flagler rail trestle running alongside.</li>
+                <li><strong>12:00 PM – Bahia Honda State Park & Beach Swim:</strong> Explore Bahia Honda (MM 37). Swim in crystal-clear 82°F turquoise water at Calusa Beach and hike up the old rail bridge overlook ($9.00 park entry).</li>
+                <li><strong>02:00 PM – Chilled Key Lime Pie & Lunch:</strong> Savor fresh blackened fish and authentic Key lime pie in the Lower Keys.</li>
+                <li><strong>03:30 PM – Check In at The Perry Hotel & Marina:</strong> Arrive at Stock Island and check into your luxury waterfront room overlooking the deepwater yacht harbor.</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">OVERSEAS HWY: 113 MILES</span>
-                <span class="tag tag-teal">BRIDGES: 42 CROSSED</span>
-                <span class="tag tag-terracotta">SUNSET: MALLORY SQ</span>
+                <span class="tag tag-gold">OVERSEAS HWY (US-1)</span>
+                <span class="tag tag-teal">SEVEN MILE BRIDGE</span>
+                <span class="tag tag-terracotta">BAHIA HONDA BEACH</span>
               </div>
             </div>
 
@@ -226,49 +280,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 16: NIGHT 3 LODGING: KEY WEST HISTORIC OLD TOWN GUESTHOUSE
+           SLIDE 17: NIGHT 4 LODGING: THE PERRY HOTEL & MARINA KEY WEST
            ===================================================================== -->
-      <section class="slide" data-slide="16">
+      <section class="slide" data-slide="17">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 3 RETREAT • CONCH ARCHITECTURE</div>
-          <h2 class="slide-title">Night 3: Historic Victorian Guesthouse in Old Town Key West</h2>
-          <p class="slide-subtitle">A secluded tropical garden bed & breakfast within walking distance of the historic ferry docks, featuring private bath, wraparound veranda, and morning breakfast.</p>
+          <div class="slide-eyebrow">NIGHT 4 RETREAT • STOCK ISLAND WATERFRONT MARINA</div>
+          <h2 class="slide-title">Night 4: The Perry Hotel & Marina Key West</h2>
+          <p class="slide-subtitle">Checking into your boutique maritime-luxury retreat on Stock Island overlooking the deepwater yacht harbor, just minutes from historic Old Town and the Dry Tortugas ferry dock.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">ISLAND SANCTUARY</div>
-              <h3 class="card-heading">The Mermaid & Alligator or Orchid Key Inn</h3>
+              <div class="card-label">BASE CAMP LOGISTICS</div>
+              <h3 class="card-heading">The Perry Hotel & Marina (Stock Island)</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Key West's magic lies in its residential Old Town lanes lined with pastel gingerbread fretwork, white picket fences, and towering royal poinciana trees:
+                Located at 7001 Shrimp Road, The Perry Hotel provides an upscale, tranquil maritime escape away from noisy Duval Street while keeping you 12 minutes from the ferry:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$195 total</div>
-                  <div class="stat-caption">Night 1 of 2 in Key West with breakfast</div>
+                  <div class="stat-number gold">$260 total</div>
+                  <div class="stat-caption">Night 1 of 2 in Key West with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">FERRY PROXIMITY</div>
-                  <div class="stat-number teal">8 min walk</div>
-                  <div class="stat-caption">To Yankee Freedom Ferry Docks</div>
+                  <div class="card-label">FERRY DOCK DRIVE</div>
+                  <div class="stat-number teal">12 min drive</div>
+                  <div class="stat-caption">To Yankee Freedom Catamaran Dock</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Two-Night Base:</strong> You sleep here Monday AND Tuesday night, ensuring you wake up relaxed and ready for Wednesday's 07:00 AM Dry Tortugas ferry.</li>
-                <li><strong>Private Veranda & Pool:</strong> Hidden tropical courtyard with heated plunge pool, tranquil fountains, and lush palm canopy.</li>
-                <li><strong>Quiet Location:</strong> Located on quiet Truman Avenue or Simonton Street, shielded from loud Duval Street bar music.</li>
+                <li><strong>Two-Night Key West Base:</strong> You sleep here Tuesday AND Wednesday night, ensuring you wake up relaxed for Wednesday's 07:00 AM Dry Tortugas ferry and return here after the voyage!</li>
+                <li><strong>Marina Waterfront Pools:</strong> Two heated waterfront swimming pools with cabanas overlooking the active boat harbor.</li>
+                <li><strong>Free Old Town Shuttle:</strong> Complimentary hotel shuttle service directly into historic Old Town Key West for dining and sightseeing.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide13_keywesthotel.jpg" alt="Historic Key West guesthouse" loading="lazy">
+              <img src="images/slide16_upperkeys.jpg" alt="The Perry Hotel waterfront marina view" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Conch Architecture & Verandas</div>
-                <div class="media-caption">Secluded tropical gardens and authentic Victorian architecture in historic Old Town Key West.</div>
+                <div class="media-title">Maritime Elegance on Stock Island</div>
+                <div class="media-caption">Deepwater yacht harbor views, coastal architecture, and relaxed luxury at The Perry Hotel.</div>
               </div>
             </div>
           </div>
@@ -276,32 +330,32 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 17: DAY 4: KEY WEST HERITAGE & HEMINGWAY ESTATE
+           SLIDE 18: DAY 4: KEY WEST HERITAGE, HEMINGWAY ESTATE & MALLORY SUNSET
            ===================================================================== -->
-      <section class="slide" data-slide="17">
+      <section class="slide" data-slide="18">
         <div class="slide-header">
-          <div class="slide-eyebrow">DAY 4 ITINERARY • TUESDAY, OCTOBER 27, 2026</div>
-          <h2 class="slide-title">Day 4: Key West Heritage, Hemingway Estate & Polydactyl Cats</h2>
-          <p class="slide-subtitle">A full dedicated day exploring the historic streets of Key West: visiting the Southernmost Point, touring the Hemingway Estate, and tasting authentic Key lime pie.</p>
+          <div class="slide-eyebrow">DAY 4 CULTURE • HISTORIC OLD TOWN KEY WEST</div>
+          <h2 class="slide-title">Day 4: Key West Heritage, Hemingway Estate & Mallory Sunset</h2>
+          <p class="slide-subtitle">Exploring Ernest Hemingway's Spanish-colonial home and 50+ six-toed cats, strolling historic Duval Street, and celebrating sunset at Mallory Square.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card teal-trim">
               <div class="card-label">ISLAND HERITAGE & LORE</div>
-              <h3 class="card-heading">Old Town Key West Morning Trail</h3>
+              <h3 class="card-heading">Old Town Key West Afternoon & Sunset Trail</h3>
 
               <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>08:30 AM – Southernmost Point Buoy:</strong> Stroll down Whitehead Street for a morning photo at the iconic painted concrete buoy (90 miles to Cuba) in soft light.</li>
-                <li><strong>09:30 AM – Ernest Hemingway Home & Museum:</strong> Walk the 1851 Spanish colonial estate where Hemingway lived and wrote. Wander the lush gardens and meet 50+ six-toed (polydactyl) cats descended from his original cat Snow White ($36 total for 2).</li>
-                <li><strong>11:30 AM – Key West Butterfly & Nature Conservatory:</strong> Step into a climate-controlled glass dome filled with 50+ butterfly species and colorful flamingos ($32 total for 2).</li>
-                <li><strong>01:00 PM – Authentic Key Lime Pie Tasting:</strong> Taste authentic pale-yellow Key lime pie made with real Florida Keys limes at Kermit's ($14 total for 2).</li>
+                <li><strong>04:30 PM – Ernest Hemingway Home & Museum:</strong> Walk the 1851 Spanish colonial estate where Hemingway lived and wrote. Wander the lush gardens and meet 50+ six-toed (polydactyl) cats descended from his original cat Snow White ($36 total for 2).</li>
+                <li><strong>05:45 PM – Southernmost Point Buoy & Old Town Stroll:</strong> Snap a quick photo at the iconic concrete buoy (90 miles to Cuba) and stroll historic Whitehead Street.</li>
+                <li><strong>06:30 PM – Mallory Square Sunset Celebration:</strong> Join the nightly gathering on the historic waterfront pier: street performers, tightrope walkers, and acoustic guitars as the sun sinks into the Gulf.</li>
+                <li><strong>07:30 PM – Conch Harbor Seafood Dinner:</strong> Enjoy fresh grilled snapper, conch fritters, and key lime pie along the historic seaport docks ($58 for 2).</li>
               </ul>
 
               <div style="display: flex; gap: 8px;">
                 <span class="tag tag-gold">HEMINGWAY CATS: 50+</span>
                 <span class="tag tag-teal">SOUTHERNMOST POINT</span>
-                <span class="tag tag-terracotta">REAL KEY LIMES</span>
+                <span class="tag tag-terracotta">MALLORY SUNSET</span>
               </div>
             </div>
 
@@ -309,7 +363,7 @@ def get_slides():
               <img src="images/slide15_keylime.jpg" alt="Key West tropical garden and heritage architecture" loading="lazy">
               <div class="media-overlay">
                 <div class="media-title">Literary Legends & Subtropical Flora</div>
-                <div class="media-caption">From Hemingway's private catwalk studio to the fluttering canopy of the butterfly conservatory.</div>
+                <div class="media-caption">From Hemingway's private catwalk studio to the fluttering canopy of historic Old Town Key West.</div>
               </div>
             </div>
           </div>
@@ -317,56 +371,13 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 18: DAY 4 COAST: FORT ZACHARY TAYLOR STATE PARK
-           ===================================================================== -->
-      <section class="slide" data-slide="18">
-        <div class="slide-header">
-          <div class="slide-eyebrow">DAY 4 COAST • CIVIL WAR BASTION</div>
-          <h2 class="slide-title">Day 4 Coast: Fort Zachary Taylor Citadel & Coral Beach</h2>
-          <p class="slide-subtitle">Exploring America's largest cache of Civil War cannons inside a massive brick coastal fort, followed by swimming at Key West's best natural coral beach.</p>
-        </div>
-
-        <div class="content-area">
-          <div class="grid-2col">
-            <div class="glass-card gold-trim">
-              <div class="card-label">COASTAL CITADEL & SWIM</div>
-              <h3 class="card-heading">Fort Zachary Taylor Historic State Park</h3>
-              <p class="card-body" style="margin-bottom: 1rem;">
-                Constructed in 1845 to defend the Florida Straits, Fort Zachary Taylor remained in Union hands throughout the Civil War and boasts the finest swimming beach on Key West:
-              </p>
-
-              <ul class="highlight-list" style="margin-bottom: 1.2rem;">
-                <li><strong>02:30 PM – Historic Fort Exploration:</strong> Walk through the red-brick casemates containing 30+ massive 10-inch Rodman cannons and Civil War defensive moats ($6.50 entry).</li>
-                <li><strong>03:45 PM – Shaded Coral Beach:</strong> Relax on the natural shaded coral beach shaded by towering Australian pines. Swim in clear Atlantic waters where the Gulf and ocean converge.</li>
-                <li><strong>06:00 PM – Historic Seaport Dinner:</strong> Savor grilled blackened mahi-mahi sandwiches, conch fritters, and cold sparkling coconut water on the harbor docks ($58 total for 2).</li>
-              </ul>
-
-              <div style="display: flex; gap: 8px;">
-                <span class="tag tag-gold">FORT BUILT: 1845</span>
-                <span class="tag tag-teal">CIVIL WAR CANNONS</span>
-                <span class="tag tag-terracotta">NATURAL CORAL BEACH</span>
-              </div>
-            </div>
-
-            <div class="editorial-media">
-              <img src="images/slide14_keywest.jpg" alt="Key West Fort Zachary Taylor beach and harbor" loading="lazy">
-              <div class="media-overlay">
-                <div class="media-title">Historic Bastion of the Florida Straits</div>
-                <div class="media-caption">Exploring 19th-century red-brick gun casemates and natural pine-shaded coral beaches.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- =====================================================================
-           SLIDE 19: NIGHT 4 LODGING: KEY WEST SANCTUARY CONTINUATION
+           SLIDE 19: NIGHT 4 REST PROTOCOL: PRE-FERRY EARLY CALL
            ===================================================================== -->
       <section class="slide" data-slide="19">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 4 RETREAT • PRE-FERRY REST</div>
-          <h2 class="slide-title">Night 4: Key West Sanctuary Continuation (Pre-Ferry Rest)</h2>
-          <p class="slide-subtitle">Restful evening at your Old Town guesthouse, packing your day bag for Dry Tortugas, and turning in early ahead of tomorrow's 07:00 AM ferry check-in.</p>
+          <div class="slide-eyebrow">NIGHT 4 REST PROTOCOL • PRE-FERRY REST</div>
+          <h2 class="slide-title">Night 4: The Perry Hotel & Pre-Ferry Rest Protocol</h2>
+          <p class="slide-subtitle">Restful evening at The Perry Hotel, packing your day bag for Dry Tortugas, and turning in early ahead of tomorrow's 07:00 AM mandatory ferry check-in.</p>
         </div>
 
         <div class="content-area">
@@ -375,34 +386,34 @@ def get_slides():
               <div class="card-label">BASE CAMP LOGISTICS</div>
               <h3 class="card-heading">Resting for the 70-Mile Open-Ocean Voyage</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Because you are already sleeping in Key West for Night 4, tomorrow morning is completely stress-free with zero driving:
+                Because you are sleeping at The Perry Hotel in Key West for Night 4, tomorrow morning is completely stress-free:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
-                  <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$195 total</div>
-                  <div class="stat-caption">Night 2 of 2 in Key West with tax</div>
+                  <div class="card-label">FERRY CHECK-IN</div>
+                  <div class="stat-number gold">07:00 AM</div>
+                  <div class="stat-caption">Wednesday, Oct 28 (BOOKED)</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">FERRY CHECK-IN</div>
-                  <div class="stat-number teal">07:00 AM</div>
+                  <div class="card-label">DRIVE TO DOCK</div>
+                  <div class="stat-number teal">12 min</div>
                   <div class="stat-caption">Key West Ferry Terminal (Grinnell St)</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>No Morning Driving:</strong> Waking up in Old Town means a leisurely 8-minute morning stroll or 3-minute drive to the ferry dock at 100 Grinnell Street.</li>
-                <li><strong>Field Kit Preparation:</strong> Pack your dry bag with reef-safe mineral sunscreen, rashguards, water shoes, sunglasses, and NPS passport.</li>
-                <li><strong>Early Bedtime:</strong> Ensure a full 8 hours of restorative rest before a full day in the sun and water.</li>
+                <li><strong>No Rush Morning:</strong> Only a quick 12-minute drive across Roosevelt Blvd to the ferry dock at 100 Grinnell Street.</li>
+                <li><strong>Field Kit Preparation:</strong> Pack your dry bag with reef-safe mineral zinc sunscreen, rashguards, water shoes, sunglasses, and NPS passport.</li>
+                <li><strong>Early Bedtime:</strong> Ensure a full 8 hours of restorative sleep in your plush king bed before a full day in the sun and water.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide13_keywesthotel.jpg" alt="Key West tranquil garden guesthouse" loading="lazy">
+              <img src="images/slide10_cuban.jpg" alt="Tranquil evening resort atmosphere" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Peaceful Old Town Courtyard</div>
-                <div class="media-caption">Recharging under the palms before tomorrow's expedition to Dry Tortugas National Park.</div>
+                <div class="media-title">Peaceful Marina Waters</div>
+                <div class="media-caption">Recharging under the palms at The Perry Hotel before tomorrow's expedition to Dry Tortugas National Park.</div>
               </div>
             </div>
           </div>

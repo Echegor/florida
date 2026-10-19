@@ -1381,8 +1381,8 @@ def get_head():
           <!-- Native Slide Picker for Mobile -->
           <select id="nativeSlidePicker" class="native-slide-select" aria-label="Select Expedition Milestone">
             <optgroup label="🗺️ ACT I: STRATEGIC ORIENTATION (SLIDES 1–7)">
-              <option value="0" selected>Slide 01 • Cover & Expedition Metrics</option>
-              <option value="1">Slide 02 • Strategic Architecture: South Florida & Keys Flow</option>
+              <option value="0" selected>Slide 01 • Master Expedition Calendar & Dashboard</option>
+              <option value="1">Slide 02 • Strategic Architecture: Miami Beach, The Keys & Parks</option>
               <option value="2">Slide 03 • Interactive Cartography & GPS Command</option>
               <option value="3">Slide 04 • Subtropical Meteorology: Late October Window</option>
               <option value="4">Slide 05 • Highway Logistics, SunPass & Ferry Protocol</option>
@@ -1391,33 +1391,33 @@ def get_head():
             </optgroup>
             <optgroup label="🏖️ ACT II: SOUTH BEACH & EVERGLADES (SLIDES 8–13)">
               <option value="7">Slide 08 • Day 1: Inbound EWR->MIA & South Beach Arrival</option>
-              <option value="8">Slide 09 • Night 1: South Beach Art Deco Boutique Hotel</option>
+              <option value="8">Slide 09 • Night 1: Hyatt Centric South Beach Miami</option>
               <option value="9">Slide 10 • Day 1: South Pointe Park Pier & Neon Ocean Drive</option>
               <option value="10">Slide 11 • Day 2: Everglades NP (Shark Valley Tram & Tower)</option>
               <option value="11">Slide 12 • Day 2: Everglades Airboat Safari & Big Cypress</option>
-              <option value="12">Slide 13 • Night 2: South Beach Sanctuary & Promenade Dining</option>
+              <option value="12">Slide 13 • Night 2: Playa Largo Resort & Spa (Key Largo)</option>
             </optgroup>
-            <optgroup label="🛣️ ACT III: OVERSEAS HIGHWAY & KEY WEST (SLIDES 14–19)">
-              <option value="13">Slide 14 • Day 3: Overseas Highway Road Trip to Key West</option>
-              <option value="14">Slide 15 • Day 3 Coast: Seven Mile Bridge & Bahia Honda</option>
-              <option value="15">Slide 16 • Night 3: Key West Historic Old Town Guesthouse</option>
-              <option value="16">Slide 17 • Day 4: Key West Heritage & Hemingway Estate (Cats)</option>
-              <option value="17">Slide 18 • Day 4 Coast: Fort Zachary Taylor Citadel & Beach</option>
-              <option value="18">Slide 19 • Night 4: Key West Sanctuary Continuation (Pre-Ferry)</option>
+            <optgroup label="🤿 ACT III: KEY LARGO & THE OVERSEAS HIGHWAY (SLIDES 14–19)">
+              <option value="13">Slide 14 • Day 3: John Pennekamp Coral Reef State Park</option>
+              <option value="14">Slide 15 • Night 3: Sunset Repose at Playa Largo Resort</option>
+              <option value="15">Slide 16 • Day 4: Scenic Overseas Highway Cruise to Key West</option>
+              <option value="16">Slide 17 • Night 4: The Perry Hotel & Marina Key West</option>
+              <option value="17">Slide 18 • Day 4: Key West Heritage, Hemingway & Mallory</option>
+              <option value="18">Slide 19 • Night 4: The Perry Hotel & Pre-Ferry Rest Protocol</option>
             </optgroup>
-            <optgroup label="🏰 ACT IV: DRY TORTUGAS & MIDDLE KEYS (SLIDES 20–22)">
+            <optgroup label="🏰 ACT IV: DRY TORTUGAS & KEY WEST (SLIDES 20–22)">
               <option value="19">Slide 20 • Day 5: Dry Tortugas NP [BOOKED: Yankee Freedom III]</option>
-              <option value="20">Slide 21 • Day 5: Fort Jefferson Citadel, Moat & Coral Snorkeling</option>
-              <option value="21">Slide 22 • Night 5: Oceanfront Cottage Retreat in Islamorada</option>
+              <option value="20">Slide 21 • Day 5: Fort Jefferson Citadel & Snorkeling</option>
+              <option value="21">Slide 22 • Night 5: The Perry Hotel & Marina Key West (Night 2)</option>
             </optgroup>
             <optgroup label="🌊 ACT V: BISCAYNE & EXPEDITION FINALE (SLIDES 23–30)">
               <option value="22">Slide 23 • Day 6: Robbie's Tarpon Feeding & Islamorada</option>
               <option value="23">Slide 24 • Day 6: Biscayne NP (Boca Chita Key Boat Tour)</option>
-              <option value="24">Slide 25 • Night 6: Boutique Elegance in Historic Coral Gables</option>
+              <option value="24">Slide 25 • Night 6: Hyatt Centric South Beach Miami (Return)</option>
               <option value="25">Slide 26 • Day 7: Little Havana Morning: Domino Park & Cafecito</option>
               <option value="26">Slide 27 • Day 7: Celebratory Farewell Banquet at Versailles</option>
               <option value="27">Slide 28 • Day 7: Consolidated Car Return & Flight to EWR</option>
-              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($3,742)</option>
+              <option value="28">Slide 29 • Master Scorecard & Shared Financial Ledger ($4,182)</option>
               <option value="29">Slide 30 • Zero-Fail Field Directory & Emergency Hotlines</option>
             </optgroup>
           </select>

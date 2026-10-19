@@ -260,13 +260,13 @@ def get_footer_and_js():
         },
         {
           id: 1,
-          label: "MILESTONE 02 • URBAN COAST BASE",
-          title: "Miami Beach & South Beach Art Deco",
-          coords: "25.7825° N, 80.1340° W",
-          metrics: "12 Miles from MIA • Atlantic Oceanfront",
-          tag: "SOUTH BEACH",
+          label: "MILESTONE 02 • URBAN OCEANFRONT BASE",
+          title: "Hyatt Centric South Beach Miami (Nights 1 & 6)",
+          coords: "25.7891° N, 80.1306° W",
+          metrics: "1600 Collins Ave • 1 Block to Atlantic",
+          tag: "HYATT CENTRIC",
           tagClass: "tag-gold",
-          desc: "2 full nights based in historic South Beach. Turquoise Atlantic ocean swims, iconic pastel 1930s Art Deco architecture on Ocean Drive, and sunset at South Pointe Park Pier watching cruise ships depart."
+          desc: "Boutique sanctuary anchoring Night 1 and Night 6. Rooftop pool, walking distance to Española Way dining, and 5 minutes to South Pointe Park Pier sunset watching cruise ships depart."
         },
         {
           id: 2,
@@ -276,7 +276,7 @@ def get_footer_and_js():
           metrics: "Tamiami Trail (US-41) • Sawgrass Frontier",
           tag: "AIRBOAT SAFARI",
           tagClass: "tag-teal",
-          desc: "Thrilling high-speed propeller airboat run skimming across shallow sawgrass prairies into remote mangrove hammocks, paired with the Big Cypress Oasis boardwalk where dozens of wild alligators bask in roadside canals."
+          desc: "Thrilling high-speed propeller airboat run skimming across shallow sawgrass prairies into remote mangrove hammocks, paired with the Big Cypress Oasis boardwalk where wild alligators bask in canals."
         },
         {
           id: 3,
@@ -290,23 +290,23 @@ def get_footer_and_js():
         },
         {
           id: 4,
-          label: "MILESTONE 05 • THE MIDDLE KEYS",
-          title: "Seven Mile Bridge & Bahia Honda State Park",
-          coords: "24.6644° N, 81.2581° W",
-          metrics: "128 Miles from MIA • Mile Marker 37",
-          tag: "OCEAN LAGOON",
+          label: "MILESTONE 05 • UPPER KEYS RETREAT",
+          title: "Playa Largo Resort & John Pennekamp Reef (Nights 2 & 3)",
+          coords: "25.0865° N, 80.4473° W",
+          metrics: "Key Largo (MM 97) • Florida Bayfront",
+          tag: "PLAYA LARGO",
           tagClass: "tag-teal",
-          desc: "Traversing Henry Flagler's iconic Seven Mile Bridge suspended above turquoise ocean waters. Hiking the historic Old Bahia Honda rail bridge overlook and swimming in pristine Calusa Beach lagoons."
+          desc: "Two full nights at Playa Largo Resort & Spa Autograph Collection on Florida Bay. Snorkeling shallow living coral barrier reefs at John Pennekamp State Park and sunset dining at Sol by the Sea."
         },
         {
           id: 5,
-          label: "MILESTONE 06 • END OF THE ROAD",
-          title: "Key West Old Town & Historic Seaport",
-          coords: "24.5551° N, 81.7800° W",
-          metrics: "165 Miles from MIA • Mile Marker 0",
-          tag: "SOUTHERNMOST",
+          label: "MILESTONE 06 • LOWER KEYS BASE",
+          title: "The Perry Hotel & Marina Key West (Nights 4 & 5)",
+          coords: "24.5668° N, 81.7371° W",
+          metrics: "Stock Island Marina • 12 Min to Ferry Dock",
+          tag: "THE PERRY HOTEL",
           tagClass: "tag-terracotta",
-          desc: "2 nights in historic Old Town. Ernest Hemingway Estate (50+ polydactyl cats), Fort Zachary Taylor State Park, Mallory Square sunset celebration, and departure terminal for Dry Tortugas."
+          desc: "Two nights at The Perry Hotel & Marina on Stock Island. Waterfront deepwater marina pools, Hemingway Estate & Mallory sunset, plus zero-stress proximity to the Dry Tortugas ferry terminal."
         },
         {
           id: 6,
@@ -342,7 +342,7 @@ def get_footer_and_js():
             n.setAttribute('r', '11');
             n.setAttribute('stroke-width', '3.5');
           } else {
-            n.setAttribute('r', (i === 1 || i === 5 || i === 6) ? '9' : '8');
+            n.setAttribute('r', (i === 1 || i === 4 || i === 5) ? '9' : '8');
             n.setAttribute('stroke-width', '2');
           }
         });
@@ -352,8 +352,8 @@ def get_footer_and_js():
         const wp = waypoints[idx];
         if (!card || !wp) return;
 
-        // Slide target mapping: 0->Slide 8, 1->Slide 8, 2->Slide 12, 3->Slide 11, 4->Slide 15, 5->Slide 16, 6->Slide 20, 7->Slide 24
-        const slideTargetMap = [7, 7, 11, 10, 14, 15, 19, 23];
+        // Slide target mapping: 0->Slide 8, 1->Slide 9, 2->Slide 12, 3->Slide 11, 4->Slide 13, 5->Slide 17, 6->Slide 20, 7->Slide 24
+        const slideTargetMap = [7, 8, 11, 10, 12, 16, 19, 23];
 
         card.innerHTML = `
           <div>
@@ -503,27 +503,27 @@ def get_footer_and_js():
         6: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'SAFETY' },
         7: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'PACKING' },
         8: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 1: SOUTH BEACH' },
-        9: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 1 BASE' },
+        9: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 1: HYATT CENTRIC' },
         10: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'SOUTH POINTE' },
-        11: { cat: ['all', 'parks', 'miami'], primaryCat: 'parks', tag: 'DAY 2: EVERGLADES' },
-        12: { cat: ['all', 'parks', 'wildlife'], primaryCat: 'parks', tag: 'DAY 2: AIRBOAT & BIG CYPRESS' },
-        13: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 2 BASE' },
-        14: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: OVERSEAS HWY' },
-        15: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 3: SEVEN MILE' },
-        16: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 3 BASE' },
-        17: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: HEMINGWAY' },
-        18: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: FORT ZACH' },
-        19: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 4 BASE' },
+        11: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 2: SHARK VALLEY' },
+        12: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 2: AIRBOAT SAFARI' },
+        13: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 2: PLAYA LARGO' },
+        14: { cat: ['all', 'parks', 'keys'], primaryCat: 'parks', tag: 'DAY 3: PENNEKAMP REEF' },
+        15: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 3: PLAYA LARGO' },
+        16: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: OVERSEAS HWY' },
+        17: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 4: THE PERRY' },
+        18: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 4: KEY WEST' },
+        19: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 4: FERRY PREP' },
         20: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 5: DRY TORTUGAS' },
         21: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'FORT JEFFERSON' },
-        22: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 5 BASE' },
+        22: { cat: ['all', 'retreat', 'keys'], primaryCat: 'retreat', tag: 'NIGHT 5: THE PERRY' },
         23: { cat: ['all', 'keys'], primaryCat: 'keys', tag: 'DAY 6: TARPONS' },
         24: { cat: ['all', 'parks'], primaryCat: 'parks', tag: 'DAY 6: BISCAYNE' },
-        25: { cat: ['all', 'retreat'], primaryCat: 'retreat', tag: 'NIGHT 6 BASE' },
+        25: { cat: ['all', 'retreat', 'miami'], primaryCat: 'retreat', tag: 'NIGHT 6: HYATT CENTRIC' },
         26: { cat: ['all', 'miami', 'strategy'], primaryCat: 'miami', tag: 'DAY 7: CALLE OCHO' },
         27: { cat: ['all', 'miami'], primaryCat: 'miami', tag: 'DAY 7: VERSAILLES' },
         28: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'DAY 7: DEPARTURE' },
-        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($3,742)' },
+        29: { cat: ['all', 'strategy'], primaryCat: 'strategy', tag: 'LEDGER ($4,182)' },
         30: { cat: ['all', 'strategy', 'parks'], primaryCat: 'strategy', tag: 'NPS DIRECTORY' }
       };
 
@@ -754,14 +754,14 @@ def get_footer_and_js():
         },
         {
           id: 'd1-rideshare-sobe',
-          title: '🚖 Airport Transfer: MIA ➔ South Beach (Zero Parking Hassle)',
+          title: '🚖 Transfer: MIA ➔ Hyatt Centric South Beach',
           start: '2026-10-24T10:15:00',
           end: '2026-10-24T10:55:00',
           color: '#0f766e',
           extendedProps: {
-            category: 'Logistics Option',
-            location: 'MIA Airport ➔ Collins Ave / Ocean Drive',
-            details: 'Direct 25-minute rideshare to boutique hotel. Avoids South Beach parking fees ($50-$80) and garage friction.',
+            category: 'Logistics',
+            location: 'MIA Airport ➔ 1600 Collins Ave',
+            details: 'Direct 25-minute rideshare to Hyatt Centric South Beach. Avoids South Beach parking friction & garage fees.',
             status: 'Smart Cost Saver (~$25 rideshare)',
             cardClass: 'card-teal',
             slide: 8
@@ -769,15 +769,15 @@ def get_footer_and_js():
         },
         {
           id: 'd1-checkin-lunch',
-          title: '🌴 South Beach Check-In & Española Way Lunch',
+          title: '🏨 Hyatt Centric Check-In & Española Way Lunch',
           start: '2026-10-24T12:30:00',
           end: '2026-10-24T14:30:00',
           color: '#c2410c',
           extendedProps: {
-            category: 'Arrival & Dining',
-            location: 'South Beach / Española Way',
-            details: 'Check into Collins Ave boutique hotel; authentic pressed Cuban sandwiches & tropical batidos.',
-            status: 'Included in dining budget',
+            category: 'Lodging & Dining',
+            location: 'Hyatt Centric South Beach (1600 Collins Ave)',
+            details: 'Check into Hyatt Centric (1 block to beach, rooftop pool); authentic pressed Cuban sandwiches & batidos on Española Way.',
+            status: 'Night 1 Base',
             cardClass: 'card-terracotta',
             slide: 9
           }
@@ -791,7 +791,7 @@ def get_footer_and_js():
           extendedProps: {
             category: 'Exploration',
             location: 'South Pointe Park Pier & Ocean Drive',
-            details: 'Golden hour at South Pointe Park overlooking Government Cut, followed by Art Deco neon walking tour.',
+            details: 'Golden hour at South Pointe Park Pier overlooking Government Cut, followed by Art Deco neon walking tour.',
             status: 'Free milestone',
             cardClass: 'card-gold',
             slide: 10
@@ -808,7 +808,7 @@ def get_footer_and_js():
           extendedProps: {
             category: 'Car Rental',
             location: 'Enterprise MIA RCC / Downtown',
-            details: 'Retrieve Nissan Rogue AWD for Everglades & Florida Keys. Saves Sat parking in South Beach (~$360 for 6 days).',
+            details: 'Retrieve Nissan Rogue AWD for Everglades & Florida Keys. Saved Sat parking in South Beach.',
             status: '6-Day Rental (~$360)',
             cardClass: 'card-gold',
             slide: 11
@@ -831,71 +831,133 @@ def get_footer_and_js():
         },
         {
           id: 'd2-airboat-bigcypress',
-          title: '🚤 Everglades Airboat Safari & Big Cypress',
+          title: '🚤 Everglades Airboat Safari & Big Cypress Preserve',
           start: '2026-10-25T13:00:00',
-          end: '2026-10-25T16:00:00',
+          end: '2026-10-25T15:30:00',
           color: '#0f766e',
           extendedProps: {
             category: 'Wilderness Adventure',
             location: 'Tamiami Trail & Big Cypress Oasis',
             details: 'High-speed sawgrass airboat tour into tree islands (~$65 for 2) + wild alligator boardwalk at Big Cypress Oasis.',
-            status: 'Airboat Tour (~$65 for 2)',
+            status: 'Airboat Safari (~$65 for 2)',
             cardClass: 'card-teal',
             slide: 12
           }
         },
         {
-          id: 'd2-dinner-stroll',
-          title: '🍽️ South Beach Evening & Cuban Criollo Dinner',
-          start: '2026-10-25T18:30:00',
-          end: '2026-10-25T21:00:00',
-          color: '#b47b2c',
+          id: 'd2-drive-keylargo',
+          title: '🚗 Scenic Drive South to Key Largo (Card Sound Rd)',
+          start: '2026-10-25T15:30:00',
+          end: '2026-10-25T17:15:00',
+          color: '#475569',
           extendedProps: {
-            category: 'Dining',
-            location: 'Puerto Sagua / Española Way, South Beach',
-            details: 'Authentic Cuban criollo dinner: slow-simmered ropa vieja, sweet plantains, and sparkling lime mocktails.',
-            status: 'Zero-alcohol dining',
-            cardClass: 'card-gold',
+            category: 'Scenic Transit',
+            location: 'US-41 ➔ Card Sound Rd ➔ Key Largo (MM 97)',
+            details: 'Cruise south bypassing mainland traffic via historic Card Sound toll bridge into the Upper Keys.',
+            status: 'Scenic vector',
+            cardClass: 'card-slate',
+            slide: 12
+          }
+        },
+        {
+          id: 'd2-playalargo-checkin',
+          title: '🏨 Playa Largo Resort Check-In & Sol by the Sea Dinner',
+          start: '2026-10-25T17:30:00',
+          end: '2026-10-25T20:30:00',
+          color: '#c2410c',
+          extendedProps: {
+            category: 'Resort Retreat',
+            location: 'Playa Largo Resort & Spa (97450 Overseas Hwy)',
+            details: 'Check into Autograph Collection bayfront sanctuary (Night 1 of 2). Sunset repose & fresh seafood at Sol by the Sea.',
+            status: 'Night 2 Base (Playa Largo)',
+            cardClass: 'card-terracotta',
             slide: 13
           }
         },
 
-        // Day 3: Monday, Oct 26, 2026 (The Ultimate Overseas Highway Road Trip to Key West)
+        // Day 3: Monday, Oct 26, 2026 (Playa Largo Resort & John Pennekamp Coral Reef)
         {
-          id: 'd3-depart-sobe',
-          title: '🛣️ Depart South Beach: Scenic Highway Vector South',
-          start: '2026-10-26T09:00:00',
-          end: '2026-10-26T10:30:00',
-          color: '#475569',
+          id: 'd3-resort-morning',
+          title: '🌴 Playa Largo Beachfront Morning & Florida Bay Kayak',
+          start: '2026-10-26T08:30:00',
+          end: '2026-10-26T10:00:00',
+          color: '#b47b2c',
           extendedProps: {
-            category: 'Scenic Transit',
-            location: 'South Beach ➔ US-1 Corridor (Upper Keys)',
-            details: 'Check out of South Beach boutique hotel; cruise south past Biscayne Bay into the coral keys archipelago.',
-            status: 'SunPass / Highway',
-            cardClass: 'card-slate',
+            category: 'Resort Leisure',
+            location: 'Playa Largo Resort & Spa, Key Largo',
+            details: 'Enjoy morning bayfront breakfast, tranquil paddleboarding or kayaking on calm Florida Bay waters.',
+            status: 'Resort amenity',
+            cardClass: 'card-gold',
+            slide: 14
+          }
+        },
+        {
+          id: 'd3-pennekamp-reef',
+          title: '🤿 John Pennekamp Coral Reef State Park: Living Reef',
+          start: '2026-10-26T10:30:00',
+          end: '2026-10-26T13:30:00',
+          color: '#0f766e',
+          extendedProps: {
+            category: 'Marine State Park',
+            location: 'John Pennekamp State Park (MM 102.5)',
+            details: 'Explore America’s first undersea park. Guided shallow coral reef catamaran snorkel or glass-bottom boat tour ($76 for 2).',
+            status: 'Undersea State Park ($76 total)',
+            cardClass: 'card-teal',
             slide: 14
           }
         },
         {
           id: 'd3-robbies-tarpon',
           title: "🐟 Robbie's Marina: Hand-Feeding Giant Tarpon",
-          start: '2026-10-26T10:45:00',
-          end: '2026-10-26T12:15:00',
+          start: '2026-10-26T14:00:00',
+          end: '2026-10-26T16:00:00',
           color: '#0f766e',
           extendedProps: {
             category: 'Keys Tradition',
             location: "Robbie's Marina, Islamorada (MM 77.5)",
-            details: 'Hand-feed massive 100-lb silver king tarpon right off the wooden docks; waterfront key lime treats ($12 for 2).',
+            details: 'Hand-feed massive 100-lb silver king tarpon right off the wooden docks; authentic chilled key lime pie ($12 for 2).',
             status: 'Keys milestone ($12 total)',
             cardClass: 'card-teal',
             slide: 14
           }
         },
         {
-          id: 'd3-bahia-honda',
-          title: '🏖️ Bahia Honda State Park: Beach Swim & Old Bridge',
-          start: '2026-10-26T13:30:00',
-          end: '2026-10-26T15:30:00',
+          id: 'd3-playalargo-sunset',
+          title: '🌅 Sunset Repose at Playa Largo Resort & Bay Fire Pits',
+          start: '2026-10-26T17:30:00',
+          end: '2026-10-26T20:30:00',
+          color: '#8c5d18',
+          extendedProps: {
+            category: 'Evening Repose',
+            location: 'Playa Largo Resort & Spa, Key Largo',
+            details: 'Night 2 of 2 at Playa Largo. Waterfront fire pits, pink Florida Bay sunset, and fine dining at Las Olas.',
+            status: 'Night 3 Base (Playa Largo)',
+            cardClass: 'card-gold',
+            slide: 15
+          }
+        },
+
+        // Day 4: Tuesday, Oct 27, 2026 (Scenic Overseas Highway Cruise & Key West)
+        {
+          id: 'd4-overseas-highway',
+          title: '🛣️ Scenic Overseas Highway Cruise (Seven Mile Bridge)',
+          start: '2026-10-27T09:30:00',
+          end: '2026-10-27T11:30:00',
+          color: '#475569',
+          extendedProps: {
+            category: 'Scenic Highway',
+            location: 'Key Largo ➔ Overseas Highway (US-1 South)',
+            details: 'Check out of Playa Largo; cruise south across 42 bridges including Henry Flagler’s legendary Seven Mile Bridge.',
+            status: 'All-American Road',
+            cardClass: 'card-slate',
+            slide: 16
+          }
+        },
+        {
+          id: 'd4-bahia-honda',
+          title: '🏖️ Bahia Honda State Park: Calusa Beach Swim',
+          start: '2026-10-27T11:30:00',
+          end: '2026-10-27T13:30:00',
           color: '#0f766e',
           extendedProps: {
             category: 'State Park & Beach',
@@ -903,88 +965,56 @@ def get_footer_and_js():
             details: 'Swim in calm 82°F turquoise water at Calusa Beach beneath the historic Flagler Over-Sea railroad trestle ($9).',
             status: 'State Park entry ($9)',
             cardClass: 'card-teal',
-            slide: 15
-          }
-        },
-        {
-          id: 'd3-keywest-checkin',
-          title: '⚓ Key West Old Town Check-In & Conch Stroll',
-          start: '2026-10-26T16:30:00',
-          end: '2026-10-26T19:30:00',
-          color: '#c2410c',
-          extendedProps: {
-            category: 'Lodging & Evening',
-            location: 'Old Town Key West',
-            details: 'Check into Victorian Conch guesthouse with plenty of daylight to stroll Duval St and enjoy Mallory Square sunset.',
-            status: 'Base 2 Check-In',
-            cardClass: 'card-terracotta',
             slide: 16
           }
         },
-
-        // Day 4: Tuesday, Oct 27, 2026
         {
-          id: 'd4-hemingway',
-          title: '🐈 Ernest Hemingway Estate & Polydactyl Cats',
-          start: '2026-10-27T09:30:00',
-          end: '2026-10-27T12:00:00',
+          id: 'd4-perry-checkin',
+          title: '🏨 The Perry Hotel & Marina Check-In (Stock Island)',
+          start: '2026-10-27T14:30:00',
+          end: '2026-10-27T16:00:00',
           color: '#c2410c',
           extendedProps: {
-            category: 'Heritage & Culture',
-            location: '907 Whitehead St, Key West',
-            details: 'Tour the 1851 Spanish Colonial home, writing studio, lush gardens, and meet 50+ six-toed cats ($36 for 2).',
-            status: 'Walk-in ($36 for 2)',
+            category: 'Lodging Base',
+            location: 'The Perry Hotel & Marina (7001 Shrimp Rd)',
+            details: 'Check into boutique maritime harbor sanctuary (Night 1 of 2). Waterfront yacht harbor pools and shuttle to Old Town.',
+            status: 'Night 4 Base (The Perry Hotel)',
             cardClass: 'card-terracotta',
             slide: 17
           }
         },
         {
-          id: 'd4-fort-zachary',
-          title: '🏖️ Fort Zachary Taylor Beach & Coral Snorkel',
-          start: '2026-10-27T13:30:00',
-          end: '2026-10-27T16:30:00',
-          color: '#0f766e',
-          extendedProps: {
-            category: 'State Park & Marine',
-            location: 'Fort Zachary Taylor Historic State Park',
-            details: 'Pristine coral cove snorkeling, shaded Australian pine canopy, and historic Civil War brick fort.',
-            status: 'State Park entry ($7)',
-            cardClass: 'card-teal',
-            slide: 18
-          }
-        },
-        {
-          id: 'd4-mallory-sunset',
-          title: '🌇 Mallory Square Sunset Celebration',
-          start: '2026-10-27T18:00:00',
+          id: 'd4-hemingway-mallory',
+          title: '🐈 Hemingway Home (50+ Cats) & Mallory Square Sunset',
+          start: '2026-10-27T16:30:00',
           end: '2026-10-27T19:30:00',
           color: '#8c5d18',
           extendedProps: {
-            category: 'Culture & Sunset',
-            location: 'Mallory Square Pier, Key West',
-            details: 'Historic Key West sunset celebration with acoustic performers overlooking Key West Harbor.',
-            status: 'Free public event',
+            category: 'Heritage & Sunset',
+            location: 'Whitehead St & Mallory Square, Key West',
+            details: 'Tour Ernest Hemingway’s 1851 estate ($36 for 2) and join the sunset celebration with acoustic performers at Mallory Square.',
+            status: 'Key West Tradition',
             cardClass: 'card-gold',
             slide: 18
           }
         },
         {
-          id: 'd4-pre-ferry-rest',
-          title: '😴 Pre-Ferry Early Rest (07:00 AM Call Tomorrow!)',
+          id: 'd4-preferry-rest',
+          title: '😴 Pre-Ferry Early Rest Protocol at The Perry Hotel',
           start: '2026-10-27T20:00:00',
           end: '2026-10-27T21:30:00',
           color: '#475569',
           extendedProps: {
-            category: 'Rest & Logistics',
-            location: 'Key West Old Town Guesthouse',
-            details: "Early rest to prepare for tomorrow morning's 7:00 AM mandatory ferry check-in at 100 Grinnell St.",
-            status: 'Rest protocol',
+            category: 'Rest Protocol',
+            location: 'The Perry Hotel & Marina Key West',
+            details: 'Relaxed evening at The Perry (only 12 minutes to ferry dock tomorrow morning!). Early rest ahead of 07:00 AM check-in.',
+            status: 'Zero-stress prep',
             cardClass: 'card-slate',
             slide: 19
           }
         },
 
-        // Day 5: Wednesday, Oct 28, 2026
+        // Day 5: Wednesday, Oct 28, 2026 (Dry Tortugas National Park [BOOKED])
         {
           id: 'd5-ferry-checkin',
           title: '🚢 MANDATORY FERRY CHECK-IN: Yankee Freedom III [BOOKED]',
@@ -1061,103 +1091,88 @@ def get_footer_and_js():
           }
         },
         {
-          id: 'd5-scenic-drive-upperkeys',
-          title: '🚗 Scenic Drive: Key West ➔ Islamorada',
+          id: 'd5-perry-night2',
+          title: "🏨 Return to The Perry Hotel & Matt's Stock Island Dinner",
           start: '2026-10-28T17:45:00',
-          end: '2026-10-28T19:45:00',
+          end: '2026-10-28T20:30:00',
           color: '#b47b2c',
           extendedProps: {
-            category: 'Scenic Highway',
-            location: 'Overseas Highway (US-1 North to MM 80)',
-            details: 'Evening sunset drive northbound to Islamorada oceanfront base retreat.',
-            status: '80 miles / ~2 hrs',
+            category: 'Night 5 Retreat',
+            location: 'The Perry Hotel & Marina Key West',
+            details: 'Zero fatigued highway driving! Return 12 minutes to The Perry Hotel for Night 2 of 2. Unwind poolside & dine at Matt’s Stock Island Kitchen.',
+            status: 'Night 5 Base (The Perry Hotel)',
             cardClass: 'card-gold',
             slide: 22
           }
         },
 
-        // Day 6: Thursday, Oct 29, 2026
+        // Day 6: Thursday, Oct 29, 2026 (Biscayne National Park & Return to South Beach)
         {
-          id: 'd6-tarpon-feeding',
-          title: "🐟 Robbie's Marina: Hand-Feeding Giant Tarpon",
-          start: '2026-10-29T09:00:00',
-          end: '2026-10-29T10:30:00',
-          color: '#0f766e',
+          id: 'd6-overseas-north',
+          title: '🚗 Northbound Scenic Drive & Florida Keys Lunch',
+          start: '2026-10-29T08:30:00',
+          end: '2026-10-29T12:00:00',
+          color: '#475569',
           extendedProps: {
-            category: 'Keys Tradition',
-            location: "Robbie's Marina, Islamorada (MM 77.5)",
-            details: 'Iconic Florida Keys experience feeding 100-pound tarpon right off the wooden docks ($12 for 2).',
-            status: 'Dock admission & bait',
-            cardClass: 'card-teal',
-            slide: 23
-          }
-        },
-        {
-          id: 'd6-key-largo-drive',
-          title: '🌴 Upper Keys Scenic Drive & Key Lime Pie',
-          start: '2026-10-29T11:00:00',
-          end: '2026-10-29T12:30:00',
-          color: '#b47b2c',
-          extendedProps: {
-            category: 'Scenic Transit & Treat',
-            location: 'Islamorada ➔ Key Largo ➔ Homestead',
-            details: 'Drive through Tavernier and Key Largo; stop for authentic chilled key lime pie.',
-            status: 'Scenic transit',
-            cardClass: 'card-gold',
+            category: 'Scenic Transit',
+            location: 'Key West ➔ Marathon ➔ Islamorada ➔ Homestead',
+            details: 'Scenic morning drive north along US-1. Stop for fresh seafood lunch and authentic chilled key lime pie.',
+            status: 'Scenic highway',
+            cardClass: 'card-slate',
             slide: 23
           }
         },
         {
           id: 'd6-biscayne-boat',
-          title: '🛥️ Biscayne NP: Coral Reef & Stiltsville Boat Eco-Tour',
+          title: '🛥️ Biscayne NP: Boca Chita Key & Reef Boat Eco-Tour',
           start: '2026-10-29T13:30:00',
           end: '2026-10-29T16:30:00',
           color: '#0f766e',
           extendedProps: {
             category: 'National Park 3 of 3',
             location: 'Dante Fascell Visitor Center, Biscayne NP',
-            details: '3-hour guided boat eco-tour over living barrier reefs, mangrove estuaries, and historic Stiltsville ($136 for 2).',
+            details: '3-hour guided boat eco-tour across turquoise waters out to Boca Chita Key lighthouse and living barrier coral reef ($136 for 2).',
             status: 'Biscayne Eco-Adventure ($136 total)',
             cardClass: 'card-teal',
             slide: 24
           }
         },
         {
-          id: 'd6-coral-gables-checkin',
-          title: '🏛️ Coral Gables Check-In & Miracle Mile Stroll',
+          id: 'd6-hyattcentric-return',
+          title: '🏨 Hyatt Centric South Beach Check-In & Lincoln Rd Stroll',
           start: '2026-10-29T17:30:00',
           end: '2026-10-29T20:30:00',
           color: '#c2410c',
           extendedProps: {
-            category: 'Lodging & Evening',
-            location: 'Coral Gables / Miracle Mile',
-            details: 'Check into historic boutique hotel; twilight promenade along tree-lined Miracle Mile.',
-            status: 'Base 4 Check-In',
+            category: 'Return Base',
+            location: 'Hyatt Centric South Beach (1600 Collins Ave)',
+            details: 'Full-circle return to Hyatt Centric for your final night. Rooftop pool relaxation and celebratory dinner along pedestrian Lincoln Road.',
+            status: 'Night 6 Base (Hyatt Centric)',
             cardClass: 'card-terracotta',
             slide: 25
           }
         },
 
-        // Day 7: Friday, Oct 30, 2026
+        // Day 7: Friday, Oct 30, 2026 (Calle Ocho, Versailles Feast & Flight Home)
         {
-          id: 'd7-venetian-pool',
-          title: '🏊 Venetian Pool Morning Swim & Coral Rock Grottoes',
-          start: '2026-10-30T09:30:00',
+          id: 'd7-calle-ocho',
+          title: '☕ Calle Ocho Cultural Morning & Little Havana Cafecito',
+          start: '2026-10-30T09:00:00',
           end: '2026-10-30T11:30:00',
           color: '#0f766e',
           extendedProps: {
-            category: 'Historic Leisure',
-            location: '2701 de Soto Blvd, Coral Gables',
-            details: 'Swim in the 820,000-gallon freshwater quarry pool fed by natural spring water with waterfall caves ($42 for 2).',
-            status: 'Morning admission ($42 total)',
+            category: 'Cultural Heritage',
+            location: 'Maximo Gomez Domino Park & SW 8th St',
+            details: 'Morning stroll through vibrant Little Havana: watch domino masters at Domino Park, sip authentic Cuban cortadito & fresh pastries.',
+            status: 'Cultural milestone',
             cardClass: 'card-teal',
             slide: 26
           }
         },
         {
           id: 'd7-versailles-feast',
-          title: '🍽️ Celebratory Farewell Feast at Versailles',
-          start: '2026-10-30T12:30:00',
+          title: '🍽️ Celebratory Farewell Banquet at Versailles',
+          start: '2026-10-30T12:00:00',
           end: '2026-10-30T14:30:00',
           color: '#c2410c',
           extendedProps: {
@@ -1202,13 +1217,13 @@ def get_footer_and_js():
       ];
 
       const dayHeaderMeta = {
-        '2026-10-24': { day: 'SAT', num: '24', name: 'South Beach Arrival', stay: '🏨 South Beach' },
-        '2026-10-25': { day: 'SUN', num: '25', name: 'Everglades & Big Cypress', stay: '🏨 South Beach' },
-        '2026-10-26': { day: 'MON', num: '26', name: 'Overseas Hwy to Key West', stay: '🏨 Key West' },
-        '2026-10-27': { day: 'TUE', num: '27', name: 'Key West & Hemingway', stay: '🏨 Key West' },
-        '2026-10-28': { day: 'WED', num: '28', name: 'Dry Tortugas [BOOKED]', stay: '🏨 Islamorada' },
-        '2026-10-29': { day: 'THU', num: '29', name: 'Biscayne NP & Coral Gables', stay: '🏨 Coral Gables' },
-        '2026-10-30': { day: 'FRI', num: '30', name: 'Venetian Pool & Flight Home', stay: '✈️ Return Home' }
+        '2026-10-24': { day: 'SAT', num: '24', name: 'South Beach Arrival', stay: '🏨 Hyatt Centric SoBe' },
+        '2026-10-25': { day: 'SUN', num: '25', name: 'Everglades & Big Cypress', stay: '🏨 Playa Largo Resort' },
+        '2026-10-26': { day: 'MON', num: '26', name: 'Pennekamp Coral Reef', stay: '🏨 Playa Largo Resort' },
+        '2026-10-27': { day: 'TUE', num: '27', name: 'Overseas Hwy to Key West', stay: '🏨 The Perry Hotel' },
+        '2026-10-28': { day: 'WED', num: '28', name: 'Dry Tortugas [BOOKED]', stay: '🏨 The Perry Hotel' },
+        '2026-10-29': { day: 'THU', num: '29', name: 'Biscayne NP & Return', stay: '🏨 Hyatt Centric SoBe' },
+        '2026-10-30': { day: 'FRI', num: '30', name: 'Calle Ocho & Flight Home', stay: '✈️ Return Home' }
       };
 
       let expeditionCalendarInstance = null;

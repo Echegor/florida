@@ -18,15 +18,20 @@ An interactive, high-resolution editorial presentation deck and tactical field g
   * **Everglades National Park & Big Cypress (Day 2 • Sun Oct 25):** Definitive single expedition through the River of Grass at Shark Valley on the Tamiami Trail—featuring the 15-mile tram excursion, 65-ft panoramic observation tower over wild alligator territory, high-speed sawgrass airboat safari, and Big Cypress wild alligator boardwalk.
   * **Dry Tortugas National Park (Day 5 • Wed Oct 28 - CONFIRMED BOOKED):** Full-day open-ocean expedition aboard the *Yankee Freedom III* high-speed catamaran (07:00 AM check-in, $520 total for 2) voyaging 70 miles west of Key West to explore 19th-century brick fortress Fort Jefferson, walk the coral moat seawall, and snorkel pristine living reefs.
   * **Biscayne National Park (Day 6 • Thu Oct 29):** Dante Fascell Visitor Center at Convoy Point, mangrove boardwalks, and a 3.5-hour boat excursion to historic Boca Chita Key and submerged barrier reef snorkeling.
-* **Miami Beach & Cultural Core (Days 1–2 • Sat Oct 24 – Sun Oct 25):**
-  * 2 full nights based directly in South Beach (Ocean Drive, Lummus Beach, South Pointe Park Pier sunset).
+* **Miami Beach Oceanfront Base (Hyatt Centric South Beach - Nights 1 & 6):**
+  * Boutique luxury at 1600 Collins Ave (1 block from beach, rooftop pool, steps from Española Way and Ocean Drive).
   * Saturday car-free arrival with $0 parking fees; Sunday morning 6-day SUV pickup.
-* **The Overseas Highway (US-1):** 113 miles across 42 bridges spanning the Florida Straits, Seven Mile Bridge, Bahia Honda State Park, and hand-feeding 100-lb silver king tarpons at Robbie's Marina in Islamorada.
-* **Key West Historic Base (Days 3–5 • Mon Oct 26 – Wed Oct 28):** Victorian Conch architecture in Old Town, Ernest Hemingway Estate (50+ polydactyl cats), Fort Zachary Taylor State Park, and pre-ferry rest before the 07:00 AM Dry Tortugas departure.
+  * Full-circle return on Thursday night (Night 6) for a celebratory South Beach evening.
+* **Upper Keys Resort Retreat (Playa Largo Resort & Spa, Autograph Collection - Nights 2 & 3):**
+  * 14.5-acre secluded Florida Bay sanctuary in Key Largo with private beach, zero-entry pool, Sol by the Sea waterfront dining, and bay fire pits.
+  * Day 3 dedicated to John Pennekamp Coral Reef State Park shallow coral reef snorkeling / glass-bottom boat tour.
+* **Lower Keys Maritime Base (The Perry Hotel & Marina Key West - Nights 4 & 5):**
+  * Upscale boutique harbor retreat on Stock Island with waterfront marina pools, Old Town shuttle, Hemingway Estate (50+ polydactyl cats), and Mallory Square sunset.
+  * Zero-stress 12-minute proximity to Wednesday's 07:00 AM Dry Tortugas catamaran ferry—and returning to The Perry Hotel for Night 5 eliminates fatigued night driving after Fort Jefferson!
 * **Zero Theme Parks:** Strictly zero Disney and zero Universal—100% focused on wild nature, marine sanctuaries, architecture, and authentic Cuban/tropical culture.
 
 ## Core Rules & Constraints
-* **Unified Financials:** Strictly presented as a combined total for two travelers (**,742 total for 2**, including  confirmed roundtrip flights,  confirmed Dry Tortugas ferry, .44 confirmed Enterprise Nissan Rogue AWD rental, 6 nights en-suite lodging, guided excursions, dining, and park passes).
-* **Accommodation:** Highly rated 3★ and 4★ hotels, coastal retreats, and boutique historic guesthouses (–/night).
+* **Unified Financials:** Strictly presented as a combined total for two travelers (**$4,182.44 total for 2**, including $628 confirmed roundtrip flights, $520 confirmed Dry Tortugas ferry, $427.44 confirmed Enterprise Nissan Rogue AWD rental, $1,540 for 6 nights en-suite lodging across Hyatt Centric South Beach, Playa Largo Resort & Spa, and The Perry Hotel & Marina, plus guided excursions, dining, and park passes).
+* **Accommodation:** Premier luxury resorts and boutique sanctuaries (Hyatt Centric South Beach $220/night, Playa Largo Resort & Spa $290/night, The Perry Hotel & Marina $260/night).
 * **Zero Alcohol:** Curated non-alcoholic regional beverages (fresh Florida orange/grapefruit juice, Cuban cafecitos, tropical fruit batidos, Key Lime mocktails).
 * **Units:** US Customary units (miles, feet, °F) prioritized throughout.

@@ -42,49 +42,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 22: NIGHT 5 LODGING: ISLAMORADA / MARATHON OCEAN RETREAT
+           SLIDE 22: NIGHT 5 LODGING: THE PERRY HOTEL & MARINA KEY WEST
            ===================================================================== -->
       <section class="slide" data-slide="22">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 5 RETREAT • MIDDLE KEYS WATERFRONT</div>
-          <h2 class="slide-title">Night 5: Oceanfront Cottage Retreat in Islamorada / Marathon</h2>
-          <p class="slide-subtitle">After returning from Dry Tortugas, take a relaxing 1-hour sunset drive up to the Middle Keys to unwind in a waterfront hammock under coconut palms.</p>
+          <div class="slide-eyebrow">NIGHT 5 RETREAT • STOCK ISLAND WATERFRONT MARINA</div>
+          <h2 class="slide-title">Night 5: The Perry Hotel & Marina Key West (Night 2)</h2>
+          <p class="slide-subtitle">Returning from your full-day Dry Tortugas expedition to relax at The Perry Hotel: soothing hot showers, marina sunset views, zero evening driving, and dockside seafood at Matt's Stock Island Kitchen.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">COASTAL HAVEN</div>
-              <h3 class="card-heading">Postcard Inn Beach Resort or Pines & Palms</h3>
+              <div class="card-label">POST-EXPEDITION SANCTUARY</div>
+              <h3 class="card-heading">The Perry Hotel & Marina (Stock Island)</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Positioned midway along the Overseas Highway, Islamorada provides pure tropical relaxation away from commercial congestion:
+                Returning to The Perry Hotel means zero highway driving after a full day at sea:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$160 total</div>
-                  <div class="stat-caption">Combined total for 2 guests with tax</div>
+                  <div class="stat-number gold">$260 total</div>
+                  <div class="stat-caption">Night 2 of 2 in Key West with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">COASTAL SETTING</div>
-                  <div class="stat-number teal">Oceanfront</div>
-                  <div class="stat-caption">Direct Atlantic waterfront & dock</div>
+                  <div class="card-label">EVENING TRANSIT</div>
+                  <div class="stat-number teal">0 miles highway</div>
+                  <div class="stat-caption">Stay directly in Key West / Stock Island</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Ocean Breeze & Hammocks:</strong> Relax in shaded waterfront double hammocks strung between mature coconut palms directly over the Atlantic.</li>
-                <li><strong>En-Suite Amenities:</strong> Crisp air-conditioned coastal room, plush bedding, private bath, mini-fridge for fruit, and complimentary morning coffee.</li>
-                <li><strong>Strategic Midway Point:</strong> Sets you up for a short 35-minute drive north to Biscayne boat excursions tomorrow morning.</li>
+                <li><strong>Zero Post-Ferry Highway Stress:</strong> Rather than driving 80+ miles north while exhausted from 8 hours at sea, you drive just 12 minutes from the ferry dock back to your room.</li>
+                <li><strong>Matt's Stock Island Kitchen & Bar:</strong> Dine on the waterfront terrace: dockside conch chowder, grilled Florida spiny lobster, and key lime pie mocktails ($65 total for 2).</li>
+                <li><strong>Restorative Island Sleep:</strong> Unwind in the deep soaking tub and plush king bedding before tomorrow morning's scenic northbound drive up the Keys.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide16_upperkeys.jpg" alt="Oceanfront resort with hammocks and palms" loading="lazy">
+              <img src="images/slide16_upperkeys.jpg" alt="The Perry Hotel marina and pool" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Middle Keys Ocean Tranquility</div>
-                <div class="media-caption">Waterfront relaxation, private docks, and gentle ocean breezes in the heart of Islamorada.</div>
+                <div class="media-title">Evening Harbor Tranquility</div>
+                <div class="media-caption">Waterfront relaxation, private yacht docks, and gentle ocean breezes at The Perry Hotel.</div>
               </div>
             </div>
           </div>
@@ -179,49 +179,49 @@ def get_slides():
       </section>
 
       <!-- =====================================================================
-           SLIDE 25: NIGHT 6 LODGING: CORAL GABLES BOUTIQUE BASE
+           SLIDE 25: NIGHT 6 LODGING: HYATT CENTRIC SOUTH BEACH MIAMI (RETURN)
            ===================================================================== -->
       <section class="slide" data-slide="25">
         <div class="slide-header">
-          <div class="slide-eyebrow">NIGHT 6 RETREAT • ELEGANT FINALE</div>
-          <h2 class="slide-title">Night 6: Boutique Elegance in Historic Coral Gables</h2>
-          <p class="slide-subtitle">A stylish, upscale boutique hotel located 15 minutes from Miami International Airport, offering quiet luxury, deep mattresses, and effortless departure logistics.</p>
+          <div class="slide-eyebrow">NIGHT 6 RETREAT • 1600 COLLINS AVENUE FINALE</div>
+          <h2 class="slide-title">Night 6: Hyatt Centric South Beach Miami (Return)</h2>
+          <p class="slide-subtitle">Returning to your premier boutique sanctuary on Collins Ave: rooftop pool relaxation under the palms, sunset stroll along the neon-lit Art Deco strip, and a celebratory farewell dinner.</p>
         </div>
 
         <div class="content-area">
           <div class="grid-2col">
             <div class="glass-card gold-trim">
-              <div class="card-label">AIRPORT PROXIMITY SANCTUARY</div>
-              <h3 class="card-heading">Hotel Colonnade Coral Gables or Aloft Coral Gables</h3>
+              <div class="card-label">OCEANFRONT FINALE BASE</div>
+              <h3 class="card-heading">Hyatt Centric South Beach Miami (1600 Collins Ave)</h3>
               <p class="card-body" style="margin-bottom: 1.2rem;">
-                Positioning your final night in Coral Gables provides a quiet, refined atmosphere while placing you just 5 miles south of MIA airport:
+                Returning to Hyatt Centric brings your Florida Grand Expedition full circle in the vibrant heart of South Beach:
               </p>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1.2rem;">
                 <div class="stat-box">
                   <div class="card-label">SHARED RATE</div>
-                  <div class="stat-number gold">$190 total</div>
-                  <div class="stat-caption">Combined total for 2 guests with tax</div>
+                  <div class="stat-number gold">$220 total</div>
+                  <div class="stat-caption">Night 2 in South Beach with tax</div>
                 </div>
                 <div class="stat-box">
-                  <div class="card-label">MIA AIRPORT PROXIMITY</div>
-                  <div class="stat-number teal">14 min</div>
-                  <div class="stat-caption">Direct drive to Consolidated Car Return</div>
+                  <div class="card-label">MIA AIRPORT DRIVE</div>
+                  <div class="stat-number teal">20 min</div>
+                  <div class="stat-caption">Across MacArthur Causeway to MIA RCC</div>
                 </div>
               </div>
 
               <ul class="highlight-list">
-                <li><strong>Quiet Luxury & Rest:</strong> High-thread-count linens, soundproofed guest rooms, marble bathrooms, and restorative hot showers after 6 days of wilderness adventures.</li>
-                <li><strong>Walkable Neighborhood:</strong> Step directly onto Miracle Mile for morning espresso, artisan bakeries, and evening walks without driving.</li>
-                <li><strong>Stress-Free Departure Morning:</strong> Eliminates morning highway traffic stress on your flight day.</li>
+                <li><strong>Full-Circle Relaxation:</strong> Settle back into your chic room at 1600 Collins Ave, steps from Lummus Beach and the Lincoln Road pedestrian mall.</li>
+                <li><strong>Rooftop Pool & Sunset Lounge:</strong> Unwind on the 3rd-floor sun deck overlooking Collins Avenue with refreshing poolside tropical beverages.</li>
+                <li><strong>Celebratory Farewell Dining:</strong> Stroll two blocks to pedestrian Española Way or Ocean Drive for an open-air Cuban criollo feast or Spanish tapas banquet.</li>
               </ul>
             </div>
 
             <div class="editorial-media">
-              <img src="images/slide25_coralgables.jpg" alt="Coral Gables architectural arches and courtyard" loading="lazy">
+              <img src="images/slide09_artdeco.jpg" alt="Hyatt Centric South Beach Collins Ave architecture" loading="lazy">
               <div class="media-overlay">
-                <div class="media-title">Mediterranean Revival Charm</div>
-                <div class="media-caption">Relaxing in the timeless architectural elegance of Coral Gables before tomorrow's flight home.</div>
+                <div class="media-title">Boutique Return to South Beach</div>
+                <div class="media-caption">Celebrating the completion of your National Parks expedition beneath swaying palms on Collins Avenue.</div>
               </div>
             </div>
           </div>
@@ -425,8 +425,8 @@ def get_slides():
                   </tr>
                   <tr>
                     <td><strong>En-Suite Lodging (6 Nights)</strong></td>
-                    <td>South Beach (2N $400), Key West Old Town (2N $390), Islamorada (1N $160), Coral Gables (1N $190)</td>
-                    <td><strong>$1,140.00</strong></td>
+                    <td>Hyatt Centric South Beach (2N $440), Playa Largo Resort & Spa (2N $580), The Perry Hotel Key West (2N $520)</td>
+                    <td><strong>$1,540.00</strong></td>
                   </tr>
                   <tr>
                     <td><strong>National Park Guided Excursions</strong></td>
@@ -453,7 +453,7 @@ def get_slides():
 
               <div style="display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-gold); padding-top: 8px;">
                 <span class="tag tag-gold">ZERO HIDDEN RESORT FEES</span>
-                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $3,782.44</span>
+                <span style="font-family: var(--font-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold-primary);">Total Shared Couple Budget: $4,182.44</span>
               </div>
             </div>
 
@@ -475,9 +475,9 @@ def get_slides():
                 <div class="stat-caption">Everglades • Dry Tortugas • Biscayne</div>
               </div>
               <div class="stat-box" style="padding: 14px;">
-                <div class="card-label">SOUTH BEACH BASE</div>
-                <div class="stat-number gold">2 Full Nights</div>
-                <div class="stat-caption">Ocean Drive • South Pointe • Everglades</div>
+                <div class="card-label">HOTEL BASES</div>
+                <div class="stat-number gold">3 Iconic Resorts</div>
+                <div class="stat-caption">Hyatt Centric • Playa Largo • The Perry</div>
               </div>
             </div>
           </div>
