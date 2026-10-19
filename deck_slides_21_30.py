@@ -384,7 +384,7 @@ def get_slides():
       <section class="slide" data-slide="29">
         <div class="slide-header">
           <div class="slide-eyebrow">MASTER EXPEDITION SCORECARD & SHARED FINANCIAL LEDGER</div>
-          <h2 class="slide-title">The Master Ledger: $3,742 Total Combined for 2 Travelers</h2>
+          <h2 class="slide-title">The Master Ledger: $4,182 Total Combined for 2 Travelers</h2>
           <p class="slide-subtitle">Verified unified financial ledger presenting every expenditure as a combined total for two passengers across flights ($628 booked), ferry ($520 booked), rental car ($427 reserved), lodging, and excursions.</p>
         </div>
 
